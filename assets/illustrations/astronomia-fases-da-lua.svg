@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700"
+ role="img" aria-labelledby="title-astronomiafasesdalua desc-astronomiafasesdalua">
+<title id="title-astronomiafasesdalua">Fases da Lua</title>
+<desc id="desc-astronomiafasesdalua">Ilustração didática vetorial premium sobre Fases da Lua, da disciplina Astronomia.</desc>
+
+    <defs>
+      <linearGradient id="bg-astronomiafasesdalua" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#EAF6FF"/>
+        <stop offset="0.55" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#54A8E8" stop-opacity=".16"/>
+      </linearGradient>
+      <radialGradient id="glow-astronomiafasesdalua" cx="50%" cy="40%" r="60%">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".96"/>
+        <stop offset=".52" stop-color="#54A8E8" stop-opacity=".42"/>
+        <stop offset="1" stop-color="#071A33" stop-opacity=".06"/>
+      </radialGradient>
+      <linearGradient id="metal-astronomiafasesdalua" x1="0" x2="1">
+        <stop offset="0" stop-color="#e8eef5"/>
+        <stop offset=".5" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#a9b6c5"/>
+      </linearGradient>
+      <filter id="shadow-astronomiafasesdalua" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#071A33" flood-opacity=".22"/>
+      </filter>
+      <filter id="soft-astronomiafasesdalua" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8"/>
+      </filter>
+      <clipPath id="frame-astronomiafasesdalua">
+        <rect x="18" y="18" width="1164" height="664" rx="34"/>
+      </clipPath>
+    </defs>
+<rect width="1200" height="700" rx="36" fill="url(#bg-astronomiafasesdalua)"/>
+<rect x="18" y="18" width="1164" height="664" rx="34" fill="none" stroke="#0E3A66" stroke-opacity=".16" stroke-width="2"/>
+
+      <g>
+        <rect x="56" y="48" width="168" height="34" rx="17" fill="#0E3A66" opacity=".96"/>
+        <text x="140" y="71" text-anchor="middle" fill="#fff"
+          font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700">Astronomia</text>
+        <text x="56" y="122" fill="#071A33" font-family="Inter,Segoe UI,Arial"
+          font-size="34" font-weight="800">Fases da Lua</text>
+        <text x="56" y="151" fill="#0E3A66" font-family="Inter,Segoe UI,Arial"
+          font-size="17" font-weight="600">Lua, Sol e movimentos</text>
+      </g>
+<g opacity=".9"><circle cx="527" cy="211" r="3" fill="#F8C85A" opacity=".16"/><circle cx="789" cy="289" r="3" fill="#F8C85A" opacity=".16"/><circle cx="821" cy="308" r="6" fill="#F8C85A" opacity=".16"/><circle cx="825" cy="478" r="4" fill="#F8C85A" opacity=".16"/><circle cx="988" cy="355" r="3" fill="#F8C85A" opacity=".16"/><circle cx="846" cy="242" r="6" fill="#F8C85A" opacity=".16"/><circle cx="828" cy="461" r="4" fill="#F8C85A" opacity=".16"/><circle cx="582" cy="516" r="3" fill="#F8C85A" opacity=".16"/></g>
+
+      <g clip-path="url(#frame-astronomiafasesdalua)">
+        <rect x="420" y="190" width="720" height="390" rx="38" fill="#071A33"/>
+        <rect x="420" y="190" width="720" height="390" rx="38" fill="url(#bg-astronomiafasesdalua)" opacity=".12"/>
+        <circle cx="520" cy="210" r="2" fill="#fff" opacity="0.35"/><circle cx="603" cy="257" r="3" fill="#fff" opacity="0.47"/><circle cx="686" cy="304" r="4" fill="#fff" opacity="0.59"/><circle cx="769" cy="351" r="2" fill="#fff" opacity="0.71"/><circle cx="852" cy="398" r="3" fill="#fff" opacity="0.35"/><circle cx="935" cy="445" r="4" fill="#fff" opacity="0.47"/><circle cx="1018" cy="492" r="2" fill="#fff" opacity="0.59"/><circle cx="541" cy="239" r="3" fill="#fff" opacity="0.71"/><circle cx="624" cy="286" r="4" fill="#fff" opacity="0.35"/><circle cx="707" cy="333" r="2" fill="#fff" opacity="0.47"/><circle cx="790" cy="380" r="3" fill="#fff" opacity="0.59"/><circle cx="873" cy="427" r="4" fill="#fff" opacity="0.71"/>
+        
+          <circle cx="720" cy="370" r="118" fill="#E8E3CF" filter="url(#shadow-astronomiafasesdalua)"/>
+          <circle cx="685" cy="338" r="18" fill="#B8B29E" opacity=".55"/>
+          <circle cx="756" cy="402" r="26" fill="#AAA48F" opacity=".42"/>
+          <circle cx="777" cy="314" r="12" fill="#B8B29E" opacity=".45"/>
+          <path d="M540 370 C610 300 820 292 920 370 C820 448 610 440 540 370Z"
+            fill="#54A8E8" opacity=".22"/>
+          <circle cx="930" cy="370" r="64" fill="#F8C85A"/>
+        
+      </g>
+<g>
+  <rect x="56" y="205" width="308" height="310" rx="30" fill="#fff" fill-opacity=".88" filter="url(#shadow-astronomiafasesdalua)"/>
+  <text x="84" y="255" fill="#071A33" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="800">LEITURA VISUAL</text>
+  <line x1="84" y1="273" x2="330" y2="273" stroke="#54A8E8" stroke-width="5" stroke-linecap="round"/>
+  <text x="84" y="316" fill="#0E3A66" font-family="Inter,Segoe UI,Arial" font-size="17" font-weight="700">Observe o modelo</text>
+  <text x="84" y="348" fill="#071A33" font-family="Inter,Segoe UI,Arial" font-size="15">
+    <tspan x="84" dy="0">• identifique os elementos;</tspan>
+    <tspan x="84" dy="28">• relacione causa e efeito;</tspan>
+    <tspan x="84" dy="28">• compare com o texto;</tspan>
+    <tspan x="84" dy="28">• pense como a ONC.</tspan>
+  </text>
+  <rect x="84" y="444" width="222" height="42" rx="21" fill="#0E3A66"/>
+  <text x="195" y="471" text-anchor="middle" fill="#fff"
+    font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="800">AMPLIE PARA EXPLORAR</text>
+</g>
+
+      <g opacity=".82">
+        <line x1="56" y1="632" x2="1144" y2="632" stroke="#0E3A66" stroke-opacity=".18"/>
+        <text x="56" y="661" fill="#071A33" font-family="Inter,Segoe UI,Arial"
+          font-size="14" font-weight="600">Estude ONC • ilustração didática vetorial</text>
+        <text x="1144" y="661" text-anchor="end" fill="#0E3A66"
+          font-family="Inter,Segoe UI,Arial" font-size="13">astronomia-fases-da-lua</text>
+      </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700"
+ role="img" aria-labelledby="title-historianeolitico desc-historianeolitico">
+<title id="title-historianeolitico">Neolítico</title>
+<desc id="desc-historianeolitico">Ilustração didática vetorial premium sobre Neolítico, da disciplina História.</desc>
+
+    <defs>
+      <linearGradient id="bg-historianeolitico" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#FFF8ED"/>
+        <stop offset="0.55" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#D7A55D" stop-opacity=".16"/>
+      </linearGradient>
+      <radialGradient id="glow-historianeolitico" cx="50%" cy="40%" r="60%">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".96"/>
+        <stop offset=".52" stop-color="#D7A55D" stop-opacity=".42"/>
+        <stop offset="1" stop-color="#352318" stop-opacity=".06"/>
+      </radialGradient>
+      <linearGradient id="metal-historianeolitico" x1="0" x2="1">
+        <stop offset="0" stop-color="#e8eef5"/>
+        <stop offset=".5" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#a9b6c5"/>
+      </linearGradient>
+      <filter id="shadow-historianeolitico" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#352318" flood-opacity=".22"/>
+      </filter>
+      <filter id="soft-historianeolitico" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8"/>
+      </filter>
+      <clipPath id="frame-historianeolitico">
+        <rect x="18" y="18" width="1164" height="664" rx="34"/>
+      </clipPath>
+    </defs>
+<rect width="1200" height="700" rx="36" fill="url(#bg-historianeolitico)"/>
+<rect x="18" y="18" width="1164" height="664" rx="34" fill="none" stroke="#8A5A32" stroke-opacity=".16" stroke-width="2"/>
+
+      <g>
+        <rect x="56" y="48" width="168" height="34" rx="17" fill="#8A5A32" opacity=".96"/>
+        <text x="140" y="71" text-anchor="middle" fill="#fff"
+          font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700">História</text>
+        <text x="56" y="122" fill="#352318" font-family="Inter,Segoe UI,Arial"
+          font-size="34" font-weight="800">Neolítico</text>
+        <text x="56" y="151" fill="#8A5A32" font-family="Inter,Segoe UI,Arial"
+          font-size="17" font-weight="600">Origens da humanidade</text>
+      </g>
+<g opacity=".9"><circle cx="780" cy="317" r="5" fill="#A44A3F" opacity=".16"/><circle cx="658" cy="398" r="4" fill="#A44A3F" opacity=".16"/><circle cx="561" cy="418" r="3" fill="#A44A3F" opacity=".16"/><circle cx="468" cy="258" r="6" fill="#A44A3F" opacity=".16"/><circle cx="700" cy="218" r="7" fill="#A44A3F" opacity=".16"/><circle cx="648" cy="455" r="8" fill="#A44A3F" opacity=".16"/><circle cx="722" cy="267" r="5" fill="#A44A3F" opacity=".16"/><circle cx="1057" cy="468" r="4" fill="#A44A3F" opacity=".16"/></g>
+
+      <g filter="url(#shadow-historianeolitico)">
+        <rect x="520" y="245" width="500" height="285" rx="24" fill="#F6E7C8" stroke="#8A5A32" stroke-width="6"/>
+        <path d="M570 325 H940 M570 390 H940 M570 455 H940"
+          stroke="#8A5A32" stroke-width="4" opacity=".4"/>
+        <circle cx="640" cy="325" r="24" fill="#D7A55D"/>
+        <circle cx="760" cy="390" r="24" fill="#A44A3F"/>
+        <circle cx="900" cy="455" r="24" fill="#352318"/>
+        <path d="M640 325 C700 350 715 375 760 390 C820 411 850 438 900 455"
+          fill="none" stroke="#8A5A32" stroke-width="8" stroke-linecap="round"/>
+      </g>
+<g>
+  <rect x="56" y="205" width="308" height="310" rx="30" fill="#fff" fill-opacity=".88" filter="url(#shadow-historianeolitico)"/>
+  <text x="84" y="255" fill="#352318" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="800">LEITURA VISUAL</text>
+  <line x1="84" y1="273" x2="330" y2="273" stroke="#D7A55D" stroke-width="5" stroke-linecap="round"/>
+  <text x="84" y="316" fill="#8A5A32" font-family="Inter,Segoe UI,Arial" font-size="17" font-weight="700">Observe o modelo</text>
+  <text x="84" y="348" fill="#352318" font-family="Inter,Segoe UI,Arial" font-size="15">
+    <tspan x="84" dy="0">• identifique os elementos;</tspan>
+    <tspan x="84" dy="28">• relacione causa e efeito;</tspan>
+    <tspan x="84" dy="28">• compare com o texto;</tspan>
+    <tspan x="84" dy="28">• pense como a ONC.</tspan>
+  </text>
+  <rect x="84" y="444" width="222" height="42" rx="21" fill="#8A5A32"/>
+  <text x="195" y="471" text-anchor="middle" fill="#fff"
+    font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="800">AMPLIE PARA EXPLORAR</text>
+</g>
+
+      <g opacity=".82">
+        <line x1="56" y1="632" x2="1144" y2="632" stroke="#8A5A32" stroke-opacity=".18"/>
+        <text x="56" y="661" fill="#352318" font-family="Inter,Segoe UI,Arial"
+          font-size="14" font-weight="600">Estude ONC • ilustração didática vetorial</text>
+        <text x="1144" y="661" text-anchor="end" fill="#8A5A32"
+          font-family="Inter,Segoe UI,Arial" font-size="13">historia-neolitico</text>
+      </g>
+</svg>

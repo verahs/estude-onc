@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700"
+ role="img" aria-labelledby="title-astronomiaanoluzeunida desc-astronomiaanoluzeunida">
+<title id="title-astronomiaanoluzeunida">Ano-luz e unidades-luz</title>
+<desc id="desc-astronomiaanoluzeunida">Ilustração didática vetorial premium sobre Ano-luz e unidades-luz, da disciplina Astronomia.</desc>
+
+    <defs>
+      <linearGradient id="bg-astronomiaanoluzeunida" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#EAF6FF"/>
+        <stop offset="0.55" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#54A8E8" stop-opacity=".16"/>
+      </linearGradient>
+      <radialGradient id="glow-astronomiaanoluzeunida" cx="50%" cy="40%" r="60%">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".96"/>
+        <stop offset=".52" stop-color="#54A8E8" stop-opacity=".42"/>
+        <stop offset="1" stop-color="#071A33" stop-opacity=".06"/>
+      </radialGradient>
+      <linearGradient id="metal-astronomiaanoluzeunida" x1="0" x2="1">
+        <stop offset="0" stop-color="#e8eef5"/>
+        <stop offset=".5" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#a9b6c5"/>
+      </linearGradient>
+      <filter id="shadow-astronomiaanoluzeunida" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#071A33" flood-opacity=".22"/>
+      </filter>
+      <filter id="soft-astronomiaanoluzeunida" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8"/>
+      </filter>
+      <clipPath id="frame-astronomiaanoluzeunida">
+        <rect x="18" y="18" width="1164" height="664" rx="34"/>
+      </clipPath>
+    </defs>
+<rect width="1200" height="700" rx="36" fill="url(#bg-astronomiaanoluzeunida)"/>
+<rect x="18" y="18" width="1164" height="664" rx="34" fill="none" stroke="#0E3A66" stroke-opacity=".16" stroke-width="2"/>
+
+      <g>
+        <rect x="56" y="48" width="168" height="34" rx="17" fill="#0E3A66" opacity=".96"/>
+        <text x="140" y="71" text-anchor="middle" fill="#fff"
+          font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700">Astronomia</text>
+        <text x="56" y="122" fill="#071A33" font-family="Inter,Segoe UI,Arial"
+          font-size="34" font-weight="800">Ano-luz e unidades-luz</text>
+        <text x="56" y="151" fill="#0E3A66" font-family="Inter,Segoe UI,Arial"
+          font-size="17" font-weight="600">Sistema Solar e Universo</text>
+      </g>
+<g opacity=".9"><circle cx="911" cy="413" r="5" fill="#F8C85A" opacity=".16"/><circle cx="837" cy="257" r="7" fill="#F8C85A" opacity=".16"/><circle cx="502" cy="300" r="8" fill="#F8C85A" opacity=".16"/><circle cx="542" cy="393" r="8" fill="#F8C85A" opacity=".16"/><circle cx="547" cy="252" r="8" fill="#F8C85A" opacity=".16"/><circle cx="791" cy="299" r="5" fill="#F8C85A" opacity=".16"/><circle cx="740" cy="311" r="7" fill="#F8C85A" opacity=".16"/><circle cx="815" cy="231" r="8" fill="#F8C85A" opacity=".16"/></g>
+
+      <g clip-path="url(#frame-astronomiaanoluzeunida)">
+        <rect x="420" y="190" width="720" height="390" rx="38" fill="#071A33"/>
+        <rect x="420" y="190" width="720" height="390" rx="38" fill="url(#bg-astronomiaanoluzeunida)" opacity=".12"/>
+        <circle cx="520" cy="210" r="2" fill="#fff" opacity="0.35"/><circle cx="603" cy="257" r="3" fill="#fff" opacity="0.47"/><circle cx="686" cy="304" r="4" fill="#fff" opacity="0.59"/><circle cx="769" cy="351" r="2" fill="#fff" opacity="0.71"/><circle cx="852" cy="398" r="3" fill="#fff" opacity="0.35"/><circle cx="935" cy="445" r="4" fill="#fff" opacity="0.47"/><circle cx="1018" cy="492" r="2" fill="#fff" opacity="0.59"/><circle cx="541" cy="239" r="3" fill="#fff" opacity="0.71"/><circle cx="624" cy="286" r="4" fill="#fff" opacity="0.35"/><circle cx="707" cy="333" r="2" fill="#fff" opacity="0.47"/><circle cx="790" cy="380" r="3" fill="#fff" opacity="0.59"/><circle cx="873" cy="427" r="4" fill="#fff" opacity="0.71"/>
+        
+          <circle cx="760" cy="366" r="166" fill="url(#glow-astronomiaanoluzeunida)" filter="url(#shadow-astronomiaanoluzeunida)"/>
+          <path d="M620 330 C665 245 820 225 884 302 C930 356 918 430 860 487
+                   C786 540 657 498 615 416 C598 383 600 354 620 330Z"
+            fill="#54A8E8" opacity=".92"/>
+          <path d="M644 310 C700 282 727 305 757 290 C790 274 816 281 841 306
+                   C815 330 781 340 760 366 C729 397 701 390 668 375Z"
+            fill="#72C178" opacity=".9"/>
+          <path d="M646 430 C704 392 746 420 785 408 C831 395 862 416 880 448
+                   C833 489 758 505 696 478Z" fill="#64B86C" opacity=".88"/>
+          <ellipse cx="760" cy="366" rx="202" ry="64" fill="none" stroke="#F8C85A"
+            stroke-width="8" stroke-opacity=".78" transform="rotate(-12 760 366)"/>
+          <path d="M972 258 C1022 300 1044 351 1038 415" fill="none"
+            stroke="#071A33" stroke-width="8" stroke-linecap="round"/>
+          <path d="M1038 415 l-24 -25 l34 2Z" fill="#071A33"/>
+        
+      </g>
+<g>
+  <rect x="56" y="205" width="308" height="310" rx="30" fill="#fff" fill-opacity=".88" filter="url(#shadow-astronomiaanoluzeunida)"/>
+  <text x="84" y="255" fill="#071A33" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="800">LEITURA VISUAL</text>
+  <line x1="84" y1="273" x2="330" y2="273" stroke="#54A8E8" stroke-width="5" stroke-linecap="round"/>
+  <text x="84" y="316" fill="#0E3A66" font-family="Inter,Segoe UI,Arial" font-size="17" font-weight="700">Observe o modelo</text>
+  <text x="84" y="348" fill="#071A33" font-family="Inter,Segoe UI,Arial" font-size="15">
+    <tspan x="84" dy="0">• identifique os elementos;</tspan>
+    <tspan x="84" dy="28">• relacione causa e efeito;</tspan>
+    <tspan x="84" dy="28">• compare com o texto;</tspan>
+    <tspan x="84" dy="28">• pense como a ONC.</tspan>
+  </text>
+  <rect x="84" y="444" width="222" height="42" rx="21" fill="#0E3A66"/>
+  <text x="195" y="471" text-anchor="middle" fill="#fff"
+    font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="800">AMPLIE PARA EXPLORAR</text>
+</g>
+
+      <g opacity=".82">
+        <line x1="56" y1="632" x2="1144" y2="632" stroke="#0E3A66" stroke-opacity=".18"/>
+        <text x="56" y="661" fill="#071A33" font-family="Inter,Segoe UI,Arial"
+          font-size="14" font-weight="600">Estude ONC • ilustração didática vetorial</text>
+        <text x="1144" y="661" text-anchor="end" fill="#0E3A66"
+          font-family="Inter,Segoe UI,Arial" font-size="13">astronomia-ano-luz-e-unidades-luz</text>
+      </g>
+</svg>

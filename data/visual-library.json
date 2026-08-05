@@ -1,0 +1,994 @@
+{
+  "schemaVersion": "2.0",
+  "generatedFor": "Estude ONC 5.3.1",
+  "count": 141,
+  "illustrations": {
+    "astronomia-forma-da-terra": {
+      "path": "assets/illustrations/astronomia-forma-da-terra.svg",
+      "title": "Forma da Terra",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Forma da Terra"
+    },
+    "astronomia-atmosfera": {
+      "path": "assets/illustrations/astronomia-atmosfera.svg",
+      "title": "Atmosfera",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Atmosfera"
+    },
+    "astronomia-rotacao": {
+      "path": "assets/illustrations/astronomia-rotacao.svg",
+      "title": "Rotação",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Rotação"
+    },
+    "astronomia-polos-e-equador": {
+      "path": "assets/illustrations/astronomia-polos-e-equador.svg",
+      "title": "Polos e equador",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Polos e equador"
+    },
+    "astronomia-pontos-cardeais": {
+      "path": "assets/illustrations/astronomia-pontos-cardeais.svg",
+      "title": "Pontos cardeais",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Pontos cardeais"
+    },
+    "astronomia-dia-e-noite": {
+      "path": "assets/illustrations/astronomia-dia-e-noite.svg",
+      "title": "Dia e noite",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Dia e noite"
+    },
+    "astronomia-estrutura-interna-da-terra": {
+      "path": "assets/illustrations/astronomia-estrutura-interna-da-terra.svg",
+      "title": "Estrutura interna da Terra",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Estrutura interna da Terra"
+    },
+    "astronomia-alteracoes-na-superficie": {
+      "path": "assets/illustrations/astronomia-alteracoes-na-superficie.svg",
+      "title": "Alterações na superfície",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Alterações na superfície"
+    },
+    "astronomia-mares": {
+      "path": "assets/illustrations/astronomia-mares.svg",
+      "title": "Marés",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Marés"
+    },
+    "astronomia-bussola": {
+      "path": "assets/illustrations/astronomia-bussola.svg",
+      "title": "Bússola",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Bússola"
+    },
+    "astronomia-fusos-horarios": {
+      "path": "assets/illustrations/astronomia-fusos-horarios.svg",
+      "title": "Fusos horários",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Fusos horários"
+    },
+    "astronomia-ecliptica": {
+      "path": "assets/illustrations/astronomia-ecliptica.svg",
+      "title": "Eclíptica",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Eclíptica"
+    },
+    "astronomia-coordenadas-geograficas": {
+      "path": "assets/illustrations/astronomia-coordenadas-geograficas.svg",
+      "title": "Coordenadas geográficas",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Coordenadas geográficas"
+    },
+    "astronomia-solsticio-e-equinocio": {
+      "path": "assets/illustrations/astronomia-solsticio-e-equinocio.svg",
+      "title": "Solstício e equinócio",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Solstício e equinócio"
+    },
+    "astronomia-zonas-termicas": {
+      "path": "assets/illustrations/astronomia-zonas-termicas.svg",
+      "title": "Zonas térmicas",
+      "discipline": "Astronomia",
+      "group": "Terra e orientação",
+      "alt": "Ilustração didática sobre Zonas térmicas"
+    },
+    "astronomia-fases-da-lua": {
+      "path": "assets/illustrations/astronomia-fases-da-lua.svg",
+      "title": "Fases da Lua",
+      "discipline": "Astronomia",
+      "group": "Lua, Sol e movimentos",
+      "alt": "Ilustração didática sobre Fases da Lua"
+    },
+    "astronomia-mes-lunar": {
+      "path": "assets/illustrations/astronomia-mes-lunar.svg",
+      "title": "Mês lunar",
+      "discipline": "Astronomia",
+      "group": "Lua, Sol e movimentos",
+      "alt": "Ilustração didática sobre Mês lunar"
+    },
+    "astronomia-eclipses": {
+      "path": "assets/illustrations/astronomia-eclipses.svg",
+      "title": "Eclipses",
+      "discipline": "Astronomia",
+      "group": "Lua, Sol e movimentos",
+      "alt": "Ilustração didática sobre Eclipses"
+    },
+    "astronomia-translacao-da-terra": {
+      "path": "assets/illustrations/astronomia-translacao-da-terra.svg",
+      "title": "Translação da Terra",
+      "discipline": "Astronomia",
+      "group": "Lua, Sol e movimentos",
+      "alt": "Ilustração didática sobre Translação da Terra"
+    },
+    "astronomia-ano-e-estacoes-do-ano": {
+      "path": "assets/illustrations/astronomia-ano-e-estacoes-do-ano.svg",
+      "title": "Ano e estações do ano",
+      "discipline": "Astronomia",
+      "group": "Lua, Sol e movimentos",
+      "alt": "Ilustração didática sobre Ano e estações do ano"
+    },
+    "astronomia-objetos-do-sistema-solar": {
+      "path": "assets/illustrations/astronomia-objetos-do-sistema-solar.svg",
+      "title": "Objetos do Sistema Solar",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Objetos do Sistema Solar"
+    },
+    "astronomia-planetas-e-satelites": {
+      "path": "assets/illustrations/astronomia-planetas-e-satelites.svg",
+      "title": "Planetas e satélites",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Planetas e satélites"
+    },
+    "astronomia-asteroides-e-cometas": {
+      "path": "assets/illustrations/astronomia-asteroides-e-cometas.svg",
+      "title": "Asteroides e cometas",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Asteroides e cometas"
+    },
+    "astronomia-estrelas-e-galaxias": {
+      "path": "assets/illustrations/astronomia-estrelas-e-galaxias.svg",
+      "title": "Estrelas e galáxias",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Estrelas e galáxias"
+    },
+    "astronomia-constelacoes": {
+      "path": "assets/illustrations/astronomia-constelacoes.svg",
+      "title": "Constelações",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Constelações"
+    },
+    "astronomia-origem-do-universo": {
+      "path": "assets/illustrations/astronomia-origem-do-universo.svg",
+      "title": "Origem do Universo",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Origem do Universo"
+    },
+    "astronomia-historia-da-astronomia": {
+      "path": "assets/illustrations/astronomia-historia-da-astronomia.svg",
+      "title": "História da Astronomia",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre História da Astronomia"
+    },
+    "astronomia-conquista-do-espaco": {
+      "path": "assets/illustrations/astronomia-conquista-do-espaco.svg",
+      "title": "Conquista do espaço",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Conquista do espaço"
+    },
+    "astronomia-gravitacao-e-peso": {
+      "path": "assets/illustrations/astronomia-gravitacao-e-peso.svg",
+      "title": "Gravitação e peso",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Gravitação e peso"
+    },
+    "astronomia-unidade-astronomica": {
+      "path": "assets/illustrations/astronomia-unidade-astronomica.svg",
+      "title": "Unidade Astronômica",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Unidade Astronômica"
+    },
+    "astronomia-ano-luz-e-unidades-luz": {
+      "path": "assets/illustrations/astronomia-ano-luz-e-unidades-luz.svg",
+      "title": "Ano-luz e unidades-luz",
+      "discipline": "Astronomia",
+      "group": "Sistema Solar e Universo",
+      "alt": "Ilustração didática sobre Ano-luz e unidades-luz"
+    },
+    "biologia-celula-como-unidade-da-vida": {
+      "path": "assets/illustrations/biologia-celula-como-unidade-da-vida.svg",
+      "title": "Célula como unidade da vida",
+      "discipline": "Biologia",
+      "group": "Vida e corpo humano",
+      "alt": "Ilustração didática sobre Célula como unidade da vida"
+    },
+    "biologia-organizacao-dos-seres-vivos": {
+      "path": "assets/illustrations/biologia-organizacao-dos-seres-vivos.svg",
+      "title": "Organização dos seres vivos",
+      "discipline": "Biologia",
+      "group": "Vida e corpo humano",
+      "alt": "Ilustração didática sobre Organização dos seres vivos"
+    },
+    "biologia-sistema-locomotor-e-nervoso": {
+      "path": "assets/illustrations/biologia-sistema-locomotor-e-nervoso.svg",
+      "title": "Sistema locomotor e nervoso",
+      "discipline": "Biologia",
+      "group": "Vida e corpo humano",
+      "alt": "Ilustração didática sobre Sistema locomotor e nervoso"
+    },
+    "biologia-sistema-nervoso": {
+      "path": "assets/illustrations/biologia-sistema-nervoso.svg",
+      "title": "Sistema nervoso",
+      "discipline": "Biologia",
+      "group": "Vida e corpo humano",
+      "alt": "Ilustração didática sobre Sistema nervoso"
+    },
+    "biologia-substancias-psicoativas": {
+      "path": "assets/illustrations/biologia-substancias-psicoativas.svg",
+      "title": "Substâncias psicoativas",
+      "discipline": "Biologia",
+      "group": "Vida e corpo humano",
+      "alt": "Ilustração didática sobre Substâncias psicoativas"
+    },
+    "biologia-visao": {
+      "path": "assets/illustrations/biologia-visao.svg",
+      "title": "Visão",
+      "discipline": "Biologia",
+      "group": "Vida e corpo humano",
+      "alt": "Ilustração didática sobre Visão"
+    },
+    "biologia-lentes-corretivas": {
+      "path": "assets/illustrations/biologia-lentes-corretivas.svg",
+      "title": "Lentes corretivas",
+      "discipline": "Biologia",
+      "group": "Vida e corpo humano",
+      "alt": "Ilustração didática sobre Lentes corretivas"
+    },
+    "biologia-diversidade-de-ecossistemas": {
+      "path": "assets/illustrations/biologia-diversidade-de-ecossistemas.svg",
+      "title": "Diversidade de ecossistemas",
+      "discipline": "Biologia",
+      "group": "Ecologia e ambiente",
+      "alt": "Ilustração didática sobre Diversidade de ecossistemas"
+    },
+    "biologia-fenomenos-naturais": {
+      "path": "assets/illustrations/biologia-fenomenos-naturais.svg",
+      "title": "Fenômenos naturais",
+      "discipline": "Biologia",
+      "group": "Ecologia e ambiente",
+      "alt": "Ilustração didática sobre Fenômenos naturais"
+    },
+    "biologia-impactos-ambientais": {
+      "path": "assets/illustrations/biologia-impactos-ambientais.svg",
+      "title": "Impactos ambientais",
+      "discipline": "Biologia",
+      "group": "Ecologia e ambiente",
+      "alt": "Ilustração didática sobre Impactos ambientais"
+    },
+    "biologia-extincao-migracao-e-mudanca-de-habitos": {
+      "path": "assets/illustrations/biologia-extincao-migracao-e-mudanca-de-habitos.svg",
+      "title": "Extinção, migração e mudança de hábitos",
+      "discipline": "Biologia",
+      "group": "Ecologia e ambiente",
+      "alt": "Ilustração didática sobre Extinção, migração e mudança de hábitos"
+    },
+    "biologia-indicadores-de-saude-publica": {
+      "path": "assets/illustrations/biologia-indicadores-de-saude-publica.svg",
+      "title": "Indicadores de saúde pública",
+      "discipline": "Biologia",
+      "group": "Saúde pública e tecnologia",
+      "alt": "Ilustração didática sobre Indicadores de saúde pública"
+    },
+    "biologia-vacinacao": {
+      "path": "assets/illustrations/biologia-vacinacao.svg",
+      "title": "Vacinação",
+      "discipline": "Biologia",
+      "group": "Saúde pública e tecnologia",
+      "alt": "Ilustração didática sobre Vacinação"
+    },
+    "biologia-doencas-de-veiculacao-hidrica-e-atmosferica": {
+      "path": "assets/illustrations/biologia-doencas-de-veiculacao-hidrica-e-atmosferica.svg",
+      "title": "Doenças de veiculação hídrica e atmosférica",
+      "discipline": "Biologia",
+      "group": "Saúde pública e tecnologia",
+      "alt": "Ilustração didática sobre Doenças de veiculação hídrica e atmosférica"
+    },
+    "biologia-tecnologia-e-qualidade-de-vida": {
+      "path": "assets/illustrations/biologia-tecnologia-e-qualidade-de-vida.svg",
+      "title": "Tecnologia e qualidade de vida",
+      "discipline": "Biologia",
+      "group": "Saúde pública e tecnologia",
+      "alt": "Ilustração didática sobre Tecnologia e qualidade de vida"
+    },
+    "fisica-fracoes-e-porcentagens": {
+      "path": "assets/illustrations/fisica-fracoes-e-porcentagens.svg",
+      "title": "Frações e porcentagens",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos I",
+      "alt": "Ilustração didática sobre Frações e porcentagens"
+    },
+    "fisica-reta-numerica": {
+      "path": "assets/illustrations/fisica-reta-numerica.svg",
+      "title": "Reta numérica",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos I",
+      "alt": "Ilustração didática sobre Reta numérica"
+    },
+    "fisica-pares-ordenados": {
+      "path": "assets/illustrations/fisica-pares-ordenados.svg",
+      "title": "Pares ordenados",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos I",
+      "alt": "Ilustração didática sobre Pares ordenados"
+    },
+    "fisica-perimetro-de-quadrilateros": {
+      "path": "assets/illustrations/fisica-perimetro-de-quadrilateros.svg",
+      "title": "Perímetro de quadriláteros",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos I",
+      "alt": "Ilustração didática sobre Perímetro de quadriláteros"
+    },
+    "fisica-paralelismo-e-perpendicularismo": {
+      "path": "assets/illustrations/fisica-paralelismo-e-perpendicularismo.svg",
+      "title": "Paralelismo e perpendicularismo",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos I",
+      "alt": "Ilustração didática sobre Paralelismo e perpendicularismo"
+    },
+    "fisica-prismas-e-piramides": {
+      "path": "assets/illustrations/fisica-prismas-e-piramides.svg",
+      "title": "Prismas e pirâmides",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos I",
+      "alt": "Ilustração didática sobre Prismas e pirâmides"
+    },
+    "fisica-esfericidade-da-terra": {
+      "path": "assets/illustrations/fisica-esfericidade-da-terra.svg",
+      "title": "Esfericidade da Terra",
+      "discipline": "Física",
+      "group": "Forma, estrutura e movimentos da Terra",
+      "alt": "Ilustração didática sobre Esfericidade da Terra"
+    },
+    "fisica-orientacao-pelo-sol": {
+      "path": "assets/illustrations/fisica-orientacao-pelo-sol.svg",
+      "title": "Orientação pelo Sol",
+      "discipline": "Física",
+      "group": "Forma, estrutura e movimentos da Terra",
+      "alt": "Ilustração didática sobre Orientação pelo Sol"
+    },
+    "fisica-orientacao-pela-bussola": {
+      "path": "assets/illustrations/fisica-orientacao-pela-bussola.svg",
+      "title": "Orientação pela bússola",
+      "discipline": "Física",
+      "group": "Forma, estrutura e movimentos da Terra",
+      "alt": "Ilustração didática sobre Orientação pela bússola"
+    },
+    "fisica-gnomon-e-sombras": {
+      "path": "assets/illustrations/fisica-gnomon-e-sombras.svg",
+      "title": "Gnômon e sombras",
+      "discipline": "Física",
+      "group": "Forma, estrutura e movimentos da Terra",
+      "alt": "Ilustração didática sobre Gnômon e sombras"
+    },
+    "fisica-acrescimos-e-decrescimos-percentuais": {
+      "path": "assets/illustrations/fisica-acrescimos-e-decrescimos-percentuais.svg",
+      "title": "Acréscimos e decréscimos percentuais",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Acréscimos e decréscimos percentuais"
+    },
+    "fisica-numeros-racionais-na-reta": {
+      "path": "assets/illustrations/fisica-numeros-racionais-na-reta.svg",
+      "title": "Números racionais na reta",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Números racionais na reta"
+    },
+    "fisica-pares-ordenados-racionais": {
+      "path": "assets/illustrations/fisica-pares-ordenados-racionais.svg",
+      "title": "Pares ordenados racionais",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Pares ordenados racionais"
+    },
+    "fisica-proporcionalidade": {
+      "path": "assets/illustrations/fisica-proporcionalidade.svg",
+      "title": "Proporcionalidade",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Proporcionalidade"
+    },
+    "fisica-equacoes-de-1-grau": {
+      "path": "assets/illustrations/fisica-equacoes-de-1-grau.svg",
+      "title": "Equações de 1º grau",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Equações de 1º grau"
+    },
+    "fisica-transformacoes-geometricas": {
+      "path": "assets/illustrations/fisica-transformacoes-geometricas.svg",
+      "title": "Transformações geométricas",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Transformações geométricas"
+    },
+    "fisica-angulos-em-paralelas": {
+      "path": "assets/illustrations/fisica-angulos-em-paralelas.svg",
+      "title": "Ângulos em paralelas",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Ângulos em paralelas"
+    },
+    "fisica-soma-dos-angulos-de-um-triangulo": {
+      "path": "assets/illustrations/fisica-soma-dos-angulos-de-um-triangulo.svg",
+      "title": "Soma dos ângulos de um triângulo",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Soma dos ângulos de um triângulo"
+    },
+    "fisica-area": {
+      "path": "assets/illustrations/fisica-area.svg",
+      "title": "Área",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Área"
+    },
+    "fisica-volume": {
+      "path": "assets/illustrations/fisica-volume.svg",
+      "title": "Volume",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Volume"
+    },
+    "fisica-circunferencia-e-diametro": {
+      "path": "assets/illustrations/fisica-circunferencia-e-diametro.svg",
+      "title": "Circunferência e diâmetro",
+      "discipline": "Física",
+      "group": "Fundamentos Matemáticos II",
+      "alt": "Ilustração didática sobre Circunferência e diâmetro"
+    },
+    "fisica-maquinas-simples": {
+      "path": "assets/illustrations/fisica-maquinas-simples.svg",
+      "title": "Máquinas simples",
+      "discipline": "Física",
+      "group": "Máquinas, calor e temperatura",
+      "alt": "Ilustração didática sobre Máquinas simples"
+    },
+    "fisica-calor-e-temperatura": {
+      "path": "assets/illustrations/fisica-calor-e-temperatura.svg",
+      "title": "Calor e temperatura",
+      "discipline": "Física",
+      "group": "Máquinas, calor e temperatura",
+      "alt": "Ilustração didática sobre Calor e temperatura"
+    },
+    "fisica-sensacao-termica": {
+      "path": "assets/illustrations/fisica-sensacao-termica.svg",
+      "title": "Sensação térmica",
+      "discipline": "Física",
+      "group": "Máquinas, calor e temperatura",
+      "alt": "Ilustração didática sobre Sensação térmica"
+    },
+    "fisica-propagacao-do-calor": {
+      "path": "assets/illustrations/fisica-propagacao-do-calor.svg",
+      "title": "Propagação do calor",
+      "discipline": "Física",
+      "group": "Máquinas, calor e temperatura",
+      "alt": "Ilustração didática sobre Propagação do calor"
+    },
+    "fisica-escolha-de-materiais": {
+      "path": "assets/illustrations/fisica-escolha-de-materiais.svg",
+      "title": "Escolha de materiais",
+      "discipline": "Física",
+      "group": "Máquinas, calor e temperatura",
+      "alt": "Ilustração didática sobre Escolha de materiais"
+    },
+    "fisica-equipamentos-termicos": {
+      "path": "assets/illustrations/fisica-equipamentos-termicos.svg",
+      "title": "Equipamentos térmicos",
+      "discipline": "Física",
+      "group": "Máquinas, calor e temperatura",
+      "alt": "Ilustração didática sobre Equipamentos térmicos"
+    },
+    "fisica-equilibrio-termodinamico": {
+      "path": "assets/illustrations/fisica-equilibrio-termodinamico.svg",
+      "title": "Equilíbrio termodinâmico",
+      "discipline": "Física",
+      "group": "Máquinas, calor e temperatura",
+      "alt": "Ilustração didática sobre Equilíbrio termodinâmico"
+    },
+    "fisica-novos-materiais-e-tecnologias": {
+      "path": "assets/illustrations/fisica-novos-materiais-e-tecnologias.svg",
+      "title": "Novos materiais e tecnologias",
+      "discipline": "Física",
+      "group": "Máquinas, calor e temperatura",
+      "alt": "Ilustração didática sobre Novos materiais e tecnologias"
+    },
+    "fisica-efeito-estufa": {
+      "path": "assets/illustrations/fisica-efeito-estufa.svg",
+      "title": "Efeito estufa",
+      "discipline": "Física",
+      "group": "Máquinas, calor e temperatura",
+      "alt": "Ilustração didática sobre Efeito estufa"
+    },
+    "quimica-materia": {
+      "path": "assets/illustrations/quimica-materia.svg",
+      "title": "Matéria",
+      "discipline": "Química",
+      "group": "Matéria, energia e transformações",
+      "alt": "Ilustração didática sobre Matéria"
+    },
+    "quimica-energia": {
+      "path": "assets/illustrations/quimica-energia.svg",
+      "title": "Energia",
+      "discipline": "Química",
+      "group": "Matéria, energia e transformações",
+      "alt": "Ilustração didática sobre Energia"
+    },
+    "quimica-materia-e-energia-no-cotidiano": {
+      "path": "assets/illustrations/quimica-materia-e-energia-no-cotidiano.svg",
+      "title": "Matéria e energia no cotidiano",
+      "discipline": "Química",
+      "group": "Matéria, energia e transformações",
+      "alt": "Ilustração didática sobre Matéria e energia no cotidiano"
+    },
+    "quimica-fontes-de-energia": {
+      "path": "assets/illustrations/quimica-fontes-de-energia.svg",
+      "title": "Fontes de energia",
+      "discipline": "Química",
+      "group": "Matéria, energia e transformações",
+      "alt": "Ilustração didática sobre Fontes de energia"
+    },
+    "quimica-uso-da-energia": {
+      "path": "assets/illustrations/quimica-uso-da-energia.svg",
+      "title": "Uso da energia",
+      "discipline": "Química",
+      "group": "Matéria, energia e transformações",
+      "alt": "Ilustração didática sobre Uso da energia"
+    },
+    "quimica-reacoes-quimicas": {
+      "path": "assets/illustrations/quimica-reacoes-quimicas.svg",
+      "title": "Reações químicas",
+      "discipline": "Química",
+      "group": "Matéria, energia e transformações",
+      "alt": "Ilustração didática sobre Reações químicas"
+    },
+    "quimica-transformacoes-fisicas-e-quimicas": {
+      "path": "assets/illustrations/quimica-transformacoes-fisicas-e-quimicas.svg",
+      "title": "Transformações físicas e químicas",
+      "discipline": "Química",
+      "group": "Matéria, energia e transformações",
+      "alt": "Ilustração didática sobre Transformações físicas e químicas"
+    },
+    "quimica-combustao": {
+      "path": "assets/illustrations/quimica-combustao.svg",
+      "title": "Combustão",
+      "discipline": "Química",
+      "group": "Matéria, energia e transformações",
+      "alt": "Ilustração didática sobre Combustão"
+    },
+    "quimica-materiais-sinteticos": {
+      "path": "assets/illustrations/quimica-materiais-sinteticos.svg",
+      "title": "Materiais sintéticos",
+      "discipline": "Química",
+      "group": "Matéria, energia e transformações",
+      "alt": "Ilustração didática sobre Materiais sintéticos"
+    },
+    "quimica-mistura-homogenea": {
+      "path": "assets/illustrations/quimica-mistura-homogenea.svg",
+      "title": "Mistura homogênea",
+      "discipline": "Química",
+      "group": "Misturas e tratamento",
+      "alt": "Ilustração didática sobre Mistura homogênea"
+    },
+    "quimica-mistura-heterogenea": {
+      "path": "assets/illustrations/quimica-mistura-heterogenea.svg",
+      "title": "Mistura heterogênea",
+      "discipline": "Química",
+      "group": "Misturas e tratamento",
+      "alt": "Ilustração didática sobre Mistura heterogênea"
+    },
+    "quimica-separacao-de-materiais": {
+      "path": "assets/illustrations/quimica-separacao-de-materiais.svg",
+      "title": "Separação de materiais",
+      "discipline": "Química",
+      "group": "Misturas e tratamento",
+      "alt": "Ilustração didática sobre Separação de materiais"
+    },
+    "quimica-tratamento-da-agua": {
+      "path": "assets/illustrations/quimica-tratamento-da-agua.svg",
+      "title": "Tratamento da água",
+      "discipline": "Química",
+      "group": "Misturas e tratamento",
+      "alt": "Ilustração didática sobre Tratamento da água"
+    },
+    "quimica-separacao-no-tratamento-da-agua": {
+      "path": "assets/illustrations/quimica-separacao-no-tratamento-da-agua.svg",
+      "title": "Separação no tratamento da água",
+      "discipline": "Química",
+      "group": "Misturas e tratamento",
+      "alt": "Ilustração didática sobre Separação no tratamento da água"
+    },
+    "quimica-tratamento-do-esgoto": {
+      "path": "assets/illustrations/quimica-tratamento-do-esgoto.svg",
+      "title": "Tratamento do esgoto",
+      "discipline": "Química",
+      "group": "Misturas e tratamento",
+      "alt": "Ilustração didática sobre Tratamento do esgoto"
+    },
+    "quimica-diferentes-tipos-de-agua": {
+      "path": "assets/illustrations/quimica-diferentes-tipos-de-agua.svg",
+      "title": "Diferentes tipos de água",
+      "discipline": "Química",
+      "group": "Misturas e tratamento",
+      "alt": "Ilustração didática sobre Diferentes tipos de água"
+    },
+    "quimica-composicao-do-ar": {
+      "path": "assets/illustrations/quimica-composicao-do-ar.svg",
+      "title": "Composição do ar",
+      "discipline": "Química",
+      "group": "Ar, água e propriedades",
+      "alt": "Ilustração didática sobre Composição do ar"
+    },
+    "quimica-efeito-estufa": {
+      "path": "assets/illustrations/quimica-efeito-estufa.svg",
+      "title": "Efeito estufa",
+      "discipline": "Química",
+      "group": "Ar, água e propriedades",
+      "alt": "Ilustração didática sobre Efeito estufa"
+    },
+    "quimica-camada-de-ozonio": {
+      "path": "assets/illustrations/quimica-camada-de-ozonio.svg",
+      "title": "Camada de ozônio",
+      "discipline": "Química",
+      "group": "Ar, água e propriedades",
+      "alt": "Ilustração didática sobre Camada de ozônio"
+    },
+    "quimica-constituicao-quimica-da-agua": {
+      "path": "assets/illustrations/quimica-constituicao-quimica-da-agua.svg",
+      "title": "Constituição química da água",
+      "discipline": "Química",
+      "group": "Ar, água e propriedades",
+      "alt": "Ilustração didática sobre Constituição química da água"
+    },
+    "quimica-propriedades-fisico-quimicas-da-agua": {
+      "path": "assets/illustrations/quimica-propriedades-fisico-quimicas-da-agua.svg",
+      "title": "Propriedades físico-químicas da água",
+      "discipline": "Química",
+      "group": "Ar, água e propriedades",
+      "alt": "Ilustração didática sobre Propriedades físico-químicas da água"
+    },
+    "quimica-densidade": {
+      "path": "assets/illustrations/quimica-densidade.svg",
+      "title": "Densidade",
+      "discipline": "Química",
+      "group": "Ar, água e propriedades",
+      "alt": "Ilustração didática sobre Densidade"
+    },
+    "quimica-flutuabilidade": {
+      "path": "assets/illustrations/quimica-flutuabilidade.svg",
+      "title": "Flutuabilidade",
+      "discipline": "Química",
+      "group": "Ar, água e propriedades",
+      "alt": "Ilustração didática sobre Flutuabilidade"
+    },
+    "quimica-unidades-do-si": {
+      "path": "assets/illustrations/quimica-unidades-do-si.svg",
+      "title": "Unidades do SI",
+      "discipline": "Química",
+      "group": "Sistema Internacional",
+      "alt": "Ilustração didática sobre Unidades do SI"
+    },
+    "quimica-multiplos-e-submultiplos": {
+      "path": "assets/illustrations/quimica-multiplos-e-submultiplos.svg",
+      "title": "Múltiplos e submúltiplos",
+      "discipline": "Química",
+      "group": "Sistema Internacional",
+      "alt": "Ilustração didática sobre Múltiplos e submúltiplos"
+    },
+    "historia-introducao-aos-estudos-historicos": {
+      "path": "assets/illustrations/historia-introducao-aos-estudos-historicos.svg",
+      "title": "Introdução aos estudos históricos",
+      "discipline": "História",
+      "group": "História, tempo e fontes",
+      "alt": "Ilustração didática sobre Introdução aos estudos históricos"
+    },
+    "historia-oficio-do-historiador": {
+      "path": "assets/illustrations/historia-oficio-do-historiador.svg",
+      "title": "Ofício do historiador",
+      "discipline": "História",
+      "group": "História, tempo e fontes",
+      "alt": "Ilustração didática sobre Ofício do historiador"
+    },
+    "historia-memoria": {
+      "path": "assets/illustrations/historia-memoria.svg",
+      "title": "Memória",
+      "discipline": "História",
+      "group": "História, tempo e fontes",
+      "alt": "Ilustração didática sobre Memória"
+    },
+    "historia-periodizacao": {
+      "path": "assets/illustrations/historia-periodizacao.svg",
+      "title": "Periodização",
+      "discipline": "História",
+      "group": "História, tempo e fontes",
+      "alt": "Ilustração didática sobre Periodização"
+    },
+    "historia-tempo-e-historia": {
+      "path": "assets/illustrations/historia-tempo-e-historia.svg",
+      "title": "Tempo e História",
+      "discipline": "História",
+      "group": "História, tempo e fontes",
+      "alt": "Ilustração didática sobre Tempo e História"
+    },
+    "historia-fontes-historicas-e-documentos": {
+      "path": "assets/illustrations/historia-fontes-historicas-e-documentos.svg",
+      "title": "Fontes históricas e documentos",
+      "discipline": "História",
+      "group": "História, tempo e fontes",
+      "alt": "Ilustração didática sobre Fontes históricas e documentos"
+    },
+    "historia-narrativa": {
+      "path": "assets/illustrations/historia-narrativa.svg",
+      "title": "Narrativa",
+      "discipline": "História",
+      "group": "História, tempo e fontes",
+      "alt": "Ilustração didática sobre Narrativa"
+    },
+    "historia-origem-e-evolucao-humana": {
+      "path": "assets/illustrations/historia-origem-e-evolucao-humana.svg",
+      "title": "Origem e evolução humana",
+      "discipline": "História",
+      "group": "Origens da humanidade",
+      "alt": "Ilustração didática sobre Origem e evolução humana"
+    },
+    "historia-paleolitico": {
+      "path": "assets/illustrations/historia-paleolitico.svg",
+      "title": "Paleolítico",
+      "discipline": "História",
+      "group": "Origens da humanidade",
+      "alt": "Ilustração didática sobre Paleolítico"
+    },
+    "historia-neolitico": {
+      "path": "assets/illustrations/historia-neolitico.svg",
+      "title": "Neolítico",
+      "discipline": "História",
+      "group": "Origens da humanidade",
+      "alt": "Ilustração didática sobre Neolítico"
+    },
+    "historia-idade-dos-metais": {
+      "path": "assets/illustrations/historia-idade-dos-metais.svg",
+      "title": "Idade dos Metais",
+      "discipline": "História",
+      "group": "Origens da humanidade",
+      "alt": "Ilustração didática sobre Idade dos Metais"
+    },
+    "historia-deslocamentos-e-sedentarizacao": {
+      "path": "assets/illustrations/historia-deslocamentos-e-sedentarizacao.svg",
+      "title": "Deslocamentos e sedentarização",
+      "discipline": "História",
+      "group": "Origens da humanidade",
+      "alt": "Ilustração didática sobre Deslocamentos e sedentarização"
+    },
+    "historia-invencao-da-escrita": {
+      "path": "assets/illustrations/historia-invencao-da-escrita.svg",
+      "title": "Invenção da escrita",
+      "discipline": "História",
+      "group": "Origens da humanidade",
+      "alt": "Ilustração didática sobre Invenção da escrita"
+    },
+    "historia-origens-do-homem-americano": {
+      "path": "assets/illustrations/historia-origens-do-homem-americano.svg",
+      "title": "Origens do homem americano",
+      "discipline": "História",
+      "group": "Origens da humanidade",
+      "alt": "Ilustração didática sobre Origens do homem americano"
+    },
+    "historia-africa-antiga": {
+      "path": "assets/illustrations/historia-africa-antiga.svg",
+      "title": "África antiga",
+      "discipline": "História",
+      "group": "Antiguidade e Idade Média",
+      "alt": "Ilustração didática sobre África antiga"
+    },
+    "historia-mesopotamia": {
+      "path": "assets/illustrations/historia-mesopotamia.svg",
+      "title": "Mesopotâmia",
+      "discipline": "História",
+      "group": "Antiguidade e Idade Média",
+      "alt": "Ilustração didática sobre Mesopotâmia"
+    },
+    "historia-grecia-e-roma": {
+      "path": "assets/illustrations/historia-grecia-e-roma.svg",
+      "title": "Grécia e Roma",
+      "discipline": "História",
+      "group": "Antiguidade e Idade Média",
+      "alt": "Ilustração didática sobre Grécia e Roma"
+    },
+    "historia-americas-antigas": {
+      "path": "assets/illustrations/historia-americas-antigas.svg",
+      "title": "Américas antigas",
+      "discipline": "História",
+      "group": "Antiguidade e Idade Média",
+      "alt": "Ilustração didática sobre Américas antigas"
+    },
+    "historia-passagem-para-o-mundo-medieval": {
+      "path": "assets/illustrations/historia-passagem-para-o-mundo-medieval.svg",
+      "title": "Passagem para o mundo medieval",
+      "discipline": "História",
+      "group": "Antiguidade e Idade Média",
+      "alt": "Ilustração didática sobre Passagem para o mundo medieval"
+    },
+    "historia-imperio-bizantino": {
+      "path": "assets/illustrations/historia-imperio-bizantino.svg",
+      "title": "Império Bizantino",
+      "discipline": "História",
+      "group": "Antiguidade e Idade Média",
+      "alt": "Ilustração didática sobre Império Bizantino"
+    },
+    "historia-feudalismo": {
+      "path": "assets/illustrations/historia-feudalismo.svg",
+      "title": "Feudalismo",
+      "discipline": "História",
+      "group": "Antiguidade e Idade Média",
+      "alt": "Ilustração didática sobre Feudalismo"
+    },
+    "historia-papel-da-igreja": {
+      "path": "assets/illustrations/historia-papel-da-igreja.svg",
+      "title": "Papel da Igreja",
+      "discipline": "História",
+      "group": "Antiguidade e Idade Média",
+      "alt": "Ilustração didática sobre Papel da Igreja"
+    },
+    "historia-mundo-islamico": {
+      "path": "assets/illustrations/historia-mundo-islamico.svg",
+      "title": "Mundo Islâmico",
+      "discipline": "História",
+      "group": "Antiguidade e Idade Média",
+      "alt": "Ilustração didática sobre Mundo Islâmico"
+    },
+    "historia-modernidade": {
+      "path": "assets/illustrations/historia-modernidade.svg",
+      "title": "Modernidade",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Modernidade"
+    },
+    "historia-absolutismo": {
+      "path": "assets/illustrations/historia-absolutismo.svg",
+      "title": "Absolutismo",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Absolutismo"
+    },
+    "historia-humanismo-e-renascimento": {
+      "path": "assets/illustrations/historia-humanismo-e-renascimento.svg",
+      "title": "Humanismo e Renascimento",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Humanismo e Renascimento"
+    },
+    "historia-monarquias-europeias": {
+      "path": "assets/illustrations/historia-monarquias-europeias.svg",
+      "title": "Monarquias europeias",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Monarquias europeias"
+    },
+    "historia-reformas-religiosas": {
+      "path": "assets/illustrations/historia-reformas-religiosas.svg",
+      "title": "Reformas religiosas",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Reformas religiosas"
+    },
+    "historia-descobertas-cientificas-e-expansao-maritima": {
+      "path": "assets/illustrations/historia-descobertas-cientificas-e-expansao-maritima.svg",
+      "title": "Descobertas científicas e expansão marítima",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Descobertas científicas e expansão marítima"
+    },
+    "historia-mercantilismo": {
+      "path": "assets/illustrations/historia-mercantilismo.svg",
+      "title": "Mercantilismo",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Mercantilismo"
+    },
+    "historia-escravidao-moderna-e-trafico": {
+      "path": "assets/illustrations/historia-escravidao-moderna-e-trafico.svg",
+      "title": "Escravidão moderna e tráfico",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Escravidão moderna e tráfico"
+    },
+    "historia-conquista-da-america": {
+      "path": "assets/illustrations/historia-conquista-da-america.svg",
+      "title": "Conquista da América",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Conquista da América"
+    },
+    "historia-colonizacao-europeia": {
+      "path": "assets/illustrations/historia-colonizacao-europeia.svg",
+      "title": "Colonização europeia",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Colonização europeia"
+    },
+    "historia-resistencia-indigena": {
+      "path": "assets/illustrations/historia-resistencia-indigena.svg",
+      "title": "Resistência indígena",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Resistência indígena"
+    },
+    "historia-america-portuguesa": {
+      "path": "assets/illustrations/historia-america-portuguesa.svg",
+      "title": "América Portuguesa",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre América Portuguesa"
+    },
+    "historia-brasil-holandes": {
+      "path": "assets/illustrations/historia-brasil-holandes.svg",
+      "title": "Brasil Holandês",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Brasil Holandês"
+    },
+    "historia-inquisicao-no-brasil": {
+      "path": "assets/illustrations/historia-inquisicao-no-brasil.svg",
+      "title": "Inquisição no Brasil",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Inquisição no Brasil"
+    },
+    "historia-economia-colonial": {
+      "path": "assets/illustrations/historia-economia-colonial.svg",
+      "title": "Economia colonial",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Economia colonial"
+    },
+    "historia-reformas-pombalinas": {
+      "path": "assets/illustrations/historia-reformas-pombalinas.svg",
+      "title": "Reformas pombalinas",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre Reformas pombalinas"
+    },
+    "historia-historia-das-mulheres": {
+      "path": "assets/illustrations/historia-historia-das-mulheres.svg",
+      "title": "História das Mulheres",
+      "discipline": "História",
+      "group": "Mundo moderno e colonização",
+      "alt": "Ilustração didática sobre História das Mulheres"
+    }
+  }
+}

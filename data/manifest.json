@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "5.2",
+  "version": "5.3.1",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -46,8 +46,10 @@
     "organized-study-filters",
     "performance-indicator",
     "personalized-feedback",
+    "premium-svg-library",
     "preparation-index",
     "priority-insights",
+    "question-visual-integration",
     "quiz-result-auto-scroll",
     "resilient-startup",
     "resume-last-topic",
@@ -58,10 +60,19 @@
     "structured-study-history",
     "student-levels",
     "study-session-stats",
+    "topic-visuals-141",
     "tutor-engine",
     "ux-intelligent",
+    "visual-lightbox",
     "weekly-learning-summary",
     "xp-system"
   ],
-  "architectureVersion": "2.0"
+  "architectureVersion": "2.0",
+  "visualLibrary": {
+    "format": "SVG",
+    "count": 141,
+    "style": "premium didactic semi-realistic vector",
+    "zoom": true,
+    "questionIntegration": true
+  }
 }

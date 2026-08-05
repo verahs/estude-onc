@@ -259,7 +259,7 @@ ONC.Study = {
 
       target.innerHTML = `
         ${blocks.map(block => ONC.StudyBlocks.render(block)).join("")}
-        ${this.visualFromType(content.visualType || card.dataset.visualType)}
+        ${ONC.VisualLibrary?.figure?.(card.dataset.topicId, card.dataset.topicTitle) || ""}
       `;
       card.dataset.loaded = "true";
 

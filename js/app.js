@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ["Notifications", "init"],
     ["Preferences", "init"],
     ["DataPortability", "init"],
+    ["VisualLibrary", "init"],
     ["Study", "init"],
     ["StudyTools", "init"],
     ["Attention", "init"],

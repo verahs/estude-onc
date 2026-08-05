@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700"
+ role="img" aria-labelledby="title-quimicatransformacoesf desc-quimicatransformacoesf">
+<title id="title-quimicatransformacoesf">Transformações físicas e químicas</title>
+<desc id="desc-quimicatransformacoesf">Ilustração didática vetorial premium sobre Transformações físicas e químicas, da disciplina Química.</desc>
+
+    <defs>
+      <linearGradient id="bg-quimicatransformacoesf" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#FAF5FF"/>
+        <stop offset="0.55" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#B47DE8" stop-opacity=".16"/>
+      </linearGradient>
+      <radialGradient id="glow-quimicatransformacoesf" cx="50%" cy="40%" r="60%">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".96"/>
+        <stop offset=".52" stop-color="#B47DE8" stop-opacity=".42"/>
+        <stop offset="1" stop-color="#281B3C" stop-opacity=".06"/>
+      </radialGradient>
+      <linearGradient id="metal-quimicatransformacoesf" x1="0" x2="1">
+        <stop offset="0" stop-color="#e8eef5"/>
+        <stop offset=".5" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#a9b6c5"/>
+      </linearGradient>
+      <filter id="shadow-quimicatransformacoesf" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#281B3C" flood-opacity=".22"/>
+      </filter>
+      <filter id="soft-quimicatransformacoesf" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8"/>
+      </filter>
+      <clipPath id="frame-quimicatransformacoesf">
+        <rect x="18" y="18" width="1164" height="664" rx="34"/>
+      </clipPath>
+    </defs>
+<rect width="1200" height="700" rx="36" fill="url(#bg-quimicatransformacoesf)"/>
+<rect x="18" y="18" width="1164" height="664" rx="34" fill="none" stroke="#6B3FA0" stroke-opacity=".16" stroke-width="2"/>
+
+      <g>
+        <rect x="56" y="48" width="168" height="34" rx="17" fill="#6B3FA0" opacity=".96"/>
+        <text x="140" y="71" text-anchor="middle" fill="#fff"
+          font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700">Química</text>
+        <text x="56" y="122" fill="#281B3C" font-family="Inter,Segoe UI,Arial"
+          font-size="34" font-weight="800">Transformações físicas e químicas</text>
+        <text x="56" y="151" fill="#6B3FA0" font-family="Inter,Segoe UI,Arial"
+          font-size="17" font-weight="600">Matéria, energia e transformações</text>
+      </g>
+<g opacity=".9"><circle cx="1042" cy="408" r="8" fill="#4CC9B0" opacity=".16"/><circle cx="690" cy="420" r="8" fill="#4CC9B0" opacity=".16"/><circle cx="1053" cy="341" r="5" fill="#4CC9B0" opacity=".16"/><circle cx="936" cy="239" r="7" fill="#4CC9B0" opacity=".16"/><circle cx="596" cy="296" r="5" fill="#4CC9B0" opacity=".16"/><circle cx="553" cy="227" r="7" fill="#4CC9B0" opacity=".16"/><circle cx="873" cy="210" r="5" fill="#4CC9B0" opacity=".16"/><circle cx="994" cy="453" r="4" fill="#4CC9B0" opacity=".16"/></g>
+
+      <g filter="url(#shadow-quimicatransformacoesf)">
+        <path d="M640 225 H875 L840 520 H675Z" fill="#fff" stroke="#6B3FA0" stroke-width="7"/>
+        <path d="M661 372 H854 L840 520 H675Z" fill="#B47DE8" opacity=".42"/>
+        <path d="M700 225 V330 L590 502 H708" fill="#fff" stroke="#6B3FA0" stroke-width="7"/>
+        <path d="M622 451 H690 L708 502 H590Z" fill="#4CC9B0" opacity=".56"/>
+        <circle cx="760" cy="410" r="15" fill="#4CC9B0"/>
+        <circle cx="810" cy="455" r="11" fill="#281B3C"/>
+      </g>
+<g>
+  <rect x="56" y="205" width="308" height="310" rx="30" fill="#fff" fill-opacity=".88" filter="url(#shadow-quimicatransformacoesf)"/>
+  <text x="84" y="255" fill="#281B3C" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="800">LEITURA VISUAL</text>
+  <line x1="84" y1="273" x2="330" y2="273" stroke="#B47DE8" stroke-width="5" stroke-linecap="round"/>
+  <text x="84" y="316" fill="#6B3FA0" font-family="Inter,Segoe UI,Arial" font-size="17" font-weight="700">Observe o modelo</text>
+  <text x="84" y="348" fill="#281B3C" font-family="Inter,Segoe UI,Arial" font-size="15">
+    <tspan x="84" dy="0">• identifique os elementos;</tspan>
+    <tspan x="84" dy="28">• relacione causa e efeito;</tspan>
+    <tspan x="84" dy="28">• compare com o texto;</tspan>
+    <tspan x="84" dy="28">• pense como a ONC.</tspan>
+  </text>
+  <rect x="84" y="444" width="222" height="42" rx="21" fill="#6B3FA0"/>
+  <text x="195" y="471" text-anchor="middle" fill="#fff"
+    font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="800">AMPLIE PARA EXPLORAR</text>
+</g>
+
+      <g opacity=".82">
+        <line x1="56" y1="632" x2="1144" y2="632" stroke="#6B3FA0" stroke-opacity=".18"/>
+        <text x="56" y="661" fill="#281B3C" font-family="Inter,Segoe UI,Arial"
+          font-size="14" font-weight="600">Estude ONC • ilustração didática vetorial</text>
+        <text x="1144" y="661" text-anchor="end" fill="#6B3FA0"
+          font-family="Inter,Segoe UI,Arial" font-size="13">quimica-transformacoes-fisicas-e-quimicas</text>
+      </g>
+</svg>

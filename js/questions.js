@@ -27,7 +27,7 @@ ONC.Questions = {
     return `<article class="qcard" id="bank-${q.id}">
       <div class="qmeta"><span class="badge">${q.subject}</span><span class="badge">${q.topic}</span><span class="badge">${q.difficulty}</span></div>
       <div class="quizIntro">${q.intro || ""}</div>
-      ${ONC.Quiz.visual(q.visual)}
+      ${ONC.VisualLibrary?.questionFigure?.(q) || ONC.Quiz.visual(q.visual)}
       <strong class="quizQuestion">${q.q}</strong>
       <div class="qoptions">${q.options.map((o,i)=>`
         <label class="qoption"><input type="radio" name="bank-${q.id}-opt" value="${i}">

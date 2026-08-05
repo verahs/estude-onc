@@ -76,7 +76,7 @@ ONC.Quiz = {
     return `<article class="qcard" id="quiz-card-${index}">
       <div class="qmeta"><span class="badge">${q.subject}</span><span class="badge">${q.topic}</span><span class="badge">${q.difficulty}</span></div>
       <div class="quizIntro">${q.intro || ""}</div>
-      ${this.visual(q.visual)}
+      ${ONC.VisualLibrary?.questionFigure?.(q) || this.visual(q.visual)}
       <strong class="quizQuestion">Questão ${index+1} — ${q.q}</strong>
       <div class="qoptions">${q.options.map((o,i)=>`
         <label class="qoption"><input type="radio" name="quiz-${index}" value="${i}">

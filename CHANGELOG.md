@@ -1,5 +1,23 @@
 # Changelog
 
+## [5.3.1] — 2026-08-05 — Biblioteca Visual Premium
+
+### Adicionado
+- Biblioteca própria com 141 ilustrações vetoriais SVG.
+- Uma ilustração para cada tópico do catálogo.
+- Identidade visual específica por disciplina.
+- Profundidade, iluminação, gradientes e sombras vetoriais.
+- Ampliação em tela cheia.
+- Carregamento sob demanda.
+- Integração das ilustrações com tópicos, banco de questões e simulados.
+
+### Alterado
+- Os desenhos básicos deixam de ser a visualização principal.
+- Questões associadas a tópicos passam a usar a biblioteca premium.
+
+### Observação
+- O estilo é semirrealista e didático. SVGs permanecem leves, nítidos e adequados para impressão.
+
 ## [5.3] — 2026-08-05
 
 ### Adicionado

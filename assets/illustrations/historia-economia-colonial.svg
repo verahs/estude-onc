@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700"
+ role="img" aria-labelledby="title-historiaeconomiacoloni desc-historiaeconomiacoloni">
+<title id="title-historiaeconomiacoloni">Economia colonial</title>
+<desc id="desc-historiaeconomiacoloni">Ilustração didática vetorial premium sobre Economia colonial, da disciplina História.</desc>
+
+    <defs>
+      <linearGradient id="bg-historiaeconomiacoloni" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#FFF8ED"/>
+        <stop offset="0.55" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#D7A55D" stop-opacity=".16"/>
+      </linearGradient>
+      <radialGradient id="glow-historiaeconomiacoloni" cx="50%" cy="40%" r="60%">
+        <stop offset="0" stop-color="#ffffff" stop-opacity=".96"/>
+        <stop offset=".52" stop-color="#D7A55D" stop-opacity=".42"/>
+        <stop offset="1" stop-color="#352318" stop-opacity=".06"/>
+      </radialGradient>
+      <linearGradient id="metal-historiaeconomiacoloni" x1="0" x2="1">
+        <stop offset="0" stop-color="#e8eef5"/>
+        <stop offset=".5" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#a9b6c5"/>
+      </linearGradient>
+      <filter id="shadow-historiaeconomiacoloni" x="-30%" y="-30%" width="160%" height="160%">
+        <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#352318" flood-opacity=".22"/>
+      </filter>
+      <filter id="soft-historiaeconomiacoloni" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="8"/>
+      </filter>
+      <clipPath id="frame-historiaeconomiacoloni">
+        <rect x="18" y="18" width="1164" height="664" rx="34"/>
+      </clipPath>
+    </defs>
+<rect width="1200" height="700" rx="36" fill="url(#bg-historiaeconomiacoloni)"/>
+<rect x="18" y="18" width="1164" height="664" rx="34" fill="none" stroke="#8A5A32" stroke-opacity=".16" stroke-width="2"/>
+
+      <g>
+        <rect x="56" y="48" width="168" height="34" rx="17" fill="#8A5A32" opacity=".96"/>
+        <text x="140" y="71" text-anchor="middle" fill="#fff"
+          font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="700">História</text>
+        <text x="56" y="122" fill="#352318" font-family="Inter,Segoe UI,Arial"
+          font-size="34" font-weight="800">Economia colonial</text>
+        <text x="56" y="151" fill="#8A5A32" font-family="Inter,Segoe UI,Arial"
+          font-size="17" font-weight="600">Mundo moderno e colonização</text>
+      </g>
+<g opacity=".9"><circle cx="898" cy="386" r="6" fill="#A44A3F" opacity=".16"/><circle cx="672" cy="332" r="4" fill="#A44A3F" opacity=".16"/><circle cx="888" cy="401" r="6" fill="#A44A3F" opacity=".16"/><circle cx="509" cy="501" r="7" fill="#A44A3F" opacity=".16"/><circle cx="543" cy="279" r="8" fill="#A44A3F" opacity=".16"/><circle cx="709" cy="471" r="5" fill="#A44A3F" opacity=".16"/><circle cx="1055" cy="354" r="7" fill="#A44A3F" opacity=".16"/><circle cx="1098" cy="489" r="5" fill="#A44A3F" opacity=".16"/></g>
+
+          <g filter="url(#shadow-historiaeconomiacoloni)">
+            <path d="M540 475 C650 430 820 430 980 475" fill="none" stroke="#D7A55D" stroke-width="30" opacity=".55"/>
+            <path d="M650 432 H865 L820 490 H690Z" fill="#352318"/>
+            <path d="M754 432 V260" stroke="#8A5A32" stroke-width="8"/>
+            <path d="M760 270 C835 290 865 352 760 405Z" fill="#A44A3F" opacity=".9"/>
+            <path d="M748 290 C685 312 660 360 748 405Z" fill="#fff" opacity=".82"/>
+            <circle cx="1000" cy="260" r="58" fill="#A44A3F" opacity=".82"/>
+          </g>
+<g>
+  <rect x="56" y="205" width="308" height="310" rx="30" fill="#fff" fill-opacity=".88" filter="url(#shadow-historiaeconomiacoloni)"/>
+  <text x="84" y="255" fill="#352318" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="800">LEITURA VISUAL</text>
+  <line x1="84" y1="273" x2="330" y2="273" stroke="#D7A55D" stroke-width="5" stroke-linecap="round"/>
+  <text x="84" y="316" fill="#8A5A32" font-family="Inter,Segoe UI,Arial" font-size="17" font-weight="700">Observe o modelo</text>
+  <text x="84" y="348" fill="#352318" font-family="Inter,Segoe UI,Arial" font-size="15">
+    <tspan x="84" dy="0">• identifique os elementos;</tspan>
+    <tspan x="84" dy="28">• relacione causa e efeito;</tspan>
+    <tspan x="84" dy="28">• compare com o texto;</tspan>
+    <tspan x="84" dy="28">• pense como a ONC.</tspan>
+  </text>
+  <rect x="84" y="444" width="222" height="42" rx="21" fill="#8A5A32"/>
+  <text x="195" y="471" text-anchor="middle" fill="#fff"
+    font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="800">AMPLIE PARA EXPLORAR</text>
+</g>
+
+      <g opacity=".82">
+        <line x1="56" y1="632" x2="1144" y2="632" stroke="#8A5A32" stroke-opacity=".18"/>
+        <text x="56" y="661" fill="#352318" font-family="Inter,Segoe UI,Arial"
+          font-size="14" font-weight="600">Estude ONC • ilustração didática vetorial</text>
+        <text x="1144" y="661" text-anchor="end" fill="#8A5A32"
+          font-family="Inter,Segoe UI,Arial" font-size="13">historia-economia-colonial</text>
+      </g>
+</svg>
