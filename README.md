@@ -1,20 +1,27 @@
-# Estude ONC 3.0 — Sprint 3
+# Estude ONC — Versão 3.1
 
-Plataforma educacional modular para preparação para a ONC.
+Plataforma educacional para preparação de estudantes do Nível A da ONC.
 
-## Recursos desta sprint
-- favoritos;
-- continuar de onde parou;
-- progresso por disciplina;
-- estimativa de leitura;
-- revisão espaçada;
-- estatísticas semanais;
-- registro de sessões;
-- modo de foco com atalho `Esc`;
-- busca com atalho `/`.
+## Destaques da versão 3.1
+
+- alertas de atenção gerados por erros reais;
+- recorrência usada como fator de gravidade, nunca como alerta isolado;
+- índice interno de risco;
+- painel de conteúdos que merecem atenção;
+- filtro de atenção;
+- favoritos mantidos como escolha do aluno;
+- ranking de recorrência recolhido por padrão;
+- filtros reorganizados;
+- Home orientada à próxima ação.
 
 ## Publicação
+
 Copie todo o conteúdo para a raiz do repositório, faça commit e push.
 
-## Limitação atual
-Os dados do estudante ficam salvos no navegador usado. Ainda não há sincronização entre dispositivos.
+## Teste recomendado
+
+1. Responda uma questão incorretamente.
+2. Volte ao módulo Estudar.
+3. Confira o painel de atenção e o sinal no tópico relacionado.
+4. Ative o filtro “Apenas atenção”.
+5. Responda outras questões do mesmo tema para verificar a mudança de gravidade.

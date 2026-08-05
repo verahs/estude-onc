@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Estude ONC 3.0 — Sprint 3</title>
+<title>Estude ONC 3.1 — Refinamento</title>
 
 
 
 
 
-<link rel="stylesheet" href="./css/layout.css">
-<link rel="stylesheet" href="./css/cards.css">
-<link rel="stylesheet" href="./css/buttons.css">
-<link rel="stylesheet" href="./css/animations.css">
-<link rel="stylesheet" href="./css/study.css">
-<link rel="stylesheet" href="./css/quiz.css">
-<link rel="stylesheet" href="./css/reports.css">
+<link rel="stylesheet" href="./css/layout.css?v=3.1.0">
+<link rel="stylesheet" href="./css/cards.css?v=3.1.0">
+<link rel="stylesheet" href="./css/buttons.css?v=3.1.0">
+<link rel="stylesheet" href="./css/animations.css?v=3.1.0">
+<link rel="stylesheet" href="./css/study.css?v=3.1.0">
+<link rel="stylesheet" href="./css/quiz.css?v=3.1.0">
+<link rel="stylesheet" href="./css/reports.css?v=3.1.0">
 </head>
 <body>
 
@@ -56,9 +56,9 @@
 <section id="studySection">
   <section class="hero studyHero">
       <div>
-        <span class="heroEyebrow">Versão 3.0 • Sprint 1</span>
-        <h1>Estudar com clareza</h1>
-        <p>Abra um tema, acompanhe a explicação em blocos e use o modo de leitura para manter o foco.</p>
+        <span class="heroEyebrow">Versão 3.1</span>
+        <h1>Aprenda com inteligência</h1>
+        <p>Continue seus estudos, acompanhe o progresso e revise os conteúdos indicados pelos seus resultados.</p>
       </div>
       <button id="exitReadingMode" class="btn hidden" type="button"
         onclick="ONC.Study.exitReadingMode()">Sair do modo de leitura</button>
@@ -78,7 +78,8 @@
   </section>
   
   
-<section class="studyDashboard" aria-label="Painel de estudo">
+
+<section class="studyDashboard studyDashboard--action" aria-label="Painel de estudo">
   <article class="dashboardCard dashboardCard--resume" id="resumeStudyCard"></article>
 
   <article class="dashboardCard">
@@ -87,7 +88,10 @@
         <span class="dashboardLabel">Progresso</span>
         <h3>Por disciplina</h3>
       </div>
-      <span class="dashboardMetric"><strong id="favoriteMetric">0</strong> favoritos</span>
+      <div class="dashboardCounters">
+        <span class="dashboardMetric"><strong id="favoriteMetric">0</strong> favoritos</span>
+        <span class="dashboardMetric dashboardMetric--attention"><strong id="attentionMetric">0</strong> em atenção</span>
+      </div>
     </div>
     <div id="disciplineProgress"></div>
   </article>
@@ -102,6 +106,18 @@
     <div id="weeklyStudyStats" class="weeklyStudyStats"></div>
   </article>
 
+  <article class="dashboardCard dashboardCard--wide attentionPanel">
+    <div class="dashboardCardHeader">
+      <div>
+        <span class="dashboardLabel">Orientação personalizada</span>
+        <h3>⚠️ Conteúdos que merecem atenção</h3>
+        <p id="attentionPanelSummary" class="dashboardDescription"></p>
+      </div>
+      <button class="textButton" type="button" onclick="ONC.Attention.reset()">Limpar histórico de alertas</button>
+    </div>
+    <div id="attentionPanelList"></div>
+  </article>
+
   <article class="dashboardCard dashboardCard--wide">
     <div class="dashboardCardHeader">
       <div>
@@ -113,41 +129,72 @@
   </article>
 </section>
 
-<section class="recurrencePanel">
+
+<details class="recurrencePanel recurrenceDisclosure">
+  <summary class="recurrenceSummary">
+    <div>
+      <span class="badge">Análise das provas 2021–2025</span>
+      <h2>📊 Prioridade de estudo da ONC</h2>
+      <p>Consulte o ranking histórico quando precisar planejar o estudo.</p>
+    </div>
+    <div class="recurrenceTopThree" id="recurrenceTopThree" aria-label="Três temas mais recorrentes"></div>
+    <span class="disclosureAction">Mostrar ranking completo</span>
+  </summary>
+  <div class="recurrenceExpanded">
     <div class="recurrenceHeader">
       <div>
-        <span class="badge">Análise das provas 2021–2025</span>
-        <h2>Prioridade de estudo por recorrência</h2>
-        <p>Foram classificadas as 100 questões das cinco provas da 1ª fase do Nível A. Cada questão recebeu um tema principal. O percentual representa a participação desse tema no conjunto analisado.</p>
+        <h3>Ranking completo por recorrência</h3>
+        <p>Foram classificadas 100 questões das provas analisadas. A recorrência não gera alerta de atenção sozinha; ela apenas ajuda a dimensionar a relevância de um erro.</p>
       </div>
       <div class="recurrenceMethod">
         <strong>Como interpretar</strong>
-        <span>≥ 10%: prioridade muito alta</span>
-        <span>8%–9%: prioridade alta</span>
-        <span>5%–7%: prioridade média</span>
-        <span>&lt; 5%: prioridade complementar</span>
+        <span>≥ 10%: recorrência muito alta</span>
+        <span>8%–9%: recorrência alta</span>
+        <span>5%–7%: recorrência média</span>
+        <span>&lt; 5%: recorrência complementar</span>
       </div>
     </div>
     <div id="recurrenceRanking" class="recurrenceRanking"></div>
-    <p class="note">A recorrência histórica não garante o conteúdo de uma próxima prova. O filtro serve para organizar o tempo de estudo, sem excluir os demais itens do programa oficial.</p>
-  </section>
+    <p class="note">A recorrência histórica não garante o conteúdo de uma próxima prova e não exclui os demais itens do programa oficial.</p>
+  </div>
+</details>
 
-  <div class="studyFilterBar">
-    <input id="studySearch" class="search" placeholder="Pesquisar conteúdo..." oninput="ONC.Study.filter()">
-    <label>
-      Prioridade por recorrência
-      <label class="favoritesToggle"><input id="favoritesOnly" type="checkbox" onchange="ONC.Study.filter()"> Somente favoritos</label>
-<select id="recurrenceFilter" onchange="ONC.Study.filter()">
-        <option value="all">Todos os conteúdos</option>
+
+  
+<section class="studyFiltersPanel" aria-label="Filtros dos conteúdos">
+  <div class="studySearchRow">
+    <label class="filterField filterField--search">
+      <span>Pesquisar</span>
+      <input id="studySearch" class="search" placeholder="Digite um conteúdo..." oninput="ONC.Study.filter()">
+    </label>
+  </div>
+  <div class="studyFilterGrid">
+    <label class="filterField">
+      <span>Prioridade histórica</span>
+      <select id="recurrenceFilter" onchange="ONC.Study.filter()">
+        <option value="all">Todas as recorrências</option>
         <option value="very-high">Muito alta — 10% ou mais</option>
         <option value="high">Alta — 8% a 9%</option>
         <option value="medium">Média — 5% a 7%</option>
         <option value="low">Complementar — abaixo de 5%</option>
       </select>
     </label>
-  </div>
 
-  <section id="subjects"></section>
+    <label class="filterToggle">
+      <input id="favoritesOnly" type="checkbox" onchange="ONC.Study.filter()">
+      <span class="filterToggleIcon">★</span>
+      <span><strong>Apenas favoritos</strong><small>Marcados pelo aluno</small></span>
+    </label>
+
+    <label class="filterToggle filterToggle--attention">
+      <input id="attentionOnly" type="checkbox" onchange="ONC.Study.filter()">
+      <span class="filterToggleIcon">⚠️</span>
+      <span><strong>Apenas atenção</strong><small>Gerados por erros e recorrência</small></span>
+    </label>
+  </div>
+</section>
+
+<section id="subjects"></section>
 </section>
 
 <section id="questionBankSection" class="hidden">
@@ -211,21 +258,22 @@
 
 
 
-<script src="./js/error-handler.js" defer></script>
-<script src="./js/data-loader.js" defer></script>
-<script src="./js/storage.js" defer></script>
-<script src="./js/users.js" defer></script>
-<script src="./js/router.js" defer></script>
-<script src="./js/search.js" defer></script>
-<script src="./js/filters.js" defer></script>
-<script src="./js/topic-repository.js" defer></script>
-<script src="./js/study-tools.js" defer></script>
-<script src="./js/components.js" defer></script>
-<script src="./js/study.js" defer></script>
-<script src="./js/questions.js" defer></script>
-<script src="./js/quiz.js" defer></script>
-<script src="./js/reports.js" defer></script>
-<script src="./js/classroom.js" defer></script>
-<script src="./js/app.js" defer></script>
+<script src="./js/error-handler.js?v=3.1.0" defer></script>
+<script src="./js/data-loader.js?v=3.1.0" defer></script>
+<script src="./js/storage.js?v=3.1.0" defer></script>
+<script src="./js/users.js?v=3.1.0" defer></script>
+<script src="./js/router.js?v=3.1.0" defer></script>
+<script src="./js/search.js?v=3.1.0" defer></script>
+<script src="./js/filters.js?v=3.1.0" defer></script>
+<script src="./js/topic-repository.js?v=3.1.0" defer></script>
+<script src="./js/study-tools.js?v=3.1.0" defer></script>
+<script src="./js/attention.js?v=3.1.0" defer></script>
+<script src="./js/components.js?v=3.1.0" defer></script>
+<script src="./js/study.js?v=3.1.0" defer></script>
+<script src="./js/questions.js?v=3.1.0" defer></script>
+<script src="./js/quiz.js?v=3.1.0" defer></script>
+<script src="./js/reports.js?v=3.1.0" defer></script>
+<script src="./js/classroom.js?v=3.1.0" defer></script>
+<script src="./js/app.js?v=3.1.0" defer></script>
 </body>
 </html>

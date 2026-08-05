@@ -151,6 +151,13 @@ ONC.Study = {
   renderRecurrenceRanking() {
     const root = document.getElementById("recurrenceRanking");
     if (!root) return;
+    const topRoot = document.getElementById("recurrenceTopThree");
+    if (topRoot) {
+      topRoot.innerHTML = ONC_DATA.recurrenceRanking.slice(0, 3).map((item, index) => `
+        <span><strong>${index + 1}º</strong> ${item.category.replace(/^.*?—\s*/, "")} <b>${item.percent}%</b></span>
+      `).join("");
+    }
+
     root.innerHTML = ONC_DATA.recurrenceRanking.map((item, index) => {
       const level = this.recurrenceLevel(item.percent);
       return `<div class="recurrenceRow">
@@ -381,13 +388,15 @@ ONC.Study = {
     const q = document.getElementById("studySearch")?.value.trim().toLowerCase() || "";
     const recurrenceChoice = document.getElementById("recurrenceFilter")?.value || "all";
     const favoritesOnly = document.getElementById("favoritesOnly")?.checked || false;
+    const attentionOnly = document.getElementById("attentionOnly")?.checked || false;
 
     document.querySelectorAll(".topicCard").forEach(card => {
       const matchesText = !q || card.dataset.search.includes(q);
       const matchesRecurrence = recurrenceChoice === "all" ||
         card.dataset.recurrenceLevel === recurrenceChoice;
       const matchesFavorite = !favoritesOnly || ONC.StudyTools?.isFavorite(card.dataset.topicId);
-      const show = matchesText && matchesRecurrence && matchesFavorite;
+      const matchesAttention = !attentionOnly || ONC.Attention?.hasAlert(card.dataset.topicId);
+      const show = matchesText && matchesRecurrence && matchesFavorite && matchesAttention;
       card.classList.toggle("hidden", !show);
 
       if (show && (q || recurrenceChoice !== "all")) {

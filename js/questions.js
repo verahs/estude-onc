@@ -49,6 +49,7 @@ ONC.Questions = {
     });
     this.answered[id]=true;
     ONC.Storage.set("onc_question_answered",this.answered);
+    ONC.Attention?.recordAttempt(q, value === q.answer, "question-bank");
     document.getElementById(`feedback-${id}`).innerHTML =
       `<div class="feedback"><strong>${value===q.answer?"Resposta correta.":"Resposta incorreta."}</strong><br>${q.explanation}</div>`;
   },

@@ -89,8 +89,10 @@ ONC.Quiz = {
     this.active.questions.forEach((q,index)=>{
       const selected = document.querySelector(`input[name="quiz-${index}"]:checked`);
       const value = selected ? Number(selected.value) : null;
-      if (value === q.answer) hits++;
+      const correct = value === q.answer;
+      if (correct) hits++;
       this.seen[q.id]=true;
+      ONC.Attention?.recordAttempt(q, correct, "simulado");
       document.querySelectorAll(`input[name="quiz-${index}"]`).forEach(input=>{
         const row = input.closest(".qoption");
         if (Number(input.value) === q.answer) row.classList.add("correct");

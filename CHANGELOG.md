@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.1] — 2026-08-05
+
+### Adicionado
+- Sistema automático de atenção baseado em erros.
+- Índice interno de risco que combina quantidade de erros, taxa de erro, recorrência e tempo desde o último erro.
+- Painel “Conteúdos que merecem atenção”.
+- Filtro “Apenas atenção”.
+- Sinalização de atenção diretamente nos cards.
+- Registro de desempenho no banco de questões e nos simulados.
+
+### Alterado
+- O ranking de recorrência fica recolhido por padrão.
+- A recorrência, isoladamente, não gera alerta.
+- Filtros reorganizados em um painel único.
+- Banner atualizado para a versão 3.1.
+- Home reorganizada para priorizar ação, progresso e revisão.
+
 ## [3.0-sprint-3] — 2026-08-05
 
 ### Adicionado
