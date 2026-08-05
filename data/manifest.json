@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "4.2",
+  "version": "4.2.1",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -31,6 +31,7 @@
     "next-review-card",
     "organized-study-filters",
     "preparation-index",
+    "quiz-result-auto-scroll",
     "resume-last-topic",
     "risk-index",
     "smart-tutor",

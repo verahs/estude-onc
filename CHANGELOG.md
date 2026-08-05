@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.1] — 2026-08-05
+
+### Corrigido
+- Ao finalizar um simulado, a página agora rola automaticamente até o painel de resultado.
+- O foco é direcionado ao resultado para melhorar a acessibilidade.
+- Foi adicionado espaçamento de rolagem para impedir que o cabeçalho fixo cubra o painel.
+
 ## [4.2] — 2026-08-05
 
 ### Alterado

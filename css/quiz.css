@@ -1,1 +1,12 @@
 .question-source-note { font-size: .78rem; color: var(--muted); }
+
+
+/* Sprint 4.2.1 — resultado do simulado */
+#quizResultPanel {
+  scroll-margin-top: 92px;
+  outline: none;
+}
+
+#quizResultPanel:focus-visible {
+  box-shadow: 0 0 0 3px rgba(44, 99, 199, .22);
+}

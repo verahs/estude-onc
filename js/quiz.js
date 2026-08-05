@@ -115,8 +115,26 @@ ONC.Quiz = {
     });
     ONC.Storage.set("onc_quiz_seen",this.seen);
     document.getElementById("quizArea").insertAdjacentHTML("afterbegin",
-      `<div class="resultPanel"><h2>Resultado</h2><p><strong>${hits}/${total}</strong> — ${pct}% — Nota ${(hits/total*10).toFixed(1).replace(".",",")}/10</p></div>`);
+      `<div class="resultPanel" id="quizResultPanel" tabindex="-1" aria-live="polite">
+        <h2>Resultado</h2>
+        <p><strong>${hits}/${total}</strong> — ${pct}% — Nota ${(hits/total*10).toFixed(1).replace(".",",")}/10</p>
+      </div>`);
+
     this.active = null;
+
+    // Aguarda o navegador concluir a renderização e leva o aluno ao resultado.
+    requestAnimationFrame(() => {
+      const resultPanel = document.getElementById("quizResultPanel");
+      if (!resultPanel) return;
+
+      resultPanel.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+
+      // Move o foco sem provocar uma segunda rolagem.
+      resultPanel.focus({ preventScroll: true });
+    });
   },
   clearAnswers(){
     document.querySelectorAll("#quizArea input[type=radio]").forEach(i=>{i.checked=false;i.disabled=false;i.closest(".qoption").classList.remove("correct","wrong")});
