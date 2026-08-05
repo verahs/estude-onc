@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-doencas-de-veiculacao-hidrica-e-atmosferica",
+  "discipline": "Biologia",
+  "group": "Saúde pública e tecnologia",
+  "title": "Doenças de veiculação hídrica e atmosférica",
+  "blocks": [
+    {
+      "id": "doencas-de-veiculacao-hidrica-e-atmosferica-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Algumas doenças são transmitidas por água contaminada ou pelo ar."
+    },
+    {
+      "id": "doencas-de-veiculacao-hidrica-e-atmosferica-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Água contaminada pode transportar microrganismos; gotículas e aerossóis podem levar agentes pelo ar."
+    },
+    {
+      "id": "doencas-de-veiculacao-hidrica-e-atmosferica-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Saneamento, higiene, ventilação e vacinação reduzem a transmissão."
+    },
+    {
+      "id": "doencas-de-veiculacao-hidrica-e-atmosferica-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Água sem tratamento pode transmitir infecções intestinais."
+    },
+    {
+      "id": "doencas-de-veiculacao-hidrica-e-atmosferica-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Qual medida reduz doenças transmitidas pela água? A) tratamento de água e esgoto B) fechar janelas sempre C) aumentar o lixo nas ruas. Resposta: A."
+    },
+    {
+      "id": "doencas-de-veiculacao-hidrica-e-atmosferica-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "doencas-de-veiculacao-hidrica-e-atmosferica-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Algumas doenças são transmitidas por água contaminada ou pelo ar.",
+        "Saneamento, higiene, ventilação e vacinação reduzem a transmissão."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Algumas doenças são transmitidas por água contaminada ou pelo ar.",
+    "process": "Água contaminada pode transportar microrganismos; gotículas e aerossóis podem levar agentes pelo ar.",
+    "result": "Saneamento, higiene, ventilação e vacinação reduzem a transmissão.",
+    "example": "Água sem tratamento pode transmitir infecções intestinais.",
+    "exam": "Qual medida reduz doenças transmitidas pela água? A) tratamento de água e esgoto B) fechar janelas sempre C) aumentar o lixo nas ruas. Resposta: A."
+  },
+  "visualType": ""
+}

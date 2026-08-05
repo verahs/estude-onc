@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-fusos-horarios",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Fusos horários",
+  "blocks": [
+    {
+      "id": "fusos-horarios-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Fusos horários são faixas da Terra que adotam horários diferentes por causa da rotação do planeta."
+    },
+    {
+      "id": "fusos-horarios-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Relação entre longitude e tempo</h5><ul><li>A Terra gira 360° em 24 horas.</li><li>360° ÷ 24 = 15° por hora.</li><li>Cada 15° de longitude corresponde aproximadamente a 1 hora.</li><li>A leste, o horário tende a ser adiantado; a oeste, atrasado.</li></ul></section><section><h5>Exemplo resolvido</h5><div class='calcBox'><div>Distância entre duas cidades: 45° de longitude.</div><div>45° ÷ 15° = 3.</div><div>Diferença aproximada: 3 horas.</div></div></section>"
+    },
+    {
+      "id": "fusos-horarios-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Cidades em longitudes diferentes podem apresentar horários distintos no mesmo instante."
+    },
+    {
+      "id": "fusos-horarios-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Quando é manhã no Brasil, em países da Ásia pode ser noite."
+    },
+    {
+      "id": "fusos-horarios-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar um mapa com longitudes e pedir a diferença de horário entre duas cidades."
+    },
+    {
+      "id": "fusos-horarios-strategy",
+      "type": "strategy",
+      "label": "Estratégia de resolução",
+      "content": "Anote os dados, identifique a unidade pedida e resolva uma etapa de cada vez. Antes de marcar a resposta, confira se o resultado faz sentido."
+    },
+    {
+      "id": "fusos-horarios-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Fusos horários são faixas da Terra que adotam horários diferentes por causa da rotação do planeta.",
+        "Cidades em longitudes diferentes podem apresentar horários distintos no mesmo instante."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Fusos horários são faixas da Terra que adotam horários diferentes por causa da rotação do planeta.",
+    "process": "<section><h5>Relação entre longitude e tempo</h5><ul><li>A Terra gira 360° em 24 horas.</li><li>360° ÷ 24 = 15° por hora.</li><li>Cada 15° de longitude corresponde aproximadamente a 1 hora.</li><li>A leste, o horário tende a ser adiantado; a oeste, atrasado.</li></ul></section><section><h5>Exemplo resolvido</h5><div class='calcBox'><div>Distância entre duas cidades: 45° de longitude.</div><div>45° ÷ 15° = 3.</div><div>Diferença aproximada: 3 horas.</div></div></section>",
+    "result": "Cidades em longitudes diferentes podem apresentar horários distintos no mesmo instante.",
+    "example": "Quando é manhã no Brasil, em países da Ásia pode ser noite.",
+    "exam": "A prova pode apresentar um mapa com longitudes e pedir a diferença de horário entre duas cidades."
+  },
+  "visualType": ""
+}

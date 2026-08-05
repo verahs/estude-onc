@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-eclipses",
+  "discipline": "Astronomia",
+  "group": "Lua, Sol e movimentos",
+  "title": "Eclipses",
+  "blocks": [
+    {
+      "id": "eclipses-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Eclipse é o bloqueio total ou parcial da luz de um astro devido ao alinhamento entre Sol, Terra e Lua."
+    },
+    {
+      "id": "eclipses-observe",
+      "type": "observe",
+      "label": "Observe antes de responder",
+      "content": "Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno."
+    },
+    {
+      "id": "eclipses-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Eclipse solar</h5><ul><li>A Lua fica entre a Terra e o Sol.</li><li>A sombra da Lua atinge uma pequena região da Terra.</li><li>Ocorre na fase de Lua nova.</li></ul></section><section><h5>Eclipse lunar</h5><ul><li>A Terra fica entre o Sol e a Lua.</li><li>A sombra da Terra atinge a Lua.</li><li>Ocorre na fase de Lua cheia.</li></ul></section><section><h5>Por que não ocorre todo mês?</h5><p>A órbita da Lua é inclinada em relação ao plano da órbita da Terra; na maioria das vezes, o alinhamento não é perfeito.</p></section>"
+    },
+    {
+      "id": "eclipses-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Eclipses são fenômenos previsíveis, mas visíveis apenas em determinadas regiões ou horários."
+    },
+    {
+      "id": "eclipses-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Num eclipse solar total, o dia escurece por alguns minutos na faixa atingida pela sombra da Lua."
+    },
+    {
+      "id": "eclipses-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar dois esquemas de alinhamento e pedir qual representa eclipse solar e qual representa lunar."
+    },
+    {
+      "id": "eclipses-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Eclipse é o bloqueio total ou parcial da luz de um astro devido ao alinhamento entre Sol, Terra e Lua.",
+        "Eclipses são fenômenos previsíveis, mas visíveis apenas em determinadas regiões ou horários."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Eclipse é o bloqueio total ou parcial da luz de um astro devido ao alinhamento entre Sol, Terra e Lua.",
+    "process": "<section><h5>Eclipse solar</h5><ul><li>A Lua fica entre a Terra e o Sol.</li><li>A sombra da Lua atinge uma pequena região da Terra.</li><li>Ocorre na fase de Lua nova.</li></ul></section><section><h5>Eclipse lunar</h5><ul><li>A Terra fica entre o Sol e a Lua.</li><li>A sombra da Terra atinge a Lua.</li><li>Ocorre na fase de Lua cheia.</li></ul></section><section><h5>Por que não ocorre todo mês?</h5><p>A órbita da Lua é inclinada em relação ao plano da órbita da Terra; na maioria das vezes, o alinhamento não é perfeito.</p></section>",
+    "result": "Eclipses são fenômenos previsíveis, mas visíveis apenas em determinadas regiões ou horários.",
+    "example": "Num eclipse solar total, o dia escurece por alguns minutos na faixa atingida pela sombra da Lua.",
+    "exam": "A prova pode apresentar dois esquemas de alinhamento e pedir qual representa eclipse solar e qual representa lunar."
+  },
+  "visualType": "eclipse"
+}

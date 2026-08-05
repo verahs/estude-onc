@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-gnomon-e-sombras",
+  "discipline": "Física",
+  "group": "Forma, estrutura e movimentos da Terra",
+  "title": "Gnômon e sombras",
+  "blocks": [
+    {
+      "id": "gnomon-e-sombras-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Uma haste vertical projeta sombras que mudam conforme a posição aparente do Sol."
+    },
+    {
+      "id": "gnomon-e-sombras-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Uma haste vertical projeta sombra. A posição aparente do Sol altera direção e comprimento dessa sombra."
+    },
+    {
+      "id": "gnomon-e-sombras-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Sombras mais curtas tendem a ocorrer próximo do meio-dia solar."
+    },
+    {
+      "id": "gnomon-e-sombras-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Ao meio-dia solar, a sombra tende a ser menor que no início da manhã."
+    },
+    {
+      "id": "gnomon-e-sombras-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Em geral, a sombra de um gnômon é menor: A) ao meio-dia solar B) ao amanhecer C) à noite. Resposta: A."
+    },
+    {
+      "id": "gnomon-e-sombras-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "gnomon-e-sombras-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Uma haste vertical projeta sombras que mudam conforme a posição aparente do Sol.",
+        "Sombras mais curtas tendem a ocorrer próximo do meio-dia solar."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Uma haste vertical projeta sombras que mudam conforme a posição aparente do Sol.",
+    "process": "Uma haste vertical projeta sombra. A posição aparente do Sol altera direção e comprimento dessa sombra.",
+    "result": "Sombras mais curtas tendem a ocorrer próximo do meio-dia solar.",
+    "example": "Ao meio-dia solar, a sombra tende a ser menor que no início da manhã.",
+    "exam": "Em geral, a sombra de um gnômon é menor: A) ao meio-dia solar B) ao amanhecer C) à noite. Resposta: A."
+  },
+  "visualType": ""
+}

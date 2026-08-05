@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-volume",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Volume",
+  "blocks": [
+    {
+      "id": "volume-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Volume é um conteúdo previsto no programa da ONC."
+    },
+    {
+      "id": "volume-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "O volume mede o espaço ocupado; em blocos retangulares, multiplica-se comprimento, largura e altura."
+    },
+    {
+      "id": "volume-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O resultado é expresso em unidades cúbicas."
+    },
+    {
+      "id": "volume-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Observe uma situação cotidiana relacionada a volume."
+    },
+    {
+      "id": "volume-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Um bloco 2×3×4 tem volume: A) 9 B) 12 C) 24. Resposta: C."
+    },
+    {
+      "id": "volume-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "volume-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Volume é um conteúdo previsto no programa da ONC.",
+        "O resultado é expresso em unidades cúbicas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Volume é um conteúdo previsto no programa da ONC.",
+    "process": "O volume mede o espaço ocupado; em blocos retangulares, multiplica-se comprimento, largura e altura.",
+    "result": "O resultado é expresso em unidades cúbicas.",
+    "example": "Observe uma situação cotidiana relacionada a volume.",
+    "exam": "Um bloco 2×3×4 tem volume: A) 9 B) 12 C) 24. Resposta: C."
+  },
+  "visualType": ""
+}

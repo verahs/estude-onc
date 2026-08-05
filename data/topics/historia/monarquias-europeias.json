@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-monarquias-europeias",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Monarquias europeias",
+  "blocks": [
+    {
+      "id": "monarquias-europeias-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Monarquias europeias modernas foram Estados governados por reis que buscaram centralizar poder e controlar territórios."
+    },
+    {
+      "id": "monarquias-europeias-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "monarquias-europeias-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Enfraquecimento do feudalismo.</li><li>Crescimento comercial.</li><li>Disputas territoriais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarcas.</li><li>Nobreza.</li><li>Burguesia.</li><li>Exércitos e burocratas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Leis unificadas.</li><li>Impostos nacionais.</li><li>Exércitos permanentes.</li><li>Diplomacia.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação de Estados nacionais.</li><li>Maior centralização.</li><li>Conflitos entre coroas.</li></ul></section></div>"
+    },
+    {
+      "id": "monarquias-europeias-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Essas monarquias criaram estruturas políticas que favoreceram expansão marítima e administração colonial."
+    },
+    {
+      "id": "monarquias-europeias-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Portugal organizou impostos e navegação sob autoridade real."
+    },
+    {
+      "id": "monarquias-europeias-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar mapa político e pedir qual processo de centralização está representado."
+    },
+    {
+      "id": "monarquias-europeias-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Monarquias europeias modernas foram Estados governados por reis que buscaram centralizar poder e controlar territórios.",
+        "Essas monarquias criaram estruturas políticas que favoreceram expansão marítima e administração colonial."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Monarquias europeias modernas foram Estados governados por reis que buscaram centralizar poder e controlar territórios.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Enfraquecimento do feudalismo.</li><li>Crescimento comercial.</li><li>Disputas territoriais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarcas.</li><li>Nobreza.</li><li>Burguesia.</li><li>Exércitos e burocratas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Leis unificadas.</li><li>Impostos nacionais.</li><li>Exércitos permanentes.</li><li>Diplomacia.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação de Estados nacionais.</li><li>Maior centralização.</li><li>Conflitos entre coroas.</li></ul></section></div>",
+    "result": "Essas monarquias criaram estruturas políticas que favoreceram expansão marítima e administração colonial.",
+    "example": "Portugal organizou impostos e navegação sob autoridade real.",
+    "exam": "A prova pode apresentar mapa político e pedir qual processo de centralização está representado."
+  },
+  "visualType": ""
+}

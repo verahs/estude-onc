@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-mes-lunar",
+  "discipline": "Astronomia",
+  "group": "Lua, Sol e movimentos",
+  "title": "Mês lunar",
+  "blocks": [
+    {
+      "id": "mes-lunar-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Mês lunar é o intervalo entre duas fases iguais consecutivas da Lua, aproximadamente 29,5 dias."
+    },
+    {
+      "id": "mes-lunar-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Sequência</h5><ul><li>Lua nova.</li><li>Quarto crescente.</li><li>Lua cheia.</li><li>Quarto minguante.</li><li>Retorno à Lua nova.</li></ul></section>"
+    },
+    {
+      "id": "mes-lunar-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O ciclo lunar influencia calendários, observações do céu e marés."
+    },
+    {
+      "id": "mes-lunar-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "De uma Lua cheia até a próxima passam cerca de 29 dias e meio."
+    },
+    {
+      "id": "mes-lunar-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode apresentar datas de observação e pedir quando uma fase semelhante deve ocorrer novamente."
+    },
+    {
+      "id": "mes-lunar-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Mês lunar é o intervalo entre duas fases iguais consecutivas da Lua, aproximadamente 29,5 dias.",
+        "O ciclo lunar influencia calendários, observações do céu e marés."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Mês lunar é o intervalo entre duas fases iguais consecutivas da Lua, aproximadamente 29,5 dias.",
+    "process": "<section><h5>Sequência</h5><ul><li>Lua nova.</li><li>Quarto crescente.</li><li>Lua cheia.</li><li>Quarto minguante.</li><li>Retorno à Lua nova.</li></ul></section>",
+    "result": "O ciclo lunar influencia calendários, observações do céu e marés.",
+    "example": "De uma Lua cheia até a próxima passam cerca de 29 dias e meio.",
+    "exam": "A questão pode apresentar datas de observação e pedir quando uma fase semelhante deve ocorrer novamente."
+  },
+  "visualType": ""
+}

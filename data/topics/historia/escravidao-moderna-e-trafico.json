@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-escravidao-moderna-e-trafico",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Escravidão moderna e tráfico",
+  "blocks": [
+    {
+      "id": "escravidao-moderna-e-trafico-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A escravidão moderna foi um sistema de exploração que transformou pessoas, sobretudo africanas, em propriedade e mão de obra forçada."
+    },
+    {
+      "id": "escravidao-moderna-e-trafico-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "escravidao-moderna-e-trafico-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão colonial.</li><li>Demanda por trabalho nas Américas.</li><li>Comércio atlântico.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Africanos escravizados.</li><li>Traficantes.</li><li>Proprietários coloniais.</li><li>Estados europeus.</li><li>Comunidades resistentes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Captura e venda.</li><li>Travessia atlântica.</li><li>Trabalho forçado.</li><li>Violência e resistência.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento do tráfico.</li><li>Formação de sociedades escravistas.</li><li>Abolições após longas lutas.</li></ul></section></div>"
+    },
+    {
+      "id": "escravidao-moderna-e-trafico-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O tráfico causou mortes, separação de famílias e desigualdades profundas. Também houve preservação cultural e resistência."
+    },
+    {
+      "id": "escravidao-moderna-e-trafico-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Quilombos reuniam pessoas que fugiam da escravidão e criavam comunidades."
+    },
+    {
+      "id": "escravidao-moderna-e-trafico-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode combinar mapa do tráfico e fonte sobre resistência e pedir uma conclusão."
+    },
+    {
+      "id": "escravidao-moderna-e-trafico-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A escravidão moderna foi um sistema de exploração que transformou pessoas, sobretudo africanas, em propriedade e mão de obra forçada.",
+        "O tráfico causou mortes, separação de famílias e desigualdades profundas. Também houve preservação cultural e resistência."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A escravidão moderna foi um sistema de exploração que transformou pessoas, sobretudo africanas, em propriedade e mão de obra forçada.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão colonial.</li><li>Demanda por trabalho nas Américas.</li><li>Comércio atlântico.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Africanos escravizados.</li><li>Traficantes.</li><li>Proprietários coloniais.</li><li>Estados europeus.</li><li>Comunidades resistentes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Captura e venda.</li><li>Travessia atlântica.</li><li>Trabalho forçado.</li><li>Violência e resistência.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento do tráfico.</li><li>Formação de sociedades escravistas.</li><li>Abolições após longas lutas.</li></ul></section></div>",
+    "result": "O tráfico causou mortes, separação de famílias e desigualdades profundas. Também houve preservação cultural e resistência.",
+    "example": "Quilombos reuniam pessoas que fugiam da escravidão e criavam comunidades.",
+    "exam": "A prova pode combinar mapa do tráfico e fonte sobre resistência e pedir uma conclusão."
+  },
+  "visualType": ""
+}

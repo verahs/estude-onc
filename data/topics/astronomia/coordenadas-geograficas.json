@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-coordenadas-geograficas",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Coordenadas geográficas",
+  "blocks": [
+    {
+      "id": "coordenadas-geograficas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Coordenadas geográficas localizam pontos na superfície terrestre por latitude e longitude."
+    },
+    {
+      "id": "coordenadas-geograficas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Latitude</h5><ul><li>Mede a distância angular ao equador.</li><li>Varia de 0° a 90° Norte ou Sul.</li></ul></section><section><h5>Longitude</h5><ul><li>Mede a distância angular ao meridiano de Greenwich.</li><li>Varia de 0° a 180° Leste ou Oeste.</li></ul></section><section><h5>Como ler</h5><p>Primeiro identifica-se a latitude; depois, a longitude.</p></section>"
+    },
+    {
+      "id": "coordenadas-geograficas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Qualquer lugar da Terra pode ser localizado por um par de coordenadas."
+    },
+    {
+      "id": "coordenadas-geograficas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Brasília está aproximadamente a 16° Sul e 48° Oeste."
+    },
+    {
+      "id": "coordenadas-geograficas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar um mapa com paralelos e meridianos e pedir as coordenadas aproximadas de um ponto."
+    },
+    {
+      "id": "coordenadas-geograficas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Coordenadas geográficas localizam pontos na superfície terrestre por latitude e longitude.",
+        "Qualquer lugar da Terra pode ser localizado por um par de coordenadas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Coordenadas geográficas localizam pontos na superfície terrestre por latitude e longitude.",
+    "process": "<section><h5>Latitude</h5><ul><li>Mede a distância angular ao equador.</li><li>Varia de 0° a 90° Norte ou Sul.</li></ul></section><section><h5>Longitude</h5><ul><li>Mede a distância angular ao meridiano de Greenwich.</li><li>Varia de 0° a 180° Leste ou Oeste.</li></ul></section><section><h5>Como ler</h5><p>Primeiro identifica-se a latitude; depois, a longitude.</p></section>",
+    "result": "Qualquer lugar da Terra pode ser localizado por um par de coordenadas.",
+    "example": "Brasília está aproximadamente a 16° Sul e 48° Oeste.",
+    "exam": "A prova pode apresentar um mapa com paralelos e meridianos e pedir as coordenadas aproximadas de um ponto."
+  },
+  "visualType": ""
+}

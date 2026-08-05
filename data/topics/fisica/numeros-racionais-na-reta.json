@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-numeros-racionais-na-reta",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Números racionais na reta",
+  "blocks": [
+    {
+      "id": "numeros-racionais-na-reta-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Números racionais na reta é um conteúdo previsto no programa da ONC."
+    },
+    {
+      "id": "numeros-racionais-na-reta-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Frações e decimais são convertidos ou comparados e posicionados conforme seu valor."
+    },
+    {
+      "id": "numeros-racionais-na-reta-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Visualiza-se qual é maior, menor ou intermediário."
+    },
+    {
+      "id": "numeros-racionais-na-reta-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Observe uma situação cotidiana relacionada a números racionais na reta."
+    },
+    {
+      "id": "numeros-racionais-na-reta-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "0,5 fica entre: A) 0 e 1 B) 1 e 2 C) −2 e −1. Resposta: A."
+    },
+    {
+      "id": "numeros-racionais-na-reta-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "numeros-racionais-na-reta-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Números racionais na reta é um conteúdo previsto no programa da ONC.",
+        "Visualiza-se qual é maior, menor ou intermediário."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Números racionais na reta é um conteúdo previsto no programa da ONC.",
+    "process": "Frações e decimais são convertidos ou comparados e posicionados conforme seu valor.",
+    "result": "Visualiza-se qual é maior, menor ou intermediário.",
+    "example": "Observe uma situação cotidiana relacionada a números racionais na reta.",
+    "exam": "0,5 fica entre: A) 0 e 1 B) 1 e 2 C) −2 e −1. Resposta: A."
+  },
+  "visualType": ""
+}

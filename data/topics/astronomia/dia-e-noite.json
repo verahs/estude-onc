@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-dia-e-noite",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Dia e noite",
+  "blocks": [
+    {
+      "id": "dia-e-noite-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Dia e noite são períodos alternados de iluminação e escuridão causados pela rotação da Terra."
+    },
+    {
+      "id": "dia-e-noite-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Sequência do fenômeno</h5><ul><li>O Sol ilumina sempre metade da Terra.</li><li>A metade iluminada vive o dia.</li><li>A metade oposta vive a noite.</li><li>A rotação faz cada região passar alternadamente pelas duas situações.</li></ul></section>"
+    },
+    {
+      "id": "dia-e-noite-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Cada lugar da Terra apresenta horários de nascer e pôr do Sol que variam ao longo do ano."
+    },
+    {
+      "id": "dia-e-noite-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Às 12h, o Sol tende a estar mais alto no céu; ao entardecer, sua luz chega mais inclinada."
+    },
+    {
+      "id": "dia-e-noite-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode mostrar uma Terra parcialmente iluminada e pedir qual região está vivendo o dia."
+    },
+    {
+      "id": "dia-e-noite-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Dia e noite são períodos alternados de iluminação e escuridão causados pela rotação da Terra.",
+        "Cada lugar da Terra apresenta horários de nascer e pôr do Sol que variam ao longo do ano."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Dia e noite são períodos alternados de iluminação e escuridão causados pela rotação da Terra.",
+    "process": "<section><h5>Sequência do fenômeno</h5><ul><li>O Sol ilumina sempre metade da Terra.</li><li>A metade iluminada vive o dia.</li><li>A metade oposta vive a noite.</li><li>A rotação faz cada região passar alternadamente pelas duas situações.</li></ul></section>",
+    "result": "Cada lugar da Terra apresenta horários de nascer e pôr do Sol que variam ao longo do ano.",
+    "example": "Às 12h, o Sol tende a estar mais alto no céu; ao entardecer, sua luz chega mais inclinada.",
+    "exam": "A prova pode mostrar uma Terra parcialmente iluminada e pedir qual região está vivendo o dia."
+  },
+  "visualType": ""
+}

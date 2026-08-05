@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-rotacao",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Rotação",
+  "blocks": [
+    {
+      "id": "rotacao-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Rotação é o movimento da Terra em torno de seu próprio eixo. Uma volta completa dura aproximadamente 24 horas."
+    },
+    {
+      "id": "rotacao-observe",
+      "type": "observe",
+      "label": "Observe antes de responder",
+      "content": "Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno."
+    },
+    {
+      "id": "rotacao-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Como acontece</h5><ul><li>A Terra gira de oeste para leste.</li><li>A parte voltada para o Sol fica iluminada.</li><li>A parte oposta permanece na sombra.</li><li>À medida que a Terra gira, as regiões alternam dia e noite.</li></ul></section><section><h5>Consequências</h5><ul><li>Alternância entre dia e noite.</li><li>Movimento aparente do Sol de leste para oeste.</li><li>Formação dos fusos horários.</li><li>Leve achatamento da Terra nos polos.</li></ul></section>"
+    },
+    {
+      "id": "rotacao-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A rotação organiza o ciclo diário de luz e escuridão e explica por que diferentes lugares têm horários diferentes."
+    },
+    {
+      "id": "rotacao-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Quando amanhece em Brasília, em regiões do outro lado da Terra pode estar anoitecendo."
+    },
+    {
+      "id": "rotacao-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode mostrar duas cidades em lados opostos da Terra e pedir por que uma está no período diurno e a outra no noturno."
+    },
+    {
+      "id": "rotacao-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Rotação é o movimento da Terra em torno de seu próprio eixo. Uma volta completa dura aproximadamente 24 horas.",
+        "A rotação organiza o ciclo diário de luz e escuridão e explica por que diferentes lugares têm horários diferentes."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Rotação é o movimento da Terra em torno de seu próprio eixo. Uma volta completa dura aproximadamente 24 horas.",
+    "process": "<section><h5>Como acontece</h5><ul><li>A Terra gira de oeste para leste.</li><li>A parte voltada para o Sol fica iluminada.</li><li>A parte oposta permanece na sombra.</li><li>À medida que a Terra gira, as regiões alternam dia e noite.</li></ul></section><section><h5>Consequências</h5><ul><li>Alternância entre dia e noite.</li><li>Movimento aparente do Sol de leste para oeste.</li><li>Formação dos fusos horários.</li><li>Leve achatamento da Terra nos polos.</li></ul></section>",
+    "result": "A rotação organiza o ciclo diário de luz e escuridão e explica por que diferentes lugares têm horários diferentes.",
+    "example": "Quando amanhece em Brasília, em regiões do outro lado da Terra pode estar anoitecendo.",
+    "exam": "A prova pode mostrar duas cidades em lados opostos da Terra e pedir por que uma está no período diurno e a outra no noturno."
+  },
+  "visualType": "rotation"
+}

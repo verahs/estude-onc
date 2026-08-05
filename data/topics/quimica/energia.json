@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-energia",
+  "discipline": "Química",
+  "group": "Matéria, energia e transformações",
+  "title": "Energia",
+  "blocks": [
+    {
+      "id": "energia-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "É a capacidade de produzir mudanças ou realizar trabalho."
+    },
+    {
+      "id": "energia-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Energia pode ser transferida e transformada em formas térmica, elétrica, química, luminosa e mecânica."
+    },
+    {
+      "id": "energia-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Ela provoca movimento, aquecimento, luz ou outras mudanças."
+    },
+    {
+      "id": "energia-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A energia elétrica acende uma lâmpada."
+    },
+    {
+      "id": "energia-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Uma lâmpada transforma energia elétrica principalmente em: A) luz e calor B) massa C) volume. Resposta: A."
+    },
+    {
+      "id": "energia-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "energia-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "É a capacidade de produzir mudanças ou realizar trabalho.",
+        "Ela provoca movimento, aquecimento, luz ou outras mudanças."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "É a capacidade de produzir mudanças ou realizar trabalho.",
+    "process": "Energia pode ser transferida e transformada em formas térmica, elétrica, química, luminosa e mecânica.",
+    "result": "Ela provoca movimento, aquecimento, luz ou outras mudanças.",
+    "example": "A energia elétrica acende uma lâmpada.",
+    "exam": "Uma lâmpada transforma energia elétrica principalmente em: A) luz e calor B) massa C) volume. Resposta: A."
+  },
+  "visualType": ""
+}

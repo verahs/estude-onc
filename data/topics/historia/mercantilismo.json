@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-mercantilismo",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Mercantilismo",
+  "blocks": [
+    {
+      "id": "mercantilismo-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Mercantilismo foi o conjunto de práticas econômicas adotadas por monarquias europeias para fortalecer o Estado."
+    },
+    {
+      "id": "mercantilismo-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "mercantilismo-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão comercial marítima.</li><li>Formação de impérios coloniais.</li><li>Disputa por metais e mercados.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarquias.</li><li>Comerciantes.</li><li>Companhias de comércio.</li><li>Colonos e populações exploradas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Protecionismo.</li><li>Balança comercial favorável.</li><li>Metalismo.</li><li>Monopólio colonial.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação do comércio atlântico.</li><li>Maior intervenção estatal.</li><li>Exploração colonial.</li></ul></section></div>"
+    },
+    {
+      "id": "mercantilismo-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O mercantilismo fortaleceu Estados e comerciantes europeus, mas sustentou colonização e desigualdades."
+    },
+    {
+      "id": "mercantilismo-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma colônia era obrigada a vender certos produtos apenas à metrópole."
+    },
+    {
+      "id": "mercantilismo-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode apresentar lei de monopólio e pedir qual prática mercantilista aparece."
+    },
+    {
+      "id": "mercantilismo-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Mercantilismo foi o conjunto de práticas econômicas adotadas por monarquias europeias para fortalecer o Estado.",
+        "O mercantilismo fortaleceu Estados e comerciantes europeus, mas sustentou colonização e desigualdades."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Mercantilismo foi o conjunto de práticas econômicas adotadas por monarquias europeias para fortalecer o Estado.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão comercial marítima.</li><li>Formação de impérios coloniais.</li><li>Disputa por metais e mercados.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarquias.</li><li>Comerciantes.</li><li>Companhias de comércio.</li><li>Colonos e populações exploradas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Protecionismo.</li><li>Balança comercial favorável.</li><li>Metalismo.</li><li>Monopólio colonial.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação do comércio atlântico.</li><li>Maior intervenção estatal.</li><li>Exploração colonial.</li></ul></section></div>",
+    "result": "O mercantilismo fortaleceu Estados e comerciantes europeus, mas sustentou colonização e desigualdades.",
+    "example": "Uma colônia era obrigada a vender certos produtos apenas à metrópole.",
+    "exam": "A questão pode apresentar lei de monopólio e pedir qual prática mercantilista aparece."
+  },
+  "visualType": ""
+}

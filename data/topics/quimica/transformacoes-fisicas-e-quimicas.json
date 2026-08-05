@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-transformacoes-fisicas-e-quimicas",
+  "discipline": "Química",
+  "group": "Matéria, energia e transformações",
+  "title": "Transformações físicas e químicas",
+  "blocks": [
+    {
+      "id": "transformacoes-fisicas-e-quimicas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Transformações físicas e químicas é um conteúdo previsto no programa da ONC."
+    },
+    {
+      "id": "transformacoes-fisicas-e-quimicas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Na física, a substância mantém sua composição; na química, formam-se novas substâncias."
+    },
+    {
+      "id": "transformacoes-fisicas-e-quimicas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Derretimento é físico; combustão é química."
+    },
+    {
+      "id": "transformacoes-fisicas-e-quimicas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Observe uma situação cotidiana relacionada a transformações físicas e químicas."
+    },
+    {
+      "id": "transformacoes-fisicas-e-quimicas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Qual é transformação química? A) gelo derretendo B) ferro enferrujando C) papel cortado. Resposta: B."
+    },
+    {
+      "id": "transformacoes-fisicas-e-quimicas-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "transformacoes-fisicas-e-quimicas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Transformações físicas e químicas é um conteúdo previsto no programa da ONC.",
+        "Derretimento é físico; combustão é química."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Transformações físicas e químicas é um conteúdo previsto no programa da ONC.",
+    "process": "Na física, a substância mantém sua composição; na química, formam-se novas substâncias.",
+    "result": "Derretimento é físico; combustão é química.",
+    "example": "Observe uma situação cotidiana relacionada a transformações físicas e químicas.",
+    "exam": "Qual é transformação química? A) gelo derretendo B) ferro enferrujando C) papel cortado. Resposta: B."
+  },
+  "visualType": ""
+}

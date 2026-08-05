@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-sensacao-termica",
+  "discipline": "Física",
+  "group": "Máquinas, calor e temperatura",
+  "title": "Sensação térmica",
+  "blocks": [
+    {
+      "id": "sensacao-termica-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "É a percepção de frio ou calor, influenciada por vento, umidade e outros fatores."
+    },
+    {
+      "id": "sensacao-termica-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Vento, umidade, radiação e roupas alteram a troca de calor entre corpo e ambiente."
+    },
+    {
+      "id": "sensacao-termica-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A temperatura percebida pode diferir da medida pelo termômetro."
+    },
+    {
+      "id": "sensacao-termica-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Com vento forte, a sensação pode ser de temperatura menor."
+    },
+    {
+      "id": "sensacao-termica-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Com vento forte, a sensação pode ser de maior frio porque: A) aumenta a perda de calor B) o termômetro quebra C) o ar perde massa. Resposta: A."
+    },
+    {
+      "id": "sensacao-termica-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "sensacao-termica-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "É a percepção de frio ou calor, influenciada por vento, umidade e outros fatores.",
+        "A temperatura percebida pode diferir da medida pelo termômetro."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "É a percepção de frio ou calor, influenciada por vento, umidade e outros fatores.",
+    "process": "Vento, umidade, radiação e roupas alteram a troca de calor entre corpo e ambiente.",
+    "result": "A temperatura percebida pode diferir da medida pelo termômetro.",
+    "example": "Com vento forte, a sensação pode ser de temperatura menor.",
+    "exam": "Com vento forte, a sensação pode ser de maior frio porque: A) aumenta a perda de calor B) o termômetro quebra C) o ar perde massa. Resposta: A."
+  },
+  "visualType": ""
+}

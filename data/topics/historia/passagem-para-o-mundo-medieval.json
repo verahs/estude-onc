@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-passagem-para-o-mundo-medieval",
+  "discipline": "História",
+  "group": "Antiguidade e Idade Média",
+  "title": "Passagem para o mundo medieval",
+  "blocks": [
+    {
+      "id": "passagem-para-o-mundo-medieval-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A passagem para o mundo medieval foi o processo de transformação do Império Romano do Ocidente e formação de novas sociedades na Europa."
+    },
+    {
+      "id": "passagem-para-o-mundo-medieval-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "passagem-para-o-mundo-medieval-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crise política e econômica romana.</li><li>Migrações e invasões.</li><li>Ruralização.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Romanos.</li><li>Povos germânicos.</li><li>Igreja cristã.</li><li>Camponeses e elites locais.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Fragmentação política.</li><li>Economia rural.</li><li>Fusão de costumes romanos e germânicos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Queda do poder imperial no Ocidente.</li><li>Fortalecimento de poderes locais.</li><li>Expansão do cristianismo.</li></ul></section></div>"
+    },
+    {
+      "id": "passagem-para-o-mundo-medieval-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Formaram-se reinos e estruturas sociais que deram origem ao mundo medieval europeu."
+    },
+    {
+      "id": "passagem-para-o-mundo-medieval-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Antigos territórios romanos passaram a ser controlados por diferentes reinos germânicos."
+    },
+    {
+      "id": "passagem-para-o-mundo-medieval-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar mapa da fragmentação romana e pedir qual mudança política ocorreu."
+    },
+    {
+      "id": "passagem-para-o-mundo-medieval-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A passagem para o mundo medieval foi o processo de transformação do Império Romano do Ocidente e formação de novas sociedades na Europa.",
+        "Formaram-se reinos e estruturas sociais que deram origem ao mundo medieval europeu."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A passagem para o mundo medieval foi o processo de transformação do Império Romano do Ocidente e formação de novas sociedades na Europa.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crise política e econômica romana.</li><li>Migrações e invasões.</li><li>Ruralização.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Romanos.</li><li>Povos germânicos.</li><li>Igreja cristã.</li><li>Camponeses e elites locais.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Fragmentação política.</li><li>Economia rural.</li><li>Fusão de costumes romanos e germânicos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Queda do poder imperial no Ocidente.</li><li>Fortalecimento de poderes locais.</li><li>Expansão do cristianismo.</li></ul></section></div>",
+    "result": "Formaram-se reinos e estruturas sociais que deram origem ao mundo medieval europeu.",
+    "example": "Antigos territórios romanos passaram a ser controlados por diferentes reinos germânicos.",
+    "exam": "A prova pode apresentar mapa da fragmentação romana e pedir qual mudança política ocorreu."
+  },
+  "visualType": ""
+}

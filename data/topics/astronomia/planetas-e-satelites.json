@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-planetas-e-satelites",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "Planetas e satélites",
+  "blocks": [
+    {
+      "id": "planetas-e-satelites-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Planetas orbitam uma estrela e têm forma aproximadamente esférica. Satélites naturais orbitam planetas ou planetas anões."
+    },
+    {
+      "id": "planetas-e-satelites-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Planetas rochosos</h5><ul><li>Mercúrio, Vênus, Terra e Marte.</li><li>Menores, mais densos e com superfície sólida.</li></ul></section><section><h5>Planetas gigantes</h5><ul><li>Júpiter, Saturno, Urano e Netuno.</li><li>Maiores, compostos principalmente por gases e gelos.</li></ul></section><section><h5>Satélites</h5><p>Alguns planetas têm muitos satélites; Mercúrio e Vênus não possuem luas.</p></section>"
+    },
+    {
+      "id": "planetas-e-satelites-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A comparação entre planetas revela diferentes composições, atmosferas e condições ambientais."
+    },
+    {
+      "id": "planetas-e-satelites-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A Lua orbita a Terra, enquanto a Terra orbita o Sol."
+    },
+    {
+      "id": "planetas-e-satelites-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar uma tabela de densidade e tamanho e pedir qual corpo provavelmente é rochoso."
+    },
+    {
+      "id": "planetas-e-satelites-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Planetas orbitam uma estrela e têm forma aproximadamente esférica. Satélites naturais orbitam planetas ou planetas anões.",
+        "A comparação entre planetas revela diferentes composições, atmosferas e condições ambientais."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Planetas orbitam uma estrela e têm forma aproximadamente esférica. Satélites naturais orbitam planetas ou planetas anões.",
+    "process": "<section><h5>Planetas rochosos</h5><ul><li>Mercúrio, Vênus, Terra e Marte.</li><li>Menores, mais densos e com superfície sólida.</li></ul></section><section><h5>Planetas gigantes</h5><ul><li>Júpiter, Saturno, Urano e Netuno.</li><li>Maiores, compostos principalmente por gases e gelos.</li></ul></section><section><h5>Satélites</h5><p>Alguns planetas têm muitos satélites; Mercúrio e Vênus não possuem luas.</p></section>",
+    "result": "A comparação entre planetas revela diferentes composições, atmosferas e condições ambientais.",
+    "example": "A Lua orbita a Terra, enquanto a Terra orbita o Sol.",
+    "exam": "A prova pode apresentar uma tabela de densidade e tamanho e pedir qual corpo provavelmente é rochoso."
+  },
+  "visualType": ""
+}

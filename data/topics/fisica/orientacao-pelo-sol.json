@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-orientacao-pelo-sol",
+  "discipline": "Física",
+  "group": "Forma, estrutura e movimentos da Terra",
+  "title": "Orientação pelo Sol",
+  "blocks": [
+    {
+      "id": "orientacao-pelo-sol-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A posição aparente do Sol ajuda a estimar direções."
+    },
+    {
+      "id": "orientacao-pelo-sol-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "O Sol nasce aproximadamente a leste e se põe a oeste; a sombra muda de direção e tamanho ao longo do dia."
+    },
+    {
+      "id": "orientacao-pelo-sol-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "É possível estimar direções e horários aproximados."
+    },
+    {
+      "id": "orientacao-pelo-sol-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Pela manhã, o Sol aparece aproximadamente no leste."
+    },
+    {
+      "id": "orientacao-pelo-sol-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Se o Sol está nascendo à sua frente, você está voltado aproximadamente para: A) leste B) oeste C) sul. Resposta: A."
+    },
+    {
+      "id": "orientacao-pelo-sol-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "orientacao-pelo-sol-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A posição aparente do Sol ajuda a estimar direções.",
+        "É possível estimar direções e horários aproximados."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A posição aparente do Sol ajuda a estimar direções.",
+    "process": "O Sol nasce aproximadamente a leste e se põe a oeste; a sombra muda de direção e tamanho ao longo do dia.",
+    "result": "É possível estimar direções e horários aproximados.",
+    "example": "Pela manhã, o Sol aparece aproximadamente no leste.",
+    "exam": "Se o Sol está nascendo à sua frente, você está voltado aproximadamente para: A) leste B) oeste C) sul. Resposta: A."
+  },
+  "visualType": ""
+}

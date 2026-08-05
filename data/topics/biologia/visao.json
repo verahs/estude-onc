@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-visao",
+  "discipline": "Biologia",
+  "group": "Vida e corpo humano",
+  "title": "Visão",
+  "blocks": [
+    {
+      "id": "visao-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "O olho capta luz e o cérebro interpreta as informações visuais."
+    },
+    {
+      "id": "visao-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "A luz entra pela córnea e pupila, é focalizada pelo cristalino e forma uma imagem na retina. O nervo óptico leva sinais ao cérebro."
+    },
+    {
+      "id": "visao-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O cérebro interpreta formas, cores, distância e movimento."
+    },
+    {
+      "id": "visao-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A imagem de uma placa é formada no olho e interpretada pelo cérebro."
+    },
+    {
+      "id": "visao-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A estrutura que recebe a imagem no fundo do olho é a: A) retina B) íris C) pupila D) córnea. Resposta: A."
+    },
+    {
+      "id": "visao-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "visao-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "O olho capta luz e o cérebro interpreta as informações visuais.",
+        "O cérebro interpreta formas, cores, distância e movimento."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "O olho capta luz e o cérebro interpreta as informações visuais.",
+    "process": "A luz entra pela córnea e pupila, é focalizada pelo cristalino e forma uma imagem na retina. O nervo óptico leva sinais ao cérebro.",
+    "result": "O cérebro interpreta formas, cores, distância e movimento.",
+    "example": "A imagem de uma placa é formada no olho e interpretada pelo cérebro.",
+    "exam": "A estrutura que recebe a imagem no fundo do olho é a: A) retina B) íris C) pupila D) córnea. Resposta: A."
+  },
+  "visualType": ""
+}

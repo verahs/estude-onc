@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-reta-numerica",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos I",
+  "title": "Reta numérica",
+  "blocks": [
+    {
+      "id": "reta-numerica-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Reta numérica é um conteúdo previsto no programa da ONC."
+    },
+    {
+      "id": "reta-numerica-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Números são posicionados em ordem crescente da esquerda para a direita. A distância ao zero indica o valor absoluto."
+    },
+    {
+      "id": "reta-numerica-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "É possível comparar números e visualizar adições e subtrações."
+    },
+    {
+      "id": "reta-numerica-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Observe uma situação cotidiana relacionada a reta numérica."
+    },
+    {
+      "id": "reta-numerica-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Na reta numérica, qual número fica mais à direita? A) 3 B) 8 C) 1 D) 0. Resposta: B."
+    },
+    {
+      "id": "reta-numerica-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "reta-numerica-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Reta numérica é um conteúdo previsto no programa da ONC.",
+        "É possível comparar números e visualizar adições e subtrações."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Reta numérica é um conteúdo previsto no programa da ONC.",
+    "process": "Números são posicionados em ordem crescente da esquerda para a direita. A distância ao zero indica o valor absoluto.",
+    "result": "É possível comparar números e visualizar adições e subtrações.",
+    "example": "Observe uma situação cotidiana relacionada a reta numérica.",
+    "exam": "Na reta numérica, qual número fica mais à direita? A) 3 B) 8 C) 1 D) 0. Resposta: B."
+  },
+  "visualType": ""
+}

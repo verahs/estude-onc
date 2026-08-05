@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-fases-da-lua",
+  "discipline": "Astronomia",
+  "group": "Lua, Sol e movimentos",
+  "title": "Fases da Lua",
+  "blocks": [
+    {
+      "id": "fases-da-lua-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "As fases da Lua são mudanças na porção iluminada que vemos da Terra. Elas não são causadas pela sombra da Terra."
+    },
+    {
+      "id": "fases-da-lua-observe",
+      "type": "observe",
+      "label": "Observe antes de responder",
+      "content": "Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno."
+    },
+    {
+      "id": "fases-da-lua-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Como acontecem</h5><ul><li>Metade da Lua é sempre iluminada pelo Sol.</li><li>A Lua orbita a Terra.</li><li>De acordo com sua posição, vemos diferentes partes da metade iluminada.</li><li>As principais fases são nova, crescente, cheia e minguante.</li></ul></section><section><h5>Erro comum</h5><p>Eclipse lunar e fases da Lua são fenômenos diferentes.</p></section>"
+    },
+    {
+      "id": "fases-da-lua-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A aparência da Lua muda de forma regular durante cerca de 29,5 dias."
+    },
+    {
+      "id": "fases-da-lua-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Na Lua cheia, vemos quase toda a face voltada para a Terra iluminada."
+    },
+    {
+      "id": "fases-da-lua-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode mostrar posições Sol–Terra–Lua e pedir qual fase é observada."
+    },
+    {
+      "id": "fases-da-lua-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "As fases da Lua são mudanças na porção iluminada que vemos da Terra. Elas não são causadas pela sombra da Terra.",
+        "A aparência da Lua muda de forma regular durante cerca de 29,5 dias."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "As fases da Lua são mudanças na porção iluminada que vemos da Terra. Elas não são causadas pela sombra da Terra.",
+    "process": "<section><h5>Como acontecem</h5><ul><li>Metade da Lua é sempre iluminada pelo Sol.</li><li>A Lua orbita a Terra.</li><li>De acordo com sua posição, vemos diferentes partes da metade iluminada.</li><li>As principais fases são nova, crescente, cheia e minguante.</li></ul></section><section><h5>Erro comum</h5><p>Eclipse lunar e fases da Lua são fenômenos diferentes.</p></section>",
+    "result": "A aparência da Lua muda de forma regular durante cerca de 29,5 dias.",
+    "example": "Na Lua cheia, vemos quase toda a face voltada para a Terra iluminada.",
+    "exam": "A prova pode mostrar posições Sol–Terra–Lua e pedir qual fase é observada."
+  },
+  "visualType": "moon"
+}

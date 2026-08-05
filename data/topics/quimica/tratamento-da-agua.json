@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-tratamento-da-agua",
+  "discipline": "Química",
+  "group": "Misturas e tratamento",
+  "title": "Tratamento da água",
+  "blocks": [
+    {
+      "id": "tratamento-da-agua-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Combina etapas para remover impurezas e tornar a água adequada ao consumo."
+    },
+    {
+      "id": "tratamento-da-agua-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "A água passa por coagulação, floculação, decantação, filtração e desinfecção."
+    },
+    {
+      "id": "tratamento-da-agua-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Reduzem-se partículas e microrganismos, tornando-a adequada ao consumo."
+    },
+    {
+      "id": "tratamento-da-agua-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Filtração remove partículas suspensas."
+    },
+    {
+      "id": "tratamento-da-agua-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A etapa que retém partículas em filtros é: A) filtração B) combustão C) evaporação total. Resposta: A."
+    },
+    {
+      "id": "tratamento-da-agua-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "tratamento-da-agua-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Combina etapas para remover impurezas e tornar a água adequada ao consumo.",
+        "Reduzem-se partículas e microrganismos, tornando-a adequada ao consumo."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Combina etapas para remover impurezas e tornar a água adequada ao consumo.",
+    "process": "A água passa por coagulação, floculação, decantação, filtração e desinfecção.",
+    "result": "Reduzem-se partículas e microrganismos, tornando-a adequada ao consumo.",
+    "example": "Filtração remove partículas suspensas.",
+    "exam": "A etapa que retém partículas em filtros é: A) filtração B) combustão C) evaporação total. Resposta: A."
+  },
+  "visualType": "water"
+}

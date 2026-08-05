@@ -1,19 +1,21 @@
-# Estude ONC 3.0 — Sprint 1
+# Estude ONC 3.0 — Sprint 2
 
-Plataforma modular para preparação de estudantes do 6º e 7º ano para a ONC.
+Plataforma educacional modular para preparação para a ONC.
 
-## Nesta sprint
-- novo módulo Estudar com estrutura flexível;
-- blocos pedagógicos reutilizáveis;
-- modo de leitura focada;
-- impressão por tópico;
-- acessibilidade de expansão;
-- dados por disciplina em JSON;
-- 141 tópicos preservados.
+## O que mudou
+- 141 tópicos em arquivos JSON individuais;
+- catálogo mestre;
+- carregamento sob demanda;
+- cache e pré-carregamento;
+- melhor desempenho e manutenção;
+- CHANGELOG e teste de integridade.
 
-## Publicação no GitHub Pages
-Copie **todo o conteúdo** deste pacote para a raiz do repositório `estude-onc`.
-Depois faça `Commit to main` e `Push origin` no GitHub Desktop.
+## Validação técnica
+Com Node.js instalado, execute na raiz:
 
-O endereço publicado permanece:
-`https://verahs.github.io/estude-onc/`
+```bash
+node tests/validate-content.mjs
+```
+
+## Publicação
+Copie todo o conteúdo para a raiz do repositório, faça commit e push. O GitHub Pages atualizará automaticamente.

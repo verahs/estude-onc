@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-equacoes-de-1-grau",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Equações de 1º grau",
+  "blocks": [
+    {
+      "id": "equacoes-de-1-grau-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "São igualdades com incógnita elevada à primeira potência."
+    },
+    {
+      "id": "equacoes-de-1-grau-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Isola-se a incógnita realizando a mesma operação nos dois lados da igualdade."
+    },
+    {
+      "id": "equacoes-de-1-grau-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Encontra-se o valor que torna a igualdade verdadeira."
+    },
+    {
+      "id": "equacoes-de-1-grau-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Em x + 3 = 8, x vale 5."
+    },
+    {
+      "id": "equacoes-de-1-grau-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Em x+7=12, x vale: A) 5 B) 7 C) 12. Resposta: A."
+    },
+    {
+      "id": "equacoes-de-1-grau-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "equacoes-de-1-grau-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "São igualdades com incógnita elevada à primeira potência.",
+        "Encontra-se o valor que torna a igualdade verdadeira."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "São igualdades com incógnita elevada à primeira potência.",
+    "process": "Isola-se a incógnita realizando a mesma operação nos dois lados da igualdade.",
+    "result": "Encontra-se o valor que torna a igualdade verdadeira.",
+    "example": "Em x + 3 = 8, x vale 5.",
+    "exam": "Em x+7=12, x vale: A) 5 B) 7 C) 12. Resposta: A."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-translacao-da-terra",
+  "discipline": "Astronomia",
+  "group": "Lua, Sol e movimentos",
+  "title": "Translação da Terra",
+  "blocks": [
+    {
+      "id": "translacao-da-terra-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Translação é o movimento da Terra ao redor do Sol. Uma volta completa dura cerca de 365 dias e 6 horas."
+    },
+    {
+      "id": "translacao-da-terra-observe",
+      "type": "observe",
+      "label": "Observe antes de responder",
+      "content": "Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno."
+    },
+    {
+      "id": "translacao-da-terra-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Como acontece</h5><ul><li>A Terra percorre uma órbita elíptica.</li><li>O eixo terrestre mantém aproximadamente a mesma inclinação.</li><li>A posição da Terra em relação ao Sol muda ao longo do ano.</li></ul></section><section><h5>Consequências</h5><ul><li>Definição do ano.</li><li>Participação na formação das estações, junto com a inclinação do eixo.</li><li>Mudança das constelações visíveis ao longo do ano.</li></ul></section>"
+    },
+    {
+      "id": "translacao-da-terra-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A translação organiza o ciclo anual e, combinada com a inclinação do eixo, altera a iluminação dos hemisférios."
+    },
+    {
+      "id": "translacao-da-terra-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Após aproximadamente 365 dias, a Terra retorna a uma posição semelhante em sua órbita."
+    },
+    {
+      "id": "translacao-da-terra-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode perguntar qual movimento está relacionado à duração do ano."
+    },
+    {
+      "id": "translacao-da-terra-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Translação é o movimento da Terra ao redor do Sol. Uma volta completa dura cerca de 365 dias e 6 horas.",
+        "A translação organiza o ciclo anual e, combinada com a inclinação do eixo, altera a iluminação dos hemisférios."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Translação é o movimento da Terra ao redor do Sol. Uma volta completa dura cerca de 365 dias e 6 horas.",
+    "process": "<section><h5>Como acontece</h5><ul><li>A Terra percorre uma órbita elíptica.</li><li>O eixo terrestre mantém aproximadamente a mesma inclinação.</li><li>A posição da Terra em relação ao Sol muda ao longo do ano.</li></ul></section><section><h5>Consequências</h5><ul><li>Definição do ano.</li><li>Participação na formação das estações, junto com a inclinação do eixo.</li><li>Mudança das constelações visíveis ao longo do ano.</li></ul></section>",
+    "result": "A translação organiza o ciclo anual e, combinada com a inclinação do eixo, altera a iluminação dos hemisférios.",
+    "example": "Após aproximadamente 365 dias, a Terra retorna a uma posição semelhante em sua órbita.",
+    "exam": "A prova pode perguntar qual movimento está relacionado à duração do ano."
+  },
+  "visualType": ""
+}

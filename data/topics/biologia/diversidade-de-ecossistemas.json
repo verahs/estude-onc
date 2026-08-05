@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-diversidade-de-ecossistemas",
+  "discipline": "Biologia",
+  "group": "Ecologia e ambiente",
+  "title": "Diversidade de ecossistemas",
+  "blocks": [
+    {
+      "id": "diversidade-de-ecossistemas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Ecossistemas variam conforme água, solo, luz, temperatura, fauna e flora."
+    },
+    {
+      "id": "diversidade-de-ecossistemas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Clima, solo, água, luz e seres vivos interagem e criam ambientes com características próprias."
+    },
+    {
+      "id": "diversidade-de-ecossistemas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Cada ecossistema possui espécies e relações adaptadas às suas condições."
+    },
+    {
+      "id": "diversidade-de-ecossistemas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O Cerrado tem estação seca marcante e plantas adaptadas à falta de água."
+    },
+    {
+      "id": "diversidade-de-ecossistemas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "O Cerrado apresenta plantas adaptadas principalmente a: A) gelo permanente B) períodos de seca C) ausência de luz. Resposta: B."
+    },
+    {
+      "id": "diversidade-de-ecossistemas-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "diversidade-de-ecossistemas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Ecossistemas variam conforme água, solo, luz, temperatura, fauna e flora.",
+        "Cada ecossistema possui espécies e relações adaptadas às suas condições."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Ecossistemas variam conforme água, solo, luz, temperatura, fauna e flora.",
+    "process": "Clima, solo, água, luz e seres vivos interagem e criam ambientes com características próprias.",
+    "result": "Cada ecossistema possui espécies e relações adaptadas às suas condições.",
+    "example": "O Cerrado tem estação seca marcante e plantas adaptadas à falta de água.",
+    "exam": "O Cerrado apresenta plantas adaptadas principalmente a: A) gelo permanente B) períodos de seca C) ausência de luz. Resposta: B."
+  },
+  "visualType": "ecosystem"
+}

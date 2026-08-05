@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-memoria",
+  "discipline": "História",
+  "group": "História, tempo e fontes",
+  "title": "Memória",
+  "blocks": [
+    {
+      "id": "memoria-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Memória é a maneira como pessoas e grupos lembram e atribuem significado ao passado. Ela é seletiva e pode mudar com o tempo."
+    },
+    {
+      "id": "memoria-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "memoria-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Famílias e comunidades preservam lembranças por relatos, festas, monumentos e tradições.</li><li>Alguns acontecimentos são destacados e outros podem ser esquecidos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Indivíduos, famílias, comunidades e instituições.</li><li>Grupos que disputam reconhecimento de suas experiências.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Seleção do que será lembrado.</li><li>Transmissão por narrativas, símbolos e rituais.</li><li>Disputa entre versões do passado.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Memórias coletivas podem ser revistas.</li><li>Experiências antes silenciadas podem ganhar visibilidade.</li></ul></section></div>"
+    },
+    {
+      "id": "memoria-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A memória fortalece identidades, mas precisa ser comparada com outras fontes quando usada na pesquisa histórica."
+    },
+    {
+      "id": "memoria-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Um monumento pode homenagear um personagem, enquanto outro grupo recorda os conflitos ligados à sua atuação."
+    },
+    {
+      "id": "memoria-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar um depoimento e perguntar por que ele representa uma perspectiva, e não uma reprodução perfeita do passado."
+    },
+    {
+      "id": "memoria-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Memória é a maneira como pessoas e grupos lembram e atribuem significado ao passado. Ela é seletiva e pode mudar com o tempo.",
+        "A memória fortalece identidades, mas precisa ser comparada com outras fontes quando usada na pesquisa histórica."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Memória é a maneira como pessoas e grupos lembram e atribuem significado ao passado. Ela é seletiva e pode mudar com o tempo.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Famílias e comunidades preservam lembranças por relatos, festas, monumentos e tradições.</li><li>Alguns acontecimentos são destacados e outros podem ser esquecidos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Indivíduos, famílias, comunidades e instituições.</li><li>Grupos que disputam reconhecimento de suas experiências.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Seleção do que será lembrado.</li><li>Transmissão por narrativas, símbolos e rituais.</li><li>Disputa entre versões do passado.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Memórias coletivas podem ser revistas.</li><li>Experiências antes silenciadas podem ganhar visibilidade.</li></ul></section></div>",
+    "result": "A memória fortalece identidades, mas precisa ser comparada com outras fontes quando usada na pesquisa histórica.",
+    "example": "Um monumento pode homenagear um personagem, enquanto outro grupo recorda os conflitos ligados à sua atuação.",
+    "exam": "A prova pode apresentar um depoimento e perguntar por que ele representa uma perspectiva, e não uma reprodução perfeita do passado."
+  },
+  "visualType": ""
+}

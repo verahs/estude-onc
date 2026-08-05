@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-modernidade",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Modernidade",
+  "blocks": [
+    {
+      "id": "modernidade-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Modernidade, no contexto histórico escolar, refere-se às transformações ocorridas sobretudo entre os séculos XV e XVIII: fortalecimento dos Estados, expansão comercial, Renascimento, reformas religiosas e Revolução Científica."
+    },
+    {
+      "id": "modernidade-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "modernidade-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crise de estruturas feudais.</li><li>Crescimento das cidades e do comércio.</li><li>Expansão marítima.</li><li>Circulação de novas ideias.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarcas.</li><li>Burguesia.</li><li>Igrejas.</li><li>Navegadores.</li><li>Cientistas, artistas e camponeses.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Centralização política.</li><li>Mercantilismo.</li><li>Colonização.</li><li>Imprensa e circulação de ideias.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Fortalecimento dos Estados nacionais.</li><li>Ampliação do comércio mundial.</li><li>Questionamento de autoridades tradicionais.</li><li>Novas formas de compreender a natureza.</li></ul></section></div>"
+    },
+    {
+      "id": "modernidade-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A Modernidade transformou relações políticas, econômicas e culturais. Consolidou Estados, integrou continentes e favoreceu novas ideias científicas e religiosas."
+    },
+    {
+      "id": "modernidade-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A imprensa permitiu produzir mais livros e espalhar ideias rapidamente."
+    },
+    {
+      "id": "modernidade-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar mapa de navegações, pintura renascentista ou texto científico e pedir qual transformação moderna aparece."
+    },
+    {
+      "id": "modernidade-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Modernidade, no contexto histórico escolar, refere-se às transformações ocorridas sobretudo entre os séculos XV e XVIII: fortalecimento dos Estados, expansão comercial, Renascimento, reformas religiosas e Revolução Cient…",
+        "A Modernidade transformou relações políticas, econômicas e culturais. Consolidou Estados, integrou continentes e favoreceu novas ideias científicas e religiosas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Modernidade, no contexto histórico escolar, refere-se às transformações ocorridas sobretudo entre os séculos XV e XVIII: fortalecimento dos Estados, expansão comercial, Renascimento, reformas religiosas e Revolução Científica.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crise de estruturas feudais.</li><li>Crescimento das cidades e do comércio.</li><li>Expansão marítima.</li><li>Circulação de novas ideias.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarcas.</li><li>Burguesia.</li><li>Igrejas.</li><li>Navegadores.</li><li>Cientistas, artistas e camponeses.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Centralização política.</li><li>Mercantilismo.</li><li>Colonização.</li><li>Imprensa e circulação de ideias.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Fortalecimento dos Estados nacionais.</li><li>Ampliação do comércio mundial.</li><li>Questionamento de autoridades tradicionais.</li><li>Novas formas de compreender a natureza.</li></ul></section></div>",
+    "result": "A Modernidade transformou relações políticas, econômicas e culturais. Consolidou Estados, integrou continentes e favoreceu novas ideias científicas e religiosas.",
+    "example": "A imprensa permitiu produzir mais livros e espalhar ideias rapidamente.",
+    "exam": "A prova pode apresentar mapa de navegações, pintura renascentista ou texto científico e pedir qual transformação moderna aparece."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-ano-e-estacoes-do-ano",
+  "discipline": "Astronomia",
+  "group": "Lua, Sol e movimentos",
+  "title": "Ano e estações do ano",
+  "blocks": [
+    {
+      "id": "ano-e-estacoes-do-ano-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "As estações resultam da inclinação do eixo terrestre, de cerca de 23,5°, combinada com a translação."
+    },
+    {
+      "id": "ano-e-estacoes-do-ano-observe",
+      "type": "observe",
+      "label": "Observe antes de responder",
+      "content": "Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno."
+    },
+    {
+      "id": "ano-e-estacoes-do-ano-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Como se formam</h5><ul><li>Durante parte do ano, um hemisfério fica mais inclinado em direção ao Sol.</li><li>Esse hemisfério recebe luz mais direta e dias mais longos: verão.</li><li>O outro recebe luz mais inclinada e dias mais curtos: inverno.</li><li>Seis meses depois, a situação se inverte.</li></ul></section><section><h5>Erro comum</h5><p>As estações não são causadas principalmente pela distância da Terra ao Sol.</p></section>"
+    },
+    {
+      "id": "ano-e-estacoes-do-ano-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Os hemisférios apresentam estações opostas e variações na duração do dia."
+    },
+    {
+      "id": "ano-e-estacoes-do-ano-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Em dezembro, é verão no Brasil e inverno em grande parte da Europa."
+    },
+    {
+      "id": "ano-e-estacoes-do-ano-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode mostrar a Terra em quatro posições na órbita e pedir qual hemisfério está no verão."
+    },
+    {
+      "id": "ano-e-estacoes-do-ano-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "As estações resultam da inclinação do eixo terrestre, de cerca de 23,5°, combinada com a translação.",
+        "Os hemisférios apresentam estações opostas e variações na duração do dia."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "As estações resultam da inclinação do eixo terrestre, de cerca de 23,5°, combinada com a translação.",
+    "process": "<section><h5>Como se formam</h5><ul><li>Durante parte do ano, um hemisfério fica mais inclinado em direção ao Sol.</li><li>Esse hemisfério recebe luz mais direta e dias mais longos: verão.</li><li>O outro recebe luz mais inclinada e dias mais curtos: inverno.</li><li>Seis meses depois, a situação se inverte.</li></ul></section><section><h5>Erro comum</h5><p>As estações não são causadas principalmente pela distância da Terra ao Sol.</p></section>",
+    "result": "Os hemisférios apresentam estações opostas e variações na duração do dia.",
+    "example": "Em dezembro, é verão no Brasil e inverno em grande parte da Europa.",
+    "exam": "A prova pode mostrar a Terra em quatro posições na órbita e pedir qual hemisfério está no verão."
+  },
+  "visualType": ""
+}

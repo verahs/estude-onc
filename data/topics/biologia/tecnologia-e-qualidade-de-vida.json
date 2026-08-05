@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-tecnologia-e-qualidade-de-vida",
+  "discipline": "Biologia",
+  "group": "Saúde pública e tecnologia",
+  "title": "Tecnologia e qualidade de vida",
+  "blocks": [
+    {
+      "id": "tecnologia-e-qualidade-de-vida-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Tecnologias podem melhorar saúde, ambiente, comunicação e acesso a serviços."
+    },
+    {
+      "id": "tecnologia-e-qualidade-de-vida-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Tecnologias coletam dados, automatizam tarefas e ampliam acesso a saúde, comunicação e saneamento."
+    },
+    {
+      "id": "tecnologia-e-qualidade-de-vida-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Podem reduzir riscos e melhorar decisões, desde que usadas com responsabilidade."
+    },
+    {
+      "id": "tecnologia-e-qualidade-de-vida-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Sensores podem monitorar a qualidade do ar de uma cidade."
+    },
+    {
+      "id": "tecnologia-e-qualidade-de-vida-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Um sensor que mede a qualidade do ar ajuda principalmente a: A) monitorar poluição B) produzir oxigênio C) impedir o vento. Resposta: A."
+    },
+    {
+      "id": "tecnologia-e-qualidade-de-vida-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "tecnologia-e-qualidade-de-vida-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Tecnologias podem melhorar saúde, ambiente, comunicação e acesso a serviços.",
+        "Podem reduzir riscos e melhorar decisões, desde que usadas com responsabilidade."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Tecnologias podem melhorar saúde, ambiente, comunicação e acesso a serviços.",
+    "process": "Tecnologias coletam dados, automatizam tarefas e ampliam acesso a saúde, comunicação e saneamento.",
+    "result": "Podem reduzir riscos e melhorar decisões, desde que usadas com responsabilidade.",
+    "example": "Sensores podem monitorar a qualidade do ar de uma cidade.",
+    "exam": "Um sensor que mede a qualidade do ar ajuda principalmente a: A) monitorar poluição B) produzir oxigênio C) impedir o vento. Resposta: A."
+  },
+  "visualType": ""
+}

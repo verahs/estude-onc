@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-diferentes-tipos-de-agua",
+  "discipline": "Química",
+  "group": "Misturas e tratamento",
+  "title": "Diferentes tipos de água",
+  "blocks": [
+    {
+      "id": "diferentes-tipos-de-agua-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Água pode ser potável, mineral, destilada, salgada, doce ou residuária."
+    },
+    {
+      "id": "diferentes-tipos-de-agua-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "A água varia conforme sais, contaminantes e uso: potável, mineral, destilada, salgada, doce ou residuária."
+    },
+    {
+      "id": "diferentes-tipos-de-agua-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Nem toda água transparente é própria para beber."
+    },
+    {
+      "id": "diferentes-tipos-de-agua-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Água do mar contém grande quantidade de sais."
+    },
+    {
+      "id": "diferentes-tipos-de-agua-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Água potável é aquela: A) adequada ao consumo B) sem moléculas C) sempre salgada. Resposta: A."
+    },
+    {
+      "id": "diferentes-tipos-de-agua-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "diferentes-tipos-de-agua-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Água pode ser potável, mineral, destilada, salgada, doce ou residuária.",
+        "Nem toda água transparente é própria para beber."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Água pode ser potável, mineral, destilada, salgada, doce ou residuária.",
+    "process": "A água varia conforme sais, contaminantes e uso: potável, mineral, destilada, salgada, doce ou residuária.",
+    "result": "Nem toda água transparente é própria para beber.",
+    "example": "Água do mar contém grande quantidade de sais.",
+    "exam": "Água potável é aquela: A) adequada ao consumo B) sem moléculas C) sempre salgada. Resposta: A."
+  },
+  "visualType": ""
+}

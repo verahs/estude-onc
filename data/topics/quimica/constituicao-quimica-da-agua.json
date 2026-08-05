@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-constituicao-quimica-da-agua",
+  "discipline": "Química",
+  "group": "Ar, água e propriedades",
+  "title": "Constituição química da água",
+  "blocks": [
+    {
+      "id": "constituicao-quimica-da-agua-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A molécula de água é formada por hidrogênio e oxigênio."
+    },
+    {
+      "id": "constituicao-quimica-da-agua-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Cada molécula de água possui dois átomos de hidrogênio e um de oxigênio."
+    },
+    {
+      "id": "constituicao-quimica-da-agua-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A fórmula H₂O representa essa proporção."
+    },
+    {
+      "id": "constituicao-quimica-da-agua-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Sua fórmula é H₂O."
+    },
+    {
+      "id": "constituicao-quimica-da-agua-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A fórmula da água é: A) CO₂ B) H₂O C) O₂. Resposta: B."
+    },
+    {
+      "id": "constituicao-quimica-da-agua-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "constituicao-quimica-da-agua-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A molécula de água é formada por hidrogênio e oxigênio.",
+        "A fórmula H₂O representa essa proporção."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A molécula de água é formada por hidrogênio e oxigênio.",
+    "process": "Cada molécula de água possui dois átomos de hidrogênio e um de oxigênio.",
+    "result": "A fórmula H₂O representa essa proporção.",
+    "example": "Sua fórmula é H₂O.",
+    "exam": "A fórmula da água é: A) CO₂ B) H₂O C) O₂. Resposta: B."
+  },
+  "visualType": ""
+}

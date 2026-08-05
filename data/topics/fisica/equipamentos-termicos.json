@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-equipamentos-termicos",
+  "discipline": "Física",
+  "group": "Máquinas, calor e temperatura",
+  "title": "Equipamentos térmicos",
+  "blocks": [
+    {
+      "id": "equipamentos-termicos-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Dispositivos térmicos controlam transferência de calor."
+    },
+    {
+      "id": "equipamentos-termicos-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Garrafa térmica, coletor solar e refrigerador controlam transferências de calor por isolamento, absorção ou retirada de energia."
+    },
+    {
+      "id": "equipamentos-termicos-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Mantêm, aumentam ou reduzem temperaturas."
+    },
+    {
+      "id": "equipamentos-termicos-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A garrafa térmica reduz trocas de calor com o ambiente."
+    },
+    {
+      "id": "equipamentos-termicos-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A garrafa térmica funciona principalmente reduzindo: A) trocas de calor B) massa do líquido C) pressão do ar. Resposta: A."
+    },
+    {
+      "id": "equipamentos-termicos-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "equipamentos-termicos-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Dispositivos térmicos controlam transferência de calor.",
+        "Mantêm, aumentam ou reduzem temperaturas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Dispositivos térmicos controlam transferência de calor.",
+    "process": "Garrafa térmica, coletor solar e refrigerador controlam transferências de calor por isolamento, absorção ou retirada de energia.",
+    "result": "Mantêm, aumentam ou reduzem temperaturas.",
+    "example": "A garrafa térmica reduz trocas de calor com o ambiente.",
+    "exam": "A garrafa térmica funciona principalmente reduzindo: A) trocas de calor B) massa do líquido C) pressão do ar. Resposta: A."
+  },
+  "visualType": ""
+}

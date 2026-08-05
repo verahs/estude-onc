@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-vacinacao",
+  "discipline": "Biologia",
+  "group": "Saúde pública e tecnologia",
+  "title": "Vacinação",
+  "blocks": [
+    {
+      "id": "vacinacao-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Vacinas estimulam o sistema imunológico a reconhecer agentes causadores de doenças."
+    },
+    {
+      "id": "vacinacao-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "A vacina apresenta ao organismo um antígeno seguro ou instruções para produzi-lo. O sistema imune cria memória e responde mais rápido em contato futuro."
+    },
+    {
+      "id": "vacinacao-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Reduzem-se casos graves, internações e circulação de agentes infecciosos."
+    },
+    {
+      "id": "vacinacao-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A vacinação em massa ajuda a reduzir a circulação de vírus."
+    },
+    {
+      "id": "vacinacao-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A vacina protege porque: A) substitui o sistema imune B) estimula memória imunológica C) elimina toda bactéria do ambiente. Resposta: B."
+    },
+    {
+      "id": "vacinacao-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "vacinacao-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Vacinas estimulam o sistema imunológico a reconhecer agentes causadores de doenças.",
+        "Reduzem-se casos graves, internações e circulação de agentes infecciosos."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Vacinas estimulam o sistema imunológico a reconhecer agentes causadores de doenças.",
+    "process": "A vacina apresenta ao organismo um antígeno seguro ou instruções para produzi-lo. O sistema imune cria memória e responde mais rápido em contato futuro.",
+    "result": "Reduzem-se casos graves, internações e circulação de agentes infecciosos.",
+    "example": "A vacinação em massa ajuda a reduzir a circulação de vírus.",
+    "exam": "A vacina protege porque: A) substitui o sistema imune B) estimula memória imunológica C) elimina toda bactéria do ambiente. Resposta: B."
+  },
+  "visualType": ""
+}

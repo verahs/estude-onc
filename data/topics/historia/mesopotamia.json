@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-mesopotamia",
+  "discipline": "História",
+  "group": "Antiguidade e Idade Média",
+  "title": "Mesopotâmia",
+  "blocks": [
+    {
+      "id": "mesopotamia-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Mesopotâmia foi a região entre os rios Tigre e Eufrates onde surgiram cidades e Estados como Suméria, Babilônia e Assíria."
+    },
+    {
+      "id": "mesopotamia-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "mesopotamia-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Rios favoreciam agricultura.</li><li>Cheias exigiam canais e organização coletiva.</li><li>A região possuía terras férteis, mas poucos recursos minerais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Camponeses.</li><li>Sacerdotes.</li><li>Governantes.</li><li>Escribas.</li><li>Artesãos e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cidades-Estado.</li><li>Templos.</li><li>Irrigação.</li><li>Tributos.</li><li>Escrita cuneiforme.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento urbano.</li><li>Criação de leis.</li><li>Disputas entre cidades e impérios.</li></ul></section></div>"
+    },
+    {
+      "id": "mesopotamia-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A Mesopotâmia desenvolveu escrita, legislação, cidades e sistemas de irrigação que influenciaram sociedades posteriores."
+    },
+    {
+      "id": "mesopotamia-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Canais levavam água dos rios até campos em períodos secos."
+    },
+    {
+      "id": "mesopotamia-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar imagem de canal ou tabuleta e pedir qual necessidade social está representada."
+    },
+    {
+      "id": "mesopotamia-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Mesopotâmia foi a região entre os rios Tigre e Eufrates onde surgiram cidades e Estados como Suméria, Babilônia e Assíria.",
+        "A Mesopotâmia desenvolveu escrita, legislação, cidades e sistemas de irrigação que influenciaram sociedades posteriores."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Mesopotâmia foi a região entre os rios Tigre e Eufrates onde surgiram cidades e Estados como Suméria, Babilônia e Assíria.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Rios favoreciam agricultura.</li><li>Cheias exigiam canais e organização coletiva.</li><li>A região possuía terras férteis, mas poucos recursos minerais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Camponeses.</li><li>Sacerdotes.</li><li>Governantes.</li><li>Escribas.</li><li>Artesãos e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cidades-Estado.</li><li>Templos.</li><li>Irrigação.</li><li>Tributos.</li><li>Escrita cuneiforme.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento urbano.</li><li>Criação de leis.</li><li>Disputas entre cidades e impérios.</li></ul></section></div>",
+    "result": "A Mesopotâmia desenvolveu escrita, legislação, cidades e sistemas de irrigação que influenciaram sociedades posteriores.",
+    "example": "Canais levavam água dos rios até campos em períodos secos.",
+    "exam": "A prova pode apresentar imagem de canal ou tabuleta e pedir qual necessidade social está representada."
+  },
+  "visualType": ""
+}

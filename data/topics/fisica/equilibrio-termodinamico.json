@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-equilibrio-termodinamico",
+  "discipline": "Física",
+  "group": "Máquinas, calor e temperatura",
+  "title": "Equilíbrio termodinâmico",
+  "blocks": [
+    {
+      "id": "equilibrio-termodinamico-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Ocorre quando corpos em contato chegam à mesma temperatura."
+    },
+    {
+      "id": "equilibrio-termodinamico-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Corpos em contato trocam calor até atingirem a mesma temperatura."
+    },
+    {
+      "id": "equilibrio-termodinamico-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Depois do equilíbrio, não há fluxo líquido de calor entre eles."
+    },
+    {
+      "id": "equilibrio-termodinamico-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma bebida gelada esquenta até se aproximar da temperatura do ambiente."
+    },
+    {
+      "id": "equilibrio-termodinamico-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Uma bebida gelada deixada na sala tende a: A) aproximar-se da temperatura ambiente B) ficar cada vez mais fria C) congelar sempre. Resposta: A."
+    },
+    {
+      "id": "equilibrio-termodinamico-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "equilibrio-termodinamico-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Ocorre quando corpos em contato chegam à mesma temperatura.",
+        "Depois do equilíbrio, não há fluxo líquido de calor entre eles."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Ocorre quando corpos em contato chegam à mesma temperatura.",
+    "process": "Corpos em contato trocam calor até atingirem a mesma temperatura.",
+    "result": "Depois do equilíbrio, não há fluxo líquido de calor entre eles.",
+    "example": "Uma bebida gelada esquenta até se aproximar da temperatura do ambiente.",
+    "exam": "Uma bebida gelada deixada na sala tende a: A) aproximar-se da temperatura ambiente B) ficar cada vez mais fria C) congelar sempre. Resposta: A."
+  },
+  "visualType": ""
+}

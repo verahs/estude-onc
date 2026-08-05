@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-forma-da-terra",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Forma da Terra",
+  "blocks": [
+    {
+      "id": "forma-da-terra-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A Terra tem forma aproximadamente esférica, mais precisamente um esferoide oblato: é levemente achatada nos polos e mais larga na região do equador."
+    },
+    {
+      "id": "forma-da-terra-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Evidências que confirmam a forma da Terra</h5><ul><li>A sombra da Terra projetada na Lua durante eclipses lunares é sempre curva.</li><li>Navios que se afastam desaparecem primeiro pelo casco e depois pelas partes mais altas.</li><li>As estrelas visíveis mudam conforme a latitude do observador.</li><li>Fotografias e medições feitas por satélites confirmam a curvatura.</li></ul></section><section><h5>Por que não é uma esfera perfeita?</h5><p>A rotação da Terra provoca um pequeno abaulamento na região do equador e achatamento nos polos.</p></section>"
+    },
+    {
+      "id": "forma-da-terra-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A forma da Terra explica a curvatura do horizonte, a distribuição desigual da luz solar e a necessidade de representar o planeta por globos e mapas."
+    },
+    {
+      "id": "forma-da-terra-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Ao observar um navio se afastando no mar, a parte inferior desaparece antes do mastro. Isso ocorre por causa da curvatura terrestre."
+    },
+    {
+      "id": "forma-da-terra-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar a sombra da Terra durante um eclipse lunar e perguntar qual característica do planeta pode ser inferida dessa observação."
+    },
+    {
+      "id": "forma-da-terra-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A Terra tem forma aproximadamente esférica, mais precisamente um esferoide oblato: é levemente achatada nos polos e mais larga na região do equador.",
+        "A forma da Terra explica a curvatura do horizonte, a distribuição desigual da luz solar e a necessidade de representar o planeta por globos e mapas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A Terra tem forma aproximadamente esférica, mais precisamente um esferoide oblato: é levemente achatada nos polos e mais larga na região do equador.",
+    "process": "<section><h5>Evidências que confirmam a forma da Terra</h5><ul><li>A sombra da Terra projetada na Lua durante eclipses lunares é sempre curva.</li><li>Navios que se afastam desaparecem primeiro pelo casco e depois pelas partes mais altas.</li><li>As estrelas visíveis mudam conforme a latitude do observador.</li><li>Fotografias e medições feitas por satélites confirmam a curvatura.</li></ul></section><section><h5>Por que não é uma esfera perfeita?</h5><p>A rotação da Terra provoca um pequeno abaulamento na região do equador e achatamento nos polos.</p></section>",
+    "result": "A forma da Terra explica a curvatura do horizonte, a distribuição desigual da luz solar e a necessidade de representar o planeta por globos e mapas.",
+    "example": "Ao observar um navio se afastando no mar, a parte inferior desaparece antes do mastro. Isso ocorre por causa da curvatura terrestre.",
+    "exam": "A prova pode apresentar a sombra da Terra durante um eclipse lunar e perguntar qual característica do planeta pode ser inferida dessa observação."
+  },
+  "visualType": ""
+}

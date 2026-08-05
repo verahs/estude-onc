@@ -1,0 +1,1120 @@
+{
+  "schemaVersion": "1.0",
+  "contentSchemaVersion": "2.1",
+  "generatedFor": "Estude ONC 3.0 — Sprint 2",
+  "topicCount": 141,
+  "subjects": [
+    {
+      "name": "Astronomia",
+      "slug": "astronomia",
+      "icon": "🌌",
+      "groups": [
+        {
+          "name": "Terra e orientação",
+          "topics": [
+            {
+              "id": "astronomia-forma-da-terra",
+              "title": "Forma da Terra",
+              "file": "topics/astronomia/forma-da-terra.json",
+              "searchText": "A Terra tem forma aproximadamente esférica, mais precisamente um esferoide oblato: é levemente achatada nos polos e mais larga na região do equador. Evidências que confirmam a forma da Terra A sombra da Terra projetada na Lua durante eclipses lunares é sempre curva. Navios que se afastam desaparecem primeiro pelo casco e depois pelas partes mais altas. As estrelas visíveis mudam conforme a latitude do observador. Fotografias e medições feitas por satélites confirmam a curvatura. Por que não é uma esfera perfeita? A rotação da Terra provoca um pequeno abaulamento na região do equador e achatamento nos polos. A forma da Terra explica a curvatura do horizonte, a distribuição desigual da luz solar e a necessidade de representar o planeta por globos e mapas. Ao observar um navio se afastando no mar, a parte inferior desaparece antes do mastro. Isso ocorre por causa da curvatura terrestre. A prova pode apresentar a sombra da Terra durante um eclipse lunar e perguntar qual característica do planeta pode ser inferida dessa observação. A Terra tem forma aproximadamente esférica, mais precisamente um esferoide oblato: é levemente achatada nos polos e mais larga na região do equador. A forma da Terra explica a curvatura do horizonte, a distribuição desigual da luz solar e a necessidade de representar o planeta por globos e mapas.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-atmosfera",
+              "title": "Atmosfera",
+              "file": "topics/astronomia/atmosfera.json",
+              "searchText": "A atmosfera é a camada de gases mantida ao redor da Terra pela gravidade. Ela é formada principalmente por nitrogênio e oxigênio. Funções principais Fornecer gases essenciais à vida. Filtrar parte da radiação ultravioleta. Ajudar a regular a temperatura. Permitir a formação de ventos, nuvens e chuvas. Reduzir o impacto de pequenos meteoroides. Camadas Troposfera: onde vivemos e onde ocorre a maior parte do tempo meteorológico. Estratosfera: onde se concentra a camada de ozônio. Mesosfera, termosfera e exosfera: regiões superiores, com ar muito rarefeito. Sem atmosfera, a Terra teria temperaturas extremas, não haveria chuva e a vida como conhecemos seria inviável. Quando nuvens se formam e ocorre chuva, o fenômeno acontece principalmente na troposfera. A ONC pode apresentar um esquema das camadas da atmosfera e pedir em qual delas ocorrem nuvens e chuvas. A atmosfera é a camada de gases mantida ao redor da Terra pela gravidade. Ela é formada principalmente por nitrogênio e oxigênio. Sem atmosfera, a Terra teria temperaturas extremas, não haveria chuva e a vida como conhecemos seria inviável.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-rotacao",
+              "title": "Rotação",
+              "file": "topics/astronomia/rotacao.json",
+              "searchText": "Rotação é o movimento da Terra em torno de seu próprio eixo. Uma volta completa dura aproximadamente 24 horas. Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno. Como acontece A Terra gira de oeste para leste. A parte voltada para o Sol fica iluminada. A parte oposta permanece na sombra. À medida que a Terra gira, as regiões alternam dia e noite. Consequências Alternância entre dia e noite. Movimento aparente do Sol de leste para oeste. Formação dos fusos horários. Leve achatamento da Terra nos polos. A rotação organiza o ciclo diário de luz e escuridão e explica por que diferentes lugares têm horários diferentes. Quando amanhece em Brasília, em regiões do outro lado da Terra pode estar anoitecendo. A prova pode mostrar duas cidades em lados opostos da Terra e pedir por que uma está no período diurno e a outra no noturno. Rotação é o movimento da Terra em torno de seu próprio eixo. Uma volta completa dura aproximadamente 24 horas. A rotação organiza o ciclo diário de luz e escuridão e explica por que diferentes lugares têm horários diferentes.",
+              "visualType": "rotation"
+            },
+            {
+              "id": "astronomia-polos-e-equador",
+              "title": "Polos e equador",
+              "file": "topics/astronomia/polos-e-equador.json",
+              "searchText": "Os polos Norte e Sul são os pontos onde o eixo imaginário da Terra atravessa a superfície. O equador é uma linha imaginária que divide o planeta em hemisférios Norte e Sul. O que é importante saber O equador corresponde à latitude 0°. Os polos correspondem às latitudes 90° Norte e 90° Sul. Regiões próximas ao equador recebem luz solar mais diretamente. Regiões polares recebem luz mais inclinada. A posição em relação ao equador influencia temperatura, duração do dia e zonas climáticas. O Brasil é atravessado pelo equador e possui grande parte do território na zona tropical. A prova pode apresentar um mapa e pedir em qual hemisfério está uma cidade situada ao sul do equador. Os polos Norte e Sul são os pontos onde o eixo imaginário da Terra atravessa a superfície. O equador é uma linha imaginária que divide o planeta em hemisférios Norte e Sul. A posição em relação ao equador influencia temperatura, duração do dia e zonas climáticas.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-pontos-cardeais",
+              "title": "Pontos cardeais",
+              "file": "topics/astronomia/pontos-cardeais.json",
+              "searchText": "Pontos cardeais são direções de referência: norte, sul, leste e oeste. Entre eles estão os pontos colaterais: nordeste, sudeste, sudoeste e noroeste. Como se orientar O Sol nasce aproximadamente a leste. O Sol se põe aproximadamente a oeste. Em mapas, o norte costuma ficar na parte superior. A rosa dos ventos representa as direções. Os pontos cardeais permitem descrever trajetos, interpretar mapas e localizar objetos no espaço. Se uma escola está a leste de uma praça, ela fica na direção aproximada do nascer do Sol. A questão pode apresentar uma rosa dos ventos e um trajeto e pedir a direção correta do deslocamento. Pontos cardeais são direções de referência: norte, sul, leste e oeste. Entre eles estão os pontos colaterais: nordeste, sudeste, sudoeste e noroeste. Os pontos cardeais permitem descrever trajetos, interpretar mapas e localizar objetos no espaço.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-dia-e-noite",
+              "title": "Dia e noite",
+              "file": "topics/astronomia/dia-e-noite.json",
+              "searchText": "Dia e noite são períodos alternados de iluminação e escuridão causados pela rotação da Terra. Sequência do fenômeno O Sol ilumina sempre metade da Terra. A metade iluminada vive o dia. A metade oposta vive a noite. A rotação faz cada região passar alternadamente pelas duas situações. Cada lugar da Terra apresenta horários de nascer e pôr do Sol que variam ao longo do ano. Às 12h, o Sol tende a estar mais alto no céu; ao entardecer, sua luz chega mais inclinada. A prova pode mostrar uma Terra parcialmente iluminada e pedir qual região está vivendo o dia. Dia e noite são períodos alternados de iluminação e escuridão causados pela rotação da Terra. Cada lugar da Terra apresenta horários de nascer e pôr do Sol que variam ao longo do ano.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-estrutura-interna-da-terra",
+              "title": "Estrutura interna da Terra",
+              "file": "topics/astronomia/estrutura-interna-da-terra.json",
+              "searchText": "A Terra possui três grandes camadas: crosta, manto e núcleo. O núcleo divide-se em externo e interno. Camadas Crosta: camada externa, fina e sólida. Manto: camada espessa de rochas muito quentes, que podem se deformar lentamente. Núcleo externo: líquido e rico em ferro e níquel. Núcleo interno: sólido devido à enorme pressão. Relação com fenômenos Movimentos lentos do manto participam do deslocamento das placas tectônicas. O núcleo externo contribui para o campo magnético terrestre. A energia interna da Terra está relacionada a terremotos, vulcanismo e movimento das placas. Erupções vulcânicas mostram que há materiais muito quentes no interior do planeta. A questão pode apresentar um corte da Terra e pedir em qual camada se encontra a crosta ou o núcleo. A Terra possui três grandes camadas: crosta, manto e núcleo. O núcleo divide-se em externo e interno. A energia interna da Terra está relacionada a terremotos, vulcanismo e movimento das placas.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-alteracoes-na-superficie",
+              "title": "Alterações na superfície",
+              "file": "topics/astronomia/alteracoes-na-superficie.json",
+              "searchText": "A superfície terrestre é modificada por processos internos, como tectonismo e vulcanismo, e externos, como erosão, intemperismo e sedimentação. Processos externos Intemperismo: quebra e alteração das rochas. Erosão: remoção e transporte de partículas. Sedimentação: deposição do material transportado. Processos internos Movimento de placas tectônicas. Terremotos. Vulcanismo. Formação de montanhas. A paisagem muda continuamente, formando vales, montanhas, dunas, deltas e cânions. A água de um rio pode desgastar margens, transportar sedimentos e depositá-los mais adiante. A ONC pode apresentar antes e depois de uma paisagem e pedir qual processo geológico ocorreu. A superfície terrestre é modificada por processos internos, como tectonismo e vulcanismo, e externos, como erosão, intemperismo e sedimentação. A paisagem muda continuamente, formando vales, montanhas, dunas, deltas e cânions.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-mares",
+              "title": "Marés",
+              "file": "topics/astronomia/mares.json",
+              "searchText": "Marés são elevações e abaixamentos periódicos do nível do mar causados principalmente pela atração gravitacional da Lua e, em menor grau, do Sol. Como acontecem A Lua atrai a água dos oceanos. Forma-se uma elevação na direção da Lua e outra no lado oposto. Com a rotação da Terra, as regiões passam por maré alta e maré baixa. Lua nova e cheia tendem a produzir marés mais intensas. O nível do mar varia ao longo do dia, afetando navegação, pesca e áreas costeiras. Uma faixa de areia pode ficar larga na maré baixa e quase desaparecer na maré alta. A prova pode comparar fases da Lua e amplitudes de maré e pedir em quais fases ocorrem marés mais intensas. Marés são elevações e abaixamentos periódicos do nível do mar causados principalmente pela atração gravitacional da Lua e, em menor grau, do Sol. O nível do mar varia ao longo do dia, afetando navegação, pesca e áreas costeiras.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-bussola",
+              "title": "Bússola",
+              "file": "topics/astronomia/bussola.json",
+              "searchText": "A bússola é um instrumento com uma agulha magnetizada que se alinha aproximadamente ao campo magnético da Terra. Como funciona A Terra possui um campo magnético. A agulha pode girar livremente. Uma extremidade aponta aproximadamente para o norte magnético. A outra aponta para o sul magnético. Limitação Norte magnético e norte geográfico não coincidem exatamente. A bússola ajuda na orientação mesmo quando o Sol ou estrelas não estão visíveis. Em uma trilha, uma bússola pode indicar a direção norte para conferir o caminho no mapa. A questão pode perguntar por que uma bússola funciona e qual campo físico atua sobre sua agulha. A bússola é um instrumento com uma agulha magnetizada que se alinha aproximadamente ao campo magnético da Terra. A bússola ajuda na orientação mesmo quando o Sol ou estrelas não estão visíveis.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-fusos-horarios",
+              "title": "Fusos horários",
+              "file": "topics/astronomia/fusos-horarios.json",
+              "searchText": "Fusos horários são faixas da Terra que adotam horários diferentes por causa da rotação do planeta. Relação entre longitude e tempo A Terra gira 360° em 24 horas. 360° ÷ 24 = 15° por hora. Cada 15° de longitude corresponde aproximadamente a 1 hora. A leste, o horário tende a ser adiantado; a oeste, atrasado. Exemplo resolvido Distância entre duas cidades: 45° de longitude. 45° ÷ 15° = 3. Diferença aproximada: 3 horas. Cidades em longitudes diferentes podem apresentar horários distintos no mesmo instante. Quando é manhã no Brasil, em países da Ásia pode ser noite. A prova pode apresentar um mapa com longitudes e pedir a diferença de horário entre duas cidades. Anote os dados, identifique a unidade pedida e resolva uma etapa de cada vez. Antes de marcar a resposta, confira se o resultado faz sentido. Fusos horários são faixas da Terra que adotam horários diferentes por causa da rotação do planeta. Cidades em longitudes diferentes podem apresentar horários distintos no mesmo instante.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-ecliptica",
+              "title": "Eclíptica",
+              "file": "topics/astronomia/ecliptica.json",
+              "searchText": "Eclíptica é o caminho aparente que o Sol percorre no céu ao longo do ano, resultado do movimento de translação da Terra. Como interpretar A Terra orbita o Sol. À medida que muda de posição, vemos o Sol projetado diante de diferentes constelações. Esse caminho aparente forma uma faixa no céu. As constelações próximas ao Sol mudam ao longo dos meses. Algumas constelações são visíveis em determinadas épocas do ano e não em outras. A questão pode apresentar uma sequência anual de posições aparentes do Sol e pedir qual movimento da Terra explica a mudança. Eclíptica é o caminho aparente que o Sol percorre no céu ao longo do ano, resultado do movimento de translação da Terra. As constelações próximas ao Sol mudam ao longo dos meses.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-coordenadas-geograficas",
+              "title": "Coordenadas geográficas",
+              "file": "topics/astronomia/coordenadas-geograficas.json",
+              "searchText": "Coordenadas geográficas localizam pontos na superfície terrestre por latitude e longitude. Latitude Mede a distância angular ao equador. Varia de 0° a 90° Norte ou Sul. Longitude Mede a distância angular ao meridiano de Greenwich. Varia de 0° a 180° Leste ou Oeste. Como ler Primeiro identifica-se a latitude; depois, a longitude. Qualquer lugar da Terra pode ser localizado por um par de coordenadas. Brasília está aproximadamente a 16° Sul e 48° Oeste. A prova pode apresentar um mapa com paralelos e meridianos e pedir as coordenadas aproximadas de um ponto. Coordenadas geográficas localizam pontos na superfície terrestre por latitude e longitude. Qualquer lugar da Terra pode ser localizado por um par de coordenadas.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-solsticio-e-equinocio",
+              "title": "Solstício e equinócio",
+              "file": "topics/astronomia/solsticio-e-equinocio.json",
+              "searchText": "Solstícios e equinócios são momentos do ano relacionados à inclinação do eixo terrestre e à translação. Solstício Marca o dia mais longo ou mais curto do ano em cada hemisfério. Relaciona-se ao início de verão ou inverno. Equinócio Dia e noite têm duração aproximadamente igual. Relaciona-se ao início de primavera ou outono. Esses eventos marcam mudanças na duração do dia e nas estações. No equinócio de março, dia e noite têm duração próxima de 12 horas. A questão pode apresentar duração do dia e pedir se o fenômeno corresponde a solstício ou equinócio. Solstícios e equinócios são momentos do ano relacionados à inclinação do eixo terrestre e à translação. Esses eventos marcam mudanças na duração do dia e nas estações.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-zonas-termicas",
+              "title": "Zonas térmicas",
+              "file": "topics/astronomia/zonas-termicas.json",
+              "searchText": "Zonas térmicas são grandes faixas da Terra definidas pela quantidade de energia solar recebida: tropical, temperadas e polares. Por que recebem energia diferente A Terra é curva. Os raios solares chegam mais diretamente perto do equador. Chegam mais inclinados nas altas latitudes. A mesma energia espalha-se por áreas diferentes. As zonas apresentam padrões distintos de temperatura e duração das estações. Regiões tropicais tendem a apresentar menor variação anual de temperatura do que regiões temperadas. A prova pode comparar o ângulo dos raios solares e pedir qual região recebe maior aquecimento. Zonas térmicas são grandes faixas da Terra definidas pela quantidade de energia solar recebida: tropical, temperadas e polares. As zonas apresentam padrões distintos de temperatura e duração das estações.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Lua, Sol e movimentos",
+          "topics": [
+            {
+              "id": "astronomia-fases-da-lua",
+              "title": "Fases da Lua",
+              "file": "topics/astronomia/fases-da-lua.json",
+              "searchText": "As fases da Lua são mudanças na porção iluminada que vemos da Terra. Elas não são causadas pela sombra da Terra. Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno. Como acontecem Metade da Lua é sempre iluminada pelo Sol. A Lua orbita a Terra. De acordo com sua posição, vemos diferentes partes da metade iluminada. As principais fases são nova, crescente, cheia e minguante. Erro comum Eclipse lunar e fases da Lua são fenômenos diferentes. A aparência da Lua muda de forma regular durante cerca de 29,5 dias. Na Lua cheia, vemos quase toda a face voltada para a Terra iluminada. A prova pode mostrar posições Sol–Terra–Lua e pedir qual fase é observada. As fases da Lua são mudanças na porção iluminada que vemos da Terra. Elas não são causadas pela sombra da Terra. A aparência da Lua muda de forma regular durante cerca de 29,5 dias.",
+              "visualType": "moon"
+            },
+            {
+              "id": "astronomia-mes-lunar",
+              "title": "Mês lunar",
+              "file": "topics/astronomia/mes-lunar.json",
+              "searchText": "Mês lunar é o intervalo entre duas fases iguais consecutivas da Lua, aproximadamente 29,5 dias. Sequência Lua nova. Quarto crescente. Lua cheia. Quarto minguante. Retorno à Lua nova. O ciclo lunar influencia calendários, observações do céu e marés. De uma Lua cheia até a próxima passam cerca de 29 dias e meio. A questão pode apresentar datas de observação e pedir quando uma fase semelhante deve ocorrer novamente. Mês lunar é o intervalo entre duas fases iguais consecutivas da Lua, aproximadamente 29,5 dias. O ciclo lunar influencia calendários, observações do céu e marés.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-eclipses",
+              "title": "Eclipses",
+              "file": "topics/astronomia/eclipses.json",
+              "searchText": "Eclipse é o bloqueio total ou parcial da luz de um astro devido ao alinhamento entre Sol, Terra e Lua. Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno. Eclipse solar A Lua fica entre a Terra e o Sol. A sombra da Lua atinge uma pequena região da Terra. Ocorre na fase de Lua nova. Eclipse lunar A Terra fica entre o Sol e a Lua. A sombra da Terra atinge a Lua. Ocorre na fase de Lua cheia. Por que não ocorre todo mês? A órbita da Lua é inclinada em relação ao plano da órbita da Terra; na maioria das vezes, o alinhamento não é perfeito. Eclipses são fenômenos previsíveis, mas visíveis apenas em determinadas regiões ou horários. Num eclipse solar total, o dia escurece por alguns minutos na faixa atingida pela sombra da Lua. A prova pode apresentar dois esquemas de alinhamento e pedir qual representa eclipse solar e qual representa lunar. Eclipse é o bloqueio total ou parcial da luz de um astro devido ao alinhamento entre Sol, Terra e Lua. Eclipses são fenômenos previsíveis, mas visíveis apenas em determinadas regiões ou horários.",
+              "visualType": "eclipse"
+            },
+            {
+              "id": "astronomia-translacao-da-terra",
+              "title": "Translação da Terra",
+              "file": "topics/astronomia/translacao-da-terra.json",
+              "searchText": "Translação é o movimento da Terra ao redor do Sol. Uma volta completa dura cerca de 365 dias e 6 horas. Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno. Como acontece A Terra percorre uma órbita elíptica. O eixo terrestre mantém aproximadamente a mesma inclinação. A posição da Terra em relação ao Sol muda ao longo do ano. Consequências Definição do ano. Participação na formação das estações, junto com a inclinação do eixo. Mudança das constelações visíveis ao longo do ano. A translação organiza o ciclo anual e, combinada com a inclinação do eixo, altera a iluminação dos hemisférios. Após aproximadamente 365 dias, a Terra retorna a uma posição semelhante em sua órbita. A prova pode perguntar qual movimento está relacionado à duração do ano. Translação é o movimento da Terra ao redor do Sol. Uma volta completa dura cerca de 365 dias e 6 horas. A translação organiza o ciclo anual e, combinada com a inclinação do eixo, altera a iluminação dos hemisférios.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-ano-e-estacoes-do-ano",
+              "title": "Ano e estações do ano",
+              "file": "topics/astronomia/ano-e-estacoes-do-ano.json",
+              "searchText": "As estações resultam da inclinação do eixo terrestre, de cerca de 23,5°, combinada com a translação. Preste atenção à posição dos astros, à direção da luz e ao movimento representado. Em Astronomia, mudar a posição de um elemento pode mudar completamente o fenômeno. Como se formam Durante parte do ano, um hemisfério fica mais inclinado em direção ao Sol. Esse hemisfério recebe luz mais direta e dias mais longos: verão. O outro recebe luz mais inclinada e dias mais curtos: inverno. Seis meses depois, a situação se inverte. Erro comum As estações não são causadas principalmente pela distância da Terra ao Sol. Os hemisférios apresentam estações opostas e variações na duração do dia. Em dezembro, é verão no Brasil e inverno em grande parte da Europa. A prova pode mostrar a Terra em quatro posições na órbita e pedir qual hemisfério está no verão. As estações resultam da inclinação do eixo terrestre, de cerca de 23,5°, combinada com a translação. Os hemisférios apresentam estações opostas e variações na duração do dia.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Sistema Solar e Universo",
+          "topics": [
+            {
+              "id": "astronomia-objetos-do-sistema-solar",
+              "title": "Objetos do Sistema Solar",
+              "file": "topics/astronomia/objetos-do-sistema-solar.json",
+              "searchText": "O Sistema Solar é formado pelo Sol e por todos os corpos que permanecem ligados a ele pela gravidade. Principais componentes O Sol. Oito planetas. Planetas anões. Satélites naturais. Asteroides. Cometas. Meteoroides, poeira e gás. Organização geral Os planetas orbitam o Sol em trajetórias aproximadamente elípticas e quase no mesmo plano. O Sistema Solar apresenta grande diversidade de tamanhos, composições e distâncias. A Terra é um planeta; a Lua é seu satélite natural; o Sol é uma estrela. A ONC pode apresentar imagens de vários corpos e pedir sua classificação correta. O Sistema Solar é formado pelo Sol e por todos os corpos que permanecem ligados a ele pela gravidade. O Sistema Solar apresenta grande diversidade de tamanhos, composições e distâncias.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-planetas-e-satelites",
+              "title": "Planetas e satélites",
+              "file": "topics/astronomia/planetas-e-satelites.json",
+              "searchText": "Planetas orbitam uma estrela e têm forma aproximadamente esférica. Satélites naturais orbitam planetas ou planetas anões. Planetas rochosos Mercúrio, Vênus, Terra e Marte. Menores, mais densos e com superfície sólida. Planetas gigantes Júpiter, Saturno, Urano e Netuno. Maiores, compostos principalmente por gases e gelos. Satélites Alguns planetas têm muitos satélites; Mercúrio e Vênus não possuem luas. A comparação entre planetas revela diferentes composições, atmosferas e condições ambientais. A Lua orbita a Terra, enquanto a Terra orbita o Sol. A prova pode apresentar uma tabela de densidade e tamanho e pedir qual corpo provavelmente é rochoso. Planetas orbitam uma estrela e têm forma aproximadamente esférica. Satélites naturais orbitam planetas ou planetas anões. A comparação entre planetas revela diferentes composições, atmosferas e condições ambientais.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-asteroides-e-cometas",
+              "title": "Asteroides e cometas",
+              "file": "topics/astronomia/asteroides-e-cometas.json",
+              "searchText": "Asteroides são corpos predominantemente rochosos ou metálicos; cometas possuem gelo, poeira e rocha. Asteroides Muitos estão no cinturão entre Marte e Júpiter. Não formam cauda ao se aproximar do Sol. Cometas Possuem órbitas geralmente alongadas. Ao se aproximar do Sol, o gelo sublima. Formam coma e cauda, que aponta para longe do Sol. Esses corpos preservam materiais antigos da formação do Sistema Solar. Um cometa pode ficar visível durante semanas quando passa próximo ao Sol. A prova pode comparar duas imagens e perguntar qual corpo apresenta cauda e por quê. Asteroides são corpos predominantemente rochosos ou metálicos; cometas possuem gelo, poeira e rocha. Esses corpos preservam materiais antigos da formação do Sistema Solar.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-estrelas-e-galaxias",
+              "title": "Estrelas e galáxias",
+              "file": "topics/astronomia/estrelas-e-galaxias.json",
+              "searchText": "Estrelas são enormes esferas de plasma que produzem energia por fusão nuclear. Galáxias são grandes conjuntos de estrelas, gás, poeira e matéria escura. Estrelas Nascem em nuvens de gás e poeira. Produzem energia ao fundir núcleos leves. Apresentam diferentes cores e temperaturas. Galáxias Podem ser espirais, elípticas ou irregulares. A Via Láctea é a galáxia do Sistema Solar. A luz das estrelas permite estudar temperatura, composição e distância. O Sol é uma estrela localizada na Via Láctea. A prova pode apresentar cores estelares e pedir qual estrela tem maior temperatura superficial. Estrelas são enormes esferas de plasma que produzem energia por fusão nuclear. Galáxias são grandes conjuntos de estrelas, gás, poeira e matéria escura. A luz das estrelas permite estudar temperatura, composição e distância.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-constelacoes",
+              "title": "Constelações",
+              "file": "topics/astronomia/constelacoes.json",
+              "searchText": "Constelações são regiões oficialmente definidas do céu. As figuras imaginadas ligam estrelas que, em geral, estão a distâncias muito diferentes. Como são usadas Organizam o mapa do céu. Ajudam a localizar estrelas e outros objetos. Foram usadas na orientação e em calendários. Aparência A posição aparente muda ao longo da noite por causa da rotação da Terra e ao longo do ano por causa da translação. Diferentes constelações são visíveis conforme a época do ano e o hemisfério. O Cruzeiro do Sul é usado como referência aproximada para localizar o sul celeste. A prova pode apresentar fotografias do céu em horários diferentes e pedir qual movimento explica a mudança aparente. Constelações são regiões oficialmente definidas do céu. As figuras imaginadas ligam estrelas que, em geral, estão a distâncias muito diferentes. Diferentes constelações são visíveis conforme a época do ano e o hemisfério.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-origem-do-universo",
+              "title": "Origem do Universo",
+              "file": "topics/astronomia/origem-do-universo.json",
+              "searchText": "O modelo do Big Bang afirma que o Universo começou, há cerca de 13,8 bilhões de anos, em um estado muito quente e denso e vem se expandindo. Evidências principais Expansão das galáxias. Radiação cósmica de fundo. Abundância de elementos leves, como hidrogênio e hélio. Atenção O Big Bang não foi uma explosão em um ponto vazio; foi a expansão do próprio espaço. Com o resfriamento, formaram-se partículas, átomos, estrelas, galáxias e sistemas planetários. Ao observar galáxias distantes, vemos como eram há bilhões de anos, porque sua luz levou muito tempo para chegar. A prova pode apresentar o desvio para o vermelho de galáxias e perguntar qual conclusão ele sustenta. O modelo do Big Bang afirma que o Universo começou, há cerca de 13,8 bilhões de anos, em um estado muito quente e denso e vem se expandindo. Com o resfriamento, formaram-se partículas, átomos, estrelas, galáxias e sistemas planetários.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-historia-da-astronomia",
+              "title": "História da Astronomia",
+              "file": "topics/astronomia/historia-da-astronomia.json",
+              "searchText": "A História da Astronomia estuda como diferentes povos observaram o céu e desenvolveram explicações sobre os astros. Mudanças importantes Modelos geocêntricos colocavam a Terra no centro. Copérnico propôs o modelo heliocêntrico. Galileu usou telescópio para obter novas evidências. Kepler descreveu órbitas elípticas. Newton explicou a gravitação. Participação de diferentes povos Civilizações indígenas, africanas, asiáticas, americanas e europeias desenvolveram calendários e conhecimentos astronômicos. A Astronomia avançou pela combinação entre observação, instrumentos, matemática e revisão de modelos. As fases de Vênus observadas por Galileu apoiaram o modelo heliocêntrico. A questão pode apresentar duas explicações históricas e pedir qual evidência favoreceu uma delas. A História da Astronomia estuda como diferentes povos observaram o céu e desenvolveram explicações sobre os astros. A Astronomia avançou pela combinação entre observação, instrumentos, matemática e revisão de modelos.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-conquista-do-espaco",
+              "title": "Conquista do espaço",
+              "file": "topics/astronomia/conquista-do-espaco.json",
+              "searchText": "Conquista do espaço é o desenvolvimento de tecnologias para enviar satélites, sondas e pessoas além da atmosfera terrestre. Marcos Sputnik 1: primeiro satélite artificial, em 1957. Yuri Gagarin: primeiro ser humano no espaço, em 1961. Apollo 11: primeira chegada humana à Lua, em 1969. Sondas e telescópios espaciais ampliaram o conhecimento do Sistema Solar e do Universo. Aplicações atuais Comunicação. Previsão do tempo. GPS. Monitoramento ambiental. Pesquisa científica. A exploração espacial gerou conhecimento e tecnologias usadas no cotidiano. Satélites meteorológicos acompanham nuvens, tempestades e queimadas. A prova pode apresentar imagem de satélite e pedir qual aplicação tecnológica está representada. Conquista do espaço é o desenvolvimento de tecnologias para enviar satélites, sondas e pessoas além da atmosfera terrestre. A exploração espacial gerou conhecimento e tecnologias usadas no cotidiano.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-gravitacao-e-peso",
+              "title": "Gravitação e peso",
+              "file": "topics/astronomia/gravitacao-e-peso.json",
+              "searchText": "Gravitação é a atração entre corpos que possuem massa. Peso é a força gravitacional exercida sobre um corpo. Massa e peso Massa é a quantidade de matéria e não muda quando o corpo vai para outro astro. Peso depende da gravidade local. Na Lua, a gravidade é menor; por isso, o peso é menor. Cálculo simples Peso = massa × gravidade. Para uma massa de 10 kg na Terra: P ≈ 10 × 10 = 100 N. Na Lua, o peso seria cerca de 1/6 desse valor. A gravidade mantém planetas em órbita e faz objetos caírem em direção ao solo. Um astronauta salta mais alto na Lua porque seu peso é menor, embora sua massa seja a mesma. A questão pode comparar massa e peso de um astronauta na Terra e na Lua. Anote os dados, identifique a unidade pedida e resolva uma etapa de cada vez. Antes de marcar a resposta, confira se o resultado faz sentido. Gravitação é a atração entre corpos que possuem massa. Peso é a força gravitacional exercida sobre um corpo. A gravidade mantém planetas em órbita e faz objetos caírem em direção ao solo.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-unidade-astronomica",
+              "title": "Unidade Astronômica",
+              "file": "topics/astronomia/unidade-astronomica.json",
+              "searchText": "Unidade Astronômica (UA) é a distância média entre a Terra e o Sol, cerca de 150 milhões de quilômetros. Para que serve Expressar distâncias dentro do Sistema Solar. Evitar números muito grandes em quilômetros. Exemplo resolvido Júpiter está a aproximadamente 5,2 UA do Sol. 5,2 × 150 milhões km ≈ 780 milhões km. Logo, sua distância média é cerca de 780 milhões de quilômetros. A UA facilita comparações entre órbitas planetárias. A Terra está a 1 UA do Sol; Marte, aproximadamente a 1,5 UA. A prova pode fornecer uma distância em UA e pedir a conversão aproximada para quilômetros. Anote os dados, identifique a unidade pedida e resolva uma etapa de cada vez. Antes de marcar a resposta, confira se o resultado faz sentido. Unidade Astronômica (UA) é a distância média entre a Terra e o Sol, cerca de 150 milhões de quilômetros. A UA facilita comparações entre órbitas planetárias.",
+              "visualType": ""
+            },
+            {
+              "id": "astronomia-ano-luz-e-unidades-luz",
+              "title": "Ano-luz e unidades-luz",
+              "file": "topics/astronomia/ano-luz-e-unidades-luz.json",
+              "searchText": "Ano-luz é uma unidade de distância: corresponde à distância percorrida pela luz em um ano, cerca de 9,46 trilhões de quilômetros. O que não significa Ano-luz não mede tempo; mede distância. Outras unidades-luz Segundo-luz: distância percorrida pela luz em 1 segundo. Minuto-luz: distância percorrida em 1 minuto. A luz do Sol leva cerca de 8 minutos para chegar à Terra. Interpretação Ver uma estrela a 100 anos-luz significa vê-la como era 100 anos atrás. Unidades-luz permitem expressar distâncias enormes entre estrelas e galáxias. Se uma estrela está a 4 anos-luz, sua luz leva cerca de 4 anos para chegar até nós. A prova pode perguntar por que observar objetos distantes também é observar o passado. Anote os dados, identifique a unidade pedida e resolva uma etapa de cada vez. Antes de marcar a resposta, confira se o resultado faz sentido. Ano-luz é uma unidade de distância: corresponde à distância percorrida pela luz em um ano, cerca de 9,46 trilhões de quilômetros. Unidades-luz permitem expressar distâncias enormes entre estrelas e galáxias.",
+              "visualType": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biologia",
+      "slug": "biologia",
+      "icon": "🧬",
+      "groups": [
+        {
+          "name": "Vida e corpo humano",
+          "topics": [
+            {
+              "id": "biologia-celula-como-unidade-da-vida",
+              "title": "Célula como unidade da vida",
+              "file": "topics/biologia/celula-como-unidade-da-vida.json",
+              "searchText": "A célula é a menor unidade estrutural e funcional dos seres vivos. As células realizam funções essenciais, como obter energia, produzir substâncias e reproduzir-se. Organismos podem ter uma única célula ou muitas. Tecidos, órgãos e sistemas só existem porque suas células trabalham de forma organizada. A pele é formada por muitas células organizadas em tecidos. A menor unidade capaz de realizar funções vitais é: A) órgão B) célula C) tecido D) sistema. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? A célula é a menor unidade estrutural e funcional dos seres vivos. Tecidos, órgãos e sistemas só existem porque suas células trabalham de forma organizada.",
+              "visualType": "cell"
+            },
+            {
+              "id": "biologia-organizacao-dos-seres-vivos",
+              "title": "Organização dos seres vivos",
+              "file": "topics/biologia/organizacao-dos-seres-vivos.json",
+              "searchText": "Células formam tecidos, tecidos formam órgãos e órgãos formam sistemas. Células semelhantes formam tecidos; tecidos formam órgãos; órgãos associados formam sistemas; sistemas constituem o organismo. O corpo funciona de modo integrado, com níveis de organização dependentes uns dos outros. Células musculares formam tecido muscular, presente em órgãos como o coração. Qual sequência está correta? A) órgão→célula→tecido B) célula→tecido→órgão→sistema C) sistema→célula→órgão. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Células formam tecidos, tecidos formam órgãos e órgãos formam sistemas. O corpo funciona de modo integrado, com níveis de organização dependentes uns dos outros.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-sistema-locomotor-e-nervoso",
+              "title": "Sistema locomotor e nervoso",
+              "file": "topics/biologia/sistema-locomotor-e-nervoso.json",
+              "searchText": "Movimento e sustentação dependem da ação integrada dos sistemas ósseo, muscular e nervoso. O sistema nervoso envia comandos; músculos se contraem; ossos e articulações sustentam e permitem o movimento. Movimentos voluntários, postura e reflexos dependem dessa integração. Para chutar uma bola, o cérebro envia comandos aos músculos ligados aos ossos. Para chutar uma bola, trabalham principalmente: A) digestório e respiratório B) nervoso, muscular e ósseo C) urinário e reprodutor. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Movimento e sustentação dependem da ação integrada dos sistemas ósseo, muscular e nervoso. Movimentos voluntários, postura e reflexos dependem dessa integração.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-sistema-nervoso",
+              "title": "Sistema nervoso",
+              "file": "topics/biologia/sistema-nervoso.json",
+              "searchText": "Coordena ações, sensações e respostas do organismo. Receptores captam estímulos; nervos conduzem sinais; encéfalo e medula processam informações; músculos ou glândulas executam respostas. O organismo percebe mudanças e reage rapidamente. Ao tocar algo quente, o corpo reage rapidamente afastando a mão. Ao retirar a mão de um objeto quente, o sistema que coordena a resposta é o: A) nervoso B) digestório C) urinário D) respiratório. Resposta: A. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Coordena ações, sensações e respostas do organismo. O organismo percebe mudanças e reage rapidamente.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-substancias-psicoativas",
+              "title": "Substâncias psicoativas",
+              "file": "topics/biologia/substancias-psicoativas.json",
+              "searchText": "Podem alterar a atividade do sistema nervoso, a percepção e o comportamento. Essas substâncias alteram a comunicação entre neurônios, podendo estimular, reduzir ou distorcer a atividade do sistema nervoso. Podem mudar percepção, humor, reflexos, memória e coordenação. Álcool pode reduzir reflexos e coordenação motora. Uma substância que reduz os reflexos aumenta o risco no trânsito porque: A) melhora a visão B) aumenta o tempo de reação C) diminui a distância de frenagem. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Podem alterar a atividade do sistema nervoso, a percepção e o comportamento. Podem mudar percepção, humor, reflexos, memória e coordenação.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-visao",
+              "title": "Visão",
+              "file": "topics/biologia/visao.json",
+              "searchText": "O olho capta luz e o cérebro interpreta as informações visuais. A luz entra pela córnea e pupila, é focalizada pelo cristalino e forma uma imagem na retina. O nervo óptico leva sinais ao cérebro. O cérebro interpreta formas, cores, distância e movimento. A imagem de uma placa é formada no olho e interpretada pelo cérebro. A estrutura que recebe a imagem no fundo do olho é a: A) retina B) íris C) pupila D) córnea. Resposta: A. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? O olho capta luz e o cérebro interpreta as informações visuais. O cérebro interpreta formas, cores, distância e movimento.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-lentes-corretivas",
+              "title": "Lentes corretivas",
+              "file": "topics/biologia/lentes-corretivas.json",
+              "searchText": "Lentes alteram o caminho da luz para corrigir problemas de visão. Lentes convergentes ou divergentes desviam a luz para que ela seja focalizada corretamente na retina. Óculos e lentes de contato melhoram a nitidez da visão. Óculos podem ajudar uma pessoa com miopia a enxergar objetos distantes. A função principal das lentes corretivas é: A) mudar a cor dos olhos B) ajustar o foco da luz na retina C) produzir lágrimas. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Lentes alteram o caminho da luz para corrigir problemas de visão. Óculos e lentes de contato melhoram a nitidez da visão.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Ecologia e ambiente",
+          "topics": [
+            {
+              "id": "biologia-diversidade-de-ecossistemas",
+              "title": "Diversidade de ecossistemas",
+              "file": "topics/biologia/diversidade-de-ecossistemas.json",
+              "searchText": "Ecossistemas variam conforme água, solo, luz, temperatura, fauna e flora. Clima, solo, água, luz e seres vivos interagem e criam ambientes com características próprias. Cada ecossistema possui espécies e relações adaptadas às suas condições. O Cerrado tem estação seca marcante e plantas adaptadas à falta de água. O Cerrado apresenta plantas adaptadas principalmente a: A) gelo permanente B) períodos de seca C) ausência de luz. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Ecossistemas variam conforme água, solo, luz, temperatura, fauna e flora. Cada ecossistema possui espécies e relações adaptadas às suas condições.",
+              "visualType": "ecosystem"
+            },
+            {
+              "id": "biologia-fenomenos-naturais",
+              "title": "Fenômenos naturais",
+              "file": "topics/biologia/fenomenos-naturais.json",
+              "searchText": "Eventos naturais podem modificar ambientes e populações. Enchentes, secas, incêndios naturais, erupções e tempestades alteram habitats e disponibilidade de recursos. Populações podem diminuir, migrar ou modificar hábitos. Uma enchente pode destruir abrigos de animais e alterar cursos d’água. Uma seca prolongada pode levar animais a: A) migrar em busca de água B) produzir chuva C) interromper toda respiração. Resposta: A. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Eventos naturais podem modificar ambientes e populações. Populações podem diminuir, migrar ou modificar hábitos.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-impactos-ambientais",
+              "title": "Impactos ambientais",
+              "file": "topics/biologia/impactos-ambientais.json",
+              "searchText": "Mudanças causadas por ações humanas ou eventos naturais podem afetar espécies e habitats. Desmatamento, poluição, queimadas e introdução de espécies modificam cadeias alimentares, habitats e ciclos naturais. Pode ocorrer perda de biodiversidade, contaminação e desequilíbrio ecológico. Desmatamento pode reduzir alimento e abrigo disponíveis. O desmatamento tende a provocar: A) aumento de habitats B) perda de abrigo e alimento C) crescimento imediato da biodiversidade. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Mudanças causadas por ações humanas ou eventos naturais podem afetar espécies e habitats. Pode ocorrer perda de biodiversidade, contaminação e desequilíbrio ecológico.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-extincao-migracao-e-mudanca-de-habitos",
+              "title": "Extinção, migração e mudança de hábitos",
+              "file": "topics/biologia/extincao-migracao-e-mudanca-de-habitos.json",
+              "searchText": "Populações podem desaparecer, deslocar-se ou mudar comportamentos quando o ambiente se altera. Quando o ambiente muda, indivíduos podem deslocar-se, alterar horários de atividade ou não sobreviver. Se toda a espécie desaparece, ocorre extinção. A distribuição e o comportamento das populações se modificam. Animais podem migrar após uma seca prolongada. Se uma espécie desaparece completamente do planeta, ocorreu: A) migração B) extinção C) adaptação D) reprodução. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Populações podem desaparecer, deslocar-se ou mudar comportamentos quando o ambiente se altera. A distribuição e o comportamento das populações se modificam.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Saúde pública e tecnologia",
+          "topics": [
+            {
+              "id": "biologia-indicadores-de-saude-publica",
+              "title": "Indicadores de saúde pública",
+              "file": "topics/biologia/indicadores-de-saude-publica.json",
+              "searchText": "Dados como mortalidade infantil, saneamento e incidência de doenças ajudam a avaliar a saúde coletiva. Governos e pesquisadores coletam dados sobre doenças, mortalidade, vacinação, saneamento e acesso a serviços. Esses números permitem comparar regiões e planejar ações de saúde. Uma cidade com melhor saneamento tende a registrar menos doenças transmitidas pela água. Qual é um indicador de saúde pública? A) cor das casas B) mortalidade infantil C) número de carros D) altura dos prédios. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Dados como mortalidade infantil, saneamento e incidência de doenças ajudam a avaliar a saúde coletiva. Esses números permitem comparar regiões e planejar ações de saúde.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-vacinacao",
+              "title": "Vacinação",
+              "file": "topics/biologia/vacinacao.json",
+              "searchText": "Vacinas estimulam o sistema imunológico a reconhecer agentes causadores de doenças. A vacina apresenta ao organismo um antígeno seguro ou instruções para produzi-lo. O sistema imune cria memória e responde mais rápido em contato futuro. Reduzem-se casos graves, internações e circulação de agentes infecciosos. A vacinação em massa ajuda a reduzir a circulação de vírus. A vacina protege porque: A) substitui o sistema imune B) estimula memória imunológica C) elimina toda bactéria do ambiente. Resposta: B. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Vacinas estimulam o sistema imunológico a reconhecer agentes causadores de doenças. Reduzem-se casos graves, internações e circulação de agentes infecciosos.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-doencas-de-veiculacao-hidrica-e-atmosferica",
+              "title": "Doenças de veiculação hídrica e atmosférica",
+              "file": "topics/biologia/doencas-de-veiculacao-hidrica-e-atmosferica.json",
+              "searchText": "Algumas doenças são transmitidas por água contaminada ou pelo ar. Água contaminada pode transportar microrganismos; gotículas e aerossóis podem levar agentes pelo ar. Saneamento, higiene, ventilação e vacinação reduzem a transmissão. Água sem tratamento pode transmitir infecções intestinais. Qual medida reduz doenças transmitidas pela água? A) tratamento de água e esgoto B) fechar janelas sempre C) aumentar o lixo nas ruas. Resposta: A. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Algumas doenças são transmitidas por água contaminada ou pelo ar. Saneamento, higiene, ventilação e vacinação reduzem a transmissão.",
+              "visualType": ""
+            },
+            {
+              "id": "biologia-tecnologia-e-qualidade-de-vida",
+              "title": "Tecnologia e qualidade de vida",
+              "file": "topics/biologia/tecnologia-e-qualidade-de-vida.json",
+              "searchText": "Tecnologias podem melhorar saúde, ambiente, comunicação e acesso a serviços. Tecnologias coletam dados, automatizam tarefas e ampliam acesso a saúde, comunicação e saneamento. Podem reduzir riscos e melhorar decisões, desde que usadas com responsabilidade. Sensores podem monitorar a qualidade do ar de uma cidade. Um sensor que mede a qualidade do ar ajuda principalmente a: A) monitorar poluição B) produzir oxigênio C) impedir o vento. Resposta: A. Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente? Tecnologias podem melhorar saúde, ambiente, comunicação e acesso a serviços. Podem reduzir riscos e melhorar decisões, desde que usadas com responsabilidade.",
+              "visualType": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Física",
+      "slug": "fisica",
+      "icon": "⚙️",
+      "groups": [
+        {
+          "name": "Fundamentos Matemáticos I",
+          "topics": [
+            {
+              "id": "fisica-fracoes-e-porcentagens",
+              "title": "Frações e porcentagens",
+              "file": "topics/fisica/fracoes-e-porcentagens.json",
+              "searchText": "Frações representam partes de um todo; porcentagens representam partes de cem. Uma fração representa partes iguais de um todo; a porcentagem representa partes de cem. Para converter, pode-se multiplicar a fração por 100%. Permite comparar descontos, probabilidades, partes de figuras e dados. 25% de 20 corresponde a 5. 25% de 80 é: A) 10 B) 20 C) 25 D) 40. Resposta: B. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Frações representam partes de um todo; porcentagens representam partes de cem. Permite comparar descontos, probabilidades, partes de figuras e dados.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-reta-numerica",
+              "title": "Reta numérica",
+              "file": "topics/fisica/reta-numerica.json",
+              "searchText": "Reta numérica é um conteúdo previsto no programa da ONC. Números são posicionados em ordem crescente da esquerda para a direita. A distância ao zero indica o valor absoluto. É possível comparar números e visualizar adições e subtrações. Observe uma situação cotidiana relacionada a reta numérica. Na reta numérica, qual número fica mais à direita? A) 3 B) 8 C) 1 D) 0. Resposta: B. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Reta numérica é um conteúdo previsto no programa da ONC. É possível comparar números e visualizar adições e subtrações.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-pares-ordenados",
+              "title": "Pares ordenados",
+              "file": "topics/fisica/pares-ordenados.json",
+              "searchText": "Pares ordenados é um conteúdo previsto no programa da ONC. Um ponto é localizado por duas coordenadas: primeiro a posição horizontal x, depois a vertical y. Cada par identifica uma posição única no plano. Observe uma situação cotidiana relacionada a pares ordenados. O ponto (3,2) está em: A) x=3 e y=2 B) x=2 e y=3 C) x=5 e y=0. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Pares ordenados é um conteúdo previsto no programa da ONC. Cada par identifica uma posição única no plano.",
+              "visualType": "coordinates"
+            },
+            {
+              "id": "fisica-perimetro-de-quadrilateros",
+              "title": "Perímetro de quadriláteros",
+              "file": "topics/fisica/perimetro-de-quadrilateros.json",
+              "searchText": "Perímetro é a soma dos comprimentos dos lados. Somam-se os comprimentos de todos os lados do quadrilátero. Obtém-se o comprimento total do contorno. Um retângulo de lados 4 m e 3 m tem perímetro 14 m. Um retângulo 5 cm por 3 cm tem perímetro: A) 8 B) 15 C) 16 D) 30. Resposta: C. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Perímetro é a soma dos comprimentos dos lados. Obtém-se o comprimento total do contorno.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-paralelismo-e-perpendicularismo",
+              "title": "Paralelismo e perpendicularismo",
+              "file": "topics/fisica/paralelismo-e-perpendicularismo.json",
+              "searchText": "Retas paralelas não se cruzam; perpendiculares formam ângulo de 90°. Retas paralelas mantêm a mesma distância e não se cruzam; perpendiculares se cruzam formando 90°. Essas relações aparecem em plantas, mapas e construções. Lados opostos de um retângulo são paralelos. Os lados adjacentes de um retângulo são: A) paralelos B) perpendiculares C) curvos. Resposta: B. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Retas paralelas não se cruzam; perpendiculares formam ângulo de 90°. Essas relações aparecem em plantas, mapas e construções.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-prismas-e-piramides",
+              "title": "Prismas e pirâmides",
+              "file": "topics/fisica/prismas-e-piramides.json",
+              "searchText": "Sólidos possuem faces, arestas e vértices. Prismas têm duas bases paralelas e congruentes; pirâmides têm uma base e faces laterais triangulares. Podemos contar faces, arestas e vértices para identificar o sólido. Um cubo tem 6 faces, 12 arestas e 8 vértices. Qual sólido tem uma base e faces triangulares que se encontram num vértice? A) prisma B) pirâmide C) cilindro. Resposta: B. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Sólidos possuem faces, arestas e vértices. Podemos contar faces, arestas e vértices para identificar o sólido.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Forma, estrutura e movimentos da Terra",
+          "topics": [
+            {
+              "id": "fisica-esfericidade-da-terra",
+              "title": "Esfericidade da Terra",
+              "file": "topics/fisica/esfericidade-da-terra.json",
+              "searchText": "Há diversas evidências de que a Terra é aproximadamente esférica. Observações de eclipses, horizonte, fusos e imagens espaciais convergem para a forma quase esférica. Explica por que a iluminação e o horizonte variam na superfície. Navios desaparecem no horizonte primeiro pela parte inferior. Um navio desaparece primeiro pela parte inferior no horizonte devido à: A) curvatura da Terra B) maré C) chuva. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Há diversas evidências de que a Terra é aproximadamente esférica. Explica por que a iluminação e o horizonte variam na superfície.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-orientacao-pelo-sol",
+              "title": "Orientação pelo Sol",
+              "file": "topics/fisica/orientacao-pelo-sol.json",
+              "searchText": "A posição aparente do Sol ajuda a estimar direções. O Sol nasce aproximadamente a leste e se põe a oeste; a sombra muda de direção e tamanho ao longo do dia. É possível estimar direções e horários aproximados. Pela manhã, o Sol aparece aproximadamente no leste. Se o Sol está nascendo à sua frente, você está voltado aproximadamente para: A) leste B) oeste C) sul. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. A posição aparente do Sol ajuda a estimar direções. É possível estimar direções e horários aproximados.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-orientacao-pela-bussola",
+              "title": "Orientação pela bússola",
+              "file": "topics/fisica/orientacao-pela-bussola.json",
+              "searchText": "A bússola indica aproximadamente a direção norte-sul. A agulha magnetizada alinha-se ao campo magnético terrestre. Indica aproximadamente a direção norte-sul. Em uma caminhada, ela pode ajudar a manter o rumo. A bússola aponta porque interage com: A) gravidade B) campo magnético terrestre C) luz solar. Resposta: B. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. A bússola indica aproximadamente a direção norte-sul. Indica aproximadamente a direção norte-sul.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-gnomon-e-sombras",
+              "title": "Gnômon e sombras",
+              "file": "topics/fisica/gnomon-e-sombras.json",
+              "searchText": "Uma haste vertical projeta sombras que mudam conforme a posição aparente do Sol. Uma haste vertical projeta sombra. A posição aparente do Sol altera direção e comprimento dessa sombra. Sombras mais curtas tendem a ocorrer próximo do meio-dia solar. Ao meio-dia solar, a sombra tende a ser menor que no início da manhã. Em geral, a sombra de um gnômon é menor: A) ao meio-dia solar B) ao amanhecer C) à noite. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Uma haste vertical projeta sombras que mudam conforme a posição aparente do Sol. Sombras mais curtas tendem a ocorrer próximo do meio-dia solar.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Fundamentos Matemáticos II",
+          "topics": [
+            {
+              "id": "fisica-acrescimos-e-decrescimos-percentuais",
+              "title": "Acréscimos e decréscimos percentuais",
+              "file": "topics/fisica/acrescimos-e-decrescimos-percentuais.json",
+              "searchText": "Percentuais podem representar aumentos ou reduções. Calcula-se a porcentagem sobre o valor inicial e soma-se ou subtrai-se o resultado. Obtém-se o novo preço, quantidade ou medida após aumento ou desconto. Um produto de R$ 100 com desconto de 20% passa a custar R$ 80. R$100 com desconto de 20% passa a: A) R$80 B) R$90 C) R$120. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Percentuais podem representar aumentos ou reduções. Obtém-se o novo preço, quantidade ou medida após aumento ou desconto.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-numeros-racionais-na-reta",
+              "title": "Números racionais na reta",
+              "file": "topics/fisica/numeros-racionais-na-reta.json",
+              "searchText": "Números racionais na reta é um conteúdo previsto no programa da ONC. Frações e decimais são convertidos ou comparados e posicionados conforme seu valor. Visualiza-se qual é maior, menor ou intermediário. Observe uma situação cotidiana relacionada a números racionais na reta. 0,5 fica entre: A) 0 e 1 B) 1 e 2 C) −2 e −1. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Números racionais na reta é um conteúdo previsto no programa da ONC. Visualiza-se qual é maior, menor ou intermediário.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-pares-ordenados-racionais",
+              "title": "Pares ordenados racionais",
+              "file": "topics/fisica/pares-ordenados-racionais.json",
+              "searchText": "Coordenadas podem conter frações ou decimais. Coordenadas fracionárias ou decimais localizam pontos entre marcações inteiras. Permitem representar posições com maior precisão. O ponto (1,5; 2) fica entre 1 e 2 no eixo horizontal. O ponto (1,5;2) está horizontalmente entre: A) 0 e 1 B) 1 e 2 C) 2 e 3. Resposta: B. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Coordenadas podem conter frações ou decimais. Permitem representar posições com maior precisão.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-proporcionalidade",
+              "title": "Proporcionalidade",
+              "file": "topics/fisica/proporcionalidade.json",
+              "searchText": "Proporcionalidade é um conteúdo previsto no programa da ONC. Na proporcionalidade direta, grandezas variam no mesmo sentido; na inversa, uma aumenta enquanto a outra diminui. É possível prever valores mantendo uma razão constante. Observe uma situação cotidiana relacionada a proporcionalidade. Se 4 torneiras enchem um tanque em 6 h, 8 iguais enchem em: A) 3 h B) 6 h C) 12 h. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Proporcionalidade é um conteúdo previsto no programa da ONC. É possível prever valores mantendo uma razão constante.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-equacoes-de-1-grau",
+              "title": "Equações de 1º grau",
+              "file": "topics/fisica/equacoes-de-1-grau.json",
+              "searchText": "São igualdades com incógnita elevada à primeira potência. Isola-se a incógnita realizando a mesma operação nos dois lados da igualdade. Encontra-se o valor que torna a igualdade verdadeira. Em x + 3 = 8, x vale 5. Em x+7=12, x vale: A) 5 B) 7 C) 12. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. São igualdades com incógnita elevada à primeira potência. Encontra-se o valor que torna a igualdade verdadeira.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-transformacoes-geometricas",
+              "title": "Transformações geométricas",
+              "file": "topics/fisica/transformacoes-geometricas.json",
+              "searchText": "Figuras podem sofrer translação, rotação e reflexão no plano. Translação desloca, rotação gira e reflexão espelha uma figura sem alterar seu tamanho ou forma. A figura muda de posição ou orientação, mantendo medidas. Virar uma figura como em um espelho é uma reflexão. Virar uma figura como num espelho é: A) rotação B) reflexão C) ampliação. Resposta: B. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Figuras podem sofrer translação, rotação e reflexão no plano. A figura muda de posição ou orientação, mantendo medidas.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-angulos-em-paralelas",
+              "title": "Ângulos em paralelas",
+              "file": "topics/fisica/angulos-em-paralelas.json",
+              "searchText": "Retas paralelas cortadas por transversal formam relações entre ângulos. Uma transversal corta duas paralelas e forma ângulos correspondentes, alternos e colaterais com relações previsíveis. É possível calcular ângulos desconhecidos. Alguns ângulos correspondentes têm a mesma medida. Em paralelas cortadas por transversal, ângulos correspondentes são: A) iguais B) sempre 90° C) sempre diferentes. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Retas paralelas cortadas por transversal formam relações entre ângulos. É possível calcular ângulos desconhecidos.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-soma-dos-angulos-de-um-triangulo",
+              "title": "Soma dos ângulos de um triângulo",
+              "file": "topics/fisica/soma-dos-angulos-de-um-triangulo.json",
+              "searchText": "Soma dos ângulos de um triângulo é um conteúdo previsto no programa da ONC. Os três ângulos internos de qualquer triângulo somam 180°. Conhecendo dois ângulos, calcula-se o terceiro. Observe uma situação cotidiana relacionada a soma dos ângulos de um triângulo. Se dois ângulos medem 50° e 60°, o terceiro mede: A) 70° B) 80° C) 90°. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Soma dos ângulos de um triângulo é um conteúdo previsto no programa da ONC. Conhecendo dois ângulos, calcula-se o terceiro.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-area",
+              "title": "Área",
+              "file": "topics/fisica/area.json",
+              "searchText": "Área é um conteúdo previsto no programa da ONC. A área mede a superfície ocupada. Cada figura possui uma fórmula; no retângulo, multiplica-se base por altura. O resultado é expresso em unidades quadradas. Observe uma situação cotidiana relacionada a área. Retângulo 6 cm por 4 cm tem área: A) 10 cm² B) 20 cm² C) 24 cm². Resposta: C. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Área é um conteúdo previsto no programa da ONC. O resultado é expresso em unidades quadradas.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-volume",
+              "title": "Volume",
+              "file": "topics/fisica/volume.json",
+              "searchText": "Volume é um conteúdo previsto no programa da ONC. O volume mede o espaço ocupado; em blocos retangulares, multiplica-se comprimento, largura e altura. O resultado é expresso em unidades cúbicas. Observe uma situação cotidiana relacionada a volume. Um bloco 2×3×4 tem volume: A) 9 B) 12 C) 24. Resposta: C. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Volume é um conteúdo previsto no programa da ONC. O resultado é expresso em unidades cúbicas.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-circunferencia-e-diametro",
+              "title": "Circunferência e diâmetro",
+              "file": "topics/fisica/circunferencia-e-diametro.json",
+              "searchText": "A razão entre comprimento da circunferência e diâmetro é aproximadamente π. O diâmetro atravessa o centro; o comprimento da circunferência é aproximadamente π vezes o diâmetro. Rodas maiores percorrem maior distância por volta. Uma roda maior percorre mais distância a cada volta. Se o diâmetro dobra, o comprimento da circunferência: A) dobra B) reduz à metade C) não muda. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. A razão entre comprimento da circunferência e diâmetro é aproximadamente π. Rodas maiores percorrem maior distância por volta.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Máquinas, calor e temperatura",
+          "topics": [
+            {
+              "id": "fisica-maquinas-simples",
+              "title": "Máquinas simples",
+              "file": "topics/fisica/maquinas-simples.json",
+              "searchText": "Dispositivos como alavancas e roldanas facilitam tarefas mecânicas. Alavancas, roldanas e planos inclinados modificam intensidade ou direção da força. Facilitam tarefas, embora não eliminem o trabalho necessário. Um abridor de garrafas funciona como alavanca. Um abridor de garrafas é exemplo de: A) alavanca B) bússola C) termômetro. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Dispositivos como alavancas e roldanas facilitam tarefas mecânicas. Facilitam tarefas, embora não eliminem o trabalho necessário.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-calor-e-temperatura",
+              "title": "Calor e temperatura",
+              "file": "topics/fisica/calor-e-temperatura.json",
+              "searchText": "Temperatura mede o estado térmico; calor é energia transferida por diferença de temperatura. Temperatura indica o estado térmico; calor é energia transferida do corpo mais quente para o mais frio. Corpos em contato tendem ao equilíbrio térmico. Uma colher aquece ao ficar dentro de uma sopa quente. Uma colher aquece na sopa porque recebe: A) massa B) calor C) volume. Resposta: B. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Temperatura mede o estado térmico; calor é energia transferida por diferença de temperatura. Corpos em contato tendem ao equilíbrio térmico.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-sensacao-termica",
+              "title": "Sensação térmica",
+              "file": "topics/fisica/sensacao-termica.json",
+              "searchText": "É a percepção de frio ou calor, influenciada por vento, umidade e outros fatores. Vento, umidade, radiação e roupas alteram a troca de calor entre corpo e ambiente. A temperatura percebida pode diferir da medida pelo termômetro. Com vento forte, a sensação pode ser de temperatura menor. Com vento forte, a sensação pode ser de maior frio porque: A) aumenta a perda de calor B) o termômetro quebra C) o ar perde massa. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. É a percepção de frio ou calor, influenciada por vento, umidade e outros fatores. A temperatura percebida pode diferir da medida pelo termômetro.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-propagacao-do-calor",
+              "title": "Propagação do calor",
+              "file": "topics/fisica/propagacao-do-calor.json",
+              "searchText": "O calor pode se propagar por condução, convecção e radiação. Condução ocorre por contato, convecção por movimento de fluidos e radiação por ondas eletromagnéticas. O calor se desloca entre regiões de temperaturas diferentes. O cabo metálico de uma panela aquece por condução. O cabo metálico da panela aquece principalmente por: A) condução B) convecção C) evaporação. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. O calor pode se propagar por condução, convecção e radiação. O calor se desloca entre regiões de temperaturas diferentes.",
+              "visualType": "heat"
+            },
+            {
+              "id": "fisica-escolha-de-materiais",
+              "title": "Escolha de materiais",
+              "file": "topics/fisica/escolha-de-materiais.json",
+              "searchText": "Materiais conduzem ou isolam calor de maneiras diferentes. Materiais possuem diferentes condutividades, resistências e capacidades térmicas. Selecionam-se isolantes para cabos e condutores para panelas ou dissipadores. Cabos de panela costumam usar materiais isolantes. Cabos de panela usam material isolante para: A) reduzir a passagem de calor B) aumentar o peso C) produzir fogo. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Materiais conduzem ou isolam calor de maneiras diferentes. Selecionam-se isolantes para cabos e condutores para panelas ou dissipadores.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-equipamentos-termicos",
+              "title": "Equipamentos térmicos",
+              "file": "topics/fisica/equipamentos-termicos.json",
+              "searchText": "Dispositivos térmicos controlam transferência de calor. Garrafa térmica, coletor solar e refrigerador controlam transferências de calor por isolamento, absorção ou retirada de energia. Mantêm, aumentam ou reduzem temperaturas. A garrafa térmica reduz trocas de calor com o ambiente. A garrafa térmica funciona principalmente reduzindo: A) trocas de calor B) massa do líquido C) pressão do ar. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Dispositivos térmicos controlam transferência de calor. Mantêm, aumentam ou reduzem temperaturas.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-equilibrio-termodinamico",
+              "title": "Equilíbrio termodinâmico",
+              "file": "topics/fisica/equilibrio-termodinamico.json",
+              "searchText": "Ocorre quando corpos em contato chegam à mesma temperatura. Corpos em contato trocam calor até atingirem a mesma temperatura. Depois do equilíbrio, não há fluxo líquido de calor entre eles. Uma bebida gelada esquenta até se aproximar da temperatura do ambiente. Uma bebida gelada deixada na sala tende a: A) aproximar-se da temperatura ambiente B) ficar cada vez mais fria C) congelar sempre. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Ocorre quando corpos em contato chegam à mesma temperatura. Depois do equilíbrio, não há fluxo líquido de calor entre eles.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-novos-materiais-e-tecnologias",
+              "title": "Novos materiais e tecnologias",
+              "file": "topics/fisica/novos-materiais-e-tecnologias.json",
+              "searchText": "Avanços em materiais alteram máquinas, automação e vida cotidiana. Pesquisadores ajustam composição e estrutura dos materiais para obter propriedades específicas. Surgem materiais mais leves, resistentes, isolantes ou condutores. Sensores permitem que aparelhos regulem temperatura automaticamente. Um material desenvolvido para reduzir perda de calor deve ter baixa: A) condutividade térmica B) massa C) cor. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. Avanços em materiais alteram máquinas, automação e vida cotidiana. Surgem materiais mais leves, resistentes, isolantes ou condutores.",
+              "visualType": ""
+            },
+            {
+              "id": "fisica-efeito-estufa",
+              "title": "Efeito estufa",
+              "file": "topics/fisica/efeito-estufa.json",
+              "searchText": "É um fenômeno natural que mantém a Terra aquecida; seu aumento artificial intensifica o aquecimento global. Gases atmosféricos absorvem e reemitem radiação infravermelha, retendo parte do calor. O efeito natural mantém a Terra habitável; sua intensificação eleva a temperatura média. Gases liberados pela queima de combustíveis aumentam a retenção de calor. A intensificação do efeito estufa está ligada ao aumento de: A) gases como CO₂ B) oxigênio líquido C) areia. Resposta: A. Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas. É um fenômeno natural que mantém a Terra aquecida; seu aumento artificial intensifica o aquecimento global. O efeito natural mantém a Terra habitável; sua intensificação eleva a temperatura média.",
+              "visualType": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Química",
+      "slug": "quimica",
+      "icon": "⚗️",
+      "groups": [
+        {
+          "name": "Matéria, energia e transformações",
+          "topics": [
+            {
+              "id": "quimica-materia",
+              "title": "Matéria",
+              "file": "topics/quimica/materia.json",
+              "searchText": "É tudo que tem massa e ocupa lugar no espaço. Matéria possui massa e ocupa espaço. Pode apresentar diferentes estados físicos e propriedades. Objetos, água e ar podem ser medidos e ocupar volume. Água, ar, madeira e metal são formas de matéria. Qual é matéria? A) luz B) água C) som D) calor. Resposta: B. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. É tudo que tem massa e ocupa lugar no espaço. Objetos, água e ar podem ser medidos e ocupar volume.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-energia",
+              "title": "Energia",
+              "file": "topics/quimica/energia.json",
+              "searchText": "É a capacidade de produzir mudanças ou realizar trabalho. Energia pode ser transferida e transformada em formas térmica, elétrica, química, luminosa e mecânica. Ela provoca movimento, aquecimento, luz ou outras mudanças. A energia elétrica acende uma lâmpada. Uma lâmpada transforma energia elétrica principalmente em: A) luz e calor B) massa C) volume. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. É a capacidade de produzir mudanças ou realizar trabalho. Ela provoca movimento, aquecimento, luz ou outras mudanças.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-materia-e-energia-no-cotidiano",
+              "title": "Matéria e energia no cotidiano",
+              "file": "topics/quimica/materia-e-energia-no-cotidiano.json",
+              "searchText": "Processos cotidianos envolvem materiais e transformações de energia. Equipamentos transformam energia e atuam sobre materiais. O liquidificador movimenta alimentos; o fogão aquece substâncias. Um liquidificador transforma energia elétrica em movimento. No liquidificador, energia elétrica transforma-se principalmente em: A) movimento B) massa C) matéria nova. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Processos cotidianos envolvem materiais e transformações de energia. O liquidificador movimenta alimentos; o fogão aquece substâncias.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-fontes-de-energia",
+              "title": "Fontes de energia",
+              "file": "topics/quimica/fontes-de-energia.json",
+              "searchText": "São recursos usados para obter energia, renováveis ou não renováveis. Fontes renováveis se recompõem em escala humana; não renováveis existem em quantidades limitadas. A escolha afeta emissões, ambiente e disponibilidade futura. Sol e vento são fontes renováveis. Qual fonte é renovável? A) carvão mineral B) vento C) petróleo. Resposta: B. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. São recursos usados para obter energia, renováveis ou não renováveis. A escolha afeta emissões, ambiente e disponibilidade futura.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-uso-da-energia",
+              "title": "Uso da energia",
+              "file": "topics/quimica/uso-da-energia.json",
+              "searchText": "A energia pode ser transformada entre formas diferentes. A energia passa por conversões em aparelhos e sistemas. Há sempre alguma dissipação, geralmente como calor. Uma pilha transforma energia química em elétrica. Uma pilha transforma energia química em: A) elétrica B) massa C) água. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. A energia pode ser transformada entre formas diferentes. Há sempre alguma dissipação, geralmente como calor.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-reacoes-quimicas",
+              "title": "Reações químicas",
+              "file": "topics/quimica/reacoes-quimicas.json",
+              "searchText": "Processos em que substâncias se transformam em outras. Ligações entre átomos são rompidas e formadas, produzindo novas substâncias. Podem surgir mudança de cor, gás, precipitado, luz ou calor. Ferro enferrujando é uma reação química. Ferrugem é exemplo de: A) reação química B) mudança de forma C) mistura física. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Processos em que substâncias se transformam em outras. Podem surgir mudança de cor, gás, precipitado, luz ou calor.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-transformacoes-fisicas-e-quimicas",
+              "title": "Transformações físicas e químicas",
+              "file": "topics/quimica/transformacoes-fisicas-e-quimicas.json",
+              "searchText": "Transformações físicas e químicas é um conteúdo previsto no programa da ONC. Na física, a substância mantém sua composição; na química, formam-se novas substâncias. Derretimento é físico; combustão é química. Observe uma situação cotidiana relacionada a transformações físicas e químicas. Qual é transformação química? A) gelo derretendo B) ferro enferrujando C) papel cortado. Resposta: B. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Transformações físicas e químicas é um conteúdo previsto no programa da ONC. Derretimento é físico; combustão é química.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-combustao",
+              "title": "Combustão",
+              "file": "topics/quimica/combustao.json",
+              "searchText": "É uma reação com liberação de energia, geralmente envolvendo combustível e oxigênio. Um combustível reage com oxigênio e libera energia; em combustão completa, formam-se principalmente CO₂ e água. Observam-se chama, calor e gases. A chama do fogão resulta da combustão do gás. A combustão precisa de combustível e: A) oxigênio B) gelo C) sal. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. É uma reação com liberação de energia, geralmente envolvendo combustível e oxigênio. Observam-se chama, calor e gases.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-materiais-sinteticos",
+              "title": "Materiais sintéticos",
+              "file": "topics/quimica/materiais-sinteticos.json",
+              "searchText": "São materiais produzidos ou modificados por processos industriais. Processos industriais transformam matérias-primas em polímeros e outros materiais planejados. Obtêm-se propriedades como leveza, flexibilidade e resistência. Plásticos são usados em embalagens e objetos. Plástico é geralmente um material: A) sintético B) estelar C) mineral puro. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. São materiais produzidos ou modificados por processos industriais. Obtêm-se propriedades como leveza, flexibilidade e resistência.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Misturas e tratamento",
+          "topics": [
+            {
+              "id": "quimica-mistura-homogenea",
+              "title": "Mistura homogênea",
+              "file": "topics/quimica/mistura-homogenea.json",
+              "searchText": "Apresenta aspecto uniforme e uma única fase visível. Os componentes ficam distribuídos uniformemente e formam uma única fase visível. Não se distinguem partes diferentes a olho nu. Água com sal dissolvido é homogênea. Água com sal totalmente dissolvido é: A) homogênea B) heterogênea C) substância simples. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Apresenta aspecto uniforme e uma única fase visível. Não se distinguem partes diferentes a olho nu.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-mistura-heterogenea",
+              "title": "Mistura heterogênea",
+              "file": "topics/quimica/mistura-heterogenea.json",
+              "searchText": "Apresenta duas ou mais fases visíveis. Os componentes não se distribuem de modo uniforme e aparecem duas ou mais fases. É possível distinguir partes da mistura. Água e óleo formam mistura heterogênea. Água e óleo formam mistura: A) homogênea B) heterogênea C) gasosa. Resposta: B. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Apresenta duas ou mais fases visíveis. É possível distinguir partes da mistura.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-separacao-de-materiais",
+              "title": "Separação de materiais",
+              "file": "topics/quimica/separacao-de-materiais.json",
+              "searchText": "Métodos físicos separam componentes de misturas. Escolhe-se o método com base em tamanho de partículas, densidade, solubilidade ou magnetismo. Os componentes são recuperados sem formar novas substâncias. Uma peneira separa areia de pedras. Para separar areia de água usa-se: A) filtração B) combustão C) fusão. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Métodos físicos separam componentes de misturas. Os componentes são recuperados sem formar novas substâncias.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-tratamento-da-agua",
+              "title": "Tratamento da água",
+              "file": "topics/quimica/tratamento-da-agua.json",
+              "searchText": "Combina etapas para remover impurezas e tornar a água adequada ao consumo. A água passa por coagulação, floculação, decantação, filtração e desinfecção. Reduzem-se partículas e microrganismos, tornando-a adequada ao consumo. Filtração remove partículas suspensas. A etapa que retém partículas em filtros é: A) filtração B) combustão C) evaporação total. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Combina etapas para remover impurezas e tornar a água adequada ao consumo. Reduzem-se partículas e microrganismos, tornando-a adequada ao consumo.",
+              "visualType": "water"
+            },
+            {
+              "id": "quimica-separacao-no-tratamento-da-agua",
+              "title": "Separação no tratamento da água",
+              "file": "topics/quimica/separacao-no-tratamento-da-agua.json",
+              "searchText": "Processos incluem coagulação, floculação, decantação, filtração e desinfecção. Produtos agregam partículas em flocos; os flocos sedimentam; filtros removem resíduos; desinfecção elimina microrganismos. A água fica mais limpa e segura. Na decantação, partículas mais densas se depositam no fundo. Na decantação, os flocos: A) depositam-se no fundo B) viram gás C) desaparecem por combustão. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Processos incluem coagulação, floculação, decantação, filtração e desinfecção. A água fica mais limpa e segura.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-tratamento-do-esgoto",
+              "title": "Tratamento do esgoto",
+              "file": "topics/quimica/tratamento-do-esgoto.json",
+              "searchText": "Reduz poluentes antes da devolução da água ao ambiente. Grades retiram sólidos; decantação separa materiais; microrganismos degradam matéria orgânica. Diminui-se a carga de poluentes antes do retorno ao ambiente. Microrganismos podem decompor matéria orgânica. O tratamento do esgoto ajuda a: A) reduzir contaminação dos rios B) aumentar lixo C) eliminar toda água. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Reduz poluentes antes da devolução da água ao ambiente. Diminui-se a carga de poluentes antes do retorno ao ambiente.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-diferentes-tipos-de-agua",
+              "title": "Diferentes tipos de água",
+              "file": "topics/quimica/diferentes-tipos-de-agua.json",
+              "searchText": "Água pode ser potável, mineral, destilada, salgada, doce ou residuária. A água varia conforme sais, contaminantes e uso: potável, mineral, destilada, salgada, doce ou residuária. Nem toda água transparente é própria para beber. Água do mar contém grande quantidade de sais. Água potável é aquela: A) adequada ao consumo B) sem moléculas C) sempre salgada. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Água pode ser potável, mineral, destilada, salgada, doce ou residuária. Nem toda água transparente é própria para beber.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Ar, água e propriedades",
+          "topics": [
+            {
+              "id": "quimica-composicao-do-ar",
+              "title": "Composição do ar",
+              "file": "topics/quimica/composicao-do-ar.json",
+              "searchText": "O ar é uma mistura de gases, principalmente nitrogênio e oxigênio. O ar é uma mistura com cerca de 78% de nitrogênio, 21% de oxigênio e pequenas quantidades de outros gases. A respiração usa oxigênio, enquanto o nitrogênio é o componente mais abundante. O oxigênio é necessário para a respiração humana. O gás mais abundante no ar é: A) oxigênio B) nitrogênio C) gás carbônico. Resposta: B. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. O ar é uma mistura de gases, principalmente nitrogênio e oxigênio. A respiração usa oxigênio, enquanto o nitrogênio é o componente mais abundante.",
+              "visualType": "air"
+            },
+            {
+              "id": "quimica-efeito-estufa",
+              "title": "Efeito estufa",
+              "file": "topics/quimica/efeito-estufa.json",
+              "searchText": "Gases atmosféricos retêm parte do calor e mantêm o planeta aquecido. Observe os elementos próprios de Efeito estufa, como eles se relacionam e em que sequência o fenômeno ou conceito ocorre. O resultado é a consequência específica produzida por Efeito estufa, perceptível em uma situação real ou em dados. O aumento de dióxido de carbono intensifica o fenômeno. A prova pode apresentar uma situação sobre Efeito estufa e pedir que o aluno aplique a definição para escolher a alternativa correta. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Gases atmosféricos retêm parte do calor e mantêm o planeta aquecido. O resultado é a consequência específica produzida por Efeito estufa, perceptível em uma situação real ou em dados.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-camada-de-ozonio",
+              "title": "Camada de ozônio",
+              "file": "topics/quimica/camada-de-ozonio.json",
+              "searchText": "Região da atmosfera com ozônio que absorve grande parte da radiação ultravioleta. Na estratosfera, o ozônio absorve grande parte da radiação ultravioleta. Reduzem-se danos à pele, olhos e organismos. Protetor solar ajuda a reduzir danos da radiação que alcança a superfície. A camada de ozônio protege principalmente contra: A) radiação ultravioleta B) som C) gravidade. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Região da atmosfera com ozônio que absorve grande parte da radiação ultravioleta. Reduzem-se danos à pele, olhos e organismos.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-constituicao-quimica-da-agua",
+              "title": "Constituição química da água",
+              "file": "topics/quimica/constituicao-quimica-da-agua.json",
+              "searchText": "A molécula de água é formada por hidrogênio e oxigênio. Cada molécula de água possui dois átomos de hidrogênio e um de oxigênio. A fórmula H₂O representa essa proporção. Sua fórmula é H₂O. A fórmula da água é: A) CO₂ B) H₂O C) O₂. Resposta: B. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. A molécula de água é formada por hidrogênio e oxigênio. A fórmula H₂O representa essa proporção.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-propriedades-fisico-quimicas-da-agua",
+              "title": "Propriedades físico-químicas da água",
+              "file": "topics/quimica/propriedades-fisico-quimicas-da-agua.json",
+              "searchText": "A água dissolve muitas substâncias e apresenta comportamentos térmicos importantes. A polaridade da água favorece dissolução, coesão e alta capacidade térmica. A água participa de transporte de substâncias e regulação de temperatura. O suor ajuda a resfriar o corpo ao evaporar. A evaporação do suor ajuda a: A) resfriar o corpo B) aumentar a massa C) produzir sal. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. A água dissolve muitas substâncias e apresenta comportamentos térmicos importantes. A água participa de transporte de substâncias e regulação de temperatura.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-densidade",
+              "title": "Densidade",
+              "file": "topics/quimica/densidade.json",
+              "searchText": "É a relação entre massa e volume. Divide-se a massa pelo volume. Materiais com mesma massa podem ocupar volumes diferentes. Objetos menos densos que o líquido tendem a flutuar. Óleo fica sobre a água porque é menos denso. Um objeto de 80 g e 100 cm³ tem densidade: A) 0,8 g/cm³ B) 1,8 C) 80. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. É a relação entre massa e volume. Objetos menos densos que o líquido tendem a flutuar.",
+              "visualType": "density"
+            },
+            {
+              "id": "quimica-flutuabilidade",
+              "title": "Flutuabilidade",
+              "file": "topics/quimica/flutuabilidade.json",
+              "searchText": "Depende da relação entre a densidade do objeto, do líquido e do empuxo. O líquido exerce empuxo para cima; a flutuação depende do peso, do volume deslocado e das densidades. Navios podem flutuar mesmo sendo de aço por causa de seu formato e volume médio. Um navio de aço flutua por causa do formato e do volume de água deslocado. Um objeto tende a flutuar na água quando sua densidade média é: A) menor que 1 g/cm³ B) sempre maior C) infinita. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Depende da relação entre a densidade do objeto, do líquido e do empuxo. Navios podem flutuar mesmo sendo de aço por causa de seu formato e volume médio.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Sistema Internacional",
+          "topics": [
+            {
+              "id": "quimica-unidades-do-si",
+              "title": "Unidades do SI",
+              "file": "topics/quimica/unidades-do-si.json",
+              "searchText": "O Sistema Internacional padroniza medidas como metro, quilograma, segundo e kelvin. O Sistema Internacional padroniza grandezas: metro, quilograma, segundo, kelvin e outras. Medições podem ser comparadas em qualquer país. Uma distância pode ser expressa em metros ou quilômetros. A unidade SI de comprimento é: A) metro B) litro C) grau. Resposta: A. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. O Sistema Internacional padroniza medidas como metro, quilograma, segundo e kelvin. Medições podem ser comparadas em qualquer país.",
+              "visualType": ""
+            },
+            {
+              "id": "quimica-multiplos-e-submultiplos",
+              "title": "Múltiplos e submúltiplos",
+              "file": "topics/quimica/multiplos-e-submultiplos.json",
+              "searchText": "Prefixos como quilo, centi e mili indicam escalas de medida. Prefixos indicam potências de dez: quilo=1000, centi=1/100, mili=1/1000. Facilitam escrever medidas muito grandes ou pequenas. 1 quilômetro corresponde a 1.000 metros. 1 km corresponde a: A) 100 m B) 1000 m C) 10 000 m. Resposta: B. Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno. Prefixos como quilo, centi e mili indicam escalas de medida. Facilitam escrever medidas muito grandes ou pequenas.",
+              "visualType": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "História",
+      "slug": "historia",
+      "icon": "📜",
+      "groups": [
+        {
+          "name": "História, tempo e fontes",
+          "topics": [
+            {
+              "id": "historia-introducao-aos-estudos-historicos",
+              "title": "Introdução aos estudos históricos",
+              "file": "topics/historia/introducao-aos-estudos-historicos.json",
+              "searchText": "História é a área do conhecimento que investiga as ações humanas no tempo. Ela procura explicar mudanças, permanências, conflitos, escolhas e diferentes formas de organização das sociedades. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto As sociedades deixam vestígios escritos, materiais, visuais e orais. Esses vestígios são analisados para responder perguntas sobre o passado. O estudo histórico relaciona passado e presente, sem tratar a História como simples lista de datas. Grupos envolvidos Historiadores, arqueólogos, pesquisadores e comunidades que preservam memórias. Povos, grupos sociais e instituições representados nas fontes. Organização e interesses Formulação de perguntas. Análise e comparação de fontes. Localização no tempo e no espaço. Identificação de causas, consequências, mudanças e permanências. Mudanças ao longo do tempo Novas fontes podem modificar interpretações anteriores. Temas como história indígena, africana, das mulheres e do cotidiano ganharam mais espaço. O estudo histórico permite compreender como sociedades foram formadas, por que se transformaram e de que maneira o passado influencia identidades, instituições e problemas atuais. Comparar fotografias antigas e atuais de uma cidade ajuda a perceber mudanças nos transportes, nas construções e no modo de vida. A pro",
+              "visualType": ""
+            },
+            {
+              "id": "historia-oficio-do-historiador",
+              "title": "Ofício do historiador",
+              "file": "topics/historia/oficio-do-historiador.json",
+              "searchText": "O ofício do historiador consiste em pesquisar o passado por meio de perguntas, fontes e argumentos fundamentados. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto O historiador não presencia a maior parte dos fatos que estuda. Ele trabalha com vestígios produzidos por pessoas e instituições. Toda fonte possui autoria, finalidade e contexto. Grupos envolvidos Historiadores, arqueólogos, arquivistas e pesquisadores. Autores e grupos citados ou omitidos nas fontes. Organização e interesses Definir um problema de pesquisa. Selecionar fontes. Verificar autoria, data e intenção. Comparar evidências. Construir uma explicação. Mudanças ao longo do tempo Tecnologias digitais ampliaram o acesso a documentos. Relatos orais, fotografias e objetos cotidianos passaram a ser mais valorizados. O historiador produz interpretações sustentadas por evidências. Essas interpretações podem ser revistas quando surgem novas fontes ou novas perguntas. Para estudar uma greve, podem ser comparados jornais, atas sindicais, fotografias e depoimentos de trabalhadores. Uma questão pode perguntar qual procedimento aumenta a confiabilidade de uma pesquisa: comparar fontes e verificar seu contexto. O ofício do historiador consiste em pesquisar o passado por meio de perguntas, fontes e argumentos fundamentados. O historiador p",
+              "visualType": ""
+            },
+            {
+              "id": "historia-memoria",
+              "title": "Memória",
+              "file": "topics/historia/memoria.json",
+              "searchText": "Memória é a maneira como pessoas e grupos lembram e atribuem significado ao passado. Ela é seletiva e pode mudar com o tempo. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Famílias e comunidades preservam lembranças por relatos, festas, monumentos e tradições. Alguns acontecimentos são destacados e outros podem ser esquecidos. Grupos envolvidos Indivíduos, famílias, comunidades e instituições. Grupos que disputam reconhecimento de suas experiências. Organização e interesses Seleção do que será lembrado. Transmissão por narrativas, símbolos e rituais. Disputa entre versões do passado. Mudanças ao longo do tempo Memórias coletivas podem ser revistas. Experiências antes silenciadas podem ganhar visibilidade. A memória fortalece identidades, mas precisa ser comparada com outras fontes quando usada na pesquisa histórica. Um monumento pode homenagear um personagem, enquanto outro grupo recorda os conflitos ligados à sua atuação. A prova pode apresentar um depoimento e perguntar por que ele representa uma perspectiva, e não uma reprodução perfeita do passado. Memória é a maneira como pessoas e grupos lembram e atribuem significado ao passado. Ela é seletiva e pode mudar com o tempo. A memória fortalece identidades, mas precisa ser comparada com outras fontes quando usada na pesquisa histórica.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-periodizacao",
+              "title": "Periodização",
+              "file": "topics/historia/periodizacao.json",
+              "searchText": "Periodização é a divisão do tempo histórico em períodos para facilitar o estudo. Essas divisões são convenções criadas por pesquisadores. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto A História abrange processos muito longos. Marcos ajudam a organizar mudanças e permanências. A divisão europeia não explica igualmente a história de todos os povos. Grupos envolvidos Historiadores e instituições de ensino. Sociedades tomadas como referência para definir os períodos. Organização e interesses Escolha de marcos de início e fim. Agrupamento de características comuns. Comparação entre períodos. Mudanças ao longo do tempo Periodizações podem ser revistas. Histórias africanas, indígenas e asiáticas exigem outros marcos. A periodização organiza o estudo, mas não significa que todas as sociedades mudaram ao mesmo tempo. O ano de 1453 é usado como marco entre Idade Média e Moderna na Europa, mas não teve o mesmo significado em todo o mundo. A questão pode pedir por que uma periodização é uma ferramenta de estudo, e não uma divisão natural do tempo. Periodização é a divisão do tempo histórico em períodos para facilitar o estudo. Essas divisões são convenções criadas por pesquisadores. A periodização organiza o estudo, mas não significa que todas as sociedades mudaram ao mesmo tempo.",
+              "visualType": "timeline"
+            },
+            {
+              "id": "historia-tempo-e-historia",
+              "title": "Tempo e História",
+              "file": "topics/historia/tempo-e-historia.json",
+              "searchText": "Tempo histórico é a dimensão em que ocorrem mudanças e permanências nas sociedades. Ele envolve ritmos diferentes de transformação. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Algumas mudanças são rápidas, como revoluções. Outras são lentas, como alterações culturais. Processos distintos podem ocorrer ao mesmo tempo. Grupos envolvidos Sociedades e grupos afetados de maneiras diferentes. Pesquisadores que estudam curta, média e longa duração. Organização e interesses Cronologia. Duração. Simultaneidade. Relação entre passado, presente e futuro. Mudanças ao longo do tempo A forma de medir o tempo variou entre culturas. Calendários e marcos históricos mudaram conforme sociedades e religiões. Compreender o tempo histórico ajuda a perceber que leis podem mudar rapidamente, enquanto costumes e desigualdades podem permanecer por muito tempo. Uma nova lei entra em vigor em um dia, mas a mudança de hábitos sociais pode levar décadas. A prova pode comparar dois processos e pedir qual representa uma transformação de longa duração. Tempo histórico é a dimensão em que ocorrem mudanças e permanências nas sociedades. Ele envolve ritmos diferentes de transformação. Compreender o tempo histórico ajuda a perceber que leis podem mudar rapidamente, enquanto costumes e desigualdades podem permanecer por mui",
+              "visualType": ""
+            },
+            {
+              "id": "historia-fontes-historicas-e-documentos",
+              "title": "Fontes históricas e documentos",
+              "file": "topics/historia/fontes-historicas-e-documentos.json",
+              "searchText": "Fontes históricas são vestígios usados para estudar o passado, como textos, objetos, imagens, edifícios, mapas, depoimentos e registros digitais. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Toda fonte foi produzida em uma situação específica. Nenhuma fonte é totalmente neutra. Ausências e silêncios também podem ser importantes. Grupos envolvidos Autores das fontes. Públicos a quem elas se destinavam. Grupos representados ou omitidos. Organização e interesses Identificar autoria e data. Analisar finalidade. Comparar com outras fontes. Avaliar o que a fonte mostra e o que não mostra. Mudanças ao longo do tempo O conceito de fonte se ampliou além dos documentos oficiais. Objetos cotidianos e oralidade passaram a ser valorizados. A análise crítica das fontes permite reconstruir aspectos do passado e compreender diferentes pontos de vista. Uma carta de um governante e o relato de um trabalhador podem descrever o mesmo fato de modos diferentes. A ONC pode apresentar imagem e texto e pedir qual conclusão é sustentada pelas duas evidências. Fontes históricas são vestígios usados para estudar o passado, como textos, objetos, imagens, edifícios, mapas, depoimentos e registros digitais. A análise crítica das fontes permite reconstruir aspectos do passado e compreender diferentes pontos de vista.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-narrativa",
+              "title": "Narrativa",
+              "file": "topics/historia/narrativa.json",
+              "searchText": "Narrativa histórica é a explicação organizada que relaciona acontecimentos, fontes e argumentos. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Os fatos precisam ser conectados por contexto, causas e consequências. Perguntas diferentes podem gerar narrativas diferentes. Grupos envolvidos Historiadores. Autores das fontes. Grupos sociais presentes na interpretação. Organização e interesses Selecionar informações. Organizar sequência lógica. Usar evidências. Explicar conflitos e transformações. Mudanças ao longo do tempo Narrativas mudam com novas fontes e perspectivas. Grupos antes ignorados podem ganhar destaque. A narrativa histórica dá sentido às evidências, mas deve ser fundamentada e não pode ser confundida com opinião sem prova. Uma narrativa sobre a abolição pode destacar leis, movimentos sociais e lutas de pessoas escravizadas. A questão pode pedir qual explicação está mais bem sustentada pelas fontes apresentadas. Narrativa histórica é a explicação organizada que relaciona acontecimentos, fontes e argumentos. A narrativa histórica dá sentido às evidências, mas deve ser fundamentada e não pode ser confundida com opinião sem prova.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Origens da humanidade",
+          "topics": [
+            {
+              "id": "historia-origem-e-evolucao-humana",
+              "title": "Origem e evolução humana",
+              "file": "topics/historia/origem-e-evolucao-humana.json",
+              "searchText": "A evolução humana é o longo processo biológico e cultural que levou ao surgimento do Homo sapiens a partir de ancestrais comuns com outros primatas. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto O processo começou na África há milhões de anos. Existiram diferentes espécies de hominínios. Mudanças ambientais influenciaram adaptações. Grupos envolvidos Diversas espécies de hominínios. Grupos de Homo sapiens que migraram para outros continentes. Organização e interesses Adaptações corporais. Produção de ferramentas. Domínio do fogo. Comunicação e cooperação. Mudanças ao longo do tempo Aumento da capacidade de planejar. Aperfeiçoamento técnico. Ocupação de ambientes variados. A combinação entre evolução biológica e aprendizagem cultural ampliou a capacidade humana de adaptação e cooperação. Ferramentas e restos de fogueiras indicam planejamento e transmissão de conhecimentos. A prova pode comparar fósseis e ferramentas e pedir qual evidência é biológica e qual é cultural. A evolução humana é o longo processo biológico e cultural que levou ao surgimento do Homo sapiens a partir de ancestrais comuns com outros primatas. A combinação entre evolução biológica e aprendizagem cultural ampliou a capacidade humana de adaptação e cooperação.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-paleolitico",
+              "title": "Paleolítico",
+              "file": "topics/historia/paleolitico.json",
+              "searchText": "Paleolítico é o período mais antigo da Pré-História, marcado pela pedra lascada, caça, pesca, coleta e vida predominantemente nômade. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Começou há cerca de 2,6 milhões de anos. A agricultura ainda não era praticada. A sobrevivência dependia dos recursos naturais disponíveis. Grupos envolvidos Pequenos grupos familiares. Caçadores-coletores. Comunidades nômades. Organização e interesses Cooperação na caça e proteção. Divisão simples de tarefas. Uso de abrigos naturais. Ferramentas de pedra, osso e madeira. Mudanças ao longo do tempo Domínio gradual do fogo. Aperfeiçoamento das ferramentas. Desenvolvimento da linguagem e da arte rupestre. O Paleolítico consolidou cooperação, comunicação, domínio do fogo e fabricação de ferramentas. Essas práticas aumentaram a sobrevivência e prepararam mudanças posteriores. Quando os animais migravam e os frutos se tornavam escassos, o grupo precisava deslocar-se. A questão pode mostrar ferramentas de pedra lascada e restos de fogueira e pedir qual modo de vida é mais provável. Paleolítico é o período mais antigo da Pré-História, marcado pela pedra lascada, caça, pesca, coleta e vida predominantemente nômade. O Paleolítico consolidou cooperação, comunicação, domínio do fogo e fabricação de ferramentas. Essas práti",
+              "visualType": ""
+            },
+            {
+              "id": "historia-neolitico",
+              "title": "Neolítico",
+              "file": "topics/historia/neolitico.json",
+              "searchText": "Neolítico é o período em que vários grupos passaram a praticar agricultura, domesticar animais e viver de forma mais sedentária. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Começou em épocas diferentes conforme a região. Mudanças climáticas favoreceram novas formas de obter alimentos. Grupos envolvidos Agricultores. Pastores. Artesãos. Comunidades aldeãs. Organização e interesses Cultivo de plantas. Domesticação de animais. Construção de aldeias. Armazenamento de alimentos. Mudanças ao longo do tempo Sedentarização. Crescimento populacional. Especialização do trabalho. Aumento das trocas. A produção de alimentos permitiu maior estabilidade, crescimento das aldeias e novas formas de organização econômica e social. Uma comunidade que planta cereais precisa permanecer próxima às áreas cultivadas. A prova pode apresentar silos, cerâmica e sementes e pedir qual mudança do Neolítico está representada. Neolítico é o período em que vários grupos passaram a praticar agricultura, domesticar animais e viver de forma mais sedentária. A produção de alimentos permitiu maior estabilidade, crescimento das aldeias e novas formas de organização econômica e social.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-idade-dos-metais",
+              "title": "Idade dos Metais",
+              "file": "topics/historia/idade-dos-metais.json",
+              "searchText": "Idade dos Metais é o período em que sociedades desenvolveram técnicas de fundição e uso de cobre, bronze e ferro. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto A metalurgia surgiu em momentos diferentes. Exigia conhecimento técnico e acesso a minérios. Grupos envolvidos Mineradores. Artesãos metalúrgicos. Comerciantes. Guerreiros e governantes. Organização e interesses Extração de minério. Fundição. Especialização do trabalho. Redes de troca. Mudanças ao longo do tempo Ferramentas mais resistentes. Armas mais eficientes. Maior desigualdade em algumas sociedades. A metalurgia ampliou produtividade, comércio e poder militar, contribuindo para sociedades mais complexas. Uma enxada de metal podia durar mais e facilitar o cultivo. A questão pode comparar ferramentas de pedra e metal e perguntar qual consequência econômica decorreu da metalurgia. Idade dos Metais é o período em que sociedades desenvolveram técnicas de fundição e uso de cobre, bronze e ferro. A metalurgia ampliou produtividade, comércio e poder militar, contribuindo para sociedades mais complexas.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-deslocamentos-e-sedentarizacao",
+              "title": "Deslocamentos e sedentarização",
+              "file": "topics/historia/deslocamentos-e-sedentarizacao.json",
+              "searchText": "Deslocamento é a mudança de lugar de grupos humanos; sedentarização é a fixação mais permanente em um território. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Caçadores-coletores deslocavam-se conforme os recursos. A agricultura favoreceu a permanência próxima às áreas cultivadas. Grupos envolvidos Povos nômades. Agricultores sedentários. Pastores de deslocamento sazonal. Organização e interesses Busca por água e alimento. Uso de rotas. Construção de aldeias. Controle de áreas produtivas. Mudanças ao longo do tempo Formação de assentamentos permanentes. Aumento populacional. Novas relações de propriedade e poder. A sedentarização transformou moradia, trabalho, produção de alimentos e relações sociais. Uma aldeia agrícola precisa organizar o uso da água e a divisão das terras. A prova pode mostrar aldeia com silos e campos cultivados e pedir qual processo histórico aparece. Deslocamento é a mudança de lugar de grupos humanos; sedentarização é a fixação mais permanente em um território. A sedentarização transformou moradia, trabalho, produção de alimentos e relações sociais.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-invencao-da-escrita",
+              "title": "Invenção da escrita",
+              "file": "topics/historia/invencao-da-escrita.json",
+              "searchText": "A escrita é um sistema de sinais usado para registrar linguagem, informações e ideias de forma duradoura. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Surgiu em diferentes sociedades. Na Mesopotâmia, foi usada em registros administrativos e comerciais. Grupos envolvidos Escribas. Governantes. Comerciantes. Templos e administradores. Organização e interesses Criação de símbolos. Padronização dos registros. Controle de impostos, estoques e leis. Mudanças ao longo do tempo Ampliação da administração. Preservação de textos. Fortalecimento de instituições. A escrita permitiu registrar leis, contas, crenças e acontecimentos, ampliando a memória social. Tabuletas registravam a entrada e saída de cereais de depósitos. A questão pode apresentar escrita cuneiforme e perguntar qual necessidade favoreceu seu desenvolvimento. A escrita é um sistema de sinais usado para registrar linguagem, informações e ideias de forma duradoura. A escrita permitiu registrar leis, contas, crenças e acontecimentos, ampliando a memória social.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-origens-do-homem-americano",
+              "title": "Origens do homem americano",
+              "file": "topics/historia/origens-do-homem-americano.json",
+              "searchText": "O povoamento da América foi o processo de chegada e dispersão de grupos humanos pelo continente. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Ocorreu durante a Pré-História. Há diferentes hipóteses e evidências arqueológicas. A passagem por Bering é uma das principais rotas propostas. Grupos envolvidos Caçadores-coletores. Populações adaptadas a diferentes ambientes americanos. Organização e interesses Migrações graduais. Produção de ferramentas. Ocupação de territórios. Adaptação climática. Mudanças ao longo do tempo Diversificação cultural. Formação de diferentes povos. Desenvolvimento de modos de vida próprios. O povoamento produziu grande diversidade de sociedades, línguas e culturas muito antes da chegada dos europeus. Fogueiras e ferramentas em sítios arqueológicos ajudam a estimar datas de ocupação. A prova pode apresentar mapa de rotas e datações e pedir qual hipótese é melhor sustentada. O povoamento da América foi o processo de chegada e dispersão de grupos humanos pelo continente. O povoamento produziu grande diversidade de sociedades, línguas e culturas muito antes da chegada dos europeus.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Antiguidade e Idade Média",
+          "topics": [
+            {
+              "id": "historia-africa-antiga",
+              "title": "África antiga",
+              "file": "topics/historia/africa-antiga.json",
+              "searchText": "África antiga reúne diversas sociedades e reinos africanos anteriores à expansão europeia moderna, com formas próprias de governo, comércio, religião e cultura. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Grande diversidade geográfica e cultural. Rotas comerciais ligavam interior, litoral, Mediterrâneo e Oriente. O continente não possuía uma única história ou cultura. Grupos envolvidos Egípcios, núbios, povos bantos e diversas sociedades regionais. Reis, comerciantes, agricultores, artesãos e sacerdotes. Organização e interesses Reinos e cidades. Agricultura e mineração. Comércio de ouro, sal e outros produtos. Religiões e tradições locais. Mudanças ao longo do tempo Formação e queda de reinos. Expansão de rotas comerciais. Migrações e intercâmbios culturais. As sociedades africanas criaram conhecimentos, Estados e redes comerciais importantes, contrariando a ideia equivocada de uma África sem história. O comércio de ouro ligava regiões africanas a mercados do norte do continente. A questão pode usar mapa de rotas e pedir o que ele revela sobre comércio e organização política africana. África antiga reúne diversas sociedades e reinos africanos anteriores à expansão europeia moderna, com formas próprias de governo, comércio, religião e cultura. As sociedades africanas criaram conheciment",
+              "visualType": ""
+            },
+            {
+              "id": "historia-mesopotamia",
+              "title": "Mesopotâmia",
+              "file": "topics/historia/mesopotamia.json",
+              "searchText": "Mesopotâmia foi a região entre os rios Tigre e Eufrates onde surgiram cidades e Estados como Suméria, Babilônia e Assíria. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Rios favoreciam agricultura. Cheias exigiam canais e organização coletiva. A região possuía terras férteis, mas poucos recursos minerais. Grupos envolvidos Camponeses. Sacerdotes. Governantes. Escribas. Artesãos e comerciantes. Organização e interesses Cidades-Estado. Templos. Irrigação. Tributos. Escrita cuneiforme. Mudanças ao longo do tempo Crescimento urbano. Criação de leis. Disputas entre cidades e impérios. A Mesopotâmia desenvolveu escrita, legislação, cidades e sistemas de irrigação que influenciaram sociedades posteriores. Canais levavam água dos rios até campos em períodos secos. A prova pode apresentar imagem de canal ou tabuleta e pedir qual necessidade social está representada. Mesopotâmia foi a região entre os rios Tigre e Eufrates onde surgiram cidades e Estados como Suméria, Babilônia e Assíria. A Mesopotâmia desenvolveu escrita, legislação, cidades e sistemas de irrigação que influenciaram sociedades posteriores.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-grecia-e-roma",
+              "title": "Grécia e Roma",
+              "file": "topics/historia/grecia-e-roma.json",
+              "searchText": "Grécia e Roma foram sociedades da Antiguidade que influenciaram política, direito, filosofia, arte e organização urbana. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto A Grécia era formada por cidades-Estado. Roma passou de cidade a império. Ambas dependiam de trabalho escravo. Grupos envolvidos Cidadãos, mulheres, estrangeiros, escravizados, soldados e governantes. Organização e interesses Polis e democracia limitada em Atenas. República e Império em Roma. Exércitos, leis e comércio mediterrânico. Mudanças ao longo do tempo Expansão territorial. Conflitos sociais. Transformações políticas. Seus legados aparecem em conceitos políticos, sistemas jurídicos, arquitetura e línguas, mas suas sociedades eram profundamente desiguais. Na democracia ateniense, apenas parte dos homens livres participava das decisões. A prova pode comparar democracia antiga e atual e pedir uma diferença fundamental. Grécia e Roma foram sociedades da Antiguidade que influenciaram política, direito, filosofia, arte e organização urbana. Seus legados aparecem em conceitos políticos, sistemas jurídicos, arquitetura e línguas, mas suas sociedades eram profundamente desiguais.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-americas-antigas",
+              "title": "Américas antigas",
+              "file": "topics/historia/americas-antigas.json",
+              "searchText": "Américas antigas incluem sociedades indígenas complexas desenvolvidas antes da chegada dos europeus, como maias, astecas e incas. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Grande diversidade ambiental. Desenvolvimento independente de cidades, agricultura e conhecimentos. Grupos envolvidos Maias, astecas, incas e muitos outros povos. Agricultores, artesãos, sacerdotes, guerreiros e governantes. Organização e interesses Agricultura intensiva. Tributos. Cidades e impérios. Calendários e conhecimentos astronômicos. Mudanças ao longo do tempo Expansões territoriais. Conflitos. Adaptações ambientais. Essas sociedades criaram tecnologias, sistemas políticos e conhecimentos sofisticados antes da colonização europeia. Terraços agrícolas incas permitiam cultivo em áreas montanhosas. A questão pode mostrar técnica agrícola e pedir como ela se relaciona ao ambiente. Américas antigas incluem sociedades indígenas complexas desenvolvidas antes da chegada dos europeus, como maias, astecas e incas. Essas sociedades criaram tecnologias, sistemas políticos e conhecimentos sofisticados antes da colonização europeia.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-passagem-para-o-mundo-medieval",
+              "title": "Passagem para o mundo medieval",
+              "file": "topics/historia/passagem-para-o-mundo-medieval.json",
+              "searchText": "A passagem para o mundo medieval foi o processo de transformação do Império Romano do Ocidente e formação de novas sociedades na Europa. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Crise política e econômica romana. Migrações e invasões. Ruralização. Grupos envolvidos Romanos. Povos germânicos. Igreja cristã. Camponeses e elites locais. Organização e interesses Fragmentação política. Economia rural. Fusão de costumes romanos e germânicos. Mudanças ao longo do tempo Queda do poder imperial no Ocidente. Fortalecimento de poderes locais. Expansão do cristianismo. Formaram-se reinos e estruturas sociais que deram origem ao mundo medieval europeu. Antigos territórios romanos passaram a ser controlados por diferentes reinos germânicos. A prova pode apresentar mapa da fragmentação romana e pedir qual mudança política ocorreu. A passagem para o mundo medieval foi o processo de transformação do Império Romano do Ocidente e formação de novas sociedades na Europa. Formaram-se reinos e estruturas sociais que deram origem ao mundo medieval europeu.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-imperio-bizantino",
+              "title": "Império Bizantino",
+              "file": "topics/historia/imperio-bizantino.json",
+              "searchText": "Império Bizantino foi a continuidade do Império Romano no Oriente, com capital em Constantinopla. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Sobreviveu à queda do Império Romano do Ocidente. Localização estratégica entre Europa e Ásia. Grupos envolvidos Imperadores. Comerciantes. Camponeses. Clero cristão oriental. Organização e interesses Poder imperial centralizado. Comércio intenso. Cristianismo ortodoxo. Código de Justiniano. Mudanças ao longo do tempo Expansões e perdas territoriais. Ruptura com a Igreja de Roma. Queda em 1453. Preservou conhecimentos greco-romanos, influenciou o direito e conectou rotas comerciais entre continentes. Constantinopla controlava uma passagem importante entre o Mar Negro e o Mediterrâneo. A questão pode usar mapa comercial e pedir por que Constantinopla era estratégica. Império Bizantino foi a continuidade do Império Romano no Oriente, com capital em Constantinopla. Preservou conhecimentos greco-romanos, influenciou o direito e conectou rotas comerciais entre continentes.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-feudalismo",
+              "title": "Feudalismo",
+              "file": "topics/historia/feudalismo.json",
+              "searchText": "Feudalismo foi uma forma de organização social, econômica e política predominante em partes da Europa medieval. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Fragmentação do poder. Ruralização. Insegurança após o fim do Império Romano do Ocidente. Grupos envolvidos Nobreza. Clero. Camponeses e servos. Organização e interesses Senhorios rurais. Poder local. Obrigações servis. Produção agrícola. Mudanças ao longo do tempo Crescimento do comércio e das cidades enfraqueceu gradualmente estruturas feudais. O feudalismo organizou a produção rural e o poder local, mas manteve fortes desigualdades sociais. Servos trabalhavam em terras senhoriais e entregavam parte da produção. A prova pode apresentar esquema de senhorio e pedir qual relação social está representada. Feudalismo foi uma forma de organização social, econômica e política predominante em partes da Europa medieval. O feudalismo organizou a produção rural e o poder local, mas manteve fortes desigualdades sociais.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-papel-da-igreja",
+              "title": "Papel da Igreja",
+              "file": "topics/historia/papel-da-igreja.json",
+              "searchText": "Na Europa medieval, a Igreja Católica exerceu forte influência religiosa, política, cultural e econômica. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Fragmentação política. Predomínio do cristianismo. Baixa escolarização fora de instituições religiosas. Grupos envolvidos Clero. Nobreza. Camponeses. Ordens monásticas. Organização e interesses Mosteiros. Cobrança de dízimos. Educação e preservação de manuscritos. Interferência política. Mudanças ao longo do tempo Crescimento de críticas. Conflitos com monarcas. Reformas religiosas posteriores. A Igreja ajudou a organizar a vida social e cultural, mas também concentrou poder e riqueza. Mosteiros copiavam manuscritos e preservavam textos antigos. A questão pode mostrar um mosteiro e pedir qual função cultural ele exercia. Na Europa medieval, a Igreja Católica exerceu forte influência religiosa, política, cultural e econômica. A Igreja ajudou a organizar a vida social e cultural, mas também concentrou poder e riqueza.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-mundo-islamico",
+              "title": "Mundo Islâmico",
+              "file": "topics/historia/mundo-islamico.json",
+              "searchText": "Mundo Islâmico refere-se às sociedades formadas a partir da expansão do Islã desde o século VII. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Surgimento do Islã na Península Arábica. Expansão territorial e comercial. Grupos envolvidos Muçulmanos de diferentes povos. Comerciantes. Sábios. Governantes e comunidades religiosas diversas. Organização e interesses Califados. Cidades comerciais. Centros de estudo. Redes entre África, Ásia e Europa. Mudanças ao longo do tempo Expansão cultural e científica. Diversificação política. Trocas com outros povos. Sociedades islâmicas preservaram e produziram conhecimentos em matemática, medicina, astronomia e filosofia. Estudiosos traduziram e ampliaram obras gregas e indianas. A questão pode apresentar invenção ou texto científico e pedir qual contribuição do mundo islâmico aparece. Mundo Islâmico refere-se às sociedades formadas a partir da expansão do Islã desde o século VII. Sociedades islâmicas preservaram e produziram conhecimentos em matemática, medicina, astronomia e filosofia.",
+              "visualType": ""
+            }
+          ]
+        },
+        {
+          "name": "Mundo moderno e colonização",
+          "topics": [
+            {
+              "id": "historia-modernidade",
+              "title": "Modernidade",
+              "file": "topics/historia/modernidade.json",
+              "searchText": "Modernidade, no contexto histórico escolar, refere-se às transformações ocorridas sobretudo entre os séculos XV e XVIII: fortalecimento dos Estados, expansão comercial, Renascimento, reformas religiosas e Revolução Científica. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Crise de estruturas feudais. Crescimento das cidades e do comércio. Expansão marítima. Circulação de novas ideias. Grupos envolvidos Monarcas. Burguesia. Igrejas. Navegadores. Cientistas, artistas e camponeses. Organização e interesses Centralização política. Mercantilismo. Colonização. Imprensa e circulação de ideias. Mudanças ao longo do tempo Fortalecimento dos Estados nacionais. Ampliação do comércio mundial. Questionamento de autoridades tradicionais. Novas formas de compreender a natureza. A Modernidade transformou relações políticas, econômicas e culturais. Consolidou Estados, integrou continentes e favoreceu novas ideias científicas e religiosas. A imprensa permitiu produzir mais livros e espalhar ideias rapidamente. A prova pode apresentar mapa de navegações, pintura renascentista ou texto científico e pedir qual transformação moderna aparece. Modernidade, no contexto histórico escolar, refere-se às transformações ocorridas sobretudo entre os séculos XV e XVIII: fortalecimento dos Estados, expansão comercial, Re",
+              "visualType": ""
+            },
+            {
+              "id": "historia-absolutismo",
+              "title": "Absolutismo",
+              "file": "topics/historia/absolutismo.json",
+              "searchText": "Absolutismo foi uma forma de monarquia em que o rei concentrava amplos poderes políticos, administrativos e militares. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Enfraquecimento de parte da nobreza feudal. Formação dos Estados nacionais. Unificação de leis, impostos e exércitos. Grupos envolvidos Reis. Nobreza. Burguesia. Camponeses e funcionários do Estado. Organização e interesses Centralização do poder. Exército permanente. Cobrança de impostos. Burocracia estatal. Mudanças ao longo do tempo Redução da autonomia feudal. Fortalecimento da corte. Aumento das tensões fiscais. O absolutismo fortaleceu Estados nacionais, mas gerou conflitos por privilégios, impostos e concentração de poder. Luís XIV controlou a nobreza e fortaleceu a administração real na França. A prova pode apresentar frase sobre poder real e pedir qual característica absolutista ela expressa. Absolutismo foi uma forma de monarquia em que o rei concentrava amplos poderes políticos, administrativos e militares. O absolutismo fortaleceu Estados nacionais, mas gerou conflitos por privilégios, impostos e concentração de poder.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-humanismo-e-renascimento",
+              "title": "Humanismo e Renascimento",
+              "file": "topics/historia/humanismo-e-renascimento.json",
+              "searchText": "Humanismo valorizou o ser humano, a razão e os estudos clássicos; Renascimento foi um movimento cultural e artístico ligado a essas ideias. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Crescimento urbano e comercial. Contato com textos greco-romanos. Apoio de mecenas. Difusão pela imprensa. Grupos envolvidos Artistas. Intelectuais. Cientistas. Mecenas e comerciantes. Organização e interesses Estudo da natureza. Perspectiva nas artes. Valorização da observação. Mudanças ao longo do tempo Novas técnicas artísticas. Maior interesse pela anatomia e ciência. Questionamento de explicações tradicionais. O Renascimento ampliou a produção artística e científica e criou novas formas de representar o ser humano e investigar a natureza. Artistas estudavam anatomia para representar o corpo com precisão. A questão pode mostrar obra com perspectiva e pedir qual característica renascentista aparece. Humanismo valorizou o ser humano, a razão e os estudos clássicos; Renascimento foi um movimento cultural e artístico ligado a essas ideias. O Renascimento ampliou a produção artística e científica e criou novas formas de representar o ser humano e investigar a natureza.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-monarquias-europeias",
+              "title": "Monarquias europeias",
+              "file": "topics/historia/monarquias-europeias.json",
+              "searchText": "Monarquias europeias modernas foram Estados governados por reis que buscaram centralizar poder e controlar territórios. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Enfraquecimento do feudalismo. Crescimento comercial. Disputas territoriais. Grupos envolvidos Monarcas. Nobreza. Burguesia. Exércitos e burocratas. Organização e interesses Leis unificadas. Impostos nacionais. Exércitos permanentes. Diplomacia. Mudanças ao longo do tempo Formação de Estados nacionais. Maior centralização. Conflitos entre coroas. Essas monarquias criaram estruturas políticas que favoreceram expansão marítima e administração colonial. Portugal organizou impostos e navegação sob autoridade real. A prova pode apresentar mapa político e pedir qual processo de centralização está representado. Monarquias europeias modernas foram Estados governados por reis que buscaram centralizar poder e controlar territórios. Essas monarquias criaram estruturas políticas que favoreceram expansão marítima e administração colonial.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-reformas-religiosas",
+              "title": "Reformas religiosas",
+              "file": "topics/historia/reformas-religiosas.json",
+              "searchText": "As Reformas Religiosas foram movimentos do século XVI que criticaram práticas da Igreja Católica e originaram novas igrejas cristãs. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Críticas à venda de indulgências. Interesse de governantes em ampliar autonomia. Circulação de ideias pela imprensa. Grupos envolvidos Católicos. Luteranos. Calvinistas. Anglicanos. Governantes e fiéis. Organização e interesses Rompimento com Roma. Tradução da Bíblia. Contrarreforma e Concílio de Trento. Mudanças ao longo do tempo Pluralização religiosa. Conflitos políticos. Mudanças educacionais e culturais. As reformas romperam a unidade religiosa da Europa e influenciaram política, cultura e colonização. A impressão de textos permitiu rápida circulação das ideias de Lutero. A prova pode apresentar crítica religiosa e pedir qual problema estava sendo questionado. As Reformas Religiosas foram movimentos do século XVI que criticaram práticas da Igreja Católica e originaram novas igrejas cristãs. As reformas romperam a unidade religiosa da Europa e influenciaram política, cultura e colonização.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-descobertas-cientificas-e-expansao-maritima",
+              "title": "Descobertas científicas e expansão marítima",
+              "file": "topics/historia/descobertas-cientificas-e-expansao-maritima.json",
+              "searchText": "Esse tema reúne avanços técnicos e científicos que favoreceram navegações e novas explicações sobre o mundo. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Busca por rotas comerciais. Aperfeiçoamento de mapas e instrumentos. Interesse de monarquias e comerciantes. Grupos envolvidos Navegadores. Cartógrafos. Astrônomos. Monarcas e comerciantes. Organização e interesses Uso de bússola, astrolábio e caravelas. Financiamento estatal. Produção de mapas. Mudanças ao longo do tempo Ampliação do conhecimento geográfico. Conexão entre continentes. Colonização. As navegações ampliaram trocas e conhecimentos, mas também impulsionaram conquista, exploração e escravidão. O astrolábio ajudava a estimar posição pela observação dos astros. A prova pode apresentar instrumento náutico e perguntar qual problema ele ajudava a resolver. Esse tema reúne avanços técnicos e científicos que favoreceram navegações e novas explicações sobre o mundo. As navegações ampliaram trocas e conhecimentos, mas também impulsionaram conquista, exploração e escravidão.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-mercantilismo",
+              "title": "Mercantilismo",
+              "file": "topics/historia/mercantilismo.json",
+              "searchText": "Mercantilismo foi o conjunto de práticas econômicas adotadas por monarquias europeias para fortalecer o Estado. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Expansão comercial marítima. Formação de impérios coloniais. Disputa por metais e mercados. Grupos envolvidos Monarquias. Comerciantes. Companhias de comércio. Colonos e populações exploradas. Organização e interesses Protecionismo. Balança comercial favorável. Metalismo. Monopólio colonial. Mudanças ao longo do tempo Ampliação do comércio atlântico. Maior intervenção estatal. Exploração colonial. O mercantilismo fortaleceu Estados e comerciantes europeus, mas sustentou colonização e desigualdades. Uma colônia era obrigada a vender certos produtos apenas à metrópole. A questão pode apresentar lei de monopólio e pedir qual prática mercantilista aparece. Mercantilismo foi o conjunto de práticas econômicas adotadas por monarquias europeias para fortalecer o Estado. O mercantilismo fortaleceu Estados e comerciantes europeus, mas sustentou colonização e desigualdades.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-escravidao-moderna-e-trafico",
+              "title": "Escravidão moderna e tráfico",
+              "file": "topics/historia/escravidao-moderna-e-trafico.json",
+              "searchText": "A escravidão moderna foi um sistema de exploração que transformou pessoas, sobretudo africanas, em propriedade e mão de obra forçada. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Expansão colonial. Demanda por trabalho nas Américas. Comércio atlântico. Grupos envolvidos Africanos escravizados. Traficantes. Proprietários coloniais. Estados europeus. Comunidades resistentes. Organização e interesses Captura e venda. Travessia atlântica. Trabalho forçado. Violência e resistência. Mudanças ao longo do tempo Crescimento do tráfico. Formação de sociedades escravistas. Abolições após longas lutas. O tráfico causou mortes, separação de famílias e desigualdades profundas. Também houve preservação cultural e resistência. Quilombos reuniam pessoas que fugiam da escravidão e criavam comunidades. A prova pode combinar mapa do tráfico e fonte sobre resistência e pedir uma conclusão. A escravidão moderna foi um sistema de exploração que transformou pessoas, sobretudo africanas, em propriedade e mão de obra forçada. O tráfico causou mortes, separação de famílias e desigualdades profundas. Também houve preservação cultural e resistência.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-conquista-da-america",
+              "title": "Conquista da América",
+              "file": "topics/historia/conquista-da-america.json",
+              "searchText": "Conquista da América foi o processo de invasão, domínio e exploração de territórios e povos americanos por potências europeias. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Expansão marítima. Busca por riquezas. Interesses religiosos e políticos. Grupos envolvidos Povos indígenas. Conquistadores europeus. Missionários. Aliados locais. Organização e interesses Guerra. Alianças. Epidemias. Imposição de trabalho e tributos. Mudanças ao longo do tempo Queda de impérios. Redução populacional. Transformações culturais e territoriais. A conquista alterou profundamente sociedades americanas por violência, doenças, exploração e imposição cultural. Doenças trazidas pelos europeus atingiram populações sem imunidade prévia. A questão pode combinar mapa, relato e dados populacionais para identificar fatores da conquista. Conquista da América foi o processo de invasão, domínio e exploração de territórios e povos americanos por potências europeias. A conquista alterou profundamente sociedades americanas por violência, doenças, exploração e imposição cultural.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-colonizacao-europeia",
+              "title": "Colonização europeia",
+              "file": "topics/historia/colonizacao-europeia.json",
+              "searchText": "Colonização europeia foi a ocupação e exploração de territórios controlados por metrópoles europeias. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Expansão marítima. Mercantilismo. Disputa entre potências. Grupos envolvidos Metrópoles. Colonos. Povos indígenas. Africanos escravizados. Missionários. Organização e interesses Administração colonial. Exploração de recursos. Monopólios comerciais. Trabalho forçado. Mudanças ao longo do tempo Criação de sociedades coloniais. Misturas culturais. Conflitos e resistências. A colonização integrou continentes de forma desigual e produziu profundas mudanças demográficas, culturais e ambientais. A produção de açúcar ligava terras americanas, trabalho escravizado e mercados europeus. A prova pode apresentar fluxo comercial e perguntar quem se beneficiava e quem era explorado. Colonização europeia foi a ocupação e exploração de territórios controlados por metrópoles europeias. A colonização integrou continentes de forma desigual e produziu profundas mudanças demográficas, culturais e ambientais.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-resistencia-indigena",
+              "title": "Resistência indígena",
+              "file": "topics/historia/resistencia-indigena.json",
+              "searchText": "Resistência indígena reúne ações de defesa, negociação, fuga, guerra e preservação cultural diante da colonização. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Invasão de territórios. Escravização. Doenças. Missões religiosas. Grupos envolvidos Diversos povos indígenas. Colonizadores. Missionários. Aliados indígenas. Organização e interesses Confrontos. Alianças estratégicas. Deslocamentos. Manutenção de línguas e costumes. Mudanças ao longo do tempo Adaptação de estratégias. Reorganização de comunidades. Continuidade das lutas territoriais. A resistência garantiu sobrevivência de povos, identidades e conhecimentos indígenas. Alguns povos formaram alianças temporárias para enfrentar invasores. A prova pode apresentar relato colonial e pedir qual ação demonstra resistência. Resistência indígena reúne ações de defesa, negociação, fuga, guerra e preservação cultural diante da colonização. A resistência garantiu sobrevivência de povos, identidades e conhecimentos indígenas.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-america-portuguesa",
+              "title": "América Portuguesa",
+              "file": "topics/historia/america-portuguesa.json",
+              "searchText": "América Portuguesa foi o conjunto de territórios americanos controlados por Portugal, base da formação histórica do Brasil. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Colonização a partir do século XVI. Interesse em ocupar e explorar o território. Disputa com outras potências. Grupos envolvidos Portugueses. Povos indígenas. Africanos escravizados. Missionários e comerciantes. Organização e interesses Capitanias. Governo-geral. Produção açucareira. Escravidão. Expansão territorial. Mudanças ao longo do tempo Interiorização. Diversificação econômica. Crescimento urbano e conflitos. A colonização portuguesa formou sociedade marcada por exploração, escravidão, desigualdade e mistura cultural. Engenhos reuniam produção agrícola, instalações e trabalho escravizado. A questão pode apresentar planta de engenho e pedir quais relações sociais aparecem. América Portuguesa foi o conjunto de territórios americanos controlados por Portugal, base da formação histórica do Brasil. A colonização portuguesa formou sociedade marcada por exploração, escravidão, desigualdade e mistura cultural.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-brasil-holandes",
+              "title": "Brasil Holandês",
+              "file": "topics/historia/brasil-holandes.json",
+              "searchText": "Brasil Holandês foi o período de domínio neerlandês em partes do Nordeste, principalmente entre 1630 e 1654. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Disputa pelo açúcar. Conflitos europeus. Interesse da Companhia das Índias Ocidentais. Grupos envolvidos Holandeses. Senhores de engenho. População local. Indígenas e africanos escravizados. Organização e interesses Controle de áreas açucareiras. Administração de Nassau. Créditos aos produtores. Obras urbanas. Mudanças ao longo do tempo Modernização de Recife. Conflitos por dívidas. Expulsão dos holandeses. O período intensificou disputas comerciais e deixou marcas urbanas, artísticas e científicas. Pintores e naturalistas registraram paisagens e habitantes do Nordeste. A prova pode usar pintura de Frans Post e perguntar o que ela revela. Brasil Holandês foi o período de domínio neerlandês em partes do Nordeste, principalmente entre 1630 e 1654. O período intensificou disputas comerciais e deixou marcas urbanas, artísticas e científicas.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-inquisicao-no-brasil",
+              "title": "Inquisição no Brasil",
+              "file": "topics/historia/inquisicao-no-brasil.json",
+              "searchText": "A Inquisição foi uma instituição religiosa que investigava e punia práticas consideradas contrárias ao catolicismo. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Contrarreforma católica. Colonização portuguesa. Controle religioso e social. Grupos envolvidos Inquisidores. Clero. Cristãos-novos. Pessoas acusadas de práticas religiosas ou morais proibidas. Organização e interesses Denúncias. Investigações. Visitações. Punições. Mudanças ao longo do tempo Maior vigilância religiosa. Perseguição a grupos específicos. Medo e controle social. A Inquisição reforçou intolerância religiosa e perseguiu práticas culturais e crenças diversas. Cristãos-novos podiam ser denunciados por manter costumes judaicos. A prova pode apresentar trecho de denúncia e perguntar qual mecanismo de controle está presente. A Inquisição foi uma instituição religiosa que investigava e punia práticas consideradas contrárias ao catolicismo. A Inquisição reforçou intolerância religiosa e perseguiu práticas culturais e crenças diversas.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-economia-colonial",
+              "title": "Economia colonial",
+              "file": "topics/historia/economia-colonial.json",
+              "searchText": "Economia colonial foi o conjunto de atividades produtivas organizadas para atender aos interesses da metrópole. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Mercantilismo. Monopólio comercial. Exploração de recursos. Grupos envolvidos Metrópole. Grandes proprietários. Comerciantes. Trabalhadores livres e escravizados. Organização e interesses Latifúndio. Monocultura. Exportação. Escravidão. Mineração. Mudanças ao longo do tempo Diversificação regional. Expansão para o interior. Crescimento de mercados internos. A economia colonial gerou riqueza concentrada, dependência externa e desigualdades duradouras. A produção de açúcar dependia de grandes propriedades e trabalho escravizado. A prova pode apresentar dados de exportação e pedir qual atividade predominava. Economia colonial foi o conjunto de atividades produtivas organizadas para atender aos interesses da metrópole. A economia colonial gerou riqueza concentrada, dependência externa e desigualdades duradouras.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-reformas-pombalinas",
+              "title": "Reformas pombalinas",
+              "file": "topics/historia/reformas-pombalinas.json",
+              "searchText": "Reformas pombalinas foram medidas do século XVIII adotadas pela Coroa portuguesa para aumentar o controle do Estado sobre economia, educação e colônias. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Despotismo esclarecido. Crise econômica portuguesa. Busca por maior eficiência administrativa. Grupos envolvidos Marquês de Pombal. Coroa portuguesa. Jesuítas. Colonos e povos indígenas. Organização e interesses Expulsão dos jesuítas. Mudanças educacionais. Reorganização econômica e administrativa. Mudanças ao longo do tempo Maior controle estatal. Mudança na educação. Reorganização de companhias comerciais. As reformas fortaleceram o poder da Coroa, mas também causaram conflitos e impactos sobre missões e educação. A expulsão dos jesuítas alterou escolas e missões na colônia. A questão pode apresentar decreto e pedir qual objetivo centralizador está expresso. Reformas pombalinas foram medidas do século XVIII adotadas pela Coroa portuguesa para aumentar o controle do Estado sobre economia, educação e colônias. As reformas fortaleceram o poder da Coroa, mas também causaram conflitos e impactos sobre missões e educação.",
+              "visualType": ""
+            },
+            {
+              "id": "historia-historia-das-mulheres",
+              "title": "História das Mulheres",
+              "file": "topics/historia/historia-das-mulheres.json",
+              "searchText": "História das Mulheres estuda experiências, trabalhos, direitos, resistências e formas de participação feminina em diferentes sociedades. Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados. Contexto Muitas fontes tradicionais privilegiaram ações masculinas. Novas pesquisas ampliaram o uso de cartas, processos e relatos. Grupos envolvidos Mulheres de diferentes classes, raças, povos e períodos. Instituições que regulavam seus direitos e papéis. Organização e interesses Trabalho doméstico e produtivo. Participação política e cultural. Normas de gênero. Resistências. Mudanças ao longo do tempo Ampliação de direitos. Maior presença em espaços públicos. Persistência de desigualdades. Esse campo mostra que mulheres sempre participaram da História, embora muitas vezes tenham sido invisibilizadas. Processos judiciais podem revelar mulheres administrando negócios ou defendendo propriedades. A prova pode apresentar fonte escrita por uma mulher e perguntar o que ela revela sobre seu papel social. História das Mulheres estuda experiências, trabalhos, direitos, resistências e formas de participação feminina em diferentes sociedades. Esse campo mostra que mulheres sempre participaram da História, embora muitas vezes tenham sido invisibilizadas.",
+              "visualType": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

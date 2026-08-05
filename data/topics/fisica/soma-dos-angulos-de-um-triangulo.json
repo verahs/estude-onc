@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-soma-dos-angulos-de-um-triangulo",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Soma dos ângulos de um triângulo",
+  "blocks": [
+    {
+      "id": "soma-dos-angulos-de-um-triangulo-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Soma dos ângulos de um triângulo é um conteúdo previsto no programa da ONC."
+    },
+    {
+      "id": "soma-dos-angulos-de-um-triangulo-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Os três ângulos internos de qualquer triângulo somam 180°."
+    },
+    {
+      "id": "soma-dos-angulos-de-um-triangulo-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Conhecendo dois ângulos, calcula-se o terceiro."
+    },
+    {
+      "id": "soma-dos-angulos-de-um-triangulo-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Observe uma situação cotidiana relacionada a soma dos ângulos de um triângulo."
+    },
+    {
+      "id": "soma-dos-angulos-de-um-triangulo-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Se dois ângulos medem 50° e 60°, o terceiro mede: A) 70° B) 80° C) 90°. Resposta: A."
+    },
+    {
+      "id": "soma-dos-angulos-de-um-triangulo-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "soma-dos-angulos-de-um-triangulo-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Soma dos ângulos de um triângulo é um conteúdo previsto no programa da ONC.",
+        "Conhecendo dois ângulos, calcula-se o terceiro."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Soma dos ângulos de um triângulo é um conteúdo previsto no programa da ONC.",
+    "process": "Os três ângulos internos de qualquer triângulo somam 180°.",
+    "result": "Conhecendo dois ângulos, calcula-se o terceiro.",
+    "example": "Observe uma situação cotidiana relacionada a soma dos ângulos de um triângulo.",
+    "exam": "Se dois ângulos medem 50° e 60°, o terceiro mede: A) 70° B) 80° C) 90°. Resposta: A."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-bussola",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Bússola",
+  "blocks": [
+    {
+      "id": "bussola-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A bússola é um instrumento com uma agulha magnetizada que se alinha aproximadamente ao campo magnético da Terra."
+    },
+    {
+      "id": "bussola-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Como funciona</h5><ul><li>A Terra possui um campo magnético.</li><li>A agulha pode girar livremente.</li><li>Uma extremidade aponta aproximadamente para o norte magnético.</li><li>A outra aponta para o sul magnético.</li></ul></section><section><h5>Limitação</h5><p>Norte magnético e norte geográfico não coincidem exatamente.</p></section>"
+    },
+    {
+      "id": "bussola-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A bússola ajuda na orientação mesmo quando o Sol ou estrelas não estão visíveis."
+    },
+    {
+      "id": "bussola-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Em uma trilha, uma bússola pode indicar a direção norte para conferir o caminho no mapa."
+    },
+    {
+      "id": "bussola-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode perguntar por que uma bússola funciona e qual campo físico atua sobre sua agulha."
+    },
+    {
+      "id": "bussola-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A bússola é um instrumento com uma agulha magnetizada que se alinha aproximadamente ao campo magnético da Terra.",
+        "A bússola ajuda na orientação mesmo quando o Sol ou estrelas não estão visíveis."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A bússola é um instrumento com uma agulha magnetizada que se alinha aproximadamente ao campo magnético da Terra.",
+    "process": "<section><h5>Como funciona</h5><ul><li>A Terra possui um campo magnético.</li><li>A agulha pode girar livremente.</li><li>Uma extremidade aponta aproximadamente para o norte magnético.</li><li>A outra aponta para o sul magnético.</li></ul></section><section><h5>Limitação</h5><p>Norte magnético e norte geográfico não coincidem exatamente.</p></section>",
+    "result": "A bússola ajuda na orientação mesmo quando o Sol ou estrelas não estão visíveis.",
+    "example": "Em uma trilha, uma bússola pode indicar a direção norte para conferir o caminho no mapa.",
+    "exam": "A questão pode perguntar por que uma bússola funciona e qual campo físico atua sobre sua agulha."
+  },
+  "visualType": ""
+}

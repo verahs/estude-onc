@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-periodizacao",
+  "discipline": "História",
+  "group": "História, tempo e fontes",
+  "title": "Periodização",
+  "blocks": [
+    {
+      "id": "periodizacao-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Periodização é a divisão do tempo histórico em períodos para facilitar o estudo. Essas divisões são convenções criadas por pesquisadores."
+    },
+    {
+      "id": "periodizacao-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "periodizacao-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A História abrange processos muito longos.</li><li>Marcos ajudam a organizar mudanças e permanências.</li><li>A divisão europeia não explica igualmente a história de todos os povos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores e instituições de ensino.</li><li>Sociedades tomadas como referência para definir os períodos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Escolha de marcos de início e fim.</li><li>Agrupamento de características comuns.</li><li>Comparação entre períodos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Periodizações podem ser revistas.</li><li>Histórias africanas, indígenas e asiáticas exigem outros marcos.</li></ul></section></div>"
+    },
+    {
+      "id": "periodizacao-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A periodização organiza o estudo, mas não significa que todas as sociedades mudaram ao mesmo tempo."
+    },
+    {
+      "id": "periodizacao-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O ano de 1453 é usado como marco entre Idade Média e Moderna na Europa, mas não teve o mesmo significado em todo o mundo."
+    },
+    {
+      "id": "periodizacao-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode pedir por que uma periodização é uma ferramenta de estudo, e não uma divisão natural do tempo."
+    },
+    {
+      "id": "periodizacao-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Periodização é a divisão do tempo histórico em períodos para facilitar o estudo. Essas divisões são convenções criadas por pesquisadores.",
+        "A periodização organiza o estudo, mas não significa que todas as sociedades mudaram ao mesmo tempo."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Periodização é a divisão do tempo histórico em períodos para facilitar o estudo. Essas divisões são convenções criadas por pesquisadores.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A História abrange processos muito longos.</li><li>Marcos ajudam a organizar mudanças e permanências.</li><li>A divisão europeia não explica igualmente a história de todos os povos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores e instituições de ensino.</li><li>Sociedades tomadas como referência para definir os períodos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Escolha de marcos de início e fim.</li><li>Agrupamento de características comuns.</li><li>Comparação entre períodos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Periodizações podem ser revistas.</li><li>Histórias africanas, indígenas e asiáticas exigem outros marcos.</li></ul></section></div>",
+    "result": "A periodização organiza o estudo, mas não significa que todas as sociedades mudaram ao mesmo tempo.",
+    "example": "O ano de 1453 é usado como marco entre Idade Média e Moderna na Europa, mas não teve o mesmo significado em todo o mundo.",
+    "exam": "A questão pode pedir por que uma periodização é uma ferramenta de estudo, e não uma divisão natural do tempo."
+  },
+  "visualType": "timeline"
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-sistema-locomotor-e-nervoso",
+  "discipline": "Biologia",
+  "group": "Vida e corpo humano",
+  "title": "Sistema locomotor e nervoso",
+  "blocks": [
+    {
+      "id": "sistema-locomotor-e-nervoso-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Movimento e sustentação dependem da ação integrada dos sistemas ósseo, muscular e nervoso."
+    },
+    {
+      "id": "sistema-locomotor-e-nervoso-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "O sistema nervoso envia comandos; músculos se contraem; ossos e articulações sustentam e permitem o movimento."
+    },
+    {
+      "id": "sistema-locomotor-e-nervoso-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Movimentos voluntários, postura e reflexos dependem dessa integração."
+    },
+    {
+      "id": "sistema-locomotor-e-nervoso-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Para chutar uma bola, o cérebro envia comandos aos músculos ligados aos ossos."
+    },
+    {
+      "id": "sistema-locomotor-e-nervoso-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Para chutar uma bola, trabalham principalmente: A) digestório e respiratório B) nervoso, muscular e ósseo C) urinário e reprodutor. Resposta: B."
+    },
+    {
+      "id": "sistema-locomotor-e-nervoso-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "sistema-locomotor-e-nervoso-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Movimento e sustentação dependem da ação integrada dos sistemas ósseo, muscular e nervoso.",
+        "Movimentos voluntários, postura e reflexos dependem dessa integração."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Movimento e sustentação dependem da ação integrada dos sistemas ósseo, muscular e nervoso.",
+    "process": "O sistema nervoso envia comandos; músculos se contraem; ossos e articulações sustentam e permitem o movimento.",
+    "result": "Movimentos voluntários, postura e reflexos dependem dessa integração.",
+    "example": "Para chutar uma bola, o cérebro envia comandos aos músculos ligados aos ossos.",
+    "exam": "Para chutar uma bola, trabalham principalmente: A) digestório e respiratório B) nervoso, muscular e ósseo C) urinário e reprodutor. Resposta: B."
+  },
+  "visualType": ""
+}

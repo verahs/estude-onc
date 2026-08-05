@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-esfericidade-da-terra",
+  "discipline": "Física",
+  "group": "Forma, estrutura e movimentos da Terra",
+  "title": "Esfericidade da Terra",
+  "blocks": [
+    {
+      "id": "esfericidade-da-terra-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Há diversas evidências de que a Terra é aproximadamente esférica."
+    },
+    {
+      "id": "esfericidade-da-terra-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Observações de eclipses, horizonte, fusos e imagens espaciais convergem para a forma quase esférica."
+    },
+    {
+      "id": "esfericidade-da-terra-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Explica por que a iluminação e o horizonte variam na superfície."
+    },
+    {
+      "id": "esfericidade-da-terra-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Navios desaparecem no horizonte primeiro pela parte inferior."
+    },
+    {
+      "id": "esfericidade-da-terra-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Um navio desaparece primeiro pela parte inferior no horizonte devido à: A) curvatura da Terra B) maré C) chuva. Resposta: A."
+    },
+    {
+      "id": "esfericidade-da-terra-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "esfericidade-da-terra-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Há diversas evidências de que a Terra é aproximadamente esférica.",
+        "Explica por que a iluminação e o horizonte variam na superfície."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Há diversas evidências de que a Terra é aproximadamente esférica.",
+    "process": "Observações de eclipses, horizonte, fusos e imagens espaciais convergem para a forma quase esférica.",
+    "result": "Explica por que a iluminação e o horizonte variam na superfície.",
+    "example": "Navios desaparecem no horizonte primeiro pela parte inferior.",
+    "exam": "Um navio desaparece primeiro pela parte inferior no horizonte devido à: A) curvatura da Terra B) maré C) chuva. Resposta: A."
+  },
+  "visualType": ""
+}

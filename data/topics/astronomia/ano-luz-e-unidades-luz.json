@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-ano-luz-e-unidades-luz",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "Ano-luz e unidades-luz",
+  "blocks": [
+    {
+      "id": "ano-luz-e-unidades-luz-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Ano-luz é uma unidade de distância: corresponde à distância percorrida pela luz em um ano, cerca de 9,46 trilhões de quilômetros."
+    },
+    {
+      "id": "ano-luz-e-unidades-luz-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>O que não significa</h5><p>Ano-luz não mede tempo; mede distância.</p></section><section><h5>Outras unidades-luz</h5><ul><li>Segundo-luz: distância percorrida pela luz em 1 segundo.</li><li>Minuto-luz: distância percorrida em 1 minuto.</li><li>A luz do Sol leva cerca de 8 minutos para chegar à Terra.</li></ul></section><section><h5>Interpretação</h5><p>Ver uma estrela a 100 anos-luz significa vê-la como era 100 anos atrás.</p></section>"
+    },
+    {
+      "id": "ano-luz-e-unidades-luz-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Unidades-luz permitem expressar distâncias enormes entre estrelas e galáxias."
+    },
+    {
+      "id": "ano-luz-e-unidades-luz-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Se uma estrela está a 4 anos-luz, sua luz leva cerca de 4 anos para chegar até nós."
+    },
+    {
+      "id": "ano-luz-e-unidades-luz-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode perguntar por que observar objetos distantes também é observar o passado."
+    },
+    {
+      "id": "ano-luz-e-unidades-luz-strategy",
+      "type": "strategy",
+      "label": "Estratégia de resolução",
+      "content": "Anote os dados, identifique a unidade pedida e resolva uma etapa de cada vez. Antes de marcar a resposta, confira se o resultado faz sentido."
+    },
+    {
+      "id": "ano-luz-e-unidades-luz-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Ano-luz é uma unidade de distância: corresponde à distância percorrida pela luz em um ano, cerca de 9,46 trilhões de quilômetros.",
+        "Unidades-luz permitem expressar distâncias enormes entre estrelas e galáxias."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Ano-luz é uma unidade de distância: corresponde à distância percorrida pela luz em um ano, cerca de 9,46 trilhões de quilômetros.",
+    "process": "<section><h5>O que não significa</h5><p>Ano-luz não mede tempo; mede distância.</p></section><section><h5>Outras unidades-luz</h5><ul><li>Segundo-luz: distância percorrida pela luz em 1 segundo.</li><li>Minuto-luz: distância percorrida em 1 minuto.</li><li>A luz do Sol leva cerca de 8 minutos para chegar à Terra.</li></ul></section><section><h5>Interpretação</h5><p>Ver uma estrela a 100 anos-luz significa vê-la como era 100 anos atrás.</p></section>",
+    "result": "Unidades-luz permitem expressar distâncias enormes entre estrelas e galáxias.",
+    "example": "Se uma estrela está a 4 anos-luz, sua luz leva cerca de 4 anos para chegar até nós.",
+    "exam": "A prova pode perguntar por que observar objetos distantes também é observar o passado."
+  },
+  "visualType": ""
+}

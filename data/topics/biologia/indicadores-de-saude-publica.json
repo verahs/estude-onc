@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-indicadores-de-saude-publica",
+  "discipline": "Biologia",
+  "group": "Saúde pública e tecnologia",
+  "title": "Indicadores de saúde pública",
+  "blocks": [
+    {
+      "id": "indicadores-de-saude-publica-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Dados como mortalidade infantil, saneamento e incidência de doenças ajudam a avaliar a saúde coletiva."
+    },
+    {
+      "id": "indicadores-de-saude-publica-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Governos e pesquisadores coletam dados sobre doenças, mortalidade, vacinação, saneamento e acesso a serviços."
+    },
+    {
+      "id": "indicadores-de-saude-publica-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Esses números permitem comparar regiões e planejar ações de saúde."
+    },
+    {
+      "id": "indicadores-de-saude-publica-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma cidade com melhor saneamento tende a registrar menos doenças transmitidas pela água."
+    },
+    {
+      "id": "indicadores-de-saude-publica-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Qual é um indicador de saúde pública? A) cor das casas B) mortalidade infantil C) número de carros D) altura dos prédios. Resposta: B."
+    },
+    {
+      "id": "indicadores-de-saude-publica-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "indicadores-de-saude-publica-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Dados como mortalidade infantil, saneamento e incidência de doenças ajudam a avaliar a saúde coletiva.",
+        "Esses números permitem comparar regiões e planejar ações de saúde."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Dados como mortalidade infantil, saneamento e incidência de doenças ajudam a avaliar a saúde coletiva.",
+    "process": "Governos e pesquisadores coletam dados sobre doenças, mortalidade, vacinação, saneamento e acesso a serviços.",
+    "result": "Esses números permitem comparar regiões e planejar ações de saúde.",
+    "example": "Uma cidade com melhor saneamento tende a registrar menos doenças transmitidas pela água.",
+    "exam": "Qual é um indicador de saúde pública? A) cor das casas B) mortalidade infantil C) número de carros D) altura dos prédios. Resposta: B."
+  },
+  "visualType": ""
+}

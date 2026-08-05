@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-humanismo-e-renascimento",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Humanismo e Renascimento",
+  "blocks": [
+    {
+      "id": "humanismo-e-renascimento-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Humanismo valorizou o ser humano, a razão e os estudos clássicos; Renascimento foi um movimento cultural e artístico ligado a essas ideias."
+    },
+    {
+      "id": "humanismo-e-renascimento-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "humanismo-e-renascimento-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crescimento urbano e comercial.</li><li>Contato com textos greco-romanos.</li><li>Apoio de mecenas.</li><li>Difusão pela imprensa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Artistas.</li><li>Intelectuais.</li><li>Cientistas.</li><li>Mecenas e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Estudo da natureza.</li><li>Perspectiva nas artes.</li><li>Valorização da observação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Novas técnicas artísticas.</li><li>Maior interesse pela anatomia e ciência.</li><li>Questionamento de explicações tradicionais.</li></ul></section></div>"
+    },
+    {
+      "id": "humanismo-e-renascimento-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O Renascimento ampliou a produção artística e científica e criou novas formas de representar o ser humano e investigar a natureza."
+    },
+    {
+      "id": "humanismo-e-renascimento-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Artistas estudavam anatomia para representar o corpo com precisão."
+    },
+    {
+      "id": "humanismo-e-renascimento-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode mostrar obra com perspectiva e pedir qual característica renascentista aparece."
+    },
+    {
+      "id": "humanismo-e-renascimento-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Humanismo valorizou o ser humano, a razão e os estudos clássicos; Renascimento foi um movimento cultural e artístico ligado a essas ideias.",
+        "O Renascimento ampliou a produção artística e científica e criou novas formas de representar o ser humano e investigar a natureza."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Humanismo valorizou o ser humano, a razão e os estudos clássicos; Renascimento foi um movimento cultural e artístico ligado a essas ideias.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crescimento urbano e comercial.</li><li>Contato com textos greco-romanos.</li><li>Apoio de mecenas.</li><li>Difusão pela imprensa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Artistas.</li><li>Intelectuais.</li><li>Cientistas.</li><li>Mecenas e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Estudo da natureza.</li><li>Perspectiva nas artes.</li><li>Valorização da observação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Novas técnicas artísticas.</li><li>Maior interesse pela anatomia e ciência.</li><li>Questionamento de explicações tradicionais.</li></ul></section></div>",
+    "result": "O Renascimento ampliou a produção artística e científica e criou novas formas de representar o ser humano e investigar a natureza.",
+    "example": "Artistas estudavam anatomia para representar o corpo com precisão.",
+    "exam": "A questão pode mostrar obra com perspectiva e pedir qual característica renascentista aparece."
+  },
+  "visualType": ""
+}

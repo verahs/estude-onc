@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-gravitacao-e-peso",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "Gravitação e peso",
+  "blocks": [
+    {
+      "id": "gravitacao-e-peso-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Gravitação é a atração entre corpos que possuem massa. Peso é a força gravitacional exercida sobre um corpo."
+    },
+    {
+      "id": "gravitacao-e-peso-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Massa e peso</h5><ul><li>Massa é a quantidade de matéria e não muda quando o corpo vai para outro astro.</li><li>Peso depende da gravidade local.</li><li>Na Lua, a gravidade é menor; por isso, o peso é menor.</li></ul></section><section><h5>Cálculo simples</h5><div class='calcBox'><div>Peso = massa × gravidade.</div><div>Para uma massa de 10 kg na Terra: P ≈ 10 × 10 = 100 N.</div><div>Na Lua, o peso seria cerca de 1/6 desse valor.</div></div></section>"
+    },
+    {
+      "id": "gravitacao-e-peso-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A gravidade mantém planetas em órbita e faz objetos caírem em direção ao solo."
+    },
+    {
+      "id": "gravitacao-e-peso-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Um astronauta salta mais alto na Lua porque seu peso é menor, embora sua massa seja a mesma."
+    },
+    {
+      "id": "gravitacao-e-peso-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode comparar massa e peso de um astronauta na Terra e na Lua."
+    },
+    {
+      "id": "gravitacao-e-peso-strategy",
+      "type": "strategy",
+      "label": "Estratégia de resolução",
+      "content": "Anote os dados, identifique a unidade pedida e resolva uma etapa de cada vez. Antes de marcar a resposta, confira se o resultado faz sentido."
+    },
+    {
+      "id": "gravitacao-e-peso-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Gravitação é a atração entre corpos que possuem massa. Peso é a força gravitacional exercida sobre um corpo.",
+        "A gravidade mantém planetas em órbita e faz objetos caírem em direção ao solo."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Gravitação é a atração entre corpos que possuem massa. Peso é a força gravitacional exercida sobre um corpo.",
+    "process": "<section><h5>Massa e peso</h5><ul><li>Massa é a quantidade de matéria e não muda quando o corpo vai para outro astro.</li><li>Peso depende da gravidade local.</li><li>Na Lua, a gravidade é menor; por isso, o peso é menor.</li></ul></section><section><h5>Cálculo simples</h5><div class='calcBox'><div>Peso = massa × gravidade.</div><div>Para uma massa de 10 kg na Terra: P ≈ 10 × 10 = 100 N.</div><div>Na Lua, o peso seria cerca de 1/6 desse valor.</div></div></section>",
+    "result": "A gravidade mantém planetas em órbita e faz objetos caírem em direção ao solo.",
+    "example": "Um astronauta salta mais alto na Lua porque seu peso é menor, embora sua massa seja a mesma.",
+    "exam": "A questão pode comparar massa e peso de um astronauta na Terra e na Lua."
+  },
+  "visualType": ""
+}

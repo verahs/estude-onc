@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-fenomenos-naturais",
+  "discipline": "Biologia",
+  "group": "Ecologia e ambiente",
+  "title": "Fenômenos naturais",
+  "blocks": [
+    {
+      "id": "fenomenos-naturais-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Eventos naturais podem modificar ambientes e populações."
+    },
+    {
+      "id": "fenomenos-naturais-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Enchentes, secas, incêndios naturais, erupções e tempestades alteram habitats e disponibilidade de recursos."
+    },
+    {
+      "id": "fenomenos-naturais-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Populações podem diminuir, migrar ou modificar hábitos."
+    },
+    {
+      "id": "fenomenos-naturais-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma enchente pode destruir abrigos de animais e alterar cursos d’água."
+    },
+    {
+      "id": "fenomenos-naturais-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Uma seca prolongada pode levar animais a: A) migrar em busca de água B) produzir chuva C) interromper toda respiração. Resposta: A."
+    },
+    {
+      "id": "fenomenos-naturais-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "fenomenos-naturais-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Eventos naturais podem modificar ambientes e populações.",
+        "Populações podem diminuir, migrar ou modificar hábitos."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Eventos naturais podem modificar ambientes e populações.",
+    "process": "Enchentes, secas, incêndios naturais, erupções e tempestades alteram habitats e disponibilidade de recursos.",
+    "result": "Populações podem diminuir, migrar ou modificar hábitos.",
+    "example": "Uma enchente pode destruir abrigos de animais e alterar cursos d’água.",
+    "exam": "Uma seca prolongada pode levar animais a: A) migrar em busca de água B) produzir chuva C) interromper toda respiração. Resposta: A."
+  },
+  "visualType": ""
+}

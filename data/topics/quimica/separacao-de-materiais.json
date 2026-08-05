@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-separacao-de-materiais",
+  "discipline": "Química",
+  "group": "Misturas e tratamento",
+  "title": "Separação de materiais",
+  "blocks": [
+    {
+      "id": "separacao-de-materiais-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Métodos físicos separam componentes de misturas."
+    },
+    {
+      "id": "separacao-de-materiais-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Escolhe-se o método com base em tamanho de partículas, densidade, solubilidade ou magnetismo."
+    },
+    {
+      "id": "separacao-de-materiais-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Os componentes são recuperados sem formar novas substâncias."
+    },
+    {
+      "id": "separacao-de-materiais-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma peneira separa areia de pedras."
+    },
+    {
+      "id": "separacao-de-materiais-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Para separar areia de água usa-se: A) filtração B) combustão C) fusão. Resposta: A."
+    },
+    {
+      "id": "separacao-de-materiais-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "separacao-de-materiais-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Métodos físicos separam componentes de misturas.",
+        "Os componentes são recuperados sem formar novas substâncias."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Métodos físicos separam componentes de misturas.",
+    "process": "Escolhe-se o método com base em tamanho de partículas, densidade, solubilidade ou magnetismo.",
+    "result": "Os componentes são recuperados sem formar novas substâncias.",
+    "example": "Uma peneira separa areia de pedras.",
+    "exam": "Para separar areia de água usa-se: A) filtração B) combustão C) fusão. Resposta: A."
+  },
+  "visualType": ""
+}

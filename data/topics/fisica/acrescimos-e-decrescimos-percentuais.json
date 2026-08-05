@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-acrescimos-e-decrescimos-percentuais",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Acréscimos e decréscimos percentuais",
+  "blocks": [
+    {
+      "id": "acrescimos-e-decrescimos-percentuais-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Percentuais podem representar aumentos ou reduções."
+    },
+    {
+      "id": "acrescimos-e-decrescimos-percentuais-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Calcula-se a porcentagem sobre o valor inicial e soma-se ou subtrai-se o resultado."
+    },
+    {
+      "id": "acrescimos-e-decrescimos-percentuais-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Obtém-se o novo preço, quantidade ou medida após aumento ou desconto."
+    },
+    {
+      "id": "acrescimos-e-decrescimos-percentuais-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Um produto de R$ 100 com desconto de 20% passa a custar R$ 80."
+    },
+    {
+      "id": "acrescimos-e-decrescimos-percentuais-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "R$100 com desconto de 20% passa a: A) R$80 B) R$90 C) R$120. Resposta: A."
+    },
+    {
+      "id": "acrescimos-e-decrescimos-percentuais-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "acrescimos-e-decrescimos-percentuais-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Percentuais podem representar aumentos ou reduções.",
+        "Obtém-se o novo preço, quantidade ou medida após aumento ou desconto."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Percentuais podem representar aumentos ou reduções.",
+    "process": "Calcula-se a porcentagem sobre o valor inicial e soma-se ou subtrai-se o resultado.",
+    "result": "Obtém-se o novo preço, quantidade ou medida após aumento ou desconto.",
+    "example": "Um produto de R$ 100 com desconto de 20% passa a custar R$ 80.",
+    "exam": "R$100 com desconto de 20% passa a: A) R$80 B) R$90 C) R$120. Resposta: A."
+  },
+  "visualType": ""
+}

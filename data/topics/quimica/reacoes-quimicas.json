@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-reacoes-quimicas",
+  "discipline": "Química",
+  "group": "Matéria, energia e transformações",
+  "title": "Reações químicas",
+  "blocks": [
+    {
+      "id": "reacoes-quimicas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Processos em que substâncias se transformam em outras."
+    },
+    {
+      "id": "reacoes-quimicas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Ligações entre átomos são rompidas e formadas, produzindo novas substâncias."
+    },
+    {
+      "id": "reacoes-quimicas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Podem surgir mudança de cor, gás, precipitado, luz ou calor."
+    },
+    {
+      "id": "reacoes-quimicas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Ferro enferrujando é uma reação química."
+    },
+    {
+      "id": "reacoes-quimicas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Ferrugem é exemplo de: A) reação química B) mudança de forma C) mistura física. Resposta: A."
+    },
+    {
+      "id": "reacoes-quimicas-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "reacoes-quimicas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Processos em que substâncias se transformam em outras.",
+        "Podem surgir mudança de cor, gás, precipitado, luz ou calor."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Processos em que substâncias se transformam em outras.",
+    "process": "Ligações entre átomos são rompidas e formadas, produzindo novas substâncias.",
+    "result": "Podem surgir mudança de cor, gás, precipitado, luz ou calor.",
+    "example": "Ferro enferrujando é uma reação química.",
+    "exam": "Ferrugem é exemplo de: A) reação química B) mudança de forma C) mistura física. Resposta: A."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-america-portuguesa",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "América Portuguesa",
+  "blocks": [
+    {
+      "id": "america-portuguesa-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "América Portuguesa foi o conjunto de territórios americanos controlados por Portugal, base da formação histórica do Brasil."
+    },
+    {
+      "id": "america-portuguesa-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "america-portuguesa-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Colonização a partir do século XVI.</li><li>Interesse em ocupar e explorar o território.</li><li>Disputa com outras potências.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Portugueses.</li><li>Povos indígenas.</li><li>Africanos escravizados.</li><li>Missionários e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Capitanias.</li><li>Governo-geral.</li><li>Produção açucareira.</li><li>Escravidão.</li><li>Expansão territorial.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Interiorização.</li><li>Diversificação econômica.</li><li>Crescimento urbano e conflitos.</li></ul></section></div>"
+    },
+    {
+      "id": "america-portuguesa-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A colonização portuguesa formou sociedade marcada por exploração, escravidão, desigualdade e mistura cultural."
+    },
+    {
+      "id": "america-portuguesa-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Engenhos reuniam produção agrícola, instalações e trabalho escravizado."
+    },
+    {
+      "id": "america-portuguesa-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode apresentar planta de engenho e pedir quais relações sociais aparecem."
+    },
+    {
+      "id": "america-portuguesa-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "América Portuguesa foi o conjunto de territórios americanos controlados por Portugal, base da formação histórica do Brasil.",
+        "A colonização portuguesa formou sociedade marcada por exploração, escravidão, desigualdade e mistura cultural."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "América Portuguesa foi o conjunto de territórios americanos controlados por Portugal, base da formação histórica do Brasil.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Colonização a partir do século XVI.</li><li>Interesse em ocupar e explorar o território.</li><li>Disputa com outras potências.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Portugueses.</li><li>Povos indígenas.</li><li>Africanos escravizados.</li><li>Missionários e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Capitanias.</li><li>Governo-geral.</li><li>Produção açucareira.</li><li>Escravidão.</li><li>Expansão territorial.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Interiorização.</li><li>Diversificação econômica.</li><li>Crescimento urbano e conflitos.</li></ul></section></div>",
+    "result": "A colonização portuguesa formou sociedade marcada por exploração, escravidão, desigualdade e mistura cultural.",
+    "example": "Engenhos reuniam produção agrícola, instalações e trabalho escravizado.",
+    "exam": "A questão pode apresentar planta de engenho e pedir quais relações sociais aparecem."
+  },
+  "visualType": ""
+}

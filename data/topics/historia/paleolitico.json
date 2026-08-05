@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-paleolitico",
+  "discipline": "História",
+  "group": "Origens da humanidade",
+  "title": "Paleolítico",
+  "blocks": [
+    {
+      "id": "paleolitico-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Paleolítico é o período mais antigo da Pré-História, marcado pela pedra lascada, caça, pesca, coleta e vida predominantemente nômade."
+    },
+    {
+      "id": "paleolitico-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "paleolitico-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Começou há cerca de 2,6 milhões de anos.</li><li>A agricultura ainda não era praticada.</li><li>A sobrevivência dependia dos recursos naturais disponíveis.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Pequenos grupos familiares.</li><li>Caçadores-coletores.</li><li>Comunidades nômades.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cooperação na caça e proteção.</li><li>Divisão simples de tarefas.</li><li>Uso de abrigos naturais.</li><li>Ferramentas de pedra, osso e madeira.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Domínio gradual do fogo.</li><li>Aperfeiçoamento das ferramentas.</li><li>Desenvolvimento da linguagem e da arte rupestre.</li></ul></section></div>"
+    },
+    {
+      "id": "paleolitico-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O Paleolítico consolidou cooperação, comunicação, domínio do fogo e fabricação de ferramentas. Essas práticas aumentaram a sobrevivência e prepararam mudanças posteriores."
+    },
+    {
+      "id": "paleolitico-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Quando os animais migravam e os frutos se tornavam escassos, o grupo precisava deslocar-se."
+    },
+    {
+      "id": "paleolitico-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode mostrar ferramentas de pedra lascada e restos de fogueira e pedir qual modo de vida é mais provável."
+    },
+    {
+      "id": "paleolitico-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Paleolítico é o período mais antigo da Pré-História, marcado pela pedra lascada, caça, pesca, coleta e vida predominantemente nômade.",
+        "O Paleolítico consolidou cooperação, comunicação, domínio do fogo e fabricação de ferramentas. Essas práticas aumentaram a sobrevivência e prepararam mudanças posteriores."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Paleolítico é o período mais antigo da Pré-História, marcado pela pedra lascada, caça, pesca, coleta e vida predominantemente nômade.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Começou há cerca de 2,6 milhões de anos.</li><li>A agricultura ainda não era praticada.</li><li>A sobrevivência dependia dos recursos naturais disponíveis.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Pequenos grupos familiares.</li><li>Caçadores-coletores.</li><li>Comunidades nômades.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cooperação na caça e proteção.</li><li>Divisão simples de tarefas.</li><li>Uso de abrigos naturais.</li><li>Ferramentas de pedra, osso e madeira.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Domínio gradual do fogo.</li><li>Aperfeiçoamento das ferramentas.</li><li>Desenvolvimento da linguagem e da arte rupestre.</li></ul></section></div>",
+    "result": "O Paleolítico consolidou cooperação, comunicação, domínio do fogo e fabricação de ferramentas. Essas práticas aumentaram a sobrevivência e prepararam mudanças posteriores.",
+    "example": "Quando os animais migravam e os frutos se tornavam escassos, o grupo precisava deslocar-se.",
+    "exam": "A questão pode mostrar ferramentas de pedra lascada e restos de fogueira e pedir qual modo de vida é mais provável."
+  },
+  "visualType": ""
+}

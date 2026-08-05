@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-area",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Área",
+  "blocks": [
+    {
+      "id": "area-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Área é um conteúdo previsto no programa da ONC."
+    },
+    {
+      "id": "area-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "A área mede a superfície ocupada. Cada figura possui uma fórmula; no retângulo, multiplica-se base por altura."
+    },
+    {
+      "id": "area-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O resultado é expresso em unidades quadradas."
+    },
+    {
+      "id": "area-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Observe uma situação cotidiana relacionada a área."
+    },
+    {
+      "id": "area-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Retângulo 6 cm por 4 cm tem área: A) 10 cm² B) 20 cm² C) 24 cm². Resposta: C."
+    },
+    {
+      "id": "area-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "area-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Área é um conteúdo previsto no programa da ONC.",
+        "O resultado é expresso em unidades quadradas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Área é um conteúdo previsto no programa da ONC.",
+    "process": "A área mede a superfície ocupada. Cada figura possui uma fórmula; no retângulo, multiplica-se base por altura.",
+    "result": "O resultado é expresso em unidades quadradas.",
+    "example": "Observe uma situação cotidiana relacionada a área.",
+    "exam": "Retângulo 6 cm por 4 cm tem área: A) 10 cm² B) 20 cm² C) 24 cm². Resposta: C."
+  },
+  "visualType": ""
+}

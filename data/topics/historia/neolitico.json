@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-neolitico",
+  "discipline": "História",
+  "group": "Origens da humanidade",
+  "title": "Neolítico",
+  "blocks": [
+    {
+      "id": "neolitico-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Neolítico é o período em que vários grupos passaram a praticar agricultura, domesticar animais e viver de forma mais sedentária."
+    },
+    {
+      "id": "neolitico-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "neolitico-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Começou em épocas diferentes conforme a região.</li><li>Mudanças climáticas favoreceram novas formas de obter alimentos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Agricultores.</li><li>Pastores.</li><li>Artesãos.</li><li>Comunidades aldeãs.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cultivo de plantas.</li><li>Domesticação de animais.</li><li>Construção de aldeias.</li><li>Armazenamento de alimentos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Sedentarização.</li><li>Crescimento populacional.</li><li>Especialização do trabalho.</li><li>Aumento das trocas.</li></ul></section></div>"
+    },
+    {
+      "id": "neolitico-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A produção de alimentos permitiu maior estabilidade, crescimento das aldeias e novas formas de organização econômica e social."
+    },
+    {
+      "id": "neolitico-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma comunidade que planta cereais precisa permanecer próxima às áreas cultivadas."
+    },
+    {
+      "id": "neolitico-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar silos, cerâmica e sementes e pedir qual mudança do Neolítico está representada."
+    },
+    {
+      "id": "neolitico-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Neolítico é o período em que vários grupos passaram a praticar agricultura, domesticar animais e viver de forma mais sedentária.",
+        "A produção de alimentos permitiu maior estabilidade, crescimento das aldeias e novas formas de organização econômica e social."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Neolítico é o período em que vários grupos passaram a praticar agricultura, domesticar animais e viver de forma mais sedentária.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Começou em épocas diferentes conforme a região.</li><li>Mudanças climáticas favoreceram novas formas de obter alimentos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Agricultores.</li><li>Pastores.</li><li>Artesãos.</li><li>Comunidades aldeãs.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cultivo de plantas.</li><li>Domesticação de animais.</li><li>Construção de aldeias.</li><li>Armazenamento de alimentos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Sedentarização.</li><li>Crescimento populacional.</li><li>Especialização do trabalho.</li><li>Aumento das trocas.</li></ul></section></div>",
+    "result": "A produção de alimentos permitiu maior estabilidade, crescimento das aldeias e novas formas de organização econômica e social.",
+    "example": "Uma comunidade que planta cereais precisa permanecer próxima às áreas cultivadas.",
+    "exam": "A prova pode apresentar silos, cerâmica e sementes e pedir qual mudança do Neolítico está representada."
+  },
+  "visualType": ""
+}

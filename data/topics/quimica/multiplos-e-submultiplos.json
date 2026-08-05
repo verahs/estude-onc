@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-multiplos-e-submultiplos",
+  "discipline": "Química",
+  "group": "Sistema Internacional",
+  "title": "Múltiplos e submúltiplos",
+  "blocks": [
+    {
+      "id": "multiplos-e-submultiplos-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Prefixos como quilo, centi e mili indicam escalas de medida."
+    },
+    {
+      "id": "multiplos-e-submultiplos-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Prefixos indicam potências de dez: quilo=1000, centi=1/100, mili=1/1000."
+    },
+    {
+      "id": "multiplos-e-submultiplos-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Facilitam escrever medidas muito grandes ou pequenas."
+    },
+    {
+      "id": "multiplos-e-submultiplos-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "1 quilômetro corresponde a 1.000 metros."
+    },
+    {
+      "id": "multiplos-e-submultiplos-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "1 km corresponde a: A) 100 m B) 1000 m C) 10 000 m. Resposta: B."
+    },
+    {
+      "id": "multiplos-e-submultiplos-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "multiplos-e-submultiplos-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Prefixos como quilo, centi e mili indicam escalas de medida.",
+        "Facilitam escrever medidas muito grandes ou pequenas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Prefixos como quilo, centi e mili indicam escalas de medida.",
+    "process": "Prefixos indicam potências de dez: quilo=1000, centi=1/100, mili=1/1000.",
+    "result": "Facilitam escrever medidas muito grandes ou pequenas.",
+    "example": "1 quilômetro corresponde a 1.000 metros.",
+    "exam": "1 km corresponde a: A) 100 m B) 1000 m C) 10 000 m. Resposta: B."
+  },
+  "visualType": ""
+}

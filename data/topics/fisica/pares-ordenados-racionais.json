@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-pares-ordenados-racionais",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Pares ordenados racionais",
+  "blocks": [
+    {
+      "id": "pares-ordenados-racionais-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Coordenadas podem conter frações ou decimais."
+    },
+    {
+      "id": "pares-ordenados-racionais-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Coordenadas fracionárias ou decimais localizam pontos entre marcações inteiras."
+    },
+    {
+      "id": "pares-ordenados-racionais-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Permitem representar posições com maior precisão."
+    },
+    {
+      "id": "pares-ordenados-racionais-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O ponto (1,5; 2) fica entre 1 e 2 no eixo horizontal."
+    },
+    {
+      "id": "pares-ordenados-racionais-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "O ponto (1,5;2) está horizontalmente entre: A) 0 e 1 B) 1 e 2 C) 2 e 3. Resposta: B."
+    },
+    {
+      "id": "pares-ordenados-racionais-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "pares-ordenados-racionais-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Coordenadas podem conter frações ou decimais.",
+        "Permitem representar posições com maior precisão."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Coordenadas podem conter frações ou decimais.",
+    "process": "Coordenadas fracionárias ou decimais localizam pontos entre marcações inteiras.",
+    "result": "Permitem representar posições com maior precisão.",
+    "example": "O ponto (1,5; 2) fica entre 1 e 2 no eixo horizontal.",
+    "exam": "O ponto (1,5;2) está horizontalmente entre: A) 0 e 1 B) 1 e 2 C) 2 e 3. Resposta: B."
+  },
+  "visualType": ""
+}

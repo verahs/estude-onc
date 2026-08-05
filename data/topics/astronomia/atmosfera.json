@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-atmosfera",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Atmosfera",
+  "blocks": [
+    {
+      "id": "atmosfera-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A atmosfera é a camada de gases mantida ao redor da Terra pela gravidade. Ela é formada principalmente por nitrogênio e oxigênio."
+    },
+    {
+      "id": "atmosfera-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Funções principais</h5><ul><li>Fornecer gases essenciais à vida.</li><li>Filtrar parte da radiação ultravioleta.</li><li>Ajudar a regular a temperatura.</li><li>Permitir a formação de ventos, nuvens e chuvas.</li><li>Reduzir o impacto de pequenos meteoroides.</li></ul></section><section><h5>Camadas</h5><ul><li>Troposfera: onde vivemos e onde ocorre a maior parte do tempo meteorológico.</li><li>Estratosfera: onde se concentra a camada de ozônio.</li><li>Mesosfera, termosfera e exosfera: regiões superiores, com ar muito rarefeito.</li></ul></section>"
+    },
+    {
+      "id": "atmosfera-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Sem atmosfera, a Terra teria temperaturas extremas, não haveria chuva e a vida como conhecemos seria inviável."
+    },
+    {
+      "id": "atmosfera-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Quando nuvens se formam e ocorre chuva, o fenômeno acontece principalmente na troposfera."
+    },
+    {
+      "id": "atmosfera-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A ONC pode apresentar um esquema das camadas da atmosfera e pedir em qual delas ocorrem nuvens e chuvas."
+    },
+    {
+      "id": "atmosfera-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A atmosfera é a camada de gases mantida ao redor da Terra pela gravidade. Ela é formada principalmente por nitrogênio e oxigênio.",
+        "Sem atmosfera, a Terra teria temperaturas extremas, não haveria chuva e a vida como conhecemos seria inviável."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A atmosfera é a camada de gases mantida ao redor da Terra pela gravidade. Ela é formada principalmente por nitrogênio e oxigênio.",
+    "process": "<section><h5>Funções principais</h5><ul><li>Fornecer gases essenciais à vida.</li><li>Filtrar parte da radiação ultravioleta.</li><li>Ajudar a regular a temperatura.</li><li>Permitir a formação de ventos, nuvens e chuvas.</li><li>Reduzir o impacto de pequenos meteoroides.</li></ul></section><section><h5>Camadas</h5><ul><li>Troposfera: onde vivemos e onde ocorre a maior parte do tempo meteorológico.</li><li>Estratosfera: onde se concentra a camada de ozônio.</li><li>Mesosfera, termosfera e exosfera: regiões superiores, com ar muito rarefeito.</li></ul></section>",
+    "result": "Sem atmosfera, a Terra teria temperaturas extremas, não haveria chuva e a vida como conhecemos seria inviável.",
+    "example": "Quando nuvens se formam e ocorre chuva, o fenômeno acontece principalmente na troposfera.",
+    "exam": "A ONC pode apresentar um esquema das camadas da atmosfera e pedir em qual delas ocorrem nuvens e chuvas."
+  },
+  "visualType": ""
+}

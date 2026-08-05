@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-sistema-nervoso",
+  "discipline": "Biologia",
+  "group": "Vida e corpo humano",
+  "title": "Sistema nervoso",
+  "blocks": [
+    {
+      "id": "sistema-nervoso-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Coordena ações, sensações e respostas do organismo."
+    },
+    {
+      "id": "sistema-nervoso-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Receptores captam estímulos; nervos conduzem sinais; encéfalo e medula processam informações; músculos ou glândulas executam respostas."
+    },
+    {
+      "id": "sistema-nervoso-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O organismo percebe mudanças e reage rapidamente."
+    },
+    {
+      "id": "sistema-nervoso-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Ao tocar algo quente, o corpo reage rapidamente afastando a mão."
+    },
+    {
+      "id": "sistema-nervoso-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Ao retirar a mão de um objeto quente, o sistema que coordena a resposta é o: A) nervoso B) digestório C) urinário D) respiratório. Resposta: A."
+    },
+    {
+      "id": "sistema-nervoso-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "sistema-nervoso-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Coordena ações, sensações e respostas do organismo.",
+        "O organismo percebe mudanças e reage rapidamente."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Coordena ações, sensações e respostas do organismo.",
+    "process": "Receptores captam estímulos; nervos conduzem sinais; encéfalo e medula processam informações; músculos ou glândulas executam respostas.",
+    "result": "O organismo percebe mudanças e reage rapidamente.",
+    "example": "Ao tocar algo quente, o corpo reage rapidamente afastando a mão.",
+    "exam": "Ao retirar a mão de um objeto quente, o sistema que coordena a resposta é o: A) nervoso B) digestório C) urinário D) respiratório. Resposta: A."
+  },
+  "visualType": ""
+}

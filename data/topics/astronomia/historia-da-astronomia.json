@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-historia-da-astronomia",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "História da Astronomia",
+  "blocks": [
+    {
+      "id": "historia-da-astronomia-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A História da Astronomia estuda como diferentes povos observaram o céu e desenvolveram explicações sobre os astros."
+    },
+    {
+      "id": "historia-da-astronomia-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Mudanças importantes</h5><ul><li>Modelos geocêntricos colocavam a Terra no centro.</li><li>Copérnico propôs o modelo heliocêntrico.</li><li>Galileu usou telescópio para obter novas evidências.</li><li>Kepler descreveu órbitas elípticas.</li><li>Newton explicou a gravitação.</li></ul></section><section><h5>Participação de diferentes povos</h5><p>Civilizações indígenas, africanas, asiáticas, americanas e europeias desenvolveram calendários e conhecimentos astronômicos.</p></section>"
+    },
+    {
+      "id": "historia-da-astronomia-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A Astronomia avançou pela combinação entre observação, instrumentos, matemática e revisão de modelos."
+    },
+    {
+      "id": "historia-da-astronomia-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "As fases de Vênus observadas por Galileu apoiaram o modelo heliocêntrico."
+    },
+    {
+      "id": "historia-da-astronomia-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode apresentar duas explicações históricas e pedir qual evidência favoreceu uma delas."
+    },
+    {
+      "id": "historia-da-astronomia-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A História da Astronomia estuda como diferentes povos observaram o céu e desenvolveram explicações sobre os astros.",
+        "A Astronomia avançou pela combinação entre observação, instrumentos, matemática e revisão de modelos."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A História da Astronomia estuda como diferentes povos observaram o céu e desenvolveram explicações sobre os astros.",
+    "process": "<section><h5>Mudanças importantes</h5><ul><li>Modelos geocêntricos colocavam a Terra no centro.</li><li>Copérnico propôs o modelo heliocêntrico.</li><li>Galileu usou telescópio para obter novas evidências.</li><li>Kepler descreveu órbitas elípticas.</li><li>Newton explicou a gravitação.</li></ul></section><section><h5>Participação de diferentes povos</h5><p>Civilizações indígenas, africanas, asiáticas, americanas e europeias desenvolveram calendários e conhecimentos astronômicos.</p></section>",
+    "result": "A Astronomia avançou pela combinação entre observação, instrumentos, matemática e revisão de modelos.",
+    "example": "As fases de Vênus observadas por Galileu apoiaram o modelo heliocêntrico.",
+    "exam": "A questão pode apresentar duas explicações históricas e pedir qual evidência favoreceu uma delas."
+  },
+  "visualType": ""
+}

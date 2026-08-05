@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-lentes-corretivas",
+  "discipline": "Biologia",
+  "group": "Vida e corpo humano",
+  "title": "Lentes corretivas",
+  "blocks": [
+    {
+      "id": "lentes-corretivas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Lentes alteram o caminho da luz para corrigir problemas de visão."
+    },
+    {
+      "id": "lentes-corretivas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Lentes convergentes ou divergentes desviam a luz para que ela seja focalizada corretamente na retina."
+    },
+    {
+      "id": "lentes-corretivas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Óculos e lentes de contato melhoram a nitidez da visão."
+    },
+    {
+      "id": "lentes-corretivas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Óculos podem ajudar uma pessoa com miopia a enxergar objetos distantes."
+    },
+    {
+      "id": "lentes-corretivas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A função principal das lentes corretivas é: A) mudar a cor dos olhos B) ajustar o foco da luz na retina C) produzir lágrimas. Resposta: B."
+    },
+    {
+      "id": "lentes-corretivas-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "lentes-corretivas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Lentes alteram o caminho da luz para corrigir problemas de visão.",
+        "Óculos e lentes de contato melhoram a nitidez da visão."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Lentes alteram o caminho da luz para corrigir problemas de visão.",
+    "process": "Lentes convergentes ou divergentes desviam a luz para que ela seja focalizada corretamente na retina.",
+    "result": "Óculos e lentes de contato melhoram a nitidez da visão.",
+    "example": "Óculos podem ajudar uma pessoa com miopia a enxergar objetos distantes.",
+    "exam": "A função principal das lentes corretivas é: A) mudar a cor dos olhos B) ajustar o foco da luz na retina C) produzir lágrimas. Resposta: B."
+  },
+  "visualType": ""
+}

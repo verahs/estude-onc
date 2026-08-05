@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-mundo-islamico",
+  "discipline": "História",
+  "group": "Antiguidade e Idade Média",
+  "title": "Mundo Islâmico",
+  "blocks": [
+    {
+      "id": "mundo-islamico-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Mundo Islâmico refere-se às sociedades formadas a partir da expansão do Islã desde o século VII."
+    },
+    {
+      "id": "mundo-islamico-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "mundo-islamico-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Surgimento do Islã na Península Arábica.</li><li>Expansão territorial e comercial.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Muçulmanos de diferentes povos.</li><li>Comerciantes.</li><li>Sábios.</li><li>Governantes e comunidades religiosas diversas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Califados.</li><li>Cidades comerciais.</li><li>Centros de estudo.</li><li>Redes entre África, Ásia e Europa.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansão cultural e científica.</li><li>Diversificação política.</li><li>Trocas com outros povos.</li></ul></section></div>"
+    },
+    {
+      "id": "mundo-islamico-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Sociedades islâmicas preservaram e produziram conhecimentos em matemática, medicina, astronomia e filosofia."
+    },
+    {
+      "id": "mundo-islamico-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Estudiosos traduziram e ampliaram obras gregas e indianas."
+    },
+    {
+      "id": "mundo-islamico-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode apresentar invenção ou texto científico e pedir qual contribuição do mundo islâmico aparece."
+    },
+    {
+      "id": "mundo-islamico-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Mundo Islâmico refere-se às sociedades formadas a partir da expansão do Islã desde o século VII.",
+        "Sociedades islâmicas preservaram e produziram conhecimentos em matemática, medicina, astronomia e filosofia."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Mundo Islâmico refere-se às sociedades formadas a partir da expansão do Islã desde o século VII.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Surgimento do Islã na Península Arábica.</li><li>Expansão territorial e comercial.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Muçulmanos de diferentes povos.</li><li>Comerciantes.</li><li>Sábios.</li><li>Governantes e comunidades religiosas diversas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Califados.</li><li>Cidades comerciais.</li><li>Centros de estudo.</li><li>Redes entre África, Ásia e Europa.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansão cultural e científica.</li><li>Diversificação política.</li><li>Trocas com outros povos.</li></ul></section></div>",
+    "result": "Sociedades islâmicas preservaram e produziram conhecimentos em matemática, medicina, astronomia e filosofia.",
+    "example": "Estudiosos traduziram e ampliaram obras gregas e indianas.",
+    "exam": "A questão pode apresentar invenção ou texto científico e pedir qual contribuição do mundo islâmico aparece."
+  },
+  "visualType": ""
+}

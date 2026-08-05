@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-tratamento-do-esgoto",
+  "discipline": "Química",
+  "group": "Misturas e tratamento",
+  "title": "Tratamento do esgoto",
+  "blocks": [
+    {
+      "id": "tratamento-do-esgoto-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Reduz poluentes antes da devolução da água ao ambiente."
+    },
+    {
+      "id": "tratamento-do-esgoto-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Grades retiram sólidos; decantação separa materiais; microrganismos degradam matéria orgânica."
+    },
+    {
+      "id": "tratamento-do-esgoto-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Diminui-se a carga de poluentes antes do retorno ao ambiente."
+    },
+    {
+      "id": "tratamento-do-esgoto-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Microrganismos podem decompor matéria orgânica."
+    },
+    {
+      "id": "tratamento-do-esgoto-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "O tratamento do esgoto ajuda a: A) reduzir contaminação dos rios B) aumentar lixo C) eliminar toda água. Resposta: A."
+    },
+    {
+      "id": "tratamento-do-esgoto-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "tratamento-do-esgoto-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Reduz poluentes antes da devolução da água ao ambiente.",
+        "Diminui-se a carga de poluentes antes do retorno ao ambiente."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Reduz poluentes antes da devolução da água ao ambiente.",
+    "process": "Grades retiram sólidos; decantação separa materiais; microrganismos degradam matéria orgânica.",
+    "result": "Diminui-se a carga de poluentes antes do retorno ao ambiente.",
+    "example": "Microrganismos podem decompor matéria orgânica.",
+    "exam": "O tratamento do esgoto ajuda a: A) reduzir contaminação dos rios B) aumentar lixo C) eliminar toda água. Resposta: A."
+  },
+  "visualType": ""
+}

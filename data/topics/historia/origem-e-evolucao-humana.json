@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-origem-e-evolucao-humana",
+  "discipline": "História",
+  "group": "Origens da humanidade",
+  "title": "Origem e evolução humana",
+  "blocks": [
+    {
+      "id": "origem-e-evolucao-humana-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A evolução humana é o longo processo biológico e cultural que levou ao surgimento do Homo sapiens a partir de ancestrais comuns com outros primatas."
+    },
+    {
+      "id": "origem-e-evolucao-humana-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "origem-e-evolucao-humana-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>O processo começou na África há milhões de anos.</li><li>Existiram diferentes espécies de hominínios.</li><li>Mudanças ambientais influenciaram adaptações.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Diversas espécies de hominínios.</li><li>Grupos de Homo sapiens que migraram para outros continentes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Adaptações corporais.</li><li>Produção de ferramentas.</li><li>Domínio do fogo.</li><li>Comunicação e cooperação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Aumento da capacidade de planejar.</li><li>Aperfeiçoamento técnico.</li><li>Ocupação de ambientes variados.</li></ul></section></div>"
+    },
+    {
+      "id": "origem-e-evolucao-humana-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A combinação entre evolução biológica e aprendizagem cultural ampliou a capacidade humana de adaptação e cooperação."
+    },
+    {
+      "id": "origem-e-evolucao-humana-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Ferramentas e restos de fogueiras indicam planejamento e transmissão de conhecimentos."
+    },
+    {
+      "id": "origem-e-evolucao-humana-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode comparar fósseis e ferramentas e pedir qual evidência é biológica e qual é cultural."
+    },
+    {
+      "id": "origem-e-evolucao-humana-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A evolução humana é o longo processo biológico e cultural que levou ao surgimento do Homo sapiens a partir de ancestrais comuns com outros primatas.",
+        "A combinação entre evolução biológica e aprendizagem cultural ampliou a capacidade humana de adaptação e cooperação."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A evolução humana é o longo processo biológico e cultural que levou ao surgimento do Homo sapiens a partir de ancestrais comuns com outros primatas.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>O processo começou na África há milhões de anos.</li><li>Existiram diferentes espécies de hominínios.</li><li>Mudanças ambientais influenciaram adaptações.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Diversas espécies de hominínios.</li><li>Grupos de Homo sapiens que migraram para outros continentes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Adaptações corporais.</li><li>Produção de ferramentas.</li><li>Domínio do fogo.</li><li>Comunicação e cooperação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Aumento da capacidade de planejar.</li><li>Aperfeiçoamento técnico.</li><li>Ocupação de ambientes variados.</li></ul></section></div>",
+    "result": "A combinação entre evolução biológica e aprendizagem cultural ampliou a capacidade humana de adaptação e cooperação.",
+    "example": "Ferramentas e restos de fogueiras indicam planejamento e transmissão de conhecimentos.",
+    "exam": "A prova pode comparar fósseis e ferramentas e pedir qual evidência é biológica e qual é cultural."
+  },
+  "visualType": ""
+}

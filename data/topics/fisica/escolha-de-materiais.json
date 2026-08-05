@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-escolha-de-materiais",
+  "discipline": "Física",
+  "group": "Máquinas, calor e temperatura",
+  "title": "Escolha de materiais",
+  "blocks": [
+    {
+      "id": "escolha-de-materiais-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Materiais conduzem ou isolam calor de maneiras diferentes."
+    },
+    {
+      "id": "escolha-de-materiais-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Materiais possuem diferentes condutividades, resistências e capacidades térmicas."
+    },
+    {
+      "id": "escolha-de-materiais-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Selecionam-se isolantes para cabos e condutores para panelas ou dissipadores."
+    },
+    {
+      "id": "escolha-de-materiais-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Cabos de panela costumam usar materiais isolantes."
+    },
+    {
+      "id": "escolha-de-materiais-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Cabos de panela usam material isolante para: A) reduzir a passagem de calor B) aumentar o peso C) produzir fogo. Resposta: A."
+    },
+    {
+      "id": "escolha-de-materiais-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "escolha-de-materiais-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Materiais conduzem ou isolam calor de maneiras diferentes.",
+        "Selecionam-se isolantes para cabos e condutores para panelas ou dissipadores."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Materiais conduzem ou isolam calor de maneiras diferentes.",
+    "process": "Materiais possuem diferentes condutividades, resistências e capacidades térmicas.",
+    "result": "Selecionam-se isolantes para cabos e condutores para panelas ou dissipadores.",
+    "example": "Cabos de panela costumam usar materiais isolantes.",
+    "exam": "Cabos de panela usam material isolante para: A) reduzir a passagem de calor B) aumentar o peso C) produzir fogo. Resposta: A."
+  },
+  "visualType": ""
+}

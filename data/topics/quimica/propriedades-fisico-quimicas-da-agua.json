@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-propriedades-fisico-quimicas-da-agua",
+  "discipline": "Química",
+  "group": "Ar, água e propriedades",
+  "title": "Propriedades físico-químicas da água",
+  "blocks": [
+    {
+      "id": "propriedades-fisico-quimicas-da-agua-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A água dissolve muitas substâncias e apresenta comportamentos térmicos importantes."
+    },
+    {
+      "id": "propriedades-fisico-quimicas-da-agua-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "A polaridade da água favorece dissolução, coesão e alta capacidade térmica."
+    },
+    {
+      "id": "propriedades-fisico-quimicas-da-agua-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A água participa de transporte de substâncias e regulação de temperatura."
+    },
+    {
+      "id": "propriedades-fisico-quimicas-da-agua-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O suor ajuda a resfriar o corpo ao evaporar."
+    },
+    {
+      "id": "propriedades-fisico-quimicas-da-agua-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A evaporação do suor ajuda a: A) resfriar o corpo B) aumentar a massa C) produzir sal. Resposta: A."
+    },
+    {
+      "id": "propriedades-fisico-quimicas-da-agua-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "propriedades-fisico-quimicas-da-agua-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A água dissolve muitas substâncias e apresenta comportamentos térmicos importantes.",
+        "A água participa de transporte de substâncias e regulação de temperatura."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A água dissolve muitas substâncias e apresenta comportamentos térmicos importantes.",
+    "process": "A polaridade da água favorece dissolução, coesão e alta capacidade térmica.",
+    "result": "A água participa de transporte de substâncias e regulação de temperatura.",
+    "example": "O suor ajuda a resfriar o corpo ao evaporar.",
+    "exam": "A evaporação do suor ajuda a: A) resfriar o corpo B) aumentar a massa C) produzir sal. Resposta: A."
+  },
+  "visualType": ""
+}

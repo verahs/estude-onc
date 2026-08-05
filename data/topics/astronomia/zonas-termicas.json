@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-zonas-termicas",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Zonas térmicas",
+  "blocks": [
+    {
+      "id": "zonas-termicas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Zonas térmicas são grandes faixas da Terra definidas pela quantidade de energia solar recebida: tropical, temperadas e polares."
+    },
+    {
+      "id": "zonas-termicas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Por que recebem energia diferente</h5><ul><li>A Terra é curva.</li><li>Os raios solares chegam mais diretamente perto do equador.</li><li>Chegam mais inclinados nas altas latitudes.</li><li>A mesma energia espalha-se por áreas diferentes.</li></ul></section>"
+    },
+    {
+      "id": "zonas-termicas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "As zonas apresentam padrões distintos de temperatura e duração das estações."
+    },
+    {
+      "id": "zonas-termicas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Regiões tropicais tendem a apresentar menor variação anual de temperatura do que regiões temperadas."
+    },
+    {
+      "id": "zonas-termicas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode comparar o ângulo dos raios solares e pedir qual região recebe maior aquecimento."
+    },
+    {
+      "id": "zonas-termicas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Zonas térmicas são grandes faixas da Terra definidas pela quantidade de energia solar recebida: tropical, temperadas e polares.",
+        "As zonas apresentam padrões distintos de temperatura e duração das estações."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Zonas térmicas são grandes faixas da Terra definidas pela quantidade de energia solar recebida: tropical, temperadas e polares.",
+    "process": "<section><h5>Por que recebem energia diferente</h5><ul><li>A Terra é curva.</li><li>Os raios solares chegam mais diretamente perto do equador.</li><li>Chegam mais inclinados nas altas latitudes.</li><li>A mesma energia espalha-se por áreas diferentes.</li></ul></section>",
+    "result": "As zonas apresentam padrões distintos de temperatura e duração das estações.",
+    "example": "Regiões tropicais tendem a apresentar menor variação anual de temperatura do que regiões temperadas.",
+    "exam": "A prova pode comparar o ângulo dos raios solares e pedir qual região recebe maior aquecimento."
+  },
+  "visualType": ""
+}

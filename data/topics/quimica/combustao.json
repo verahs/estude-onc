@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-combustao",
+  "discipline": "Química",
+  "group": "Matéria, energia e transformações",
+  "title": "Combustão",
+  "blocks": [
+    {
+      "id": "combustao-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "É uma reação com liberação de energia, geralmente envolvendo combustível e oxigênio."
+    },
+    {
+      "id": "combustao-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Um combustível reage com oxigênio e libera energia; em combustão completa, formam-se principalmente CO₂ e água."
+    },
+    {
+      "id": "combustao-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Observam-se chama, calor e gases."
+    },
+    {
+      "id": "combustao-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A chama do fogão resulta da combustão do gás."
+    },
+    {
+      "id": "combustao-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A combustão precisa de combustível e: A) oxigênio B) gelo C) sal. Resposta: A."
+    },
+    {
+      "id": "combustao-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "combustao-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "É uma reação com liberação de energia, geralmente envolvendo combustível e oxigênio.",
+        "Observam-se chama, calor e gases."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "É uma reação com liberação de energia, geralmente envolvendo combustível e oxigênio.",
+    "process": "Um combustível reage com oxigênio e libera energia; em combustão completa, formam-se principalmente CO₂ e água.",
+    "result": "Observam-se chama, calor e gases.",
+    "example": "A chama do fogão resulta da combustão do gás.",
+    "exam": "A combustão precisa de combustível e: A) oxigênio B) gelo C) sal. Resposta: A."
+  },
+  "visualType": ""
+}

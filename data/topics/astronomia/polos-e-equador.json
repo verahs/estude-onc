@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-polos-e-equador",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Polos e equador",
+  "blocks": [
+    {
+      "id": "polos-e-equador-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Os polos Norte e Sul são os pontos onde o eixo imaginário da Terra atravessa a superfície. O equador é uma linha imaginária que divide o planeta em hemisférios Norte e Sul."
+    },
+    {
+      "id": "polos-e-equador-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>O que é importante saber</h5><ul><li>O equador corresponde à latitude 0°.</li><li>Os polos correspondem às latitudes 90° Norte e 90° Sul.</li><li>Regiões próximas ao equador recebem luz solar mais diretamente.</li><li>Regiões polares recebem luz mais inclinada.</li></ul></section>"
+    },
+    {
+      "id": "polos-e-equador-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A posição em relação ao equador influencia temperatura, duração do dia e zonas climáticas."
+    },
+    {
+      "id": "polos-e-equador-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O Brasil é atravessado pelo equador e possui grande parte do território na zona tropical."
+    },
+    {
+      "id": "polos-e-equador-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar um mapa e pedir em qual hemisfério está uma cidade situada ao sul do equador."
+    },
+    {
+      "id": "polos-e-equador-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Os polos Norte e Sul são os pontos onde o eixo imaginário da Terra atravessa a superfície. O equador é uma linha imaginária que divide o planeta em hemisférios Norte e Sul.",
+        "A posição em relação ao equador influencia temperatura, duração do dia e zonas climáticas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Os polos Norte e Sul são os pontos onde o eixo imaginário da Terra atravessa a superfície. O equador é uma linha imaginária que divide o planeta em hemisférios Norte e Sul.",
+    "process": "<section><h5>O que é importante saber</h5><ul><li>O equador corresponde à latitude 0°.</li><li>Os polos correspondem às latitudes 90° Norte e 90° Sul.</li><li>Regiões próximas ao equador recebem luz solar mais diretamente.</li><li>Regiões polares recebem luz mais inclinada.</li></ul></section>",
+    "result": "A posição em relação ao equador influencia temperatura, duração do dia e zonas climáticas.",
+    "example": "O Brasil é atravessado pelo equador e possui grande parte do território na zona tropical.",
+    "exam": "A prova pode apresentar um mapa e pedir em qual hemisfério está uma cidade situada ao sul do equador."
+  },
+  "visualType": ""
+}

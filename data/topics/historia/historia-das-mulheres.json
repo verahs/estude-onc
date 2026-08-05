@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-historia-das-mulheres",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "História das Mulheres",
+  "blocks": [
+    {
+      "id": "historia-das-mulheres-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "História das Mulheres estuda experiências, trabalhos, direitos, resistências e formas de participação feminina em diferentes sociedades."
+    },
+    {
+      "id": "historia-das-mulheres-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "historia-das-mulheres-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Muitas fontes tradicionais privilegiaram ações masculinas.</li><li>Novas pesquisas ampliaram o uso de cartas, processos e relatos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Mulheres de diferentes classes, raças, povos e períodos.</li><li>Instituições que regulavam seus direitos e papéis.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Trabalho doméstico e produtivo.</li><li>Participação política e cultural.</li><li>Normas de gênero.</li><li>Resistências.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação de direitos.</li><li>Maior presença em espaços públicos.</li><li>Persistência de desigualdades.</li></ul></section></div>"
+    },
+    {
+      "id": "historia-das-mulheres-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Esse campo mostra que mulheres sempre participaram da História, embora muitas vezes tenham sido invisibilizadas."
+    },
+    {
+      "id": "historia-das-mulheres-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Processos judiciais podem revelar mulheres administrando negócios ou defendendo propriedades."
+    },
+    {
+      "id": "historia-das-mulheres-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar fonte escrita por uma mulher e perguntar o que ela revela sobre seu papel social."
+    },
+    {
+      "id": "historia-das-mulheres-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "História das Mulheres estuda experiências, trabalhos, direitos, resistências e formas de participação feminina em diferentes sociedades.",
+        "Esse campo mostra que mulheres sempre participaram da História, embora muitas vezes tenham sido invisibilizadas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "História das Mulheres estuda experiências, trabalhos, direitos, resistências e formas de participação feminina em diferentes sociedades.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Muitas fontes tradicionais privilegiaram ações masculinas.</li><li>Novas pesquisas ampliaram o uso de cartas, processos e relatos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Mulheres de diferentes classes, raças, povos e períodos.</li><li>Instituições que regulavam seus direitos e papéis.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Trabalho doméstico e produtivo.</li><li>Participação política e cultural.</li><li>Normas de gênero.</li><li>Resistências.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação de direitos.</li><li>Maior presença em espaços públicos.</li><li>Persistência de desigualdades.</li></ul></section></div>",
+    "result": "Esse campo mostra que mulheres sempre participaram da História, embora muitas vezes tenham sido invisibilizadas.",
+    "example": "Processos judiciais podem revelar mulheres administrando negócios ou defendendo propriedades.",
+    "exam": "A prova pode apresentar fonte escrita por uma mulher e perguntar o que ela revela sobre seu papel social."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-mares",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Marés",
+  "blocks": [
+    {
+      "id": "mares-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Marés são elevações e abaixamentos periódicos do nível do mar causados principalmente pela atração gravitacional da Lua e, em menor grau, do Sol."
+    },
+    {
+      "id": "mares-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Como acontecem</h5><ul><li>A Lua atrai a água dos oceanos.</li><li>Forma-se uma elevação na direção da Lua e outra no lado oposto.</li><li>Com a rotação da Terra, as regiões passam por maré alta e maré baixa.</li><li>Lua nova e cheia tendem a produzir marés mais intensas.</li></ul></section>"
+    },
+    {
+      "id": "mares-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O nível do mar varia ao longo do dia, afetando navegação, pesca e áreas costeiras."
+    },
+    {
+      "id": "mares-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma faixa de areia pode ficar larga na maré baixa e quase desaparecer na maré alta."
+    },
+    {
+      "id": "mares-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode comparar fases da Lua e amplitudes de maré e pedir em quais fases ocorrem marés mais intensas."
+    },
+    {
+      "id": "mares-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Marés são elevações e abaixamentos periódicos do nível do mar causados principalmente pela atração gravitacional da Lua e, em menor grau, do Sol.",
+        "O nível do mar varia ao longo do dia, afetando navegação, pesca e áreas costeiras."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Marés são elevações e abaixamentos periódicos do nível do mar causados principalmente pela atração gravitacional da Lua e, em menor grau, do Sol.",
+    "process": "<section><h5>Como acontecem</h5><ul><li>A Lua atrai a água dos oceanos.</li><li>Forma-se uma elevação na direção da Lua e outra no lado oposto.</li><li>Com a rotação da Terra, as regiões passam por maré alta e maré baixa.</li><li>Lua nova e cheia tendem a produzir marés mais intensas.</li></ul></section>",
+    "result": "O nível do mar varia ao longo do dia, afetando navegação, pesca e áreas costeiras.",
+    "example": "Uma faixa de areia pode ficar larga na maré baixa e quase desaparecer na maré alta.",
+    "exam": "A prova pode comparar fases da Lua e amplitudes de maré e pedir em quais fases ocorrem marés mais intensas."
+  },
+  "visualType": ""
+}

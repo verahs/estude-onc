@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-flutuabilidade",
+  "discipline": "Química",
+  "group": "Ar, água e propriedades",
+  "title": "Flutuabilidade",
+  "blocks": [
+    {
+      "id": "flutuabilidade-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Depende da relação entre a densidade do objeto, do líquido e do empuxo."
+    },
+    {
+      "id": "flutuabilidade-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "O líquido exerce empuxo para cima; a flutuação depende do peso, do volume deslocado e das densidades."
+    },
+    {
+      "id": "flutuabilidade-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Navios podem flutuar mesmo sendo de aço por causa de seu formato e volume médio."
+    },
+    {
+      "id": "flutuabilidade-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Um navio de aço flutua por causa do formato e do volume de água deslocado."
+    },
+    {
+      "id": "flutuabilidade-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Um objeto tende a flutuar na água quando sua densidade média é: A) menor que 1 g/cm³ B) sempre maior C) infinita. Resposta: A."
+    },
+    {
+      "id": "flutuabilidade-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "flutuabilidade-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Depende da relação entre a densidade do objeto, do líquido e do empuxo.",
+        "Navios podem flutuar mesmo sendo de aço por causa de seu formato e volume médio."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Depende da relação entre a densidade do objeto, do líquido e do empuxo.",
+    "process": "O líquido exerce empuxo para cima; a flutuação depende do peso, do volume deslocado e das densidades.",
+    "result": "Navios podem flutuar mesmo sendo de aço por causa de seu formato e volume médio.",
+    "example": "Um navio de aço flutua por causa do formato e do volume de água deslocado.",
+    "exam": "Um objeto tende a flutuar na água quando sua densidade média é: A) menor que 1 g/cm³ B) sempre maior C) infinita. Resposta: A."
+  },
+  "visualType": ""
+}

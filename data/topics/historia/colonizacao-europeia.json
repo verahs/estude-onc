@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-colonizacao-europeia",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Colonização europeia",
+  "blocks": [
+    {
+      "id": "colonizacao-europeia-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Colonização europeia foi a ocupação e exploração de territórios controlados por metrópoles europeias."
+    },
+    {
+      "id": "colonizacao-europeia-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "colonizacao-europeia-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão marítima.</li><li>Mercantilismo.</li><li>Disputa entre potências.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Metrópoles.</li><li>Colonos.</li><li>Povos indígenas.</li><li>Africanos escravizados.</li><li>Missionários.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Administração colonial.</li><li>Exploração de recursos.</li><li>Monopólios comerciais.</li><li>Trabalho forçado.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Criação de sociedades coloniais.</li><li>Misturas culturais.</li><li>Conflitos e resistências.</li></ul></section></div>"
+    },
+    {
+      "id": "colonizacao-europeia-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A colonização integrou continentes de forma desigual e produziu profundas mudanças demográficas, culturais e ambientais."
+    },
+    {
+      "id": "colonizacao-europeia-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A produção de açúcar ligava terras americanas, trabalho escravizado e mercados europeus."
+    },
+    {
+      "id": "colonizacao-europeia-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar fluxo comercial e perguntar quem se beneficiava e quem era explorado."
+    },
+    {
+      "id": "colonizacao-europeia-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Colonização europeia foi a ocupação e exploração de territórios controlados por metrópoles europeias.",
+        "A colonização integrou continentes de forma desigual e produziu profundas mudanças demográficas, culturais e ambientais."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Colonização europeia foi a ocupação e exploração de territórios controlados por metrópoles europeias.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão marítima.</li><li>Mercantilismo.</li><li>Disputa entre potências.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Metrópoles.</li><li>Colonos.</li><li>Povos indígenas.</li><li>Africanos escravizados.</li><li>Missionários.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Administração colonial.</li><li>Exploração de recursos.</li><li>Monopólios comerciais.</li><li>Trabalho forçado.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Criação de sociedades coloniais.</li><li>Misturas culturais.</li><li>Conflitos e resistências.</li></ul></section></div>",
+    "result": "A colonização integrou continentes de forma desigual e produziu profundas mudanças demográficas, culturais e ambientais.",
+    "example": "A produção de açúcar ligava terras americanas, trabalho escravizado e mercados europeus.",
+    "exam": "A prova pode apresentar fluxo comercial e perguntar quem se beneficiava e quem era explorado."
+  },
+  "visualType": ""
+}

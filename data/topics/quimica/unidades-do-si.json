@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-unidades-do-si",
+  "discipline": "Química",
+  "group": "Sistema Internacional",
+  "title": "Unidades do SI",
+  "blocks": [
+    {
+      "id": "unidades-do-si-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "O Sistema Internacional padroniza medidas como metro, quilograma, segundo e kelvin."
+    },
+    {
+      "id": "unidades-do-si-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "O Sistema Internacional padroniza grandezas: metro, quilograma, segundo, kelvin e outras."
+    },
+    {
+      "id": "unidades-do-si-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Medições podem ser comparadas em qualquer país."
+    },
+    {
+      "id": "unidades-do-si-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma distância pode ser expressa em metros ou quilômetros."
+    },
+    {
+      "id": "unidades-do-si-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A unidade SI de comprimento é: A) metro B) litro C) grau. Resposta: A."
+    },
+    {
+      "id": "unidades-do-si-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "unidades-do-si-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "O Sistema Internacional padroniza medidas como metro, quilograma, segundo e kelvin.",
+        "Medições podem ser comparadas em qualquer país."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "O Sistema Internacional padroniza medidas como metro, quilograma, segundo e kelvin.",
+    "process": "O Sistema Internacional padroniza grandezas: metro, quilograma, segundo, kelvin e outras.",
+    "result": "Medições podem ser comparadas em qualquer país.",
+    "example": "Uma distância pode ser expressa em metros ou quilômetros.",
+    "exam": "A unidade SI de comprimento é: A) metro B) litro C) grau. Resposta: A."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-composicao-do-ar",
+  "discipline": "Química",
+  "group": "Ar, água e propriedades",
+  "title": "Composição do ar",
+  "blocks": [
+    {
+      "id": "composicao-do-ar-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "O ar é uma mistura de gases, principalmente nitrogênio e oxigênio."
+    },
+    {
+      "id": "composicao-do-ar-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "O ar é uma mistura com cerca de 78% de nitrogênio, 21% de oxigênio e pequenas quantidades de outros gases."
+    },
+    {
+      "id": "composicao-do-ar-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A respiração usa oxigênio, enquanto o nitrogênio é o componente mais abundante."
+    },
+    {
+      "id": "composicao-do-ar-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O oxigênio é necessário para a respiração humana."
+    },
+    {
+      "id": "composicao-do-ar-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "O gás mais abundante no ar é: A) oxigênio B) nitrogênio C) gás carbônico. Resposta: B."
+    },
+    {
+      "id": "composicao-do-ar-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "composicao-do-ar-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "O ar é uma mistura de gases, principalmente nitrogênio e oxigênio.",
+        "A respiração usa oxigênio, enquanto o nitrogênio é o componente mais abundante."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "O ar é uma mistura de gases, principalmente nitrogênio e oxigênio.",
+    "process": "O ar é uma mistura com cerca de 78% de nitrogênio, 21% de oxigênio e pequenas quantidades de outros gases.",
+    "result": "A respiração usa oxigênio, enquanto o nitrogênio é o componente mais abundante.",
+    "example": "O oxigênio é necessário para a respiração humana.",
+    "exam": "O gás mais abundante no ar é: A) oxigênio B) nitrogênio C) gás carbônico. Resposta: B."
+  },
+  "visualType": "air"
+}

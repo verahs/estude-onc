@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-novos-materiais-e-tecnologias",
+  "discipline": "Física",
+  "group": "Máquinas, calor e temperatura",
+  "title": "Novos materiais e tecnologias",
+  "blocks": [
+    {
+      "id": "novos-materiais-e-tecnologias-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Avanços em materiais alteram máquinas, automação e vida cotidiana."
+    },
+    {
+      "id": "novos-materiais-e-tecnologias-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Pesquisadores ajustam composição e estrutura dos materiais para obter propriedades específicas."
+    },
+    {
+      "id": "novos-materiais-e-tecnologias-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Surgem materiais mais leves, resistentes, isolantes ou condutores."
+    },
+    {
+      "id": "novos-materiais-e-tecnologias-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Sensores permitem que aparelhos regulem temperatura automaticamente."
+    },
+    {
+      "id": "novos-materiais-e-tecnologias-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Um material desenvolvido para reduzir perda de calor deve ter baixa: A) condutividade térmica B) massa C) cor. Resposta: A."
+    },
+    {
+      "id": "novos-materiais-e-tecnologias-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "novos-materiais-e-tecnologias-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Avanços em materiais alteram máquinas, automação e vida cotidiana.",
+        "Surgem materiais mais leves, resistentes, isolantes ou condutores."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Avanços em materiais alteram máquinas, automação e vida cotidiana.",
+    "process": "Pesquisadores ajustam composição e estrutura dos materiais para obter propriedades específicas.",
+    "result": "Surgem materiais mais leves, resistentes, isolantes ou condutores.",
+    "example": "Sensores permitem que aparelhos regulem temperatura automaticamente.",
+    "exam": "Um material desenvolvido para reduzir perda de calor deve ter baixa: A) condutividade térmica B) massa C) cor. Resposta: A."
+  },
+  "visualType": ""
+}

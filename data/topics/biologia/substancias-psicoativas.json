@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-substancias-psicoativas",
+  "discipline": "Biologia",
+  "group": "Vida e corpo humano",
+  "title": "Substâncias psicoativas",
+  "blocks": [
+    {
+      "id": "substancias-psicoativas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Podem alterar a atividade do sistema nervoso, a percepção e o comportamento."
+    },
+    {
+      "id": "substancias-psicoativas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Essas substâncias alteram a comunicação entre neurônios, podendo estimular, reduzir ou distorcer a atividade do sistema nervoso."
+    },
+    {
+      "id": "substancias-psicoativas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Podem mudar percepção, humor, reflexos, memória e coordenação."
+    },
+    {
+      "id": "substancias-psicoativas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Álcool pode reduzir reflexos e coordenação motora."
+    },
+    {
+      "id": "substancias-psicoativas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Uma substância que reduz os reflexos aumenta o risco no trânsito porque: A) melhora a visão B) aumenta o tempo de reação C) diminui a distância de frenagem. Resposta: B."
+    },
+    {
+      "id": "substancias-psicoativas-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "substancias-psicoativas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Podem alterar a atividade do sistema nervoso, a percepção e o comportamento.",
+        "Podem mudar percepção, humor, reflexos, memória e coordenação."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Podem alterar a atividade do sistema nervoso, a percepção e o comportamento.",
+    "process": "Essas substâncias alteram a comunicação entre neurônios, podendo estimular, reduzir ou distorcer a atividade do sistema nervoso.",
+    "result": "Podem mudar percepção, humor, reflexos, memória e coordenação.",
+    "example": "Álcool pode reduzir reflexos e coordenação motora.",
+    "exam": "Uma substância que reduz os reflexos aumenta o risco no trânsito porque: A) melhora a visão B) aumenta o tempo de reação C) diminui a distância de frenagem. Resposta: B."
+  },
+  "visualType": ""
+}

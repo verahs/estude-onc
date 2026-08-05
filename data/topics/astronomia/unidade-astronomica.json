@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-unidade-astronomica",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "Unidade Astronômica",
+  "blocks": [
+    {
+      "id": "unidade-astronomica-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Unidade Astronômica (UA) é a distância média entre a Terra e o Sol, cerca de 150 milhões de quilômetros."
+    },
+    {
+      "id": "unidade-astronomica-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Para que serve</h5><ul><li>Expressar distâncias dentro do Sistema Solar.</li><li>Evitar números muito grandes em quilômetros.</li></ul></section><section><h5>Exemplo resolvido</h5><div class='calcBox'><div>Júpiter está a aproximadamente 5,2 UA do Sol.</div><div>5,2 × 150 milhões km ≈ 780 milhões km.</div><div>Logo, sua distância média é cerca de 780 milhões de quilômetros.</div></div></section>"
+    },
+    {
+      "id": "unidade-astronomica-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A UA facilita comparações entre órbitas planetárias."
+    },
+    {
+      "id": "unidade-astronomica-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A Terra está a 1 UA do Sol; Marte, aproximadamente a 1,5 UA."
+    },
+    {
+      "id": "unidade-astronomica-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode fornecer uma distância em UA e pedir a conversão aproximada para quilômetros."
+    },
+    {
+      "id": "unidade-astronomica-strategy",
+      "type": "strategy",
+      "label": "Estratégia de resolução",
+      "content": "Anote os dados, identifique a unidade pedida e resolva uma etapa de cada vez. Antes de marcar a resposta, confira se o resultado faz sentido."
+    },
+    {
+      "id": "unidade-astronomica-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Unidade Astronômica (UA) é a distância média entre a Terra e o Sol, cerca de 150 milhões de quilômetros.",
+        "A UA facilita comparações entre órbitas planetárias."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Unidade Astronômica (UA) é a distância média entre a Terra e o Sol, cerca de 150 milhões de quilômetros.",
+    "process": "<section><h5>Para que serve</h5><ul><li>Expressar distâncias dentro do Sistema Solar.</li><li>Evitar números muito grandes em quilômetros.</li></ul></section><section><h5>Exemplo resolvido</h5><div class='calcBox'><div>Júpiter está a aproximadamente 5,2 UA do Sol.</div><div>5,2 × 150 milhões km ≈ 780 milhões km.</div><div>Logo, sua distância média é cerca de 780 milhões de quilômetros.</div></div></section>",
+    "result": "A UA facilita comparações entre órbitas planetárias.",
+    "example": "A Terra está a 1 UA do Sol; Marte, aproximadamente a 1,5 UA.",
+    "exam": "A prova pode fornecer uma distância em UA e pedir a conversão aproximada para quilômetros."
+  },
+  "visualType": ""
+}

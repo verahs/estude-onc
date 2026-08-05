@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-americas-antigas",
+  "discipline": "História",
+  "group": "Antiguidade e Idade Média",
+  "title": "Américas antigas",
+  "blocks": [
+    {
+      "id": "americas-antigas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Américas antigas incluem sociedades indígenas complexas desenvolvidas antes da chegada dos europeus, como maias, astecas e incas."
+    },
+    {
+      "id": "americas-antigas-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "americas-antigas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Grande diversidade ambiental.</li><li>Desenvolvimento independente de cidades, agricultura e conhecimentos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Maias, astecas, incas e muitos outros povos.</li><li>Agricultores, artesãos, sacerdotes, guerreiros e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Agricultura intensiva.</li><li>Tributos.</li><li>Cidades e impérios.</li><li>Calendários e conhecimentos astronômicos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansões territoriais.</li><li>Conflitos.</li><li>Adaptações ambientais.</li></ul></section></div>"
+    },
+    {
+      "id": "americas-antigas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Essas sociedades criaram tecnologias, sistemas políticos e conhecimentos sofisticados antes da colonização europeia."
+    },
+    {
+      "id": "americas-antigas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Terraços agrícolas incas permitiam cultivo em áreas montanhosas."
+    },
+    {
+      "id": "americas-antigas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode mostrar técnica agrícola e pedir como ela se relaciona ao ambiente."
+    },
+    {
+      "id": "americas-antigas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Américas antigas incluem sociedades indígenas complexas desenvolvidas antes da chegada dos europeus, como maias, astecas e incas.",
+        "Essas sociedades criaram tecnologias, sistemas políticos e conhecimentos sofisticados antes da colonização europeia."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Américas antigas incluem sociedades indígenas complexas desenvolvidas antes da chegada dos europeus, como maias, astecas e incas.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Grande diversidade ambiental.</li><li>Desenvolvimento independente de cidades, agricultura e conhecimentos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Maias, astecas, incas e muitos outros povos.</li><li>Agricultores, artesãos, sacerdotes, guerreiros e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Agricultura intensiva.</li><li>Tributos.</li><li>Cidades e impérios.</li><li>Calendários e conhecimentos astronômicos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansões territoriais.</li><li>Conflitos.</li><li>Adaptações ambientais.</li></ul></section></div>",
+    "result": "Essas sociedades criaram tecnologias, sistemas políticos e conhecimentos sofisticados antes da colonização europeia.",
+    "example": "Terraços agrícolas incas permitiam cultivo em áreas montanhosas.",
+    "exam": "A questão pode mostrar técnica agrícola e pedir como ela se relaciona ao ambiente."
+  },
+  "visualType": ""
+}

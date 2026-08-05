@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-economia-colonial",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Economia colonial",
+  "blocks": [
+    {
+      "id": "economia-colonial-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Economia colonial foi o conjunto de atividades produtivas organizadas para atender aos interesses da metrópole."
+    },
+    {
+      "id": "economia-colonial-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "economia-colonial-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Mercantilismo.</li><li>Monopólio comercial.</li><li>Exploração de recursos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Metrópole.</li><li>Grandes proprietários.</li><li>Comerciantes.</li><li>Trabalhadores livres e escravizados.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Latifúndio.</li><li>Monocultura.</li><li>Exportação.</li><li>Escravidão.</li><li>Mineração.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Diversificação regional.</li><li>Expansão para o interior.</li><li>Crescimento de mercados internos.</li></ul></section></div>"
+    },
+    {
+      "id": "economia-colonial-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A economia colonial gerou riqueza concentrada, dependência externa e desigualdades duradouras."
+    },
+    {
+      "id": "economia-colonial-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A produção de açúcar dependia de grandes propriedades e trabalho escravizado."
+    },
+    {
+      "id": "economia-colonial-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar dados de exportação e pedir qual atividade predominava."
+    },
+    {
+      "id": "economia-colonial-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Economia colonial foi o conjunto de atividades produtivas organizadas para atender aos interesses da metrópole.",
+        "A economia colonial gerou riqueza concentrada, dependência externa e desigualdades duradouras."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Economia colonial foi o conjunto de atividades produtivas organizadas para atender aos interesses da metrópole.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Mercantilismo.</li><li>Monopólio comercial.</li><li>Exploração de recursos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Metrópole.</li><li>Grandes proprietários.</li><li>Comerciantes.</li><li>Trabalhadores livres e escravizados.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Latifúndio.</li><li>Monocultura.</li><li>Exportação.</li><li>Escravidão.</li><li>Mineração.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Diversificação regional.</li><li>Expansão para o interior.</li><li>Crescimento de mercados internos.</li></ul></section></div>",
+    "result": "A economia colonial gerou riqueza concentrada, dependência externa e desigualdades duradouras.",
+    "example": "A produção de açúcar dependia de grandes propriedades e trabalho escravizado.",
+    "exam": "A prova pode apresentar dados de exportação e pedir qual atividade predominava."
+  },
+  "visualType": ""
+}

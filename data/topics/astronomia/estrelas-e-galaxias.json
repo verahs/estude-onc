@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-estrelas-e-galaxias",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "Estrelas e galáxias",
+  "blocks": [
+    {
+      "id": "estrelas-e-galaxias-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Estrelas são enormes esferas de plasma que produzem energia por fusão nuclear. Galáxias são grandes conjuntos de estrelas, gás, poeira e matéria escura."
+    },
+    {
+      "id": "estrelas-e-galaxias-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Estrelas</h5><ul><li>Nascem em nuvens de gás e poeira.</li><li>Produzem energia ao fundir núcleos leves.</li><li>Apresentam diferentes cores e temperaturas.</li></ul></section><section><h5>Galáxias</h5><ul><li>Podem ser espirais, elípticas ou irregulares.</li><li>A Via Láctea é a galáxia do Sistema Solar.</li></ul></section>"
+    },
+    {
+      "id": "estrelas-e-galaxias-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A luz das estrelas permite estudar temperatura, composição e distância."
+    },
+    {
+      "id": "estrelas-e-galaxias-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O Sol é uma estrela localizada na Via Láctea."
+    },
+    {
+      "id": "estrelas-e-galaxias-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar cores estelares e pedir qual estrela tem maior temperatura superficial."
+    },
+    {
+      "id": "estrelas-e-galaxias-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Estrelas são enormes esferas de plasma que produzem energia por fusão nuclear. Galáxias são grandes conjuntos de estrelas, gás, poeira e matéria escura.",
+        "A luz das estrelas permite estudar temperatura, composição e distância."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Estrelas são enormes esferas de plasma que produzem energia por fusão nuclear. Galáxias são grandes conjuntos de estrelas, gás, poeira e matéria escura.",
+    "process": "<section><h5>Estrelas</h5><ul><li>Nascem em nuvens de gás e poeira.</li><li>Produzem energia ao fundir núcleos leves.</li><li>Apresentam diferentes cores e temperaturas.</li></ul></section><section><h5>Galáxias</h5><ul><li>Podem ser espirais, elípticas ou irregulares.</li><li>A Via Láctea é a galáxia do Sistema Solar.</li></ul></section>",
+    "result": "A luz das estrelas permite estudar temperatura, composição e distância.",
+    "example": "O Sol é uma estrela localizada na Via Láctea.",
+    "exam": "A prova pode apresentar cores estelares e pedir qual estrela tem maior temperatura superficial."
+  },
+  "visualType": ""
+}

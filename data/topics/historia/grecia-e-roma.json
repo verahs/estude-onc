@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-grecia-e-roma",
+  "discipline": "História",
+  "group": "Antiguidade e Idade Média",
+  "title": "Grécia e Roma",
+  "blocks": [
+    {
+      "id": "grecia-e-roma-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Grécia e Roma foram sociedades da Antiguidade que influenciaram política, direito, filosofia, arte e organização urbana."
+    },
+    {
+      "id": "grecia-e-roma-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "grecia-e-roma-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A Grécia era formada por cidades-Estado.</li><li>Roma passou de cidade a império.</li><li>Ambas dependiam de trabalho escravo.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Cidadãos, mulheres, estrangeiros, escravizados, soldados e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Polis e democracia limitada em Atenas.</li><li>República e Império em Roma.</li><li>Exércitos, leis e comércio mediterrânico.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansão territorial.</li><li>Conflitos sociais.</li><li>Transformações políticas.</li></ul></section></div>"
+    },
+    {
+      "id": "grecia-e-roma-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Seus legados aparecem em conceitos políticos, sistemas jurídicos, arquitetura e línguas, mas suas sociedades eram profundamente desiguais."
+    },
+    {
+      "id": "grecia-e-roma-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Na democracia ateniense, apenas parte dos homens livres participava das decisões."
+    },
+    {
+      "id": "grecia-e-roma-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode comparar democracia antiga e atual e pedir uma diferença fundamental."
+    },
+    {
+      "id": "grecia-e-roma-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Grécia e Roma foram sociedades da Antiguidade que influenciaram política, direito, filosofia, arte e organização urbana.",
+        "Seus legados aparecem em conceitos políticos, sistemas jurídicos, arquitetura e línguas, mas suas sociedades eram profundamente desiguais."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Grécia e Roma foram sociedades da Antiguidade que influenciaram política, direito, filosofia, arte e organização urbana.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A Grécia era formada por cidades-Estado.</li><li>Roma passou de cidade a império.</li><li>Ambas dependiam de trabalho escravo.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Cidadãos, mulheres, estrangeiros, escravizados, soldados e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Polis e democracia limitada em Atenas.</li><li>República e Império em Roma.</li><li>Exércitos, leis e comércio mediterrânico.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansão territorial.</li><li>Conflitos sociais.</li><li>Transformações políticas.</li></ul></section></div>",
+    "result": "Seus legados aparecem em conceitos políticos, sistemas jurídicos, arquitetura e línguas, mas suas sociedades eram profundamente desiguais.",
+    "example": "Na democracia ateniense, apenas parte dos homens livres participava das decisões.",
+    "exam": "A prova pode comparar democracia antiga e atual e pedir uma diferença fundamental."
+  },
+  "visualType": ""
+}

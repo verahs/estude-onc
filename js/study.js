@@ -84,13 +84,14 @@ ONC.Study = {
     if (symbol) symbol.textContent = open ? "−" : "＋";
   },
 
-  toggleTopic(button) {
+  async toggleTopic(button) {
     const card = button.closest(".topicCard");
     if (!card) return;
     const open = card.classList.toggle("open");
     button.setAttribute("aria-expanded", String(open));
     const symbol = button.querySelector(".expandSymbol");
     if (symbol) symbol.textContent = open ? "−" : "＋";
+    if (open) await this.ensureTopicLoaded(card);
   },
 
   recurrenceCategory(subject, topic) {
@@ -164,24 +165,20 @@ ONC.Study = {
   },
 
   topicCard(subject, group, topic) {
-    const id = this.slug(`${subject.name}-${group.name}-${topic}`);
+    const id = topic.id;
     const checked = this.progress[id] === true;
-    const content = ONC_DATA.structuredStudy[`${subject.name}||${topic}`] || {};
-    const blocks = Array.isArray(content.blocks) && content.blocks.length
-      ? content.blocks
-      : this.legacyBlocks(content);
-
     const searchableText = [
-      subject.name, group.name, topic,
-      ...blocks.map(block => block.content || (block.items || []).join(" "))
+      subject.name, group.name, topic.title, topic.searchText || ""
     ].join(" ").toLowerCase();
 
-    const recurrence = this.recurrencePercent(subject.name, topic);
+    const recurrence = this.recurrencePercent(subject.name, topic.title);
     const level = this.recurrenceLevel(recurrence);
-    const category = this.recurrenceCategory(subject.name, topic);
+    const category = this.recurrenceCategory(subject.name, topic.title);
 
     return `<article class="topicCard ${checked ? "is-complete" : ""}"
       data-topic-id="${id}"
+      data-content-file="${this.escapeAttribute(topic.file)}"
+      data-visual-type="${this.escapeAttribute(topic.visualType || "")}"
       data-search="${this.escapeAttribute(searchableText)}"
       data-recurrence="${recurrence}"
       data-recurrence-level="${level.key}">
@@ -189,11 +186,11 @@ ONC.Study = {
         onclick="ONC.Study.toggleTopic(this)">
         <div class="topicTitleWrap">
           <input type="checkbox" ${checked ? "checked" : ""}
-            aria-label="Marcar ${this.escapeAttribute(topic)} como concluído"
+            aria-label="Marcar ${this.escapeAttribute(topic.title)} como concluído"
             onclick="event.stopPropagation()"
             onchange="ONC.Study.toggle('${id}', this.checked)">
           <div>
-            <strong class="topicName">${topic}</strong>
+            <strong class="topicName">${topic.title}</strong>
             <div class="topicMeta">
               <span class="topicStatus">${checked ? "Concluído" : "Pendente"}</span>
               <span class="recurrenceBadge ${level.cls}" title="${this.escapeAttribute(category)}">
@@ -213,12 +210,61 @@ ONC.Study = {
           <button class="btn btnSmall" type="button"
             onclick="ONC.Study.printTopic('${id}')">Imprimir</button>
         </div>
-        <div class="learningFlow">
-          ${blocks.map(block => ONC.StudyBlocks.render(block)).join("")}
-          ${this.visual(subject.name, topic)}
+        <div class="learningFlow" data-topic-content>
+          <div class="topicLoading" role="status">O conteúdo será carregado ao abrir este tópico.</div>
         </div>
       </div>
     </article>`;
+  },
+
+  async ensureTopicLoaded(card) {
+    const target = card?.querySelector("[data-topic-content]");
+    if (!card || !target || card.dataset.loaded === "true") return;
+
+    const file = card.dataset.contentFile;
+    target.innerHTML = `
+      <div class="topicLoading topicLoading--active" role="status">
+        <span class="loadingSpinner" aria-hidden="true"></span>
+        Carregando conteúdo…
+      </div>`;
+
+    try {
+      const content = await ONC.TopicRepository.get(file);
+      const blocks = Array.isArray(content.blocks) && content.blocks.length
+        ? content.blocks
+        : this.legacyBlocks(content.legacy || {});
+
+      target.innerHTML = `
+        ${blocks.map(block => ONC.StudyBlocks.render(block)).join("")}
+        ${this.visualFromType(content.visualType || card.dataset.visualType)}
+      `;
+      card.dataset.loaded = "true";
+      this.prefetchNeighbors(card);
+    } catch (error) {
+      console.error(error);
+      target.innerHTML = `
+        <div class="topicLoadError" role="alert">
+          Não foi possível carregar este tópico.
+          <button type="button" class="btn btnSmall"
+            onclick="ONC.Study.retryTopic(this)">Tentar novamente</button>
+        </div>`;
+    }
+  },
+
+  async retryTopic(button) {
+    const card = button.closest(".topicCard");
+    if (!card) return;
+    card.dataset.loaded = "false";
+    await this.ensureTopicLoaded(card);
+  },
+
+  prefetchNeighbors(card) {
+    const cards = [...document.querySelectorAll(".topicCard")];
+    const index = cards.indexOf(card);
+    const neighbors = [cards[index - 1], cards[index + 1]]
+      .filter(Boolean)
+      .map(item => item.dataset.contentFile);
+    ONC.TopicRepository.prefetch(neighbors, 2);
   },
 
   legacyBlocks(content) {
@@ -234,7 +280,7 @@ ONC.Study = {
     }));
   },
 
-  focusTopic(id) {
+  async focusTopic(id) {
     document.body.classList.add("readingMode");
     document.querySelectorAll(".topicCard").forEach(card => {
       card.classList.toggle("readingFocus", card.dataset.topicId === id);
@@ -243,6 +289,7 @@ ONC.Study = {
     if (card) {
       card.classList.add("open");
       card.querySelector(".topicSummary")?.setAttribute("aria-expanded", "true");
+      await this.ensureTopicLoaded(card);
       card.scrollIntoView({ behavior: "smooth", block: "start" });
     }
     this.readingTopicId = id;
@@ -264,8 +311,7 @@ ONC.Study = {
     card.classList.remove("printTarget");
   },
 
-  visual(subject, topic) {
-    const type = ONC_DATA.visualTopics?.[`${subject}||${topic}`];
+  visualFromType(type) {
     if (!type) return "";
     const originalVisual = this.visualSvg(type);
     if (!originalVisual) return "";

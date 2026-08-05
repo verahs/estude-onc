@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-origem-do-universo",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "Origem do Universo",
+  "blocks": [
+    {
+      "id": "origem-do-universo-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "O modelo do Big Bang afirma que o Universo começou, há cerca de 13,8 bilhões de anos, em um estado muito quente e denso e vem se expandindo."
+    },
+    {
+      "id": "origem-do-universo-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Evidências principais</h5><ul><li>Expansão das galáxias.</li><li>Radiação cósmica de fundo.</li><li>Abundância de elementos leves, como hidrogênio e hélio.</li></ul></section><section><h5>Atenção</h5><p>O Big Bang não foi uma explosão em um ponto vazio; foi a expansão do próprio espaço.</p></section>"
+    },
+    {
+      "id": "origem-do-universo-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Com o resfriamento, formaram-se partículas, átomos, estrelas, galáxias e sistemas planetários."
+    },
+    {
+      "id": "origem-do-universo-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Ao observar galáxias distantes, vemos como eram há bilhões de anos, porque sua luz levou muito tempo para chegar."
+    },
+    {
+      "id": "origem-do-universo-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar o desvio para o vermelho de galáxias e perguntar qual conclusão ele sustenta."
+    },
+    {
+      "id": "origem-do-universo-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "O modelo do Big Bang afirma que o Universo começou, há cerca de 13,8 bilhões de anos, em um estado muito quente e denso e vem se expandindo.",
+        "Com o resfriamento, formaram-se partículas, átomos, estrelas, galáxias e sistemas planetários."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "O modelo do Big Bang afirma que o Universo começou, há cerca de 13,8 bilhões de anos, em um estado muito quente e denso e vem se expandindo.",
+    "process": "<section><h5>Evidências principais</h5><ul><li>Expansão das galáxias.</li><li>Radiação cósmica de fundo.</li><li>Abundância de elementos leves, como hidrogênio e hélio.</li></ul></section><section><h5>Atenção</h5><p>O Big Bang não foi uma explosão em um ponto vazio; foi a expansão do próprio espaço.</p></section>",
+    "result": "Com o resfriamento, formaram-se partículas, átomos, estrelas, galáxias e sistemas planetários.",
+    "example": "Ao observar galáxias distantes, vemos como eram há bilhões de anos, porque sua luz levou muito tempo para chegar.",
+    "exam": "A prova pode apresentar o desvio para o vermelho de galáxias e perguntar qual conclusão ele sustenta."
+  },
+  "visualType": ""
+}

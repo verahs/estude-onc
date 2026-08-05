@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-camada-de-ozonio",
+  "discipline": "Química",
+  "group": "Ar, água e propriedades",
+  "title": "Camada de ozônio",
+  "blocks": [
+    {
+      "id": "camada-de-ozonio-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Região da atmosfera com ozônio que absorve grande parte da radiação ultravioleta."
+    },
+    {
+      "id": "camada-de-ozonio-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Na estratosfera, o ozônio absorve grande parte da radiação ultravioleta."
+    },
+    {
+      "id": "camada-de-ozonio-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Reduzem-se danos à pele, olhos e organismos."
+    },
+    {
+      "id": "camada-de-ozonio-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Protetor solar ajuda a reduzir danos da radiação que alcança a superfície."
+    },
+    {
+      "id": "camada-de-ozonio-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A camada de ozônio protege principalmente contra: A) radiação ultravioleta B) som C) gravidade. Resposta: A."
+    },
+    {
+      "id": "camada-de-ozonio-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "camada-de-ozonio-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Região da atmosfera com ozônio que absorve grande parte da radiação ultravioleta.",
+        "Reduzem-se danos à pele, olhos e organismos."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Região da atmosfera com ozônio que absorve grande parte da radiação ultravioleta.",
+    "process": "Na estratosfera, o ozônio absorve grande parte da radiação ultravioleta.",
+    "result": "Reduzem-se danos à pele, olhos e organismos.",
+    "example": "Protetor solar ajuda a reduzir danos da radiação que alcança a superfície.",
+    "exam": "A camada de ozônio protege principalmente contra: A) radiação ultravioleta B) som C) gravidade. Resposta: A."
+  },
+  "visualType": ""
+}

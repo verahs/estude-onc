@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-materia",
+  "discipline": "Química",
+  "group": "Matéria, energia e transformações",
+  "title": "Matéria",
+  "blocks": [
+    {
+      "id": "materia-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "É tudo que tem massa e ocupa lugar no espaço."
+    },
+    {
+      "id": "materia-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Matéria possui massa e ocupa espaço. Pode apresentar diferentes estados físicos e propriedades."
+    },
+    {
+      "id": "materia-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Objetos, água e ar podem ser medidos e ocupar volume."
+    },
+    {
+      "id": "materia-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Água, ar, madeira e metal são formas de matéria."
+    },
+    {
+      "id": "materia-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Qual é matéria? A) luz B) água C) som D) calor. Resposta: B."
+    },
+    {
+      "id": "materia-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "materia-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "É tudo que tem massa e ocupa lugar no espaço.",
+        "Objetos, água e ar podem ser medidos e ocupar volume."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "É tudo que tem massa e ocupa lugar no espaço.",
+    "process": "Matéria possui massa e ocupa espaço. Pode apresentar diferentes estados físicos e propriedades.",
+    "result": "Objetos, água e ar podem ser medidos e ocupar volume.",
+    "example": "Água, ar, madeira e metal são formas de matéria.",
+    "exam": "Qual é matéria? A) luz B) água C) som D) calor. Resposta: B."
+  },
+  "visualType": ""
+}

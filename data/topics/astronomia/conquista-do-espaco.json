@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-conquista-do-espaco",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "Conquista do espaço",
+  "blocks": [
+    {
+      "id": "conquista-do-espaco-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Conquista do espaço é o desenvolvimento de tecnologias para enviar satélites, sondas e pessoas além da atmosfera terrestre."
+    },
+    {
+      "id": "conquista-do-espaco-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Marcos</h5><ul><li>Sputnik 1: primeiro satélite artificial, em 1957.</li><li>Yuri Gagarin: primeiro ser humano no espaço, em 1961.</li><li>Apollo 11: primeira chegada humana à Lua, em 1969.</li><li>Sondas e telescópios espaciais ampliaram o conhecimento do Sistema Solar e do Universo.</li></ul></section><section><h5>Aplicações atuais</h5><ul><li>Comunicação.</li><li>Previsão do tempo.</li><li>GPS.</li><li>Monitoramento ambiental.</li><li>Pesquisa científica.</li></ul></section>"
+    },
+    {
+      "id": "conquista-do-espaco-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A exploração espacial gerou conhecimento e tecnologias usadas no cotidiano."
+    },
+    {
+      "id": "conquista-do-espaco-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Satélites meteorológicos acompanham nuvens, tempestades e queimadas."
+    },
+    {
+      "id": "conquista-do-espaco-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar imagem de satélite e pedir qual aplicação tecnológica está representada."
+    },
+    {
+      "id": "conquista-do-espaco-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Conquista do espaço é o desenvolvimento de tecnologias para enviar satélites, sondas e pessoas além da atmosfera terrestre.",
+        "A exploração espacial gerou conhecimento e tecnologias usadas no cotidiano."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Conquista do espaço é o desenvolvimento de tecnologias para enviar satélites, sondas e pessoas além da atmosfera terrestre.",
+    "process": "<section><h5>Marcos</h5><ul><li>Sputnik 1: primeiro satélite artificial, em 1957.</li><li>Yuri Gagarin: primeiro ser humano no espaço, em 1961.</li><li>Apollo 11: primeira chegada humana à Lua, em 1969.</li><li>Sondas e telescópios espaciais ampliaram o conhecimento do Sistema Solar e do Universo.</li></ul></section><section><h5>Aplicações atuais</h5><ul><li>Comunicação.</li><li>Previsão do tempo.</li><li>GPS.</li><li>Monitoramento ambiental.</li><li>Pesquisa científica.</li></ul></section>",
+    "result": "A exploração espacial gerou conhecimento e tecnologias usadas no cotidiano.",
+    "example": "Satélites meteorológicos acompanham nuvens, tempestades e queimadas.",
+    "exam": "A prova pode apresentar imagem de satélite e pedir qual aplicação tecnológica está representada."
+  },
+  "visualType": ""
+}

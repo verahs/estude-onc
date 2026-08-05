@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-transformacoes-geometricas",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Transformações geométricas",
+  "blocks": [
+    {
+      "id": "transformacoes-geometricas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Figuras podem sofrer translação, rotação e reflexão no plano."
+    },
+    {
+      "id": "transformacoes-geometricas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Translação desloca, rotação gira e reflexão espelha uma figura sem alterar seu tamanho ou forma."
+    },
+    {
+      "id": "transformacoes-geometricas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A figura muda de posição ou orientação, mantendo medidas."
+    },
+    {
+      "id": "transformacoes-geometricas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Virar uma figura como em um espelho é uma reflexão."
+    },
+    {
+      "id": "transformacoes-geometricas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Virar uma figura como num espelho é: A) rotação B) reflexão C) ampliação. Resposta: B."
+    },
+    {
+      "id": "transformacoes-geometricas-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "transformacoes-geometricas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Figuras podem sofrer translação, rotação e reflexão no plano.",
+        "A figura muda de posição ou orientação, mantendo medidas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Figuras podem sofrer translação, rotação e reflexão no plano.",
+    "process": "Translação desloca, rotação gira e reflexão espelha uma figura sem alterar seu tamanho ou forma.",
+    "result": "A figura muda de posição ou orientação, mantendo medidas.",
+    "example": "Virar uma figura como em um espelho é uma reflexão.",
+    "exam": "Virar uma figura como num espelho é: A) rotação B) reflexão C) ampliação. Resposta: B."
+  },
+  "visualType": ""
+}

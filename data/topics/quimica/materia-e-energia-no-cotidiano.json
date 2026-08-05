@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-materia-e-energia-no-cotidiano",
+  "discipline": "Química",
+  "group": "Matéria, energia e transformações",
+  "title": "Matéria e energia no cotidiano",
+  "blocks": [
+    {
+      "id": "materia-e-energia-no-cotidiano-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Processos cotidianos envolvem materiais e transformações de energia."
+    },
+    {
+      "id": "materia-e-energia-no-cotidiano-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Equipamentos transformam energia e atuam sobre materiais."
+    },
+    {
+      "id": "materia-e-energia-no-cotidiano-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O liquidificador movimenta alimentos; o fogão aquece substâncias."
+    },
+    {
+      "id": "materia-e-energia-no-cotidiano-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Um liquidificador transforma energia elétrica em movimento."
+    },
+    {
+      "id": "materia-e-energia-no-cotidiano-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "No liquidificador, energia elétrica transforma-se principalmente em: A) movimento B) massa C) matéria nova. Resposta: A."
+    },
+    {
+      "id": "materia-e-energia-no-cotidiano-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "materia-e-energia-no-cotidiano-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Processos cotidianos envolvem materiais e transformações de energia.",
+        "O liquidificador movimenta alimentos; o fogão aquece substâncias."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Processos cotidianos envolvem materiais e transformações de energia.",
+    "process": "Equipamentos transformam energia e atuam sobre materiais.",
+    "result": "O liquidificador movimenta alimentos; o fogão aquece substâncias.",
+    "example": "Um liquidificador transforma energia elétrica em movimento.",
+    "exam": "No liquidificador, energia elétrica transforma-se principalmente em: A) movimento B) massa C) matéria nova. Resposta: A."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-organizacao-dos-seres-vivos",
+  "discipline": "Biologia",
+  "group": "Vida e corpo humano",
+  "title": "Organização dos seres vivos",
+  "blocks": [
+    {
+      "id": "organizacao-dos-seres-vivos-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Células formam tecidos, tecidos formam órgãos e órgãos formam sistemas."
+    },
+    {
+      "id": "organizacao-dos-seres-vivos-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Células semelhantes formam tecidos; tecidos formam órgãos; órgãos associados formam sistemas; sistemas constituem o organismo."
+    },
+    {
+      "id": "organizacao-dos-seres-vivos-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O corpo funciona de modo integrado, com níveis de organização dependentes uns dos outros."
+    },
+    {
+      "id": "organizacao-dos-seres-vivos-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Células musculares formam tecido muscular, presente em órgãos como o coração."
+    },
+    {
+      "id": "organizacao-dos-seres-vivos-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Qual sequência está correta? A) órgão→célula→tecido B) célula→tecido→órgão→sistema C) sistema→célula→órgão. Resposta: B."
+    },
+    {
+      "id": "organizacao-dos-seres-vivos-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "organizacao-dos-seres-vivos-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Células formam tecidos, tecidos formam órgãos e órgãos formam sistemas.",
+        "O corpo funciona de modo integrado, com níveis de organização dependentes uns dos outros."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Células formam tecidos, tecidos formam órgãos e órgãos formam sistemas.",
+    "process": "Células semelhantes formam tecidos; tecidos formam órgãos; órgãos associados formam sistemas; sistemas constituem o organismo.",
+    "result": "O corpo funciona de modo integrado, com níveis de organização dependentes uns dos outros.",
+    "example": "Células musculares formam tecido muscular, presente em órgãos como o coração.",
+    "exam": "Qual sequência está correta? A) órgão→célula→tecido B) célula→tecido→órgão→sistema C) sistema→célula→órgão. Resposta: B."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-africa-antiga",
+  "discipline": "História",
+  "group": "Antiguidade e Idade Média",
+  "title": "África antiga",
+  "blocks": [
+    {
+      "id": "africa-antiga-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "África antiga reúne diversas sociedades e reinos africanos anteriores à expansão europeia moderna, com formas próprias de governo, comércio, religião e cultura."
+    },
+    {
+      "id": "africa-antiga-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "africa-antiga-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Grande diversidade geográfica e cultural.</li><li>Rotas comerciais ligavam interior, litoral, Mediterrâneo e Oriente.</li><li>O continente não possuía uma única história ou cultura.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Egípcios, núbios, povos bantos e diversas sociedades regionais.</li><li>Reis, comerciantes, agricultores, artesãos e sacerdotes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Reinos e cidades.</li><li>Agricultura e mineração.</li><li>Comércio de ouro, sal e outros produtos.</li><li>Religiões e tradições locais.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação e queda de reinos.</li><li>Expansão de rotas comerciais.</li><li>Migrações e intercâmbios culturais.</li></ul></section></div>"
+    },
+    {
+      "id": "africa-antiga-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "As sociedades africanas criaram conhecimentos, Estados e redes comerciais importantes, contrariando a ideia equivocada de uma África sem história."
+    },
+    {
+      "id": "africa-antiga-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O comércio de ouro ligava regiões africanas a mercados do norte do continente."
+    },
+    {
+      "id": "africa-antiga-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode usar mapa de rotas e pedir o que ele revela sobre comércio e organização política africana."
+    },
+    {
+      "id": "africa-antiga-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "África antiga reúne diversas sociedades e reinos africanos anteriores à expansão europeia moderna, com formas próprias de governo, comércio, religião e cultura.",
+        "As sociedades africanas criaram conhecimentos, Estados e redes comerciais importantes, contrariando a ideia equivocada de uma África sem história."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "África antiga reúne diversas sociedades e reinos africanos anteriores à expansão europeia moderna, com formas próprias de governo, comércio, religião e cultura.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Grande diversidade geográfica e cultural.</li><li>Rotas comerciais ligavam interior, litoral, Mediterrâneo e Oriente.</li><li>O continente não possuía uma única história ou cultura.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Egípcios, núbios, povos bantos e diversas sociedades regionais.</li><li>Reis, comerciantes, agricultores, artesãos e sacerdotes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Reinos e cidades.</li><li>Agricultura e mineração.</li><li>Comércio de ouro, sal e outros produtos.</li><li>Religiões e tradições locais.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação e queda de reinos.</li><li>Expansão de rotas comerciais.</li><li>Migrações e intercâmbios culturais.</li></ul></section></div>",
+    "result": "As sociedades africanas criaram conhecimentos, Estados e redes comerciais importantes, contrariando a ideia equivocada de uma África sem história.",
+    "example": "O comércio de ouro ligava regiões africanas a mercados do norte do continente.",
+    "exam": "A questão pode usar mapa de rotas e pedir o que ele revela sobre comércio e organização política africana."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-origens-do-homem-americano",
+  "discipline": "História",
+  "group": "Origens da humanidade",
+  "title": "Origens do homem americano",
+  "blocks": [
+    {
+      "id": "origens-do-homem-americano-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "O povoamento da América foi o processo de chegada e dispersão de grupos humanos pelo continente."
+    },
+    {
+      "id": "origens-do-homem-americano-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "origens-do-homem-americano-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Ocorreu durante a Pré-História.</li><li>Há diferentes hipóteses e evidências arqueológicas.</li><li>A passagem por Bering é uma das principais rotas propostas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Caçadores-coletores.</li><li>Populações adaptadas a diferentes ambientes americanos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Migrações graduais.</li><li>Produção de ferramentas.</li><li>Ocupação de territórios.</li><li>Adaptação climática.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Diversificação cultural.</li><li>Formação de diferentes povos.</li><li>Desenvolvimento de modos de vida próprios.</li></ul></section></div>"
+    },
+    {
+      "id": "origens-do-homem-americano-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O povoamento produziu grande diversidade de sociedades, línguas e culturas muito antes da chegada dos europeus."
+    },
+    {
+      "id": "origens-do-homem-americano-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Fogueiras e ferramentas em sítios arqueológicos ajudam a estimar datas de ocupação."
+    },
+    {
+      "id": "origens-do-homem-americano-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar mapa de rotas e datações e pedir qual hipótese é melhor sustentada."
+    },
+    {
+      "id": "origens-do-homem-americano-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "O povoamento da América foi o processo de chegada e dispersão de grupos humanos pelo continente.",
+        "O povoamento produziu grande diversidade de sociedades, línguas e culturas muito antes da chegada dos europeus."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "O povoamento da América foi o processo de chegada e dispersão de grupos humanos pelo continente.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Ocorreu durante a Pré-História.</li><li>Há diferentes hipóteses e evidências arqueológicas.</li><li>A passagem por Bering é uma das principais rotas propostas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Caçadores-coletores.</li><li>Populações adaptadas a diferentes ambientes americanos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Migrações graduais.</li><li>Produção de ferramentas.</li><li>Ocupação de territórios.</li><li>Adaptação climática.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Diversificação cultural.</li><li>Formação de diferentes povos.</li><li>Desenvolvimento de modos de vida próprios.</li></ul></section></div>",
+    "result": "O povoamento produziu grande diversidade de sociedades, línguas e culturas muito antes da chegada dos europeus.",
+    "example": "Fogueiras e ferramentas em sítios arqueológicos ajudam a estimar datas de ocupação.",
+    "exam": "A prova pode apresentar mapa de rotas e datações e pedir qual hipótese é melhor sustentada."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-invencao-da-escrita",
+  "discipline": "História",
+  "group": "Origens da humanidade",
+  "title": "Invenção da escrita",
+  "blocks": [
+    {
+      "id": "invencao-da-escrita-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A escrita é um sistema de sinais usado para registrar linguagem, informações e ideias de forma duradoura."
+    },
+    {
+      "id": "invencao-da-escrita-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "invencao-da-escrita-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Surgiu em diferentes sociedades.</li><li>Na Mesopotâmia, foi usada em registros administrativos e comerciais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Escribas.</li><li>Governantes.</li><li>Comerciantes.</li><li>Templos e administradores.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Criação de símbolos.</li><li>Padronização dos registros.</li><li>Controle de impostos, estoques e leis.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação da administração.</li><li>Preservação de textos.</li><li>Fortalecimento de instituições.</li></ul></section></div>"
+    },
+    {
+      "id": "invencao-da-escrita-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A escrita permitiu registrar leis, contas, crenças e acontecimentos, ampliando a memória social."
+    },
+    {
+      "id": "invencao-da-escrita-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Tabuletas registravam a entrada e saída de cereais de depósitos."
+    },
+    {
+      "id": "invencao-da-escrita-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode apresentar escrita cuneiforme e perguntar qual necessidade favoreceu seu desenvolvimento."
+    },
+    {
+      "id": "invencao-da-escrita-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A escrita é um sistema de sinais usado para registrar linguagem, informações e ideias de forma duradoura.",
+        "A escrita permitiu registrar leis, contas, crenças e acontecimentos, ampliando a memória social."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A escrita é um sistema de sinais usado para registrar linguagem, informações e ideias de forma duradoura.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Surgiu em diferentes sociedades.</li><li>Na Mesopotâmia, foi usada em registros administrativos e comerciais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Escribas.</li><li>Governantes.</li><li>Comerciantes.</li><li>Templos e administradores.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Criação de símbolos.</li><li>Padronização dos registros.</li><li>Controle de impostos, estoques e leis.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação da administração.</li><li>Preservação de textos.</li><li>Fortalecimento de instituições.</li></ul></section></div>",
+    "result": "A escrita permitiu registrar leis, contas, crenças e acontecimentos, ampliando a memória social.",
+    "example": "Tabuletas registravam a entrada e saída de cereais de depósitos.",
+    "exam": "A questão pode apresentar escrita cuneiforme e perguntar qual necessidade favoreceu seu desenvolvimento."
+  },
+  "visualType": ""
+}

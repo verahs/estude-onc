@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-angulos-em-paralelas",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Ângulos em paralelas",
+  "blocks": [
+    {
+      "id": "angulos-em-paralelas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Retas paralelas cortadas por transversal formam relações entre ângulos."
+    },
+    {
+      "id": "angulos-em-paralelas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Uma transversal corta duas paralelas e forma ângulos correspondentes, alternos e colaterais com relações previsíveis."
+    },
+    {
+      "id": "angulos-em-paralelas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "É possível calcular ângulos desconhecidos."
+    },
+    {
+      "id": "angulos-em-paralelas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Alguns ângulos correspondentes têm a mesma medida."
+    },
+    {
+      "id": "angulos-em-paralelas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Em paralelas cortadas por transversal, ângulos correspondentes são: A) iguais B) sempre 90° C) sempre diferentes. Resposta: A."
+    },
+    {
+      "id": "angulos-em-paralelas-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "angulos-em-paralelas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Retas paralelas cortadas por transversal formam relações entre ângulos.",
+        "É possível calcular ângulos desconhecidos."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Retas paralelas cortadas por transversal formam relações entre ângulos.",
+    "process": "Uma transversal corta duas paralelas e forma ângulos correspondentes, alternos e colaterais com relações previsíveis.",
+    "result": "É possível calcular ângulos desconhecidos.",
+    "example": "Alguns ângulos correspondentes têm a mesma medida.",
+    "exam": "Em paralelas cortadas por transversal, ângulos correspondentes são: A) iguais B) sempre 90° C) sempre diferentes. Resposta: A."
+  },
+  "visualType": ""
+}

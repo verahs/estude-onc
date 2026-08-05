@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-introducao-aos-estudos-historicos",
+  "discipline": "História",
+  "group": "História, tempo e fontes",
+  "title": "Introdução aos estudos históricos",
+  "blocks": [
+    {
+      "id": "introducao-aos-estudos-historicos-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "História é a área do conhecimento que investiga as ações humanas no tempo. Ela procura explicar mudanças, permanências, conflitos, escolhas e diferentes formas de organização das sociedades."
+    },
+    {
+      "id": "introducao-aos-estudos-historicos-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "introducao-aos-estudos-historicos-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>As sociedades deixam vestígios escritos, materiais, visuais e orais.</li><li>Esses vestígios são analisados para responder perguntas sobre o passado.</li><li>O estudo histórico relaciona passado e presente, sem tratar a História como simples lista de datas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores, arqueólogos, pesquisadores e comunidades que preservam memórias.</li><li>Povos, grupos sociais e instituições representados nas fontes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Formulação de perguntas.</li><li>Análise e comparação de fontes.</li><li>Localização no tempo e no espaço.</li><li>Identificação de causas, consequências, mudanças e permanências.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Novas fontes podem modificar interpretações anteriores.</li><li>Temas como história indígena, africana, das mulheres e do cotidiano ganharam mais espaço.</li></ul></section></div>"
+    },
+    {
+      "id": "introducao-aos-estudos-historicos-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O estudo histórico permite compreender como sociedades foram formadas, por que se transformaram e de que maneira o passado influencia identidades, instituições e problemas atuais."
+    },
+    {
+      "id": "introducao-aos-estudos-historicos-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Comparar fotografias antigas e atuais de uma cidade ajuda a perceber mudanças nos transportes, nas construções e no modo de vida."
+    },
+    {
+      "id": "introducao-aos-estudos-historicos-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar duas fontes sobre o mesmo acontecimento e perguntar por que elas revelam perspectivas diferentes."
+    },
+    {
+      "id": "introducao-aos-estudos-historicos-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "História é a área do conhecimento que investiga as ações humanas no tempo. Ela procura explicar mudanças, permanências, conflitos, escolhas e diferentes formas de organização das sociedades.",
+        "O estudo histórico permite compreender como sociedades foram formadas, por que se transformaram e de que maneira o passado influencia identidades, instituições e problemas atuais."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "História é a área do conhecimento que investiga as ações humanas no tempo. Ela procura explicar mudanças, permanências, conflitos, escolhas e diferentes formas de organização das sociedades.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>As sociedades deixam vestígios escritos, materiais, visuais e orais.</li><li>Esses vestígios são analisados para responder perguntas sobre o passado.</li><li>O estudo histórico relaciona passado e presente, sem tratar a História como simples lista de datas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores, arqueólogos, pesquisadores e comunidades que preservam memórias.</li><li>Povos, grupos sociais e instituições representados nas fontes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Formulação de perguntas.</li><li>Análise e comparação de fontes.</li><li>Localização no tempo e no espaço.</li><li>Identificação de causas, consequências, mudanças e permanências.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Novas fontes podem modificar interpretações anteriores.</li><li>Temas como história indígena, africana, das mulheres e do cotidiano ganharam mais espaço.</li></ul></section></div>",
+    "result": "O estudo histórico permite compreender como sociedades foram formadas, por que se transformaram e de que maneira o passado influencia identidades, instituições e problemas atuais.",
+    "example": "Comparar fotografias antigas e atuais de uma cidade ajuda a perceber mudanças nos transportes, nas construções e no modo de vida.",
+    "exam": "A prova pode apresentar duas fontes sobre o mesmo acontecimento e perguntar por que elas revelam perspectivas diferentes."
+  },
+  "visualType": ""
+}

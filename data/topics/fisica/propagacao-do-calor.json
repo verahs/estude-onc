@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-propagacao-do-calor",
+  "discipline": "Física",
+  "group": "Máquinas, calor e temperatura",
+  "title": "Propagação do calor",
+  "blocks": [
+    {
+      "id": "propagacao-do-calor-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "O calor pode se propagar por condução, convecção e radiação."
+    },
+    {
+      "id": "propagacao-do-calor-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Condução ocorre por contato, convecção por movimento de fluidos e radiação por ondas eletromagnéticas."
+    },
+    {
+      "id": "propagacao-do-calor-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O calor se desloca entre regiões de temperaturas diferentes."
+    },
+    {
+      "id": "propagacao-do-calor-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O cabo metálico de uma panela aquece por condução."
+    },
+    {
+      "id": "propagacao-do-calor-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "O cabo metálico da panela aquece principalmente por: A) condução B) convecção C) evaporação. Resposta: A."
+    },
+    {
+      "id": "propagacao-do-calor-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "propagacao-do-calor-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "O calor pode se propagar por condução, convecção e radiação.",
+        "O calor se desloca entre regiões de temperaturas diferentes."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "O calor pode se propagar por condução, convecção e radiação.",
+    "process": "Condução ocorre por contato, convecção por movimento de fluidos e radiação por ondas eletromagnéticas.",
+    "result": "O calor se desloca entre regiões de temperaturas diferentes.",
+    "example": "O cabo metálico de uma panela aquece por condução.",
+    "exam": "O cabo metálico da panela aquece principalmente por: A) condução B) convecção C) evaporação. Resposta: A."
+  },
+  "visualType": "heat"
+}

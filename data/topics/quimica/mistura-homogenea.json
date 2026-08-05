@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-mistura-homogenea",
+  "discipline": "Química",
+  "group": "Misturas e tratamento",
+  "title": "Mistura homogênea",
+  "blocks": [
+    {
+      "id": "mistura-homogenea-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Apresenta aspecto uniforme e uma única fase visível."
+    },
+    {
+      "id": "mistura-homogenea-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Os componentes ficam distribuídos uniformemente e formam uma única fase visível."
+    },
+    {
+      "id": "mistura-homogenea-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Não se distinguem partes diferentes a olho nu."
+    },
+    {
+      "id": "mistura-homogenea-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Água com sal dissolvido é homogênea."
+    },
+    {
+      "id": "mistura-homogenea-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Água com sal totalmente dissolvido é: A) homogênea B) heterogênea C) substância simples. Resposta: A."
+    },
+    {
+      "id": "mistura-homogenea-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "mistura-homogenea-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Apresenta aspecto uniforme e uma única fase visível.",
+        "Não se distinguem partes diferentes a olho nu."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Apresenta aspecto uniforme e uma única fase visível.",
+    "process": "Os componentes ficam distribuídos uniformemente e formam uma única fase visível.",
+    "result": "Não se distinguem partes diferentes a olho nu.",
+    "example": "Água com sal dissolvido é homogênea.",
+    "exam": "Água com sal totalmente dissolvido é: A) homogênea B) heterogênea C) substância simples. Resposta: A."
+  },
+  "visualType": ""
+}

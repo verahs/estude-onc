@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-resistencia-indigena",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Resistência indígena",
+  "blocks": [
+    {
+      "id": "resistencia-indigena-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Resistência indígena reúne ações de defesa, negociação, fuga, guerra e preservação cultural diante da colonização."
+    },
+    {
+      "id": "resistencia-indigena-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "resistencia-indigena-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Invasão de territórios.</li><li>Escravização.</li><li>Doenças.</li><li>Missões religiosas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Diversos povos indígenas.</li><li>Colonizadores.</li><li>Missionários.</li><li>Aliados indígenas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Confrontos.</li><li>Alianças estratégicas.</li><li>Deslocamentos.</li><li>Manutenção de línguas e costumes.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Adaptação de estratégias.</li><li>Reorganização de comunidades.</li><li>Continuidade das lutas territoriais.</li></ul></section></div>"
+    },
+    {
+      "id": "resistencia-indigena-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A resistência garantiu sobrevivência de povos, identidades e conhecimentos indígenas."
+    },
+    {
+      "id": "resistencia-indigena-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Alguns povos formaram alianças temporárias para enfrentar invasores."
+    },
+    {
+      "id": "resistencia-indigena-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar relato colonial e pedir qual ação demonstra resistência."
+    },
+    {
+      "id": "resistencia-indigena-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Resistência indígena reúne ações de defesa, negociação, fuga, guerra e preservação cultural diante da colonização.",
+        "A resistência garantiu sobrevivência de povos, identidades e conhecimentos indígenas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Resistência indígena reúne ações de defesa, negociação, fuga, guerra e preservação cultural diante da colonização.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Invasão de territórios.</li><li>Escravização.</li><li>Doenças.</li><li>Missões religiosas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Diversos povos indígenas.</li><li>Colonizadores.</li><li>Missionários.</li><li>Aliados indígenas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Confrontos.</li><li>Alianças estratégicas.</li><li>Deslocamentos.</li><li>Manutenção de línguas e costumes.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Adaptação de estratégias.</li><li>Reorganização de comunidades.</li><li>Continuidade das lutas territoriais.</li></ul></section></div>",
+    "result": "A resistência garantiu sobrevivência de povos, identidades e conhecimentos indígenas.",
+    "example": "Alguns povos formaram alianças temporárias para enfrentar invasores.",
+    "exam": "A prova pode apresentar relato colonial e pedir qual ação demonstra resistência."
+  },
+  "visualType": ""
+}

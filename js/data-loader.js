@@ -1,41 +1,24 @@
 window.ONC_DATA = window.ONC_DATA || {};
 
 window.ONC_DATA_READY = (async function loadOncData() {
-  const response = await fetch("./data/manifest.json", { cache: "no-store" });
-  if (!response.ok) throw new Error("Não foi possível carregar o manifesto de dados.");
-  const manifest = await response.json();
+  const fetchJson = async (path, label) => {
+    const response = await fetch(path, { cache: "no-cache" });
+    if (!response.ok) throw new Error(`Falha ao carregar ${label}.`);
+    return response.json();
+  };
 
-  const subjectPayloads = await Promise.all(
-    manifest.subjects.map(async item => {
-      const r = await fetch(`./data/${item.file}`, { cache: "no-store" });
-      if (!r.ok) throw new Error(`Falha ao carregar ${item.file}.`);
-      return r.json();
-    })
-  );
-
-  const [questionsData, recurrenceData, visualsData, legacyData] = await Promise.all([
-    fetch(`./data/${manifest.questions}`, { cache: "no-store" }).then(r => r.json()),
-    fetch(`./data/${manifest.recurrence}`, { cache: "no-store" }).then(r => r.json()),
-    fetch(`./data/${manifest.visuals}`, { cache: "no-store" }).then(r => r.json()),
-    fetch(`./data/${manifest.legacyContent}`, { cache: "no-store" }).then(r => r.json())
+  const manifest = await fetchJson("./data/manifest.json", "o manifesto");
+  const [catalog, questionsData, recurrenceData, legacyData] = await Promise.all([
+    fetchJson(`./data/${manifest.catalog}`, "o catálogo de conteúdos"),
+    fetchJson(`./data/${manifest.questions}`, "o banco de questões"),
+    fetchJson(`./data/${manifest.recurrence}`, "os dados de recorrência"),
+    fetchJson(`./data/${manifest.legacyContent}`, "os conteúdos legados")
   ]);
 
-  ONC_DATA.subjects = subjectPayloads.map(item => ({
-    name: item.discipline,
-    icon: item.icon,
-    groups: item.groups
-  }));
-
-  ONC_DATA.structuredStudy = {};
-  subjectPayloads.forEach(item => {
-    Object.entries(item.topics).forEach(([topic, content]) => {
-      ONC_DATA.structuredStudy[`${item.discipline}||${topic}`] = content;
-    });
-  });
-
+  ONC_DATA.catalog = catalog;
+  ONC_DATA.subjects = catalog.subjects;
   ONC_DATA.questions = questionsData.questions;
   ONC_DATA.recurrenceRanking = recurrenceData.ranking;
-  ONC_DATA.visualTopics = visualsData.visualTopics;
   ONC_DATA.richContent = legacyData.richContent;
 
   return manifest;

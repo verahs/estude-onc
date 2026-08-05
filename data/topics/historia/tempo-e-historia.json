@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-tempo-e-historia",
+  "discipline": "História",
+  "group": "História, tempo e fontes",
+  "title": "Tempo e História",
+  "blocks": [
+    {
+      "id": "tempo-e-historia-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Tempo histórico é a dimensão em que ocorrem mudanças e permanências nas sociedades. Ele envolve ritmos diferentes de transformação."
+    },
+    {
+      "id": "tempo-e-historia-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "tempo-e-historia-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Algumas mudanças são rápidas, como revoluções.</li><li>Outras são lentas, como alterações culturais.</li><li>Processos distintos podem ocorrer ao mesmo tempo.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Sociedades e grupos afetados de maneiras diferentes.</li><li>Pesquisadores que estudam curta, média e longa duração.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cronologia.</li><li>Duração.</li><li>Simultaneidade.</li><li>Relação entre passado, presente e futuro.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>A forma de medir o tempo variou entre culturas.</li><li>Calendários e marcos históricos mudaram conforme sociedades e religiões.</li></ul></section></div>"
+    },
+    {
+      "id": "tempo-e-historia-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Compreender o tempo histórico ajuda a perceber que leis podem mudar rapidamente, enquanto costumes e desigualdades podem permanecer por muito tempo."
+    },
+    {
+      "id": "tempo-e-historia-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma nova lei entra em vigor em um dia, mas a mudança de hábitos sociais pode levar décadas."
+    },
+    {
+      "id": "tempo-e-historia-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode comparar dois processos e pedir qual representa uma transformação de longa duração."
+    },
+    {
+      "id": "tempo-e-historia-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Tempo histórico é a dimensão em que ocorrem mudanças e permanências nas sociedades. Ele envolve ritmos diferentes de transformação.",
+        "Compreender o tempo histórico ajuda a perceber que leis podem mudar rapidamente, enquanto costumes e desigualdades podem permanecer por muito tempo."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Tempo histórico é a dimensão em que ocorrem mudanças e permanências nas sociedades. Ele envolve ritmos diferentes de transformação.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Algumas mudanças são rápidas, como revoluções.</li><li>Outras são lentas, como alterações culturais.</li><li>Processos distintos podem ocorrer ao mesmo tempo.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Sociedades e grupos afetados de maneiras diferentes.</li><li>Pesquisadores que estudam curta, média e longa duração.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cronologia.</li><li>Duração.</li><li>Simultaneidade.</li><li>Relação entre passado, presente e futuro.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>A forma de medir o tempo variou entre culturas.</li><li>Calendários e marcos históricos mudaram conforme sociedades e religiões.</li></ul></section></div>",
+    "result": "Compreender o tempo histórico ajuda a perceber que leis podem mudar rapidamente, enquanto costumes e desigualdades podem permanecer por muito tempo.",
+    "example": "Uma nova lei entra em vigor em um dia, mas a mudança de hábitos sociais pode levar décadas.",
+    "exam": "A prova pode comparar dois processos e pedir qual representa uma transformação de longa duração."
+  },
+  "visualType": ""
+}

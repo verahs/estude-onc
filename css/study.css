@@ -259,3 +259,39 @@ select:focus-visible {
   .topicCard.printTarget input,
   .topicCard.printTarget .expandSymbol { display: none !important; }
 }
+
+
+/* Sprint 2 — carregamento sob demanda */
+.topicLoading,
+.topicLoadError {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 92px;
+  padding: 18px;
+  border: 1px dashed var(--line);
+  border-radius: 14px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.topicLoadError {
+  flex-wrap: wrap;
+  color: #842f35;
+  background: #fff6f6;
+  border-color: #d9a3a8;
+}
+
+.loadingSpinner {
+  width: 22px;
+  height: 22px;
+  border: 3px solid rgba(44, 99, 199, .18);
+  border-top-color: #2c63c7;
+  border-radius: 50%;
+  animation: topicSpin .75s linear infinite;
+}
+
+@keyframes topicSpin {
+  to { transform: rotate(360deg); }
+}

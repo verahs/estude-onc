@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-mistura-heterogenea",
+  "discipline": "Química",
+  "group": "Misturas e tratamento",
+  "title": "Mistura heterogênea",
+  "blocks": [
+    {
+      "id": "mistura-heterogenea-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Apresenta duas ou mais fases visíveis."
+    },
+    {
+      "id": "mistura-heterogenea-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Os componentes não se distribuem de modo uniforme e aparecem duas ou mais fases."
+    },
+    {
+      "id": "mistura-heterogenea-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "É possível distinguir partes da mistura."
+    },
+    {
+      "id": "mistura-heterogenea-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Água e óleo formam mistura heterogênea."
+    },
+    {
+      "id": "mistura-heterogenea-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Água e óleo formam mistura: A) homogênea B) heterogênea C) gasosa. Resposta: B."
+    },
+    {
+      "id": "mistura-heterogenea-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "mistura-heterogenea-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Apresenta duas ou mais fases visíveis.",
+        "É possível distinguir partes da mistura."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Apresenta duas ou mais fases visíveis.",
+    "process": "Os componentes não se distribuem de modo uniforme e aparecem duas ou mais fases.",
+    "result": "É possível distinguir partes da mistura.",
+    "example": "Água e óleo formam mistura heterogênea.",
+    "exam": "Água e óleo formam mistura: A) homogênea B) heterogênea C) gasosa. Resposta: B."
+  },
+  "visualType": ""
+}

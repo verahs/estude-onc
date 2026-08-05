@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-feudalismo",
+  "discipline": "História",
+  "group": "Antiguidade e Idade Média",
+  "title": "Feudalismo",
+  "blocks": [
+    {
+      "id": "feudalismo-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Feudalismo foi uma forma de organização social, econômica e política predominante em partes da Europa medieval."
+    },
+    {
+      "id": "feudalismo-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "feudalismo-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Fragmentação do poder.</li><li>Ruralização.</li><li>Insegurança após o fim do Império Romano do Ocidente.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Nobreza.</li><li>Clero.</li><li>Camponeses e servos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Senhorios rurais.</li><li>Poder local.</li><li>Obrigações servis.</li><li>Produção agrícola.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento do comércio e das cidades enfraqueceu gradualmente estruturas feudais.</li></ul></section></div>"
+    },
+    {
+      "id": "feudalismo-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O feudalismo organizou a produção rural e o poder local, mas manteve fortes desigualdades sociais."
+    },
+    {
+      "id": "feudalismo-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Servos trabalhavam em terras senhoriais e entregavam parte da produção."
+    },
+    {
+      "id": "feudalismo-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar esquema de senhorio e pedir qual relação social está representada."
+    },
+    {
+      "id": "feudalismo-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Feudalismo foi uma forma de organização social, econômica e política predominante em partes da Europa medieval.",
+        "O feudalismo organizou a produção rural e o poder local, mas manteve fortes desigualdades sociais."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Feudalismo foi uma forma de organização social, econômica e política predominante em partes da Europa medieval.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Fragmentação do poder.</li><li>Ruralização.</li><li>Insegurança após o fim do Império Romano do Ocidente.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Nobreza.</li><li>Clero.</li><li>Camponeses e servos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Senhorios rurais.</li><li>Poder local.</li><li>Obrigações servis.</li><li>Produção agrícola.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento do comércio e das cidades enfraqueceu gradualmente estruturas feudais.</li></ul></section></div>",
+    "result": "O feudalismo organizou a produção rural e o poder local, mas manteve fortes desigualdades sociais.",
+    "example": "Servos trabalhavam em terras senhoriais e entregavam parte da produção.",
+    "exam": "A prova pode apresentar esquema de senhorio e pedir qual relação social está representada."
+  },
+  "visualType": ""
+}

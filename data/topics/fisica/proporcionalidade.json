@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-proporcionalidade",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Proporcionalidade",
+  "blocks": [
+    {
+      "id": "proporcionalidade-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Proporcionalidade é um conteúdo previsto no programa da ONC."
+    },
+    {
+      "id": "proporcionalidade-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Na proporcionalidade direta, grandezas variam no mesmo sentido; na inversa, uma aumenta enquanto a outra diminui."
+    },
+    {
+      "id": "proporcionalidade-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "É possível prever valores mantendo uma razão constante."
+    },
+    {
+      "id": "proporcionalidade-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Observe uma situação cotidiana relacionada a proporcionalidade."
+    },
+    {
+      "id": "proporcionalidade-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Se 4 torneiras enchem um tanque em 6 h, 8 iguais enchem em: A) 3 h B) 6 h C) 12 h. Resposta: A."
+    },
+    {
+      "id": "proporcionalidade-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "proporcionalidade-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Proporcionalidade é um conteúdo previsto no programa da ONC.",
+        "É possível prever valores mantendo uma razão constante."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Proporcionalidade é um conteúdo previsto no programa da ONC.",
+    "process": "Na proporcionalidade direta, grandezas variam no mesmo sentido; na inversa, uma aumenta enquanto a outra diminui.",
+    "result": "É possível prever valores mantendo uma razão constante.",
+    "example": "Observe uma situação cotidiana relacionada a proporcionalidade.",
+    "exam": "Se 4 torneiras enchem um tanque em 6 h, 8 iguais enchem em: A) 3 h B) 6 h C) 12 h. Resposta: A."
+  },
+  "visualType": ""
+}

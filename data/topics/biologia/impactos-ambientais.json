@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-impactos-ambientais",
+  "discipline": "Biologia",
+  "group": "Ecologia e ambiente",
+  "title": "Impactos ambientais",
+  "blocks": [
+    {
+      "id": "impactos-ambientais-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Mudanças causadas por ações humanas ou eventos naturais podem afetar espécies e habitats."
+    },
+    {
+      "id": "impactos-ambientais-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Desmatamento, poluição, queimadas e introdução de espécies modificam cadeias alimentares, habitats e ciclos naturais."
+    },
+    {
+      "id": "impactos-ambientais-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Pode ocorrer perda de biodiversidade, contaminação e desequilíbrio ecológico."
+    },
+    {
+      "id": "impactos-ambientais-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Desmatamento pode reduzir alimento e abrigo disponíveis."
+    },
+    {
+      "id": "impactos-ambientais-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "O desmatamento tende a provocar: A) aumento de habitats B) perda de abrigo e alimento C) crescimento imediato da biodiversidade. Resposta: B."
+    },
+    {
+      "id": "impactos-ambientais-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "impactos-ambientais-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Mudanças causadas por ações humanas ou eventos naturais podem afetar espécies e habitats.",
+        "Pode ocorrer perda de biodiversidade, contaminação e desequilíbrio ecológico."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Mudanças causadas por ações humanas ou eventos naturais podem afetar espécies e habitats.",
+    "process": "Desmatamento, poluição, queimadas e introdução de espécies modificam cadeias alimentares, habitats e ciclos naturais.",
+    "result": "Pode ocorrer perda de biodiversidade, contaminação e desequilíbrio ecológico.",
+    "example": "Desmatamento pode reduzir alimento e abrigo disponíveis.",
+    "exam": "O desmatamento tende a provocar: A) aumento de habitats B) perda de abrigo e alimento C) crescimento imediato da biodiversidade. Resposta: B."
+  },
+  "visualType": ""
+}

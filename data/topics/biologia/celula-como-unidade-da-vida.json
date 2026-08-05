@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-celula-como-unidade-da-vida",
+  "discipline": "Biologia",
+  "group": "Vida e corpo humano",
+  "title": "Célula como unidade da vida",
+  "blocks": [
+    {
+      "id": "celula-como-unidade-da-vida-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A célula é a menor unidade estrutural e funcional dos seres vivos."
+    },
+    {
+      "id": "celula-como-unidade-da-vida-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "As células realizam funções essenciais, como obter energia, produzir substâncias e reproduzir-se. Organismos podem ter uma única célula ou muitas."
+    },
+    {
+      "id": "celula-como-unidade-da-vida-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Tecidos, órgãos e sistemas só existem porque suas células trabalham de forma organizada."
+    },
+    {
+      "id": "celula-como-unidade-da-vida-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A pele é formada por muitas células organizadas em tecidos."
+    },
+    {
+      "id": "celula-como-unidade-da-vida-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A menor unidade capaz de realizar funções vitais é: A) órgão B) célula C) tecido D) sistema. Resposta: B."
+    },
+    {
+      "id": "celula-como-unidade-da-vida-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "celula-como-unidade-da-vida-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A célula é a menor unidade estrutural e funcional dos seres vivos.",
+        "Tecidos, órgãos e sistemas só existem porque suas células trabalham de forma organizada."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A célula é a menor unidade estrutural e funcional dos seres vivos.",
+    "process": "As células realizam funções essenciais, como obter energia, produzir substâncias e reproduzir-se. Organismos podem ter uma única célula ou muitas.",
+    "result": "Tecidos, órgãos e sistemas só existem porque suas células trabalham de forma organizada.",
+    "example": "A pele é formada por muitas células organizadas em tecidos.",
+    "exam": "A menor unidade capaz de realizar funções vitais é: A) órgão B) célula C) tecido D) sistema. Resposta: B."
+  },
+  "visualType": "cell"
+}

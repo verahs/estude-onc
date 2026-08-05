@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-materiais-sinteticos",
+  "discipline": "Química",
+  "group": "Matéria, energia e transformações",
+  "title": "Materiais sintéticos",
+  "blocks": [
+    {
+      "id": "materiais-sinteticos-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "São materiais produzidos ou modificados por processos industriais."
+    },
+    {
+      "id": "materiais-sinteticos-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Processos industriais transformam matérias-primas em polímeros e outros materiais planejados."
+    },
+    {
+      "id": "materiais-sinteticos-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Obtêm-se propriedades como leveza, flexibilidade e resistência."
+    },
+    {
+      "id": "materiais-sinteticos-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Plásticos são usados em embalagens e objetos."
+    },
+    {
+      "id": "materiais-sinteticos-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Plástico é geralmente um material: A) sintético B) estelar C) mineral puro. Resposta: A."
+    },
+    {
+      "id": "materiais-sinteticos-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "materiais-sinteticos-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "São materiais produzidos ou modificados por processos industriais.",
+        "Obtêm-se propriedades como leveza, flexibilidade e resistência."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "São materiais produzidos ou modificados por processos industriais.",
+    "process": "Processos industriais transformam matérias-primas em polímeros e outros materiais planejados.",
+    "result": "Obtêm-se propriedades como leveza, flexibilidade e resistência.",
+    "example": "Plásticos são usados em embalagens e objetos.",
+    "exam": "Plástico é geralmente um material: A) sintético B) estelar C) mineral puro. Resposta: A."
+  },
+  "visualType": ""
+}

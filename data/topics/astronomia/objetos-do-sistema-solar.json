@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-objetos-do-sistema-solar",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "Objetos do Sistema Solar",
+  "blocks": [
+    {
+      "id": "objetos-do-sistema-solar-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "O Sistema Solar é formado pelo Sol e por todos os corpos que permanecem ligados a ele pela gravidade."
+    },
+    {
+      "id": "objetos-do-sistema-solar-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Principais componentes</h5><ul><li>O Sol.</li><li>Oito planetas.</li><li>Planetas anões.</li><li>Satélites naturais.</li><li>Asteroides.</li><li>Cometas.</li><li>Meteoroides, poeira e gás.</li></ul></section><section><h5>Organização geral</h5><p>Os planetas orbitam o Sol em trajetórias aproximadamente elípticas e quase no mesmo plano.</p></section>"
+    },
+    {
+      "id": "objetos-do-sistema-solar-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O Sistema Solar apresenta grande diversidade de tamanhos, composições e distâncias."
+    },
+    {
+      "id": "objetos-do-sistema-solar-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A Terra é um planeta; a Lua é seu satélite natural; o Sol é uma estrela."
+    },
+    {
+      "id": "objetos-do-sistema-solar-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A ONC pode apresentar imagens de vários corpos e pedir sua classificação correta."
+    },
+    {
+      "id": "objetos-do-sistema-solar-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "O Sistema Solar é formado pelo Sol e por todos os corpos que permanecem ligados a ele pela gravidade.",
+        "O Sistema Solar apresenta grande diversidade de tamanhos, composições e distâncias."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "O Sistema Solar é formado pelo Sol e por todos os corpos que permanecem ligados a ele pela gravidade.",
+    "process": "<section><h5>Principais componentes</h5><ul><li>O Sol.</li><li>Oito planetas.</li><li>Planetas anões.</li><li>Satélites naturais.</li><li>Asteroides.</li><li>Cometas.</li><li>Meteoroides, poeira e gás.</li></ul></section><section><h5>Organização geral</h5><p>Os planetas orbitam o Sol em trajetórias aproximadamente elípticas e quase no mesmo plano.</p></section>",
+    "result": "O Sistema Solar apresenta grande diversidade de tamanhos, composições e distâncias.",
+    "example": "A Terra é um planeta; a Lua é seu satélite natural; o Sol é uma estrela.",
+    "exam": "A ONC pode apresentar imagens de vários corpos e pedir sua classificação correta."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-fracoes-e-porcentagens",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos I",
+  "title": "Frações e porcentagens",
+  "blocks": [
+    {
+      "id": "fracoes-e-porcentagens-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Frações representam partes de um todo; porcentagens representam partes de cem."
+    },
+    {
+      "id": "fracoes-e-porcentagens-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Uma fração representa partes iguais de um todo; a porcentagem representa partes de cem. Para converter, pode-se multiplicar a fração por 100%."
+    },
+    {
+      "id": "fracoes-e-porcentagens-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Permite comparar descontos, probabilidades, partes de figuras e dados."
+    },
+    {
+      "id": "fracoes-e-porcentagens-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "25% de 20 corresponde a 5."
+    },
+    {
+      "id": "fracoes-e-porcentagens-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "25% de 80 é: A) 10 B) 20 C) 25 D) 40. Resposta: B."
+    },
+    {
+      "id": "fracoes-e-porcentagens-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "fracoes-e-porcentagens-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Frações representam partes de um todo; porcentagens representam partes de cem.",
+        "Permite comparar descontos, probabilidades, partes de figuras e dados."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Frações representam partes de um todo; porcentagens representam partes de cem.",
+    "process": "Uma fração representa partes iguais de um todo; a porcentagem representa partes de cem. Para converter, pode-se multiplicar a fração por 100%.",
+    "result": "Permite comparar descontos, probabilidades, partes de figuras e dados.",
+    "example": "25% de 20 corresponde a 5.",
+    "exam": "25% de 80 é: A) 10 B) 20 C) 25 D) 40. Resposta: B."
+  },
+  "visualType": ""
+}

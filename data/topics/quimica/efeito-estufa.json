@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-efeito-estufa",
+  "discipline": "Química",
+  "group": "Ar, água e propriedades",
+  "title": "Efeito estufa",
+  "blocks": [
+    {
+      "id": "efeito-estufa-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Gases atmosféricos retêm parte do calor e mantêm o planeta aquecido."
+    },
+    {
+      "id": "efeito-estufa-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Observe os elementos próprios de Efeito estufa, como eles se relacionam e em que sequência o fenômeno ou conceito ocorre."
+    },
+    {
+      "id": "efeito-estufa-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O resultado é a consequência específica produzida por Efeito estufa, perceptível em uma situação real ou em dados."
+    },
+    {
+      "id": "efeito-estufa-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O aumento de dióxido de carbono intensifica o fenômeno."
+    },
+    {
+      "id": "efeito-estufa-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar uma situação sobre Efeito estufa e pedir que o aluno aplique a definição para escolher a alternativa correta."
+    },
+    {
+      "id": "efeito-estufa-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "efeito-estufa-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Gases atmosféricos retêm parte do calor e mantêm o planeta aquecido.",
+        "O resultado é a consequência específica produzida por Efeito estufa, perceptível em uma situação real ou em dados."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Gases atmosféricos retêm parte do calor e mantêm o planeta aquecido.",
+    "process": "Observe os elementos próprios de Efeito estufa, como eles se relacionam e em que sequência o fenômeno ou conceito ocorre.",
+    "result": "O resultado é a consequência específica produzida por Efeito estufa, perceptível em uma situação real ou em dados.",
+    "example": "O aumento de dióxido de carbono intensifica o fenômeno.",
+    "exam": "A prova pode apresentar uma situação sobre Efeito estufa e pedir que o aluno aplique a definição para escolher a alternativa correta."
+  },
+  "visualType": ""
+}

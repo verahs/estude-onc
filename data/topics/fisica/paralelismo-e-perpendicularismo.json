@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-paralelismo-e-perpendicularismo",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos I",
+  "title": "Paralelismo e perpendicularismo",
+  "blocks": [
+    {
+      "id": "paralelismo-e-perpendicularismo-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Retas paralelas não se cruzam; perpendiculares formam ângulo de 90°."
+    },
+    {
+      "id": "paralelismo-e-perpendicularismo-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Retas paralelas mantêm a mesma distância e não se cruzam; perpendiculares se cruzam formando 90°."
+    },
+    {
+      "id": "paralelismo-e-perpendicularismo-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Essas relações aparecem em plantas, mapas e construções."
+    },
+    {
+      "id": "paralelismo-e-perpendicularismo-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Lados opostos de um retângulo são paralelos."
+    },
+    {
+      "id": "paralelismo-e-perpendicularismo-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Os lados adjacentes de um retângulo são: A) paralelos B) perpendiculares C) curvos. Resposta: B."
+    },
+    {
+      "id": "paralelismo-e-perpendicularismo-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "paralelismo-e-perpendicularismo-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Retas paralelas não se cruzam; perpendiculares formam ângulo de 90°.",
+        "Essas relações aparecem em plantas, mapas e construções."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Retas paralelas não se cruzam; perpendiculares formam ângulo de 90°.",
+    "process": "Retas paralelas mantêm a mesma distância e não se cruzam; perpendiculares se cruzam formando 90°.",
+    "result": "Essas relações aparecem em plantas, mapas e construções.",
+    "example": "Lados opostos de um retângulo são paralelos.",
+    "exam": "Os lados adjacentes de um retângulo são: A) paralelos B) perpendiculares C) curvos. Resposta: B."
+  },
+  "visualType": ""
+}

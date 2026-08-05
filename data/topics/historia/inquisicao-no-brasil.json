@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-inquisicao-no-brasil",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Inquisição no Brasil",
+  "blocks": [
+    {
+      "id": "inquisicao-no-brasil-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A Inquisição foi uma instituição religiosa que investigava e punia práticas consideradas contrárias ao catolicismo."
+    },
+    {
+      "id": "inquisicao-no-brasil-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "inquisicao-no-brasil-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Contrarreforma católica.</li><li>Colonização portuguesa.</li><li>Controle religioso e social.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Inquisidores.</li><li>Clero.</li><li>Cristãos-novos.</li><li>Pessoas acusadas de práticas religiosas ou morais proibidas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Denúncias.</li><li>Investigações.</li><li>Visitações.</li><li>Punições.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Maior vigilância religiosa.</li><li>Perseguição a grupos específicos.</li><li>Medo e controle social.</li></ul></section></div>"
+    },
+    {
+      "id": "inquisicao-no-brasil-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A Inquisição reforçou intolerância religiosa e perseguiu práticas culturais e crenças diversas."
+    },
+    {
+      "id": "inquisicao-no-brasil-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Cristãos-novos podiam ser denunciados por manter costumes judaicos."
+    },
+    {
+      "id": "inquisicao-no-brasil-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar trecho de denúncia e perguntar qual mecanismo de controle está presente."
+    },
+    {
+      "id": "inquisicao-no-brasil-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A Inquisição foi uma instituição religiosa que investigava e punia práticas consideradas contrárias ao catolicismo.",
+        "A Inquisição reforçou intolerância religiosa e perseguiu práticas culturais e crenças diversas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A Inquisição foi uma instituição religiosa que investigava e punia práticas consideradas contrárias ao catolicismo.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Contrarreforma católica.</li><li>Colonização portuguesa.</li><li>Controle religioso e social.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Inquisidores.</li><li>Clero.</li><li>Cristãos-novos.</li><li>Pessoas acusadas de práticas religiosas ou morais proibidas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Denúncias.</li><li>Investigações.</li><li>Visitações.</li><li>Punições.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Maior vigilância religiosa.</li><li>Perseguição a grupos específicos.</li><li>Medo e controle social.</li></ul></section></div>",
+    "result": "A Inquisição reforçou intolerância religiosa e perseguiu práticas culturais e crenças diversas.",
+    "example": "Cristãos-novos podiam ser denunciados por manter costumes judaicos.",
+    "exam": "A prova pode apresentar trecho de denúncia e perguntar qual mecanismo de controle está presente."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-idade-dos-metais",
+  "discipline": "História",
+  "group": "Origens da humanidade",
+  "title": "Idade dos Metais",
+  "blocks": [
+    {
+      "id": "idade-dos-metais-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Idade dos Metais é o período em que sociedades desenvolveram técnicas de fundição e uso de cobre, bronze e ferro."
+    },
+    {
+      "id": "idade-dos-metais-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "idade-dos-metais-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A metalurgia surgiu em momentos diferentes.</li><li>Exigia conhecimento técnico e acesso a minérios.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Mineradores.</li><li>Artesãos metalúrgicos.</li><li>Comerciantes.</li><li>Guerreiros e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Extração de minério.</li><li>Fundição.</li><li>Especialização do trabalho.</li><li>Redes de troca.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ferramentas mais resistentes.</li><li>Armas mais eficientes.</li><li>Maior desigualdade em algumas sociedades.</li></ul></section></div>"
+    },
+    {
+      "id": "idade-dos-metais-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A metalurgia ampliou produtividade, comércio e poder militar, contribuindo para sociedades mais complexas."
+    },
+    {
+      "id": "idade-dos-metais-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma enxada de metal podia durar mais e facilitar o cultivo."
+    },
+    {
+      "id": "idade-dos-metais-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode comparar ferramentas de pedra e metal e perguntar qual consequência econômica decorreu da metalurgia."
+    },
+    {
+      "id": "idade-dos-metais-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Idade dos Metais é o período em que sociedades desenvolveram técnicas de fundição e uso de cobre, bronze e ferro.",
+        "A metalurgia ampliou produtividade, comércio e poder militar, contribuindo para sociedades mais complexas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Idade dos Metais é o período em que sociedades desenvolveram técnicas de fundição e uso de cobre, bronze e ferro.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A metalurgia surgiu em momentos diferentes.</li><li>Exigia conhecimento técnico e acesso a minérios.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Mineradores.</li><li>Artesãos metalúrgicos.</li><li>Comerciantes.</li><li>Guerreiros e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Extração de minério.</li><li>Fundição.</li><li>Especialização do trabalho.</li><li>Redes de troca.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ferramentas mais resistentes.</li><li>Armas mais eficientes.</li><li>Maior desigualdade em algumas sociedades.</li></ul></section></div>",
+    "result": "A metalurgia ampliou produtividade, comércio e poder militar, contribuindo para sociedades mais complexas.",
+    "example": "Uma enxada de metal podia durar mais e facilitar o cultivo.",
+    "exam": "A questão pode comparar ferramentas de pedra e metal e perguntar qual consequência econômica decorreu da metalurgia."
+  },
+  "visualType": ""
+}

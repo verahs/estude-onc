@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-circunferencia-e-diametro",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos II",
+  "title": "Circunferência e diâmetro",
+  "blocks": [
+    {
+      "id": "circunferencia-e-diametro-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A razão entre comprimento da circunferência e diâmetro é aproximadamente π."
+    },
+    {
+      "id": "circunferencia-e-diametro-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "O diâmetro atravessa o centro; o comprimento da circunferência é aproximadamente π vezes o diâmetro."
+    },
+    {
+      "id": "circunferencia-e-diametro-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Rodas maiores percorrem maior distância por volta."
+    },
+    {
+      "id": "circunferencia-e-diametro-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma roda maior percorre mais distância a cada volta."
+    },
+    {
+      "id": "circunferencia-e-diametro-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Se o diâmetro dobra, o comprimento da circunferência: A) dobra B) reduz à metade C) não muda. Resposta: A."
+    },
+    {
+      "id": "circunferencia-e-diametro-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "circunferencia-e-diametro-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A razão entre comprimento da circunferência e diâmetro é aproximadamente π.",
+        "Rodas maiores percorrem maior distância por volta."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A razão entre comprimento da circunferência e diâmetro é aproximadamente π.",
+    "process": "O diâmetro atravessa o centro; o comprimento da circunferência é aproximadamente π vezes o diâmetro.",
+    "result": "Rodas maiores percorrem maior distância por volta.",
+    "example": "Uma roda maior percorre mais distância a cada volta.",
+    "exam": "Se o diâmetro dobra, o comprimento da circunferência: A) dobra B) reduz à metade C) não muda. Resposta: A."
+  },
+  "visualType": ""
+}

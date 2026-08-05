@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-deslocamentos-e-sedentarizacao",
+  "discipline": "História",
+  "group": "Origens da humanidade",
+  "title": "Deslocamentos e sedentarização",
+  "blocks": [
+    {
+      "id": "deslocamentos-e-sedentarizacao-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Deslocamento é a mudança de lugar de grupos humanos; sedentarização é a fixação mais permanente em um território."
+    },
+    {
+      "id": "deslocamentos-e-sedentarizacao-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "deslocamentos-e-sedentarizacao-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Caçadores-coletores deslocavam-se conforme os recursos.</li><li>A agricultura favoreceu a permanência próxima às áreas cultivadas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Povos nômades.</li><li>Agricultores sedentários.</li><li>Pastores de deslocamento sazonal.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Busca por água e alimento.</li><li>Uso de rotas.</li><li>Construção de aldeias.</li><li>Controle de áreas produtivas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação de assentamentos permanentes.</li><li>Aumento populacional.</li><li>Novas relações de propriedade e poder.</li></ul></section></div>"
+    },
+    {
+      "id": "deslocamentos-e-sedentarizacao-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A sedentarização transformou moradia, trabalho, produção de alimentos e relações sociais."
+    },
+    {
+      "id": "deslocamentos-e-sedentarizacao-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma aldeia agrícola precisa organizar o uso da água e a divisão das terras."
+    },
+    {
+      "id": "deslocamentos-e-sedentarizacao-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode mostrar aldeia com silos e campos cultivados e pedir qual processo histórico aparece."
+    },
+    {
+      "id": "deslocamentos-e-sedentarizacao-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Deslocamento é a mudança de lugar de grupos humanos; sedentarização é a fixação mais permanente em um território.",
+        "A sedentarização transformou moradia, trabalho, produção de alimentos e relações sociais."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Deslocamento é a mudança de lugar de grupos humanos; sedentarização é a fixação mais permanente em um território.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Caçadores-coletores deslocavam-se conforme os recursos.</li><li>A agricultura favoreceu a permanência próxima às áreas cultivadas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Povos nômades.</li><li>Agricultores sedentários.</li><li>Pastores de deslocamento sazonal.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Busca por água e alimento.</li><li>Uso de rotas.</li><li>Construção de aldeias.</li><li>Controle de áreas produtivas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação de assentamentos permanentes.</li><li>Aumento populacional.</li><li>Novas relações de propriedade e poder.</li></ul></section></div>",
+    "result": "A sedentarização transformou moradia, trabalho, produção de alimentos e relações sociais.",
+    "example": "Uma aldeia agrícola precisa organizar o uso da água e a divisão das terras.",
+    "exam": "A prova pode mostrar aldeia com silos e campos cultivados e pedir qual processo histórico aparece."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-fontes-historicas-e-documentos",
+  "discipline": "História",
+  "group": "História, tempo e fontes",
+  "title": "Fontes históricas e documentos",
+  "blocks": [
+    {
+      "id": "fontes-historicas-e-documentos-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Fontes históricas são vestígios usados para estudar o passado, como textos, objetos, imagens, edifícios, mapas, depoimentos e registros digitais."
+    },
+    {
+      "id": "fontes-historicas-e-documentos-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "fontes-historicas-e-documentos-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Toda fonte foi produzida em uma situação específica.</li><li>Nenhuma fonte é totalmente neutra.</li><li>Ausências e silêncios também podem ser importantes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Autores das fontes.</li><li>Públicos a quem elas se destinavam.</li><li>Grupos representados ou omitidos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Identificar autoria e data.</li><li>Analisar finalidade.</li><li>Comparar com outras fontes.</li><li>Avaliar o que a fonte mostra e o que não mostra.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>O conceito de fonte se ampliou além dos documentos oficiais.</li><li>Objetos cotidianos e oralidade passaram a ser valorizados.</li></ul></section></div>"
+    },
+    {
+      "id": "fontes-historicas-e-documentos-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A análise crítica das fontes permite reconstruir aspectos do passado e compreender diferentes pontos de vista."
+    },
+    {
+      "id": "fontes-historicas-e-documentos-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma carta de um governante e o relato de um trabalhador podem descrever o mesmo fato de modos diferentes."
+    },
+    {
+      "id": "fontes-historicas-e-documentos-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A ONC pode apresentar imagem e texto e pedir qual conclusão é sustentada pelas duas evidências."
+    },
+    {
+      "id": "fontes-historicas-e-documentos-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Fontes históricas são vestígios usados para estudar o passado, como textos, objetos, imagens, edifícios, mapas, depoimentos e registros digitais.",
+        "A análise crítica das fontes permite reconstruir aspectos do passado e compreender diferentes pontos de vista."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Fontes históricas são vestígios usados para estudar o passado, como textos, objetos, imagens, edifícios, mapas, depoimentos e registros digitais.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Toda fonte foi produzida em uma situação específica.</li><li>Nenhuma fonte é totalmente neutra.</li><li>Ausências e silêncios também podem ser importantes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Autores das fontes.</li><li>Públicos a quem elas se destinavam.</li><li>Grupos representados ou omitidos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Identificar autoria e data.</li><li>Analisar finalidade.</li><li>Comparar com outras fontes.</li><li>Avaliar o que a fonte mostra e o que não mostra.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>O conceito de fonte se ampliou além dos documentos oficiais.</li><li>Objetos cotidianos e oralidade passaram a ser valorizados.</li></ul></section></div>",
+    "result": "A análise crítica das fontes permite reconstruir aspectos do passado e compreender diferentes pontos de vista.",
+    "example": "Uma carta de um governante e o relato de um trabalhador podem descrever o mesmo fato de modos diferentes.",
+    "exam": "A ONC pode apresentar imagem e texto e pedir qual conclusão é sustentada pelas duas evidências."
+  },
+  "visualType": ""
+}

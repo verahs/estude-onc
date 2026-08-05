@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-fontes-de-energia",
+  "discipline": "Química",
+  "group": "Matéria, energia e transformações",
+  "title": "Fontes de energia",
+  "blocks": [
+    {
+      "id": "fontes-de-energia-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "São recursos usados para obter energia, renováveis ou não renováveis."
+    },
+    {
+      "id": "fontes-de-energia-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Fontes renováveis se recompõem em escala humana; não renováveis existem em quantidades limitadas."
+    },
+    {
+      "id": "fontes-de-energia-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A escolha afeta emissões, ambiente e disponibilidade futura."
+    },
+    {
+      "id": "fontes-de-energia-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Sol e vento são fontes renováveis."
+    },
+    {
+      "id": "fontes-de-energia-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Qual fonte é renovável? A) carvão mineral B) vento C) petróleo. Resposta: B."
+    },
+    {
+      "id": "fontes-de-energia-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "fontes-de-energia-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "São recursos usados para obter energia, renováveis ou não renováveis.",
+        "A escolha afeta emissões, ambiente e disponibilidade futura."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "São recursos usados para obter energia, renováveis ou não renováveis.",
+    "process": "Fontes renováveis se recompõem em escala humana; não renováveis existem em quantidades limitadas.",
+    "result": "A escolha afeta emissões, ambiente e disponibilidade futura.",
+    "example": "Sol e vento são fontes renováveis.",
+    "exam": "Qual fonte é renovável? A) carvão mineral B) vento C) petróleo. Resposta: B."
+  },
+  "visualType": ""
+}

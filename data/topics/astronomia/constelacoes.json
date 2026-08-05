@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-constelacoes",
+  "discipline": "Astronomia",
+  "group": "Sistema Solar e Universo",
+  "title": "Constelações",
+  "blocks": [
+    {
+      "id": "constelacoes-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Constelações são regiões oficialmente definidas do céu. As figuras imaginadas ligam estrelas que, em geral, estão a distâncias muito diferentes."
+    },
+    {
+      "id": "constelacoes-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Como são usadas</h5><ul><li>Organizam o mapa do céu.</li><li>Ajudam a localizar estrelas e outros objetos.</li><li>Foram usadas na orientação e em calendários.</li></ul></section><section><h5>Aparência</h5><p>A posição aparente muda ao longo da noite por causa da rotação da Terra e ao longo do ano por causa da translação.</p></section>"
+    },
+    {
+      "id": "constelacoes-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Diferentes constelações são visíveis conforme a época do ano e o hemisfério."
+    },
+    {
+      "id": "constelacoes-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O Cruzeiro do Sul é usado como referência aproximada para localizar o sul celeste."
+    },
+    {
+      "id": "constelacoes-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar fotografias do céu em horários diferentes e pedir qual movimento explica a mudança aparente."
+    },
+    {
+      "id": "constelacoes-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Constelações são regiões oficialmente definidas do céu. As figuras imaginadas ligam estrelas que, em geral, estão a distâncias muito diferentes.",
+        "Diferentes constelações são visíveis conforme a época do ano e o hemisfério."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Constelações são regiões oficialmente definidas do céu. As figuras imaginadas ligam estrelas que, em geral, estão a distâncias muito diferentes.",
+    "process": "<section><h5>Como são usadas</h5><ul><li>Organizam o mapa do céu.</li><li>Ajudam a localizar estrelas e outros objetos.</li><li>Foram usadas na orientação e em calendários.</li></ul></section><section><h5>Aparência</h5><p>A posição aparente muda ao longo da noite por causa da rotação da Terra e ao longo do ano por causa da translação.</p></section>",
+    "result": "Diferentes constelações são visíveis conforme a época do ano e o hemisfério.",
+    "example": "O Cruzeiro do Sul é usado como referência aproximada para localizar o sul celeste.",
+    "exam": "A prova pode apresentar fotografias do céu em horários diferentes e pedir qual movimento explica a mudança aparente."
+  },
+  "visualType": ""
+}

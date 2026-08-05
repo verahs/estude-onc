@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-densidade",
+  "discipline": "Química",
+  "group": "Ar, água e propriedades",
+  "title": "Densidade",
+  "blocks": [
+    {
+      "id": "densidade-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "É a relação entre massa e volume."
+    },
+    {
+      "id": "densidade-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Divide-se a massa pelo volume. Materiais com mesma massa podem ocupar volumes diferentes."
+    },
+    {
+      "id": "densidade-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Objetos menos densos que o líquido tendem a flutuar."
+    },
+    {
+      "id": "densidade-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Óleo fica sobre a água porque é menos denso."
+    },
+    {
+      "id": "densidade-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Um objeto de 80 g e 100 cm³ tem densidade: A) 0,8 g/cm³ B) 1,8 C) 80. Resposta: A."
+    },
+    {
+      "id": "densidade-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "densidade-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "É a relação entre massa e volume.",
+        "Objetos menos densos que o líquido tendem a flutuar."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "É a relação entre massa e volume.",
+    "process": "Divide-se a massa pelo volume. Materiais com mesma massa podem ocupar volumes diferentes.",
+    "result": "Objetos menos densos que o líquido tendem a flutuar.",
+    "example": "Óleo fica sobre a água porque é menos denso.",
+    "exam": "Um objeto de 80 g e 100 cm³ tem densidade: A) 0,8 g/cm³ B) 1,8 C) 80. Resposta: A."
+  },
+  "visualType": "density"
+}

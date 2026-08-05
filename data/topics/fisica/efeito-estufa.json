@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-efeito-estufa",
+  "discipline": "Física",
+  "group": "Máquinas, calor e temperatura",
+  "title": "Efeito estufa",
+  "blocks": [
+    {
+      "id": "efeito-estufa-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "É um fenômeno natural que mantém a Terra aquecida; seu aumento artificial intensifica o aquecimento global."
+    },
+    {
+      "id": "efeito-estufa-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Gases atmosféricos absorvem e reemitem radiação infravermelha, retendo parte do calor."
+    },
+    {
+      "id": "efeito-estufa-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O efeito natural mantém a Terra habitável; sua intensificação eleva a temperatura média."
+    },
+    {
+      "id": "efeito-estufa-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Gases liberados pela queima de combustíveis aumentam a retenção de calor."
+    },
+    {
+      "id": "efeito-estufa-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A intensificação do efeito estufa está ligada ao aumento de: A) gases como CO₂ B) oxigênio líquido C) areia. Resposta: A."
+    },
+    {
+      "id": "efeito-estufa-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "efeito-estufa-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "É um fenômeno natural que mantém a Terra aquecida; seu aumento artificial intensifica o aquecimento global.",
+        "O efeito natural mantém a Terra habitável; sua intensificação eleva a temperatura média."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "É um fenômeno natural que mantém a Terra aquecida; seu aumento artificial intensifica o aquecimento global.",
+    "process": "Gases atmosféricos absorvem e reemitem radiação infravermelha, retendo parte do calor.",
+    "result": "O efeito natural mantém a Terra habitável; sua intensificação eleva a temperatura média.",
+    "example": "Gases liberados pela queima de combustíveis aumentam a retenção de calor.",
+    "exam": "A intensificação do efeito estufa está ligada ao aumento de: A) gases como CO₂ B) oxigênio líquido C) areia. Resposta: A."
+  },
+  "visualType": ""
+}

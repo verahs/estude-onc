@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-descobertas-cientificas-e-expansao-maritima",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Descobertas científicas e expansão marítima",
+  "blocks": [
+    {
+      "id": "descobertas-cientificas-e-expansao-maritima-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Esse tema reúne avanços técnicos e científicos que favoreceram navegações e novas explicações sobre o mundo."
+    },
+    {
+      "id": "descobertas-cientificas-e-expansao-maritima-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "descobertas-cientificas-e-expansao-maritima-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Busca por rotas comerciais.</li><li>Aperfeiçoamento de mapas e instrumentos.</li><li>Interesse de monarquias e comerciantes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Navegadores.</li><li>Cartógrafos.</li><li>Astrônomos.</li><li>Monarcas e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Uso de bússola, astrolábio e caravelas.</li><li>Financiamento estatal.</li><li>Produção de mapas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação do conhecimento geográfico.</li><li>Conexão entre continentes.</li><li>Colonização.</li></ul></section></div>"
+    },
+    {
+      "id": "descobertas-cientificas-e-expansao-maritima-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "As navegações ampliaram trocas e conhecimentos, mas também impulsionaram conquista, exploração e escravidão."
+    },
+    {
+      "id": "descobertas-cientificas-e-expansao-maritima-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "O astrolábio ajudava a estimar posição pela observação dos astros."
+    },
+    {
+      "id": "descobertas-cientificas-e-expansao-maritima-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar instrumento náutico e perguntar qual problema ele ajudava a resolver."
+    },
+    {
+      "id": "descobertas-cientificas-e-expansao-maritima-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Esse tema reúne avanços técnicos e científicos que favoreceram navegações e novas explicações sobre o mundo.",
+        "As navegações ampliaram trocas e conhecimentos, mas também impulsionaram conquista, exploração e escravidão."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Esse tema reúne avanços técnicos e científicos que favoreceram navegações e novas explicações sobre o mundo.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Busca por rotas comerciais.</li><li>Aperfeiçoamento de mapas e instrumentos.</li><li>Interesse de monarquias e comerciantes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Navegadores.</li><li>Cartógrafos.</li><li>Astrônomos.</li><li>Monarcas e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Uso de bússola, astrolábio e caravelas.</li><li>Financiamento estatal.</li><li>Produção de mapas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação do conhecimento geográfico.</li><li>Conexão entre continentes.</li><li>Colonização.</li></ul></section></div>",
+    "result": "As navegações ampliaram trocas e conhecimentos, mas também impulsionaram conquista, exploração e escravidão.",
+    "example": "O astrolábio ajudava a estimar posição pela observação dos astros.",
+    "exam": "A prova pode apresentar instrumento náutico e perguntar qual problema ele ajudava a resolver."
+  },
+  "visualType": ""
+}

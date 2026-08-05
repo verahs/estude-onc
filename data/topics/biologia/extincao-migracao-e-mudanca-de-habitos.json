@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "biologia-extincao-migracao-e-mudanca-de-habitos",
+  "discipline": "Biologia",
+  "group": "Ecologia e ambiente",
+  "title": "Extinção, migração e mudança de hábitos",
+  "blocks": [
+    {
+      "id": "extincao-migracao-e-mudanca-de-habitos-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Populações podem desaparecer, deslocar-se ou mudar comportamentos quando o ambiente se altera."
+    },
+    {
+      "id": "extincao-migracao-e-mudanca-de-habitos-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Quando o ambiente muda, indivíduos podem deslocar-se, alterar horários de atividade ou não sobreviver. Se toda a espécie desaparece, ocorre extinção."
+    },
+    {
+      "id": "extincao-migracao-e-mudanca-de-habitos-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A distribuição e o comportamento das populações se modificam."
+    },
+    {
+      "id": "extincao-migracao-e-mudanca-de-habitos-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Animais podem migrar após uma seca prolongada."
+    },
+    {
+      "id": "extincao-migracao-e-mudanca-de-habitos-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Se uma espécie desaparece completamente do planeta, ocorreu: A) migração B) extinção C) adaptação D) reprodução. Resposta: B."
+    },
+    {
+      "id": "extincao-migracao-e-mudanca-de-habitos-bio",
+      "type": "connection",
+      "label": "Conecte estrutura e função",
+      "content": "Em Biologia, pergunte: qual estrutura está envolvida, o que ela faz e por que essa função é importante para o organismo ou o ambiente?"
+    },
+    {
+      "id": "extincao-migracao-e-mudanca-de-habitos-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Populações podem desaparecer, deslocar-se ou mudar comportamentos quando o ambiente se altera.",
+        "A distribuição e o comportamento das populações se modificam."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Populações podem desaparecer, deslocar-se ou mudar comportamentos quando o ambiente se altera.",
+    "process": "Quando o ambiente muda, indivíduos podem deslocar-se, alterar horários de atividade ou não sobreviver. Se toda a espécie desaparece, ocorre extinção.",
+    "result": "A distribuição e o comportamento das populações se modificam.",
+    "example": "Animais podem migrar após uma seca prolongada.",
+    "exam": "Se uma espécie desaparece completamente do planeta, ocorreu: A) migração B) extinção C) adaptação D) reprodução. Resposta: B."
+  },
+  "visualType": ""
+}

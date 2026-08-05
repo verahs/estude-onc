@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-prismas-e-piramides",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos I",
+  "title": "Prismas e pirâmides",
+  "blocks": [
+    {
+      "id": "prismas-e-piramides-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Sólidos possuem faces, arestas e vértices."
+    },
+    {
+      "id": "prismas-e-piramides-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Prismas têm duas bases paralelas e congruentes; pirâmides têm uma base e faces laterais triangulares."
+    },
+    {
+      "id": "prismas-e-piramides-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Podemos contar faces, arestas e vértices para identificar o sólido."
+    },
+    {
+      "id": "prismas-e-piramides-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Um cubo tem 6 faces, 12 arestas e 8 vértices."
+    },
+    {
+      "id": "prismas-e-piramides-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Qual sólido tem uma base e faces triangulares que se encontram num vértice? A) prisma B) pirâmide C) cilindro. Resposta: B."
+    },
+    {
+      "id": "prismas-e-piramides-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "prismas-e-piramides-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Sólidos possuem faces, arestas e vértices.",
+        "Podemos contar faces, arestas e vértices para identificar o sólido."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Sólidos possuem faces, arestas e vértices.",
+    "process": "Prismas têm duas bases paralelas e congruentes; pirâmides têm uma base e faces laterais triangulares.",
+    "result": "Podemos contar faces, arestas e vértices para identificar o sólido.",
+    "example": "Um cubo tem 6 faces, 12 arestas e 8 vértices.",
+    "exam": "Qual sólido tem uma base e faces triangulares que se encontram num vértice? A) prisma B) pirâmide C) cilindro. Resposta: B."
+  },
+  "visualType": ""
+}

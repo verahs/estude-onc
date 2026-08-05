@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-conquista-da-america",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Conquista da América",
+  "blocks": [
+    {
+      "id": "conquista-da-america-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Conquista da América foi o processo de invasão, domínio e exploração de territórios e povos americanos por potências europeias."
+    },
+    {
+      "id": "conquista-da-america-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "conquista-da-america-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão marítima.</li><li>Busca por riquezas.</li><li>Interesses religiosos e políticos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Povos indígenas.</li><li>Conquistadores europeus.</li><li>Missionários.</li><li>Aliados locais.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Guerra.</li><li>Alianças.</li><li>Epidemias.</li><li>Imposição de trabalho e tributos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Queda de impérios.</li><li>Redução populacional.</li><li>Transformações culturais e territoriais.</li></ul></section></div>"
+    },
+    {
+      "id": "conquista-da-america-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A conquista alterou profundamente sociedades americanas por violência, doenças, exploração e imposição cultural."
+    },
+    {
+      "id": "conquista-da-america-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Doenças trazidas pelos europeus atingiram populações sem imunidade prévia."
+    },
+    {
+      "id": "conquista-da-america-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode combinar mapa, relato e dados populacionais para identificar fatores da conquista."
+    },
+    {
+      "id": "conquista-da-america-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Conquista da América foi o processo de invasão, domínio e exploração de territórios e povos americanos por potências europeias.",
+        "A conquista alterou profundamente sociedades americanas por violência, doenças, exploração e imposição cultural."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Conquista da América foi o processo de invasão, domínio e exploração de territórios e povos americanos por potências europeias.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão marítima.</li><li>Busca por riquezas.</li><li>Interesses religiosos e políticos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Povos indígenas.</li><li>Conquistadores europeus.</li><li>Missionários.</li><li>Aliados locais.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Guerra.</li><li>Alianças.</li><li>Epidemias.</li><li>Imposição de trabalho e tributos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Queda de impérios.</li><li>Redução populacional.</li><li>Transformações culturais e territoriais.</li></ul></section></div>",
+    "result": "A conquista alterou profundamente sociedades americanas por violência, doenças, exploração e imposição cultural.",
+    "example": "Doenças trazidas pelos europeus atingiram populações sem imunidade prévia.",
+    "exam": "A questão pode combinar mapa, relato e dados populacionais para identificar fatores da conquista."
+  },
+  "visualType": ""
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-maquinas-simples",
+  "discipline": "Física",
+  "group": "Máquinas, calor e temperatura",
+  "title": "Máquinas simples",
+  "blocks": [
+    {
+      "id": "maquinas-simples-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Dispositivos como alavancas e roldanas facilitam tarefas mecânicas."
+    },
+    {
+      "id": "maquinas-simples-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Alavancas, roldanas e planos inclinados modificam intensidade ou direção da força."
+    },
+    {
+      "id": "maquinas-simples-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Facilitam tarefas, embora não eliminem o trabalho necessário."
+    },
+    {
+      "id": "maquinas-simples-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Um abridor de garrafas funciona como alavanca."
+    },
+    {
+      "id": "maquinas-simples-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Um abridor de garrafas é exemplo de: A) alavanca B) bússola C) termômetro. Resposta: A."
+    },
+    {
+      "id": "maquinas-simples-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "maquinas-simples-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Dispositivos como alavancas e roldanas facilitam tarefas mecânicas.",
+        "Facilitam tarefas, embora não eliminem o trabalho necessário."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Dispositivos como alavancas e roldanas facilitam tarefas mecânicas.",
+    "process": "Alavancas, roldanas e planos inclinados modificam intensidade ou direção da força.",
+    "result": "Facilitam tarefas, embora não eliminem o trabalho necessário.",
+    "example": "Um abridor de garrafas funciona como alavanca.",
+    "exam": "Um abridor de garrafas é exemplo de: A) alavanca B) bússola C) termômetro. Resposta: A."
+  },
+  "visualType": ""
+}

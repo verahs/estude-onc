@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-separacao-no-tratamento-da-agua",
+  "discipline": "Química",
+  "group": "Misturas e tratamento",
+  "title": "Separação no tratamento da água",
+  "blocks": [
+    {
+      "id": "separacao-no-tratamento-da-agua-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Processos incluem coagulação, floculação, decantação, filtração e desinfecção."
+    },
+    {
+      "id": "separacao-no-tratamento-da-agua-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Produtos agregam partículas em flocos; os flocos sedimentam; filtros removem resíduos; desinfecção elimina microrganismos."
+    },
+    {
+      "id": "separacao-no-tratamento-da-agua-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A água fica mais limpa e segura."
+    },
+    {
+      "id": "separacao-no-tratamento-da-agua-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Na decantação, partículas mais densas se depositam no fundo."
+    },
+    {
+      "id": "separacao-no-tratamento-da-agua-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Na decantação, os flocos: A) depositam-se no fundo B) viram gás C) desaparecem por combustão. Resposta: A."
+    },
+    {
+      "id": "separacao-no-tratamento-da-agua-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "separacao-no-tratamento-da-agua-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Processos incluem coagulação, floculação, decantação, filtração e desinfecção.",
+        "A água fica mais limpa e segura."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Processos incluem coagulação, floculação, decantação, filtração e desinfecção.",
+    "process": "Produtos agregam partículas em flocos; os flocos sedimentam; filtros removem resíduos; desinfecção elimina microrganismos.",
+    "result": "A água fica mais limpa e segura.",
+    "example": "Na decantação, partículas mais densas se depositam no fundo.",
+    "exam": "Na decantação, os flocos: A) depositam-se no fundo B) viram gás C) desaparecem por combustão. Resposta: A."
+  },
+  "visualType": ""
+}

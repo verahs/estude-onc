@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-papel-da-igreja",
+  "discipline": "História",
+  "group": "Antiguidade e Idade Média",
+  "title": "Papel da Igreja",
+  "blocks": [
+    {
+      "id": "papel-da-igreja-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Na Europa medieval, a Igreja Católica exerceu forte influência religiosa, política, cultural e econômica."
+    },
+    {
+      "id": "papel-da-igreja-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "papel-da-igreja-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Fragmentação política.</li><li>Predomínio do cristianismo.</li><li>Baixa escolarização fora de instituições religiosas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Clero.</li><li>Nobreza.</li><li>Camponeses.</li><li>Ordens monásticas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Mosteiros.</li><li>Cobrança de dízimos.</li><li>Educação e preservação de manuscritos.</li><li>Interferência política.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento de críticas.</li><li>Conflitos com monarcas.</li><li>Reformas religiosas posteriores.</li></ul></section></div>"
+    },
+    {
+      "id": "papel-da-igreja-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A Igreja ajudou a organizar a vida social e cultural, mas também concentrou poder e riqueza."
+    },
+    {
+      "id": "papel-da-igreja-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Mosteiros copiavam manuscritos e preservavam textos antigos."
+    },
+    {
+      "id": "papel-da-igreja-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode mostrar um mosteiro e pedir qual função cultural ele exercia."
+    },
+    {
+      "id": "papel-da-igreja-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Na Europa medieval, a Igreja Católica exerceu forte influência religiosa, política, cultural e econômica.",
+        "A Igreja ajudou a organizar a vida social e cultural, mas também concentrou poder e riqueza."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Na Europa medieval, a Igreja Católica exerceu forte influência religiosa, política, cultural e econômica.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Fragmentação política.</li><li>Predomínio do cristianismo.</li><li>Baixa escolarização fora de instituições religiosas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Clero.</li><li>Nobreza.</li><li>Camponeses.</li><li>Ordens monásticas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Mosteiros.</li><li>Cobrança de dízimos.</li><li>Educação e preservação de manuscritos.</li><li>Interferência política.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento de críticas.</li><li>Conflitos com monarcas.</li><li>Reformas religiosas posteriores.</li></ul></section></div>",
+    "result": "A Igreja ajudou a organizar a vida social e cultural, mas também concentrou poder e riqueza.",
+    "example": "Mosteiros copiavam manuscritos e preservavam textos antigos.",
+    "exam": "A questão pode mostrar um mosteiro e pedir qual função cultural ele exercia."
+  },
+  "visualType": ""
+}

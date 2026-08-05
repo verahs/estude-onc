@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-estrutura-interna-da-terra",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Estrutura interna da Terra",
+  "blocks": [
+    {
+      "id": "estrutura-interna-da-terra-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A Terra possui três grandes camadas: crosta, manto e núcleo. O núcleo divide-se em externo e interno."
+    },
+    {
+      "id": "estrutura-interna-da-terra-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Camadas</h5><ul><li>Crosta: camada externa, fina e sólida.</li><li>Manto: camada espessa de rochas muito quentes, que podem se deformar lentamente.</li><li>Núcleo externo: líquido e rico em ferro e níquel.</li><li>Núcleo interno: sólido devido à enorme pressão.</li></ul></section><section><h5>Relação com fenômenos</h5><p>Movimentos lentos do manto participam do deslocamento das placas tectônicas. O núcleo externo contribui para o campo magnético terrestre.</p></section>"
+    },
+    {
+      "id": "estrutura-interna-da-terra-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "A energia interna da Terra está relacionada a terremotos, vulcanismo e movimento das placas."
+    },
+    {
+      "id": "estrutura-interna-da-terra-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Erupções vulcânicas mostram que há materiais muito quentes no interior do planeta."
+    },
+    {
+      "id": "estrutura-interna-da-terra-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode apresentar um corte da Terra e pedir em qual camada se encontra a crosta ou o núcleo."
+    },
+    {
+      "id": "estrutura-interna-da-terra-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A Terra possui três grandes camadas: crosta, manto e núcleo. O núcleo divide-se em externo e interno.",
+        "A energia interna da Terra está relacionada a terremotos, vulcanismo e movimento das placas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A Terra possui três grandes camadas: crosta, manto e núcleo. O núcleo divide-se em externo e interno.",
+    "process": "<section><h5>Camadas</h5><ul><li>Crosta: camada externa, fina e sólida.</li><li>Manto: camada espessa de rochas muito quentes, que podem se deformar lentamente.</li><li>Núcleo externo: líquido e rico em ferro e níquel.</li><li>Núcleo interno: sólido devido à enorme pressão.</li></ul></section><section><h5>Relação com fenômenos</h5><p>Movimentos lentos do manto participam do deslocamento das placas tectônicas. O núcleo externo contribui para o campo magnético terrestre.</p></section>",
+    "result": "A energia interna da Terra está relacionada a terremotos, vulcanismo e movimento das placas.",
+    "example": "Erupções vulcânicas mostram que há materiais muito quentes no interior do planeta.",
+    "exam": "A questão pode apresentar um corte da Terra e pedir em qual camada se encontra a crosta ou o núcleo."
+  },
+  "visualType": ""
+}

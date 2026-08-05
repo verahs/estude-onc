@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-reformas-religiosas",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Reformas religiosas",
+  "blocks": [
+    {
+      "id": "reformas-religiosas-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "As Reformas Religiosas foram movimentos do século XVI que criticaram práticas da Igreja Católica e originaram novas igrejas cristãs."
+    },
+    {
+      "id": "reformas-religiosas-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "reformas-religiosas-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Críticas à venda de indulgências.</li><li>Interesse de governantes em ampliar autonomia.</li><li>Circulação de ideias pela imprensa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Católicos.</li><li>Luteranos.</li><li>Calvinistas.</li><li>Anglicanos.</li><li>Governantes e fiéis.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Rompimento com Roma.</li><li>Tradução da Bíblia.</li><li>Contrarreforma e Concílio de Trento.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Pluralização religiosa.</li><li>Conflitos políticos.</li><li>Mudanças educacionais e culturais.</li></ul></section></div>"
+    },
+    {
+      "id": "reformas-religiosas-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "As reformas romperam a unidade religiosa da Europa e influenciaram política, cultura e colonização."
+    },
+    {
+      "id": "reformas-religiosas-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "A impressão de textos permitiu rápida circulação das ideias de Lutero."
+    },
+    {
+      "id": "reformas-religiosas-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode apresentar crítica religiosa e pedir qual problema estava sendo questionado."
+    },
+    {
+      "id": "reformas-religiosas-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "As Reformas Religiosas foram movimentos do século XVI que criticaram práticas da Igreja Católica e originaram novas igrejas cristãs.",
+        "As reformas romperam a unidade religiosa da Europa e influenciaram política, cultura e colonização."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "As Reformas Religiosas foram movimentos do século XVI que criticaram práticas da Igreja Católica e originaram novas igrejas cristãs.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Críticas à venda de indulgências.</li><li>Interesse de governantes em ampliar autonomia.</li><li>Circulação de ideias pela imprensa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Católicos.</li><li>Luteranos.</li><li>Calvinistas.</li><li>Anglicanos.</li><li>Governantes e fiéis.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Rompimento com Roma.</li><li>Tradução da Bíblia.</li><li>Contrarreforma e Concílio de Trento.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Pluralização religiosa.</li><li>Conflitos políticos.</li><li>Mudanças educacionais e culturais.</li></ul></section></div>",
+    "result": "As reformas romperam a unidade religiosa da Europa e influenciaram política, cultura e colonização.",
+    "example": "A impressão de textos permitiu rápida circulação das ideias de Lutero.",
+    "exam": "A prova pode apresentar crítica religiosa e pedir qual problema estava sendo questionado."
+  },
+  "visualType": ""
+}

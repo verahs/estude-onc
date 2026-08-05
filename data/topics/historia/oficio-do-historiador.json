@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-oficio-do-historiador",
+  "discipline": "História",
+  "group": "História, tempo e fontes",
+  "title": "Ofício do historiador",
+  "blocks": [
+    {
+      "id": "oficio-do-historiador-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "O ofício do historiador consiste em pesquisar o passado por meio de perguntas, fontes e argumentos fundamentados."
+    },
+    {
+      "id": "oficio-do-historiador-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "oficio-do-historiador-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>O historiador não presencia a maior parte dos fatos que estuda.</li><li>Ele trabalha com vestígios produzidos por pessoas e instituições.</li><li>Toda fonte possui autoria, finalidade e contexto.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores, arqueólogos, arquivistas e pesquisadores.</li><li>Autores e grupos citados ou omitidos nas fontes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Definir um problema de pesquisa.</li><li>Selecionar fontes.</li><li>Verificar autoria, data e intenção.</li><li>Comparar evidências.</li><li>Construir uma explicação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Tecnologias digitais ampliaram o acesso a documentos.</li><li>Relatos orais, fotografias e objetos cotidianos passaram a ser mais valorizados.</li></ul></section></div>"
+    },
+    {
+      "id": "oficio-do-historiador-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O historiador produz interpretações sustentadas por evidências. Essas interpretações podem ser revistas quando surgem novas fontes ou novas perguntas."
+    },
+    {
+      "id": "oficio-do-historiador-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Para estudar uma greve, podem ser comparados jornais, atas sindicais, fotografias e depoimentos de trabalhadores."
+    },
+    {
+      "id": "oficio-do-historiador-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Uma questão pode perguntar qual procedimento aumenta a confiabilidade de uma pesquisa: comparar fontes e verificar seu contexto."
+    },
+    {
+      "id": "oficio-do-historiador-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "O ofício do historiador consiste em pesquisar o passado por meio de perguntas, fontes e argumentos fundamentados.",
+        "O historiador produz interpretações sustentadas por evidências. Essas interpretações podem ser revistas quando surgem novas fontes ou novas perguntas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "O ofício do historiador consiste em pesquisar o passado por meio de perguntas, fontes e argumentos fundamentados.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>O historiador não presencia a maior parte dos fatos que estuda.</li><li>Ele trabalha com vestígios produzidos por pessoas e instituições.</li><li>Toda fonte possui autoria, finalidade e contexto.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores, arqueólogos, arquivistas e pesquisadores.</li><li>Autores e grupos citados ou omitidos nas fontes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Definir um problema de pesquisa.</li><li>Selecionar fontes.</li><li>Verificar autoria, data e intenção.</li><li>Comparar evidências.</li><li>Construir uma explicação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Tecnologias digitais ampliaram o acesso a documentos.</li><li>Relatos orais, fotografias e objetos cotidianos passaram a ser mais valorizados.</li></ul></section></div>",
+    "result": "O historiador produz interpretações sustentadas por evidências. Essas interpretações podem ser revistas quando surgem novas fontes ou novas perguntas.",
+    "example": "Para estudar uma greve, podem ser comparados jornais, atas sindicais, fotografias e depoimentos de trabalhadores.",
+    "exam": "Uma questão pode perguntar qual procedimento aumenta a confiabilidade de uma pesquisa: comparar fontes e verificar seu contexto."
+  },
+  "visualType": ""
+}

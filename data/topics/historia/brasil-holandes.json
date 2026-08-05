@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-brasil-holandes",
+  "discipline": "História",
+  "group": "Mundo moderno e colonização",
+  "title": "Brasil Holandês",
+  "blocks": [
+    {
+      "id": "brasil-holandes-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Brasil Holandês foi o período de domínio neerlandês em partes do Nordeste, principalmente entre 1630 e 1654."
+    },
+    {
+      "id": "brasil-holandes-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "brasil-holandes-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Disputa pelo açúcar.</li><li>Conflitos europeus.</li><li>Interesse da Companhia das Índias Ocidentais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Holandeses.</li><li>Senhores de engenho.</li><li>População local.</li><li>Indígenas e africanos escravizados.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Controle de áreas açucareiras.</li><li>Administração de Nassau.</li><li>Créditos aos produtores.</li><li>Obras urbanas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Modernização de Recife.</li><li>Conflitos por dívidas.</li><li>Expulsão dos holandeses.</li></ul></section></div>"
+    },
+    {
+      "id": "brasil-holandes-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "O período intensificou disputas comerciais e deixou marcas urbanas, artísticas e científicas."
+    },
+    {
+      "id": "brasil-holandes-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Pintores e naturalistas registraram paisagens e habitantes do Nordeste."
+    },
+    {
+      "id": "brasil-holandes-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A prova pode usar pintura de Frans Post e perguntar o que ela revela."
+    },
+    {
+      "id": "brasil-holandes-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Brasil Holandês foi o período de domínio neerlandês em partes do Nordeste, principalmente entre 1630 e 1654.",
+        "O período intensificou disputas comerciais e deixou marcas urbanas, artísticas e científicas."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Brasil Holandês foi o período de domínio neerlandês em partes do Nordeste, principalmente entre 1630 e 1654.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Disputa pelo açúcar.</li><li>Conflitos europeus.</li><li>Interesse da Companhia das Índias Ocidentais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Holandeses.</li><li>Senhores de engenho.</li><li>População local.</li><li>Indígenas e africanos escravizados.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Controle de áreas açucareiras.</li><li>Administração de Nassau.</li><li>Créditos aos produtores.</li><li>Obras urbanas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Modernização de Recife.</li><li>Conflitos por dívidas.</li><li>Expulsão dos holandeses.</li></ul></section></div>",
+    "result": "O período intensificou disputas comerciais e deixou marcas urbanas, artísticas e científicas.",
+    "example": "Pintores e naturalistas registraram paisagens e habitantes do Nordeste.",
+    "exam": "A prova pode usar pintura de Frans Post e perguntar o que ela revela."
+  },
+  "visualType": ""
+}

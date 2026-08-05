@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-pares-ordenados",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos I",
+  "title": "Pares ordenados",
+  "blocks": [
+    {
+      "id": "pares-ordenados-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Pares ordenados é um conteúdo previsto no programa da ONC."
+    },
+    {
+      "id": "pares-ordenados-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Um ponto é localizado por duas coordenadas: primeiro a posição horizontal x, depois a vertical y."
+    },
+    {
+      "id": "pares-ordenados-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Cada par identifica uma posição única no plano."
+    },
+    {
+      "id": "pares-ordenados-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Observe uma situação cotidiana relacionada a pares ordenados."
+    },
+    {
+      "id": "pares-ordenados-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "O ponto (3,2) está em: A) x=3 e y=2 B) x=2 e y=3 C) x=5 e y=0. Resposta: A."
+    },
+    {
+      "id": "pares-ordenados-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "pares-ordenados-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Pares ordenados é um conteúdo previsto no programa da ONC.",
+        "Cada par identifica uma posição única no plano."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Pares ordenados é um conteúdo previsto no programa da ONC.",
+    "process": "Um ponto é localizado por duas coordenadas: primeiro a posição horizontal x, depois a vertical y.",
+    "result": "Cada par identifica uma posição única no plano.",
+    "example": "Observe uma situação cotidiana relacionada a pares ordenados.",
+    "exam": "O ponto (3,2) está em: A) x=3 e y=2 B) x=2 e y=3 C) x=5 e y=0. Resposta: A."
+  },
+  "visualType": "coordinates"
+}

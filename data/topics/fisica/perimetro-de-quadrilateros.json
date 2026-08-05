@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "fisica-perimetro-de-quadrilateros",
+  "discipline": "Física",
+  "group": "Fundamentos Matemáticos I",
+  "title": "Perímetro de quadriláteros",
+  "blocks": [
+    {
+      "id": "perimetro-de-quadrilateros-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Perímetro é a soma dos comprimentos dos lados."
+    },
+    {
+      "id": "perimetro-de-quadrilateros-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "Somam-se os comprimentos de todos os lados do quadrilátero."
+    },
+    {
+      "id": "perimetro-de-quadrilateros-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Obtém-se o comprimento total do contorno."
+    },
+    {
+      "id": "perimetro-de-quadrilateros-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Um retângulo de lados 4 m e 3 m tem perímetro 14 m."
+    },
+    {
+      "id": "perimetro-de-quadrilateros-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Um retângulo 5 cm por 3 cm tem perímetro: A) 8 B) 15 C) 16 D) 30. Resposta: C."
+    },
+    {
+      "id": "perimetro-de-quadrilateros-physics",
+      "type": "strategy",
+      "label": "Raciocínio físico",
+      "content": "Identifique o que está mudando, o que permanece constante e quais grandezas podem ser comparadas ou medidas."
+    },
+    {
+      "id": "perimetro-de-quadrilateros-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Perímetro é a soma dos comprimentos dos lados.",
+        "Obtém-se o comprimento total do contorno."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Perímetro é a soma dos comprimentos dos lados.",
+    "process": "Somam-se os comprimentos de todos os lados do quadrilátero.",
+    "result": "Obtém-se o comprimento total do contorno.",
+    "example": "Um retângulo de lados 4 m e 3 m tem perímetro 14 m.",
+    "exam": "Um retângulo 5 cm por 3 cm tem perímetro: A) 8 B) 15 C) 16 D) 30. Resposta: C."
+  },
+  "visualType": ""
+}

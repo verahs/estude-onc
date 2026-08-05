@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "quimica-uso-da-energia",
+  "discipline": "Química",
+  "group": "Matéria, energia e transformações",
+  "title": "Uso da energia",
+  "blocks": [
+    {
+      "id": "uso-da-energia-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "A energia pode ser transformada entre formas diferentes."
+    },
+    {
+      "id": "uso-da-energia-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "A energia passa por conversões em aparelhos e sistemas."
+    },
+    {
+      "id": "uso-da-energia-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Há sempre alguma dissipação, geralmente como calor."
+    },
+    {
+      "id": "uso-da-energia-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Uma pilha transforma energia química em elétrica."
+    },
+    {
+      "id": "uso-da-energia-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "Uma pilha transforma energia química em: A) elétrica B) massa C) água. Resposta: A."
+    },
+    {
+      "id": "uso-da-energia-chem",
+      "type": "observe",
+      "label": "Procure evidências",
+      "content": "Observe mudanças de cor, formação de gás, precipitado, variação de temperatura ou alteração de estado físico. Essas pistas ajudam a interpretar o fenômeno."
+    },
+    {
+      "id": "uso-da-energia-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "A energia pode ser transformada entre formas diferentes.",
+        "Há sempre alguma dissipação, geralmente como calor."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "A energia pode ser transformada entre formas diferentes.",
+    "process": "A energia passa por conversões em aparelhos e sistemas.",
+    "result": "Há sempre alguma dissipação, geralmente como calor.",
+    "example": "Uma pilha transforma energia química em elétrica.",
+    "exam": "Uma pilha transforma energia química em: A) elétrica B) massa C) água. Resposta: A."
+  },
+  "visualType": ""
+}

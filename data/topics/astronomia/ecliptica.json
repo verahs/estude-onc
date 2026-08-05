@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-ecliptica",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Eclíptica",
+  "blocks": [
+    {
+      "id": "ecliptica-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Eclíptica é o caminho aparente que o Sol percorre no céu ao longo do ano, resultado do movimento de translação da Terra."
+    },
+    {
+      "id": "ecliptica-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Como interpretar</h5><ul><li>A Terra orbita o Sol.</li><li>À medida que muda de posição, vemos o Sol projetado diante de diferentes constelações.</li><li>Esse caminho aparente forma uma faixa no céu.</li></ul></section>"
+    },
+    {
+      "id": "ecliptica-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "As constelações próximas ao Sol mudam ao longo dos meses."
+    },
+    {
+      "id": "ecliptica-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Algumas constelações são visíveis em determinadas épocas do ano e não em outras."
+    },
+    {
+      "id": "ecliptica-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode apresentar uma sequência anual de posições aparentes do Sol e pedir qual movimento da Terra explica a mudança."
+    },
+    {
+      "id": "ecliptica-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Eclíptica é o caminho aparente que o Sol percorre no céu ao longo do ano, resultado do movimento de translação da Terra.",
+        "As constelações próximas ao Sol mudam ao longo dos meses."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Eclíptica é o caminho aparente que o Sol percorre no céu ao longo do ano, resultado do movimento de translação da Terra.",
+    "process": "<section><h5>Como interpretar</h5><ul><li>A Terra orbita o Sol.</li><li>À medida que muda de posição, vemos o Sol projetado diante de diferentes constelações.</li><li>Esse caminho aparente forma uma faixa no céu.</li></ul></section>",
+    "result": "As constelações próximas ao Sol mudam ao longo dos meses.",
+    "example": "Algumas constelações são visíveis em determinadas épocas do ano e não em outras.",
+    "exam": "A questão pode apresentar uma sequência anual de posições aparentes do Sol e pedir qual movimento da Terra explica a mudança."
+  },
+  "visualType": ""
+}

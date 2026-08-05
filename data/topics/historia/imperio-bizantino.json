@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "2.1",
+  "id": "historia-imperio-bizantino",
+  "discipline": "História",
+  "group": "Antiguidade e Idade Média",
+  "title": "Império Bizantino",
+  "blocks": [
+    {
+      "id": "imperio-bizantino-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Império Bizantino foi a continuidade do Império Romano no Oriente, com capital em Constantinopla."
+    },
+    {
+      "id": "imperio-bizantino-source",
+      "type": "observe",
+      "label": "Leia como historiador",
+      "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+    },
+    {
+      "id": "imperio-bizantino-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Sobreviveu à queda do Império Romano do Ocidente.</li><li>Localização estratégica entre Europa e Ásia.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Imperadores.</li><li>Comerciantes.</li><li>Camponeses.</li><li>Clero cristão oriental.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Poder imperial centralizado.</li><li>Comércio intenso.</li><li>Cristianismo ortodoxo.</li><li>Código de Justiniano.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansões e perdas territoriais.</li><li>Ruptura com a Igreja de Roma.</li><li>Queda em 1453.</li></ul></section></div>"
+    },
+    {
+      "id": "imperio-bizantino-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Preservou conhecimentos greco-romanos, influenciou o direito e conectou rotas comerciais entre continentes."
+    },
+    {
+      "id": "imperio-bizantino-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Constantinopla controlava uma passagem importante entre o Mar Negro e o Mediterrâneo."
+    },
+    {
+      "id": "imperio-bizantino-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode usar mapa comercial e pedir por que Constantinopla era estratégica."
+    },
+    {
+      "id": "imperio-bizantino-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Império Bizantino foi a continuidade do Império Romano no Oriente, com capital em Constantinopla.",
+        "Preservou conhecimentos greco-romanos, influenciou o direito e conectou rotas comerciais entre continentes."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Império Bizantino foi a continuidade do Império Romano no Oriente, com capital em Constantinopla.",
+    "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Sobreviveu à queda do Império Romano do Ocidente.</li><li>Localização estratégica entre Europa e Ásia.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Imperadores.</li><li>Comerciantes.</li><li>Camponeses.</li><li>Clero cristão oriental.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Poder imperial centralizado.</li><li>Comércio intenso.</li><li>Cristianismo ortodoxo.</li><li>Código de Justiniano.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansões e perdas territoriais.</li><li>Ruptura com a Igreja de Roma.</li><li>Queda em 1453.</li></ul></section></div>",
+    "result": "Preservou conhecimentos greco-romanos, influenciou o direito e conectou rotas comerciais entre continentes.",
+    "example": "Constantinopla controlava uma passagem importante entre o Mar Negro e o Mediterrâneo.",
+    "exam": "A questão pode usar mapa comercial e pedir por que Constantinopla era estratégica."
+  },
+  "visualType": ""
+}

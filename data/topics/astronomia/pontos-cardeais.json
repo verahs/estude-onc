@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "2.1",
+  "id": "astronomia-pontos-cardeais",
+  "discipline": "Astronomia",
+  "group": "Terra e orientação",
+  "title": "Pontos cardeais",
+  "blocks": [
+    {
+      "id": "pontos-cardeais-definition",
+      "type": "concept",
+      "label": "Entenda a ideia",
+      "content": "Pontos cardeais são direções de referência: norte, sul, leste e oeste. Entre eles estão os pontos colaterais: nordeste, sudeste, sudoeste e noroeste."
+    },
+    {
+      "id": "pontos-cardeais-process",
+      "type": "process",
+      "label": "Como funciona",
+      "content": "<section><h5>Como se orientar</h5><ul><li>O Sol nasce aproximadamente a leste.</li><li>O Sol se põe aproximadamente a oeste.</li><li>Em mapas, o norte costuma ficar na parte superior.</li><li>A rosa dos ventos representa as direções.</li></ul></section>"
+    },
+    {
+      "id": "pontos-cardeais-result",
+      "type": "result",
+      "label": "O que podemos concluir",
+      "content": "Os pontos cardeais permitem descrever trajetos, interpretar mapas e localizar objetos no espaço."
+    },
+    {
+      "id": "pontos-cardeais-example",
+      "type": "example",
+      "label": "Veja na prática",
+      "content": "Se uma escola está a leste de uma praça, ela fica na direção aproximada do nascer do Sol."
+    },
+    {
+      "id": "pontos-cardeais-exam",
+      "type": "onc",
+      "label": "Pense como na ONC",
+      "content": "A questão pode apresentar uma rosa dos ventos e um trajeto e pedir a direção correta do deslocamento."
+    },
+    {
+      "id": "pontos-cardeais-review",
+      "type": "review",
+      "label": "Revisão rápida",
+      "items": [
+        "Pontos cardeais são direções de referência: norte, sul, leste e oeste. Entre eles estão os pontos colaterais: nordeste, sudeste, sudoeste e noroeste.",
+        "Os pontos cardeais permitem descrever trajetos, interpretar mapas e localizar objetos no espaço."
+      ]
+    }
+  ],
+  "learningDesign": {
+    "flexible": true,
+    "minimumCore": [
+      "concept",
+      "example",
+      "onc"
+    ],
+    "editorialPremises": [
+      "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+      "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+    ]
+  },
+  "legacy": {
+    "definition": "Pontos cardeais são direções de referência: norte, sul, leste e oeste. Entre eles estão os pontos colaterais: nordeste, sudeste, sudoeste e noroeste.",
+    "process": "<section><h5>Como se orientar</h5><ul><li>O Sol nasce aproximadamente a leste.</li><li>O Sol se põe aproximadamente a oeste.</li><li>Em mapas, o norte costuma ficar na parte superior.</li><li>A rosa dos ventos representa as direções.</li></ul></section>",
+    "result": "Os pontos cardeais permitem descrever trajetos, interpretar mapas e localizar objetos no espaço.",
+    "example": "Se uma escola está a leste de uma praça, ela fica na direção aproximada do nascer do Sol.",
+    "exam": "A questão pode apresentar uma rosa dos ventos e um trajeto e pedir a direção correta do deslocamento."
+  },
+  "visualType": ""
+}
