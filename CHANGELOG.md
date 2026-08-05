@@ -1,5 +1,23 @@
 # Changelog
 
+## [7.2.3.1] — 2026-08-05 — Detector de Hábitos de Estudo
+
+### Adicionado
+- Dias ativos em 7, 14 e 30 dias.
+- Sequência atual e maior sequência observada.
+- Índice de consistência.
+- Horário e período do dia mais frequentes.
+- Duração média e mediana das sessões.
+- Distribuição por dia da semana e por hora.
+- Sinais de concentração, baixa frequência e sessões excessivamente curtas ou longas.
+- Recomendações objetivas de rotina.
+- Painel detalhado nos relatórios.
+
+### Transparência
+- O detector descreve padrões de uso da plataforma.
+- Os indicadores não constituem diagnóstico comportamental, psicológico ou clínico.
+- Amostras pequenas são apresentadas como evidência insuficiente.
+
 ## [7.2.2] — 2026-08-05 — Predição de Desempenho
 
 ### Adicionado

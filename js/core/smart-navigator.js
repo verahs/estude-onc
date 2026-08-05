@@ -168,6 +168,8 @@ ONC.SmartNavigator = {
     ONC.AdaptivePlanner?.recalculate?.("smart-navigation-complete");
     ONC.DailyCoachEngine?.refresh?.("review-complete");
     ONC.DailyCoachUI?.render?.();
+    ONC.StudyHabitEngine?.refresh?.("navigation-complete");
+    ONC.StudyHabitUI?.render?.();
 
     this.announce("Revisão concluída.");
     ONC.Notifications?.announce?.("Revisão concluída. O tutor recalculou a próxima ação.");

@@ -62,6 +62,8 @@ ONC.LearningEngine = {
     ONC.DailyCoachUI?.render?.();
     ONC.PerformancePredictionEngine?.refresh?.("response");
     ONC.PerformancePredictionUI?.render?.();
+    ONC.StudyHabitEngine?.refresh?.("response");
+    ONC.StudyHabitUI?.render?.();
     return event;
   },
 

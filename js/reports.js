@@ -22,5 +22,6 @@ ONC.Reports = {
     ONC.NavigationUI?.renderReport?.();
     ONC.DailyCoachUI?.renderReport?.();
     ONC.PerformancePredictionUI?.renderReport?.();
+    ONC.StudyHabitUI?.renderReport?.();
   }
 };

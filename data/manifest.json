@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.2.2",
+  "version": "7.2.3.1",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -9,6 +9,7 @@
   "contentSchemaVersion": "2.1",
   "catalog": "catalog.json",
   "features": [
+    "activity-streak",
     "adaptive-daily-planner",
     "adaptive-learning-engine",
     "adaptive-simulation",
@@ -51,6 +52,8 @@
     "forgetting-curve",
     "global-content-index",
     "guardian-dashboard",
+    "habit-consistency-score",
+    "habit-recommendations",
     "instant-search",
     "knowledge-graph",
     "learning-analytics-engine",
@@ -76,6 +79,7 @@
     "prediction-confidence",
     "prediction-interval",
     "prediction-risk-factors",
+    "preferred-study-time",
     "premium-svg-library",
     "preparation-index",
     "prerequisite-intervention",
@@ -87,6 +91,7 @@
     "risk-index",
     "root-cause-hypotheses",
     "scenario-projection",
+    "session-duration-analysis",
     "shareable-report",
     "skill-clustering",
     "smart-topic-navigation",
@@ -94,6 +99,7 @@
     "spaced-review",
     "structured-study-history",
     "student-levels",
+    "study-habit-detector",
     "study-session-stats",
     "subject-performance-estimate",
     "time-boxed-study-plan",
@@ -102,6 +108,7 @@
     "tutor-navigation-banner",
     "ux-intelligent",
     "visual-lightbox",
+    "weekly-activity-pattern",
     "weekly-learning-summary",
     "xp-system"
   ],
@@ -117,5 +124,6 @@
   "diagnosticEngineVersion": "1.0",
   "smartNavigationVersion": "1.0",
   "dailyCoachVersion": "1.0",
-  "performancePredictionVersion": "1.0"
+  "performancePredictionVersion": "1.0",
+  "studyHabitEngineVersion": "1.0"
 }
