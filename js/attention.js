@@ -110,7 +110,9 @@ ONC.Attention = {
 
     this.attempts[topic.id] = current;
     ONC.Storage.set(this.storageKey(), this.attempts);
+    ONC.StudyHistory?.recordAttempt(question, topic.id, correct, source);
     this.refresh();
+    ONC.SmartTutor?.refresh();
   },
 
   daysSince(dateString) {

@@ -107,6 +107,12 @@ ONC.Quiz = {
     const history = ONC.Storage.get("onc_quiz_history", []);
     history.unshift({date:new Date().toLocaleString("pt-BR"),subject:this.active.subject,hits,total,pct});
     ONC.Storage.set("onc_quiz_history",history.slice(0,20));
+    ONC.StudyHistory?.recordQuiz({
+      subject: this.active.subject,
+      hits,
+      total,
+      pct
+    });
     ONC.Storage.set("onc_quiz_seen",this.seen);
     document.getElementById("quizArea").insertAdjacentHTML("afterbegin",
       `<div class="resultPanel"><h2>Resultado</h2><p><strong>${hits}/${total}</strong> — ${pct}% — Nota ${(hits/total*10).toFixed(1).replace(".",",")}/10</p></div>`);

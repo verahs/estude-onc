@@ -43,6 +43,13 @@ ONC.Study = {
     }
     this.updateMetrics();
     ONC.StudyTools?.renderDisciplineProgress();
+    ONC.StudyHistory?.recordTopicEvent(
+      id,
+      card?.dataset.topicTitle || "",
+      card?.dataset.discipline || "",
+      checked ? "completed" : "reopened"
+    );
+    ONC.SmartTutor?.refresh();
   },
 
   render() {

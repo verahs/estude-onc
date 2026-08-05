@@ -1,0 +1,325 @@
+/* Sprint 4.0 — Tutor Inteligente */
+
+.preparationPanel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 28px;
+  margin: 18px 0;
+  border: 1px solid rgba(44, 99, 199, .24);
+  border-radius: 20px;
+  background: linear-gradient(135deg, #edf6ff, #fff);
+  padding: 22px;
+  box-shadow: 0 14px 34px rgba(31, 42, 68, .07);
+}
+
+.preparationMain strong {
+  display: block;
+  margin: 5px 0;
+  color: #153966;
+  font-size: 2.5rem;
+}
+
+.preparationMain p {
+  margin: 0 0 12px;
+  color: var(--muted);
+}
+
+.preparationBar {
+  overflow: hidden;
+  height: 11px;
+  border-radius: 999px;
+  background: #dfe8f3;
+}
+
+.preparationBar span {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #2c63c7, #54a0dd);
+  transition: width .35s ease;
+}
+
+.preparationMetrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(90px, 1fr));
+  gap: 10px;
+}
+
+.preparationMetrics div {
+  min-width: 96px;
+  border-radius: 15px;
+  background: rgba(255,255,255,.84);
+  padding: 14px 12px;
+  text-align: center;
+}
+
+.preparationMetrics strong,
+.preparationMetrics span {
+  display: block;
+}
+
+.preparationMetrics strong {
+  color: #142f58;
+  font-size: 1.45rem;
+}
+
+.preparationMetrics span {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: .76rem;
+}
+
+.tutorDashboard {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(300px, .75fr);
+  gap: 18px;
+  margin: 20px 0;
+}
+
+.tutorCard {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 12px 28px rgba(31, 42, 68, .06);
+}
+
+.tutorCard--wide,
+.missionCard,
+.nextActionCard {
+  grid-column: 1 / -1;
+}
+
+.missionCard {
+  border-color: rgba(44, 99, 199, .28);
+  background: linear-gradient(135deg, #f3f8ff, #fff);
+}
+
+.missionHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.missionHeader h2 {
+  margin: 5px 0;
+}
+
+.missionHeader p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.missionScore {
+  text-align: right;
+}
+
+.missionScore strong,
+.missionScore span {
+  display: block;
+}
+
+.missionScore strong {
+  color: #17467c;
+  font-size: 1.9rem;
+}
+
+.missionScore span {
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.missionProgress {
+  overflow: hidden;
+  height: 10px;
+  margin: 16px 0;
+  border-radius: 999px;
+  background: #dfe8f3;
+}
+
+.missionProgress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #2c63c7;
+}
+
+.missionTasks {
+  display: grid;
+  gap: 10px;
+}
+
+.missionTask {
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: #fff;
+  padding: 13px;
+}
+
+.missionTask.is-complete {
+  opacity: .72;
+  background: #f2faf5;
+}
+
+.missionCheck input {
+  position: absolute;
+  opacity: 0;
+}
+
+.missionCheck span {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #9aabc0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.missionCheck input:checked + span {
+  border-color: #278b62;
+  background: #278b62;
+}
+
+.missionCheck input:checked + span::after {
+  content: "✓";
+  color: #fff;
+  font-weight: 900;
+}
+
+.missionTaskContent strong,
+.missionTaskContent small {
+  display: block;
+}
+
+.missionTaskContent small {
+  margin-top: 3px;
+  color: var(--muted);
+}
+
+.missionTaskMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-top: 7px;
+  color: #506176;
+  font-size: .75rem;
+}
+
+.nextActionCard {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 16px;
+  border-color: #d8e5f3;
+}
+
+.nextActionIcon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 15px;
+  background: #e8f2ff;
+  color: #2c63c7;
+  font-size: 1.3rem;
+}
+
+.nextActionContent h3 {
+  margin: 4px 0;
+}
+
+.nextActionContent p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.nextActionMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 14px;
+  margin-top: 8px;
+  color: #506176;
+  font-size: .78rem;
+}
+
+.masteryBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 999px;
+  padding: 3px 7px;
+  font-size: .70rem;
+  font-weight: 850;
+}
+
+.masteryBadge--excellent {
+  color: #176949;
+  background: #dff5e9;
+}
+
+.masteryBadge--strong {
+  color: #246a57;
+  background: #e6f4ee;
+}
+
+.masteryBadge--developing {
+  color: #655516;
+  background: #fff4c8;
+}
+
+.masteryBadge--review {
+  color: #8a4800;
+  background: #ffe8c8;
+}
+
+.masteryBadge--critical {
+  color: #8a3035;
+  background: #ffe6e8;
+}
+
+@media (max-width: 900px) {
+  .preparationPanel,
+  .tutorDashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .tutorCard--wide,
+  .missionCard,
+  .nextActionCard {
+    grid-column: auto;
+  }
+
+  .preparationMetrics {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .missionHeader,
+  .preparationPanel {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .preparationMetrics {
+    grid-template-columns: 1fr;
+  }
+
+  .missionTask,
+  .nextActionCard {
+    grid-template-columns: 1fr;
+  }
+
+  .missionTask .btn,
+  .nextActionCard .btn {
+    width: 100%;
+  }
+}

@@ -1,5 +1,24 @@
 # Changelog
 
+## [4.0] — 2026-08-05
+
+### Adicionado
+- Motor independente de prioridade dinâmica.
+- Índice de domínio por tópico, em percentual e estrelas.
+- Missão diária automática com três tarefas.
+- Próxima melhor ação recomendada.
+- Índice de preparação estimada.
+- Histórico estruturado de estudo e desempenho.
+- Contadores de tópicos estudados e dominados.
+- Dashboard orientado à ação.
+
+### Arquitetura
+- `priority-engine.js` não depende da interface e pode ser reutilizado por revisões, simulados adaptativos e futuras integrações.
+- `progress-engine.js` concentra o cálculo de domínio.
+- `mission-engine.js` gera e persiste a missão diária.
+- `study-history.js` centraliza eventos, tentativas, sessões e resultados.
+- `smart-tutor.js` atua como camada de apresentação e orquestração.
+
 ## [3.1] — 2026-08-05
 
 ### Adicionado

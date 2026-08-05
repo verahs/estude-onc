@@ -82,6 +82,7 @@ ONC.StudyTools = {
       discipline
     };
     this.scheduleReview(id, topicTitle, discipline);
+    ONC.StudyHistory?.recordTopicEvent(id, topicTitle, discipline, "opened");
     this.save();
     this.renderResumeCard();
     this.renderWeeklyStats();
@@ -102,12 +103,14 @@ ONC.StudyTools = {
     if (!this.currentSession) return;
     const endedAt = Date.now();
     const seconds = Math.max(1, Math.round((endedAt - this.currentSession.startedAt) / 1000));
-    this.state.sessions.push({
+    const completedSession = {
       ...this.currentSession,
       endedAt,
       seconds,
       date: new Date().toISOString().slice(0, 10)
-    });
+    };
+    this.state.sessions.push(completedSession);
+    ONC.StudyHistory?.recordSession(completedSession);
     this.state.sessions = this.state.sessions.slice(-500);
     this.currentSession = null;
     this.save();
@@ -178,11 +181,17 @@ ONC.StudyTools = {
       return;
     }
 
+    const mastery = ONC.ProgressEngine?.get(last.id) || 0;
+    const opened = new Date(last.openedAt);
+    const time = opened.toLocaleString("pt-BR", {
+      day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"
+    });
+
     root.innerHTML = `
       <div>
-        <span class="dashboardLabel">Último tópico aberto</span>
+        <span class="dashboardLabel">Continue de onde parou</span>
         <strong>${last.title}</strong>
-        <small>${last.discipline}</small>
+        <small>${last.discipline} • domínio ${mastery}% • última visita ${time}</small>
       </div>
       <button class="btn" type="button" onclick="ONC.StudyTools.resumeLastTopic()">
         Continuar
@@ -212,16 +221,20 @@ ONC.StudyTools = {
       const done = cards.filter(card => ONC.Study.progress[card.dataset.topicId] === true).length;
       const percent = total ? Math.round(done * 100 / total) : 0;
 
+      const mastery = ONC.ProgressEngine?.disciplineSummary(subject.name) || {
+        mastered: 0, average: 0
+      };
+
       return `
         <div class="disciplineProgressRow">
           <div class="disciplineProgressHeader">
             <span>${subject.icon} ${subject.name}</span>
-            <strong>${percent}%</strong>
+            <strong>${percent}% concluído</strong>
           </div>
           <div class="disciplineProgressBar">
             <span style="width:${percent}%"></span>
           </div>
-          <small>${done} de ${total} tópicos concluídos</small>
+          <small>${done} concluídos • ${Math.max(0, total - done)} pendentes • ${mastery.mastered} dominados • domínio médio ${mastery.average}%</small>
         </div>`;
     });
 

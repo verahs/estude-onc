@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "3.1",
+  "version": "4.0",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -12,15 +12,22 @@
     "attention-engine",
     "attention-filter",
     "collapsed-recurrence-panel",
+    "daily-mission",
     "discipline-progress",
+    "dynamic-priority-engine",
     "estimated-reading-time",
     "favorites",
     "focus-mode",
     "instant-search",
+    "mastery-index",
+    "next-best-action",
     "organized-study-filters",
+    "preparation-index",
     "resume-last-topic",
     "risk-index",
+    "smart-tutor",
     "spaced-review",
+    "structured-study-history",
     "study-session-stats"
   ]
 }

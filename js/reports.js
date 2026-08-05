@@ -8,6 +8,10 @@ ONC.Reports = {
     document.getElementById("reportProgress").textContent = `${done}/${total}`;
     document.getElementById("reportQuizCount").textContent = history.length;
     document.getElementById("reportAverage").textContent = avg===null ? "—" : avg+"%";
+    const preparation = ONC.ProgressEngine?.summary()?.preparation ?? 0;
+    const reportAverage = document.getElementById("reportAverage");
+    if (reportAverage && avg === null) reportAverage.textContent = `${preparation}% prep.`;
+
     document.getElementById("reportHistory").innerHTML = history.length
       ? `<table class="historyTable"><tr><th>Data</th><th>Disciplina</th><th>Resultado</th></tr>
         ${history.map(x=>`<tr><td>${x.date}</td><td>${x.subject}</td><td>${x.hits}/${x.total} (${x.pct}%)</td></tr>`).join("")}</table>`
