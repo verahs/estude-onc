@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (box) {
       box.classList.remove("hidden");
       box.textContent =
-        "Erro ao carregar a plataforma. Para testar localmente, abra o projeto por um servidor web ou publique o pacote no Netlify.";
+        `Erro ao carregar a plataforma: ${error.message}`;
     }
   }
 });

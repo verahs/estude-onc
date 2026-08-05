@@ -1,0 +1,18 @@
+HOTFIX SPRINT 2.1 — CORREÇÃO DE CACHE
+
+O catálogo publicado está correto. O erro ocorreu porque o navegador carregou
+uma versão antiga do arquivo data-loader.js.
+
+1. Extraia este ZIP.
+2. Copie index.html e a pasta js para a raiz do repositório:
+   Documentos\Projeto\EstudeONC\01_Projeto\estude-onc
+3. Autorize substituir os arquivos existentes.
+4. No GitHub Desktop:
+   Summary: Correção - Cache da Sprint 2
+   Description: Adicionado versionamento dos arquivos JS/CSS e validação do catálogo.
+5. Commit to main.
+6. Push origin.
+7. Aguarde 1 a 3 minutos.
+8. Abra:
+   https://verahs.github.io/estude-onc/
+9. Pressione Ctrl + F5 uma vez.
