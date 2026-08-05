@@ -10,7 +10,7 @@ ONC.AssessmentUI = {
     const root = document.getElementById("adaptiveQuizSummary");
     if (!root) return;
 
-    const top = ONC.PriorityEngine.rank({ limit: 3, excludeMastered: true });
+    const top = ONC.LearningAnalyticsEngine.priorityTopics({ limit: 3 });
     root.innerHTML = `
       <div>
         <span class="dashboardLabel">Simulado inteligente</span>
@@ -30,7 +30,7 @@ ONC.AssessmentUI = {
   renderPerformance() {
     const root = document.getElementById("performanceEstimate");
     if (!root) return;
-    const estimate = ONC.AssessmentEngine.performanceEstimate();
+    const estimate = ONC.LearningAnalyticsEngine.performanceEstimate();
 
     root.innerHTML = `
       <span class="dashboardLabel">Indicador de desempenho</span>
@@ -47,7 +47,7 @@ ONC.AssessmentUI = {
     const root = document.getElementById("learningHeatmap");
     if (!root) return;
 
-    root.innerHTML = ONC.AssessmentEngine.heatmap().map(item => `
+    root.innerHTML = ONC.LearningAnalyticsEngine.heatmap().map(item => `
       <article class="heatmapRow">
         <span>${item.icon} ${item.discipline}</span>
         <div class="heatmapCells" aria-label="Domínio ${item.mastery}%">

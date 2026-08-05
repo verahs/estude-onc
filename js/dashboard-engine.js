@@ -1,2 +1,79 @@
-window.ONC=window.ONC||{};
-ONC.DashboardEngine={init(){this.render();},render(){const a=ONC.MasteryEngine.average(),m=ONC.MemoryEngine.averageMemory();document.getElementById('masteryAverageValue')&&(document.getElementById('masteryAverageValue').textContent=`${a}%`);document.getElementById('masteryAverageBar')&&(document.getElementById('masteryAverageBar').style.width=`${a}%`);document.getElementById('memoryAverageValue')&&(document.getElementById('memoryAverageValue').textContent=`${m}%`);document.getElementById('memoryAverageBar')&&(document.getElementById('memoryAverageBar').style.width=`${m}%`);ONC.DailyGoals.render();this.next();this.review();},next(){const root=document.getElementById('nextBestAction'),i=ONC.TutorEngine.nextBestAction();if(!root||!i)return;const x=ONC.MasteryEngine.get(i.id),th=ONC.TutorEngine.threshold(i.id);root.innerHTML=`<div class="nextActionIcon">▶</div><div class="nextActionContent"><span class="dashboardLabel">Continue agora</span><h3>${ONC.TutorEngine.action(i.id)} ${i.title}</h3><p>${ONC.TutorEngine.why(i.id).join(' • ')}</p><div class="nextActionMeta"><span>⏱ cerca de 3 min</span><span>Domínio atual ${x.score}%</span><span>Faltam ${th.remaining} pontos para ${th.next}%</span></div></div><button class="btn primary" onclick="ONC.Attention.openTopic('${i.id}')">Continuar</button>`;},review(){const root=document.getElementById('nextReviewCard');if(!root)return;const a=ONC.MasteryEngine.topicIndex.map(t=>({...t,memory:ONC.MemoryEngine.status(t.id)})).filter(t=>t.memory.nextReview).sort((x,y)=>x.memory.nextReview-y.memory.nextReview),n=a[0];if(!n)return;root.innerHTML=`<div class="reviewCardIcon">⏰</div><div class="reviewCardContent"><span class="dashboardLabel">Próxima revisão</span><h3>${n.title}</h3><p>Memória prevista ${n.memory.memory}% • ${n.memory.recommendation}</p><small>${n.memory.due?'Agora':n.memory.nextReview.toLocaleDateString('pt-BR')} • cerca de 2 minutos</small></div><button class="btn" onclick="ONC.Attention.openTopic('${n.id}')">Iniciar</button>`;}};
+window.ONC = window.ONC || {};
+
+ONC.DashboardEngine = {
+  init() {
+    this.render();
+  },
+
+  render() {
+    const overview = ONC.LearningAnalyticsEngine.overview();
+
+    const masteryValue = document.getElementById("masteryAverageValue");
+    const masteryBar = document.getElementById("masteryAverageBar");
+    const memoryValue = document.getElementById("memoryAverageValue");
+    const memoryBar = document.getElementById("memoryAverageBar");
+
+    if (masteryValue) masteryValue.textContent = `${overview.averageMastery}%`;
+    if (masteryBar) masteryBar.style.width = `${overview.averageMastery}%`;
+    if (memoryValue) memoryValue.textContent = `${overview.averageMemory}%`;
+    if (memoryBar) memoryBar.style.width = `${overview.averageMemory}%`;
+
+    ONC.DailyGoals?.render?.();
+    this.next();
+    this.review();
+  },
+
+  next() {
+    const root = document.getElementById("nextBestAction");
+    const item = ONC.TutorEngine?.nextBestAction?.();
+    if (!root || !item) return;
+
+    const analytics = ONC.LearningAnalyticsEngine.topic(item.id);
+    const threshold = ONC.TutorEngine.threshold(item.id);
+
+    root.innerHTML = `
+      <div class="nextActionIcon">▶</div>
+      <div class="nextActionContent">
+        <span class="dashboardLabel">Continue agora</span>
+        <h3>${ONC.TutorEngine.action(item.id)} ${item.title}</h3>
+        <p>${ONC.TutorEngine.why(item.id).join(" • ")}</p>
+        <div class="nextActionMeta">
+          <span>⏱ cerca de 3 min</span>
+          <span>Domínio atual ${analytics?.mastery?.score || 0}%</span>
+          <span>Faltam ${threshold.remaining} pontos para ${threshold.next}%</span>
+        </div>
+      </div>
+      <button class="btn primary"
+        onclick="ONC.Attention.openTopic('${item.id}')">Continuar</button>`;
+  },
+
+  review() {
+    const root = document.getElementById("nextReviewCard");
+    if (!root) return;
+
+    const next = ONC.LearningAnalyticsEngine.nextReview();
+    if (!next) {
+      root.innerHTML = `
+        <div class="dashboardEmpty">
+          <strong>Próxima revisão</strong>
+          <span>Estude um tópico para programar a revisão.</span>
+        </div>`;
+      return;
+    }
+
+    root.innerHTML = `
+      <div class="reviewCardIcon">⏰</div>
+      <div class="reviewCardContent">
+        <span class="dashboardLabel">Próxima revisão</span>
+        <h3>${next.title}</h3>
+        <p>Memória prevista ${next.memory.memory}% • ${next.memory.recommendation}</p>
+        <small>${
+          next.memory.due
+            ? "Agora"
+            : next.memory.nextReview.toLocaleDateString("pt-BR")
+        } • cerca de 2 minutos</small>
+      </div>
+      <button class="btn"
+        onclick="ONC.Attention.openTopic('${next.id}')">Iniciar</button>`;
+  }
+};

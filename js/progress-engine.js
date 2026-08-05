@@ -118,6 +118,17 @@ ONC.ProgressEngine = {
   },
 
   summary() {
+    const overview = ONC.LearningAnalyticsEngine?.overview?.();
+    if (overview) {
+      return {
+        total: overview.total,
+        studied: overview.studied,
+        mastered: overview.mastered,
+        average: overview.averageMastery,
+        preparation: overview.preparation
+      };
+    }
+
     const values = this.topicIndex.map(topic => this.get(topic.id));
     const studied = values.filter(value => value > 0).length;
     const mastered = values.filter(value => value >= 70).length;
@@ -125,16 +136,12 @@ ONC.ProgressEngine = {
       ? Math.round(values.reduce((sum, value) => sum + value, 0) / values.length)
       : 0;
 
-    // Preparation combines average mastery with curriculum coverage.
-    const coverage = values.length ? studied / values.length : 0;
-    const preparation = Math.round((average * 0.72) + (coverage * 100 * 0.28));
-
     return {
       total: values.length,
       studied,
       mastered,
       average,
-      preparation: Math.max(0, Math.min(100, preparation))
+      preparation: average
     };
   },
 
@@ -154,13 +161,18 @@ ONC.ProgressEngine = {
   },
 
   disciplineSummary(discipline) {
+    const summary = ONC.LearningAnalyticsEngine?.subjectSummary?.(discipline);
+    if (summary) return summary;
+
     const topics = this.topicIndex.filter(item => item.discipline === discipline);
     const values = topics.map(item => this.get(item.id));
-    const studied = values.filter(value => value > 0).length;
-    const mastered = values.filter(value => value >= 70).length;
-    const average = values.length
-      ? Math.round(values.reduce((sum, value) => sum + value, 0) / values.length)
-      : 0;
-    return { total: values.length, studied, mastered, average };
+    return {
+      total: values.length,
+      studied: values.filter(value => value > 0).length,
+      mastered: values.filter(value => value >= 70).length,
+      average: values.length
+        ? Math.round(values.reduce((sum, value) => sum + value, 0) / values.length)
+        : 0
+    };
   }
 };

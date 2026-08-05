@@ -114,59 +114,10 @@ ONC.AssessmentEngine = {
   },
 
   performanceEstimate() {
-    const history = ONC.Storage.get("onc_quiz_history", []);
-    const mastery = ONC.MasteryEngine.average();
-    const memory = ONC.MemoryEngine.averageMemory();
-
-    if (!history.length) {
-      return {
-        index: Math.round((mastery * 0.65) + (memory * 0.35)),
-        confidence: "Baixa",
-        sample: 0,
-        label: "Estimativa inicial",
-        note: "Faça simulados para tornar o indicador mais representativo."
-      };
-    }
-
-    const recent = history.slice(0, 5);
-    const average = recent.reduce((sum, item) => sum + item.pct, 0) / recent.length;
-    const consistency = Math.max(0, 100 - (
-      recent.reduce((sum, item) => sum + Math.abs(item.pct - average), 0) / recent.length
-    ));
-
-    const index = Math.round(
-      (average * 0.55) +
-      (mastery * 0.25) +
-      (memory * 0.10) +
-      (consistency * 0.10)
-    );
-
-    return {
-      index: Math.max(0, Math.min(100, index)),
-      confidence: recent.length >= 5 ? "Média" : "Baixa",
-      sample: recent.length,
-      label: index >= 75 ? "Preparação consistente" :
-        index >= 50 ? "Em evolução" : "Base em construção",
-      note: "Indicador interno de preparação; não é previsão de nota ou medalha."
-    };
+    return ONC.LearningAnalyticsEngine.performanceEstimate();
   },
 
   heatmap() {
-    return ONC_DATA.subjects.map(subject => {
-      const summary = ONC.MasteryEngine.disciplineSummary(subject.name);
-      let level = "empty";
-      if (summary.average >= 70) level = "strong";
-      else if (summary.average >= 45) level = "developing";
-      else if (summary.average > 0) level = "attention";
-
-      return {
-        discipline: subject.name,
-        icon: subject.icon,
-        mastery: summary.average,
-        studied: summary.studied,
-        total: summary.total,
-        level
-      };
-    });
+    return ONC.LearningAnalyticsEngine.heatmap();
   }
 };

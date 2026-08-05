@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "5.1",
+  "version": "5.1.1",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -15,6 +15,7 @@
     "attention-filter",
     "attention-show-all",
     "attention-topic-disclosure",
+    "backward-compatible-mastery-api",
     "collapsed-attention-panel",
     "collapsed-recurrence-panel",
     "daily-goals",
@@ -30,11 +31,13 @@
     "focus-mode",
     "forgetting-curve",
     "instant-search",
+    "learning-analytics-engine",
     "learning-heatmap",
     "mastery-breakdown",
     "mastery-engine-v2",
     "mastery-index",
     "memory-engine",
+    "module-contracts",
     "next-best-action",
     "next-review-card",
     "organized-study-filters",
@@ -42,6 +45,7 @@
     "personalized-feedback",
     "preparation-index",
     "quiz-result-auto-scroll",
+    "resilient-startup",
     "resume-last-topic",
     "risk-index",
     "smart-tutor",
@@ -52,5 +56,6 @@
     "tutor-engine",
     "ux-intelligent",
     "xp-system"
-  ]
+  ],
+  "architectureVersion": "2.0"
 }

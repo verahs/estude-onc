@@ -1,5 +1,22 @@
 # Changelog
 
+## [5.1.1] — 2026-08-05 — Reestruturada
+
+### Corrigido
+- Restaurado o contrato `MasteryEngine.disciplineSummary()`.
+- Eliminado o erro que interrompia o carregamento do mapa de aprendizagem.
+
+### Arquitetura
+- Criado `LearningAnalyticsEngine` como camada única de agregação.
+- Assessment, Dashboard, Tutor e relatórios passaram a consultar a camada analítica.
+- Adicionados contratos explícitos entre módulos.
+- Inicialização tornou-se resiliente: a falha de um painel não interrompe toda a plataforma.
+- Mantida compatibilidade com chamadas antigas do `MasteryEngine`.
+
+### Qualidade
+- Adicionado diagnóstico de arquitetura.
+- Acrescentados testes de contrato e de integração estática.
+
 ## [5.1] — 2026-08-05
 
 ### Adicionado
