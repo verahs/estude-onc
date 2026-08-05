@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "5.0",
+  "version": "5.1",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -9,6 +9,7 @@
   "contentSchemaVersion": "2.1",
   "catalog": "catalog.json",
   "features": [
+    "adaptive-simulation",
     "attention-compact-summary",
     "attention-engine",
     "attention-filter",
@@ -29,6 +30,7 @@
     "focus-mode",
     "forgetting-curve",
     "instant-search",
+    "learning-heatmap",
     "mastery-breakdown",
     "mastery-engine-v2",
     "mastery-index",
@@ -36,6 +38,8 @@
     "next-best-action",
     "next-review-card",
     "organized-study-filters",
+    "performance-indicator",
+    "personalized-feedback",
     "preparation-index",
     "quiz-result-auto-scroll",
     "resume-last-topic",

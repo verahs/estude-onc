@@ -50,8 +50,15 @@ ONC.Questions = {
     this.answered[id]=true;
     ONC.Storage.set("onc_question_answered",this.answered);
     ONC.Attention?.recordAttempt(q, value === q.answer, "question-bank");
+    const diagnostic = ONC.AssessmentEngine.diagnostic(q, value);
     document.getElementById(`feedback-${id}`).innerHTML =
-      `<div class="feedback"><strong>${value===q.answer?"Resposta correta.":"Resposta incorreta."}</strong><br>${q.explanation}</div>`;
+      `<div class="feedback personalizedFeedback ${diagnostic.correct ? "is-correct" : "is-wrong"}">
+        <strong>${diagnostic.title}</strong>
+        <div><b>Sua resposta:</b> ${diagnostic.selectedText}</div>
+        <div><b>Resposta correta:</b> ${diagnostic.correctText}</div>
+        <p>${diagnostic.message}</p>
+        <small>${diagnostic.action}</small>
+      </div>`;
   },
   clearCurrent(){
     document.querySelectorAll("#questionBank input[type=radio]").forEach(i=>{i.checked=false;i.disabled=false;i.closest(".qoption").classList.remove("correct","wrong")});

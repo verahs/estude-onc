@@ -14,7 +14,9 @@ ONC.Reports = {
 
     document.getElementById("reportHistory").innerHTML = history.length
       ? `<table class="historyTable"><tr><th>Data</th><th>Disciplina</th><th>Resultado</th></tr>
-        ${history.map(x=>`<tr><td>${x.date}</td><td>${x.subject}</td><td>${x.hits}/${x.total} (${x.pct}%)</td></tr>`).join("")}</table>`
+        ${history.map(x=>`<tr><td>${x.date}</td><td>${x.subject}${x.mode==="adaptive" ? " • inteligente" : ""}</td><td>${x.hits}/${x.total} (${x.pct}%)</td></tr>`).join("")}</table>`
       : '<p class="note">Nenhum simulado concluído.</p>';
+
+    ONC.AssessmentUI?.renderReportWidgets();
   }
 };

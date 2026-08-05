@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.1] — 2026-08-05
+
+### Adicionado
+- Simulado inteligente baseado em erros, domínio, memória e recorrência.
+- Explicação personalizada após cada resposta.
+- Indicador interno de desempenho com nível de confiança.
+- Mapa de aprendizagem por disciplina.
+- Identificação de simulados inteligentes no histórico.
+
+### Nota metodológica
+- O indicador de desempenho não é previsão de nota, classificação ou medalha.
+
 ## [5.0] — 2026-08-05
 
 ### Adicionado

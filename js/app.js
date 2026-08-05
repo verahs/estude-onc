@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       ["MissionEngine", "init"],
       ["Gamification", "init"],
       ["TutorEngine", "init"],
+      ["AssessmentEngine", "init"],
+      ["AssessmentUI", "init"],
       ["DailyGoals", "init"],
       ["DashboardEngine", "init"],
       ["SmartTutor", "init"],

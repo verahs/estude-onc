@@ -11,16 +11,23 @@ ONC.Quiz = {
     document.getElementById("quizSubject").innerHTML =
       '<option value="">Todas as disciplinas</option>' + subjects.map(s=>`<option>${s}</option>`).join("");
   },
-  start() {
+  start(mode = "standard") {
     const subject = document.getElementById("quizSubject").value;
     const count = Number(document.getElementById("quizCount").value);
     const minutes = Number(document.getElementById("quizMinutes").value);
-    let pool=ONC_DATA.questions.filter(q=>!subject||q.subject===subject);
-    const unseen=pool.filter(q=>!this.seen[q.id]);
-    const source=unseen.length>=Math.min(count,pool.length)?unseen:pool;
-    pool=[...source].sort(()=>Math.random()-.5).slice(0,Math.min(count,source.length));
-    this.lastConfig={subject,count,minutes};
-    this.active = { questions: pool, subject: subject || "Todas" };
+
+    let pool;
+    if (mode === "adaptive") {
+      pool = ONC.AssessmentEngine.adaptivePool({ subject, count });
+    } else {
+      let available = ONC_DATA.questions.filter(q=>!subject||q.subject===subject);
+      const unseen=available.filter(q=>!this.seen[q.id]);
+      const source=unseen.length>=Math.min(count,available.length)?unseen:available;
+      pool=[...source].sort(()=>Math.random()-.5).slice(0,Math.min(count,source.length));
+    }
+
+    this.lastConfig={subject,count,minutes,mode};
+    this.active = { questions: pool, subject: subject || "Todas", mode };
     this.seconds = minutes*60;
     clearInterval(this.timer);
     this.timer = setInterval(()=> {
@@ -29,7 +36,8 @@ ONC.Quiz = {
       if (this.seconds <= 0) this.finish();
     },1000);
     document.getElementById("quizArea").innerHTML = `
-      <div class="quizTop"><strong>${pool.length} questões</strong><div class="timerBox" id="quizTimer"></div></div>
+      <div class="quizTop"><strong>${pool.length} questões ${mode === "adaptive" ? "• seleção inteligente" : ""}</strong><div class="timerBox" id="quizTimer"></div></div>
+      ${mode === "adaptive" ? `<div class="adaptiveQuizNotice">As questões foram priorizadas por erros, domínio, memória e recorrência.</div>` : ""}
       ${pool.map((q,i)=>this.card(q,i)).join("")}
       <button class="btn primary" onclick="ONC.Quiz.finish()">Finalizar e corrigir</button>`;
     this.drawTimer();
@@ -99,13 +107,27 @@ ONC.Quiz = {
         else if (input.checked) row.classList.add("wrong");
         input.disabled = true;
       });
+      const diagnostic = ONC.AssessmentEngine.diagnostic(q, value);
       document.getElementById(`quiz-card-${index}`).insertAdjacentHTML("beforeend",
-        `<div class="feedback"><strong>Gabarito: ${"ABCDE"[q.answer]}</strong><br>${q.explanation}</div>`);
+        `<div class="feedback personalizedFeedback ${correct ? "is-correct" : "is-wrong"}">
+          <strong>${diagnostic.title}</strong>
+          <div><b>Sua resposta:</b> ${diagnostic.selectedText}</div>
+          <div><b>Resposta correta:</b> ${diagnostic.correctText}</div>
+          <p>${diagnostic.message}</p>
+          <small>${diagnostic.action}</small>
+        </div>`);
     });
     const total = this.active.questions.length;
     const pct = Math.round(hits/total*100);
     const history = ONC.Storage.get("onc_quiz_history", []);
-    history.unshift({date:new Date().toLocaleString("pt-BR"),subject:this.active.subject,hits,total,pct});
+    history.unshift({
+      date:new Date().toLocaleString("pt-BR"),
+      subject:this.active.subject,
+      hits,
+      total,
+      pct,
+      mode:this.active.mode || "standard"
+    });
     ONC.Storage.set("onc_quiz_history",history.slice(0,20));
     ONC.StudyHistory?.recordQuiz({
       subject: this.active.subject,
