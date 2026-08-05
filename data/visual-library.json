@@ -1,18 +1,18 @@
 {
   "schemaVersion": "2.0",
-  "generatedFor": "Estude ONC 6.1",
+  "generatedFor": "Estude ONC 7.1 — lote editorial 1",
   "count": 141,
   "illustrations": {
     "astronomia-forma-da-terra": {
-      "path": "assets/illustrations-premium/astronomia/astronomia-forma-da-terra.webp",
+      "path": "assets/editorial/astronomia/astronomia-forma-da-terra.png",
       "title": "Forma da Terra",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração científica semirrealista sobre Forma da Terra",
-      "format": "webp",
-      "width": 1400,
-      "height": 820,
-      "edition": "6.1"
+      "alt": "Painel editorial científico sobre a forma da Terra",
+      "format": "png",
+      "width": 1536,
+      "height": 1024,
+      "edition": "7.1-lote-1"
     },
     "astronomia-atmosfera": {
       "path": "assets/illustrations-premium/astronomia/astronomia-atmosfera.webp",
@@ -235,15 +235,15 @@
       "edition": "6.1"
     },
     "astronomia-planetas-e-satelites": {
-      "path": "assets/illustrations-premium/astronomia/astronomia-planetas-e-satelites.webp",
+      "path": "assets/editorial/astronomia/astronomia-planetas-e-satelites.png",
       "title": "Planetas e satélites",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração científica semirrealista sobre Planetas e satélites",
-      "format": "webp",
-      "width": 1400,
-      "height": 820,
-      "edition": "6.1"
+      "alt": "Painel editorial científico sobre planetas e satélites",
+      "format": "png",
+      "width": 1536,
+      "height": 1024,
+      "edition": "7.1-lote-1"
     },
     "astronomia-asteroides-e-cometas": {
       "path": "assets/illustrations-premium/astronomia/astronomia-asteroides-e-cometas.webp",
@@ -1120,5 +1120,11 @@
     "format": "WebP",
     "style": "semi-realistic scientific editorial",
     "resolution": "1400x820"
+  },
+  "editorialAstronomy": {
+    "completed": 2,
+    "planned": 31,
+    "style": "scientific editorial cinematic",
+    "status": "pilot"
   }
 }

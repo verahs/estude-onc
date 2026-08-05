@@ -1,5 +1,16 @@
 # Changelog
 
+## [7.1-lote-1] — 2026-08-05 — Biblioteca Editorial Científica
+
+### Adicionado
+- Painel editorial científico de Forma da Terra.
+- Painel editorial científico de Planetas e satélites.
+- Integração com tópicos, questões, simulados e visualizador ampliado.
+
+### Status
+- 2 de 31 painéis de Astronomia concluídos no padrão editorial aprovado.
+- Os 29 tópicos restantes continuam temporariamente com as imagens da Sprint 6.1.
+
 ## [6.1] — 2026-08-05 — Astronomia Científica Premium
 
 ### Adicionado
