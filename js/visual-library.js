@@ -27,8 +27,8 @@ ONC.VisualLibrary = {
         <header class="learningBlock__header">
           <span class="learningBlock__icon" aria-hidden="true">🖼️</span>
           <div>
-            <h4>Explore a cena científica</h4>
-            <p>Observe iluminação, escala, posição e relações entre os elementos.</p>
+            <h4>Explore a ilustração</h4>
+            <p>Observe os elementos e relacione-os ao conceito estudado.</p>
           </div>
         </header>
         <button class="premiumVisualButton" type="button"

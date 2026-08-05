@@ -29,6 +29,10 @@ ONC.MissionEngine = {
   },
 
   generate() {
+    if (ONC.AdaptivePlanner && ONC.RecommendationEngine?.cache?.length) {
+      return ONC.AdaptivePlanner.generate("daily-start");
+    }
+
     const ranked = ONC.PriorityEngine.rank({ excludeMastered: true });
     const alerts = ONC.Attention.allAlerts();
     const tasks = [];

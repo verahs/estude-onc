@@ -1,28 +1,23 @@
 # Changelog
 
-## [7.1-lote-1] — 2026-08-05 — Biblioteca Editorial Científica
+## [7.0] — 2026-08-05 — IA Adaptativa e Motor Pedagógico
 
 ### Adicionado
-- Painel editorial científico de Forma da Terra.
-- Painel editorial científico de Planetas e satélites.
-- Integração com tópicos, questões, simulados e visualizador ampliado.
+- Learning Engine com eventos ricos de resposta.
+- Perfil cognitivo por tópico.
+- Classificação de erro: conceitual, recorrente, distração, pós-revisão e domínio instável.
+- Índice de confiança estatística.
+- Tendência de aprendizagem.
+- Recommendation Engine explicável com fatores e pesos auditáveis.
+- Missão diária recalculada após atividades.
+- Knowledge Graph com pré-requisitos e propagação de risco.
+- Painel adaptativo no estudo e nos relatórios.
+- Auditoria das decisões do tutor.
 
-### Status
-- 2 de 31 painéis de Astronomia concluídos no padrão editorial aprovado.
-- Os 29 tópicos restantes continuam temporariamente com as imagens da Sprint 6.1.
-
-## [6.1] — 2026-08-05 — Astronomia Científica Premium
-
-### Adicionado
-- 31 cenas científicas exclusivas para Astronomia.
-- Imagens WebP em 1400 × 820 pixels.
-- Iluminação, profundidade, textura, atmosfera e composição editorial.
-- Cenas específicas para Terra, Lua, eclipses, Sistema Solar, Universo e orientação.
-- Integração automática com tópicos, banco de questões e simulados.
-
-### Alterado
-- As ilustrações SVG básicas de Astronomia foram substituídas por cenas semirrealistas.
-- As outras disciplinas permanecem na biblioteca vetorial até suas respectivas entregas.
+### Transparência
+- As recomendações são baseadas em regras estatísticas locais e explicáveis.
+- O sistema não realiza diagnóstico psicológico ou pedagógico profissional.
+- Baixa quantidade de tentativas reduz explicitamente a confiança da estimativa.
 
 ## [5.3.1] — 2026-08-05 — Biblioteca Visual Premium
 

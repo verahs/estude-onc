@@ -27,7 +27,12 @@ ONC.Quiz = {
     }
 
     this.lastConfig={subject,count,minutes,mode};
-    this.active = { questions: pool, subject: subject || "Todas", mode };
+    this.active = {
+      questions: pool,
+      subject: subject || "Todas",
+      mode,
+      startedAt: performance.now()
+    };
     this.seconds = minutes*60;
     clearInterval(this.timer);
     this.timer = setInterval(()=> {
@@ -101,6 +106,13 @@ ONC.Quiz = {
       if (correct) hits++;
       this.seen[q.id]=true;
       ONC.Attention?.recordAttempt(q, correct, "simulado");
+      ONC.LearningEngine?.recordResponse?.(q, value, {
+        source: "simulado",
+        simulationMode: true,
+        responseTimeMs: this.active?.questions?.length
+          ? (performance.now() - (this.active.startedAt || performance.now())) / this.active.questions.length
+          : 0
+      });
       document.querySelectorAll(`input[name="quiz-${index}"]`).forEach(input=>{
         const row = input.closest(".qoption");
         if (Number(input.value) === q.answer) row.classList.add("correct");

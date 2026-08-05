@@ -1,0 +1,159 @@
+/* Sprint 7.0 — IA adaptativa e motor pedagógico */
+
+.adaptiveTutorPanel {
+  margin: 16px 0;
+  border-color: #cdddf4;
+  background: linear-gradient(135deg, #f2f7ff, #fff);
+}
+
+.adaptiveTutorHeader,
+.adaptiveReportHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.adaptiveTutorHeader h2,
+.adaptiveReportHeader h2 {
+  margin: 4px 0;
+}
+
+.adaptiveReportHeader p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.adaptiveScore {
+  display: grid;
+  place-items: center;
+  min-width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  background: #173a66;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.adaptiveRecommendation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 16px 0;
+  border: 1px solid #d9e3f0;
+  border-radius: 15px;
+  background: #fff;
+  padding: 14px;
+}
+
+.adaptiveRecommendation span {
+  color: #2c63c7;
+  font-size: .74rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.adaptiveRecommendation h3 {
+  margin: 4px 0;
+}
+
+.adaptiveRecommendation p {
+  margin: 0;
+  color: #526276;
+}
+
+.adaptiveMetrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.adaptiveMetrics span {
+  border-radius: 999px;
+  background: #eaf1fa;
+  padding: 7px 10px;
+  color: #42566f;
+  font-size: .75rem;
+}
+
+.dependencyDisclosure,
+.auditDisclosure {
+  margin-top: 14px;
+  border: 1px solid #dce5ef;
+  border-radius: 13px;
+  background: #fff;
+  padding: 10px 12px;
+}
+
+.dependencyDisclosure summary,
+.auditDisclosure summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.adaptiveLearningReport {
+  margin: 16px 0;
+}
+
+.adaptiveProfileTable {
+  display: grid;
+  gap: 7px;
+  margin-top: 16px;
+}
+
+.adaptiveProfileTable article {
+  display: grid;
+  grid-template-columns: minmax(190px, 1.4fr) repeat(4, minmax(105px, .7fr));
+  align-items: center;
+  gap: 9px;
+  border: 1px solid #e0e7ef;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.adaptiveProfileTable article > div {
+  display: grid;
+}
+
+.adaptiveProfileTable article > div span,
+.adaptiveProfileTable article > span {
+  color: #5d6d80;
+  font-size: .75rem;
+}
+
+.auditDisclosure pre {
+  overflow: auto;
+  max-height: 300px;
+  border-radius: 10px;
+  background: #14243a;
+  padding: 12px;
+  color: #eaf3ff;
+  font-size: .72rem;
+}
+
+@media (max-width: 850px) {
+  .adaptiveProfileTable article {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .adaptiveProfileTable article > div {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 580px) {
+  .adaptiveTutorHeader,
+  .adaptiveReportHeader,
+  .adaptiveRecommendation {
+    flex-direction: column;
+  }
+
+  .adaptiveRecommendation .btn {
+    width: 100%;
+  }
+
+  .adaptiveProfileTable article {
+    grid-template-columns: 1fr;
+  }
+}

@@ -8,6 +8,20 @@ ONC.TutorEngine = {
   },
 
   nextBestAction() {
+    const adaptive = ONC.RecommendationEngine?.next?.();
+    if (adaptive) {
+      return {
+        id: adaptive.topicId,
+        title: adaptive.title,
+        discipline: adaptive.discipline,
+        score: adaptive.score,
+        reasons: adaptive.reasons,
+        mastery: adaptive.mastery,
+        context: ONC.LearningAnalyticsEngine.topic(adaptive.topicId),
+        tutorScore: adaptive.score
+      };
+    }
+
     const ranked = ONC.LearningAnalyticsEngine.priorityTopics({ limit: null });
 
     const items = ranked.map(item => {

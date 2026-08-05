@@ -132,23 +132,3 @@
     padding: 6px;
   }
 }
-
-.premiumVisualButton img[src*="illustrations-premium/astronomia"],
-.questionPremiumVisual img[src*="illustrations-premium/astronomia"] {
-  background:#071a33; image-rendering:auto;
-}
-.learningBlock--visualPremium{position:relative}
-.learningBlock--visualPremium::after{
-  content:"CENA CIENTÍFICA PREMIUM";position:absolute;top:16px;right:18px;
-  border-radius:999px;background:rgba(17,69,123,.92);padding:5px 9px;color:#fff;
-  font-size:.64rem;font-weight:900;letter-spacing:.06em
-}
-
-/* Sprint 7.1 — Biblioteca Editorial Científica */
-.premiumVisualButton img[src*="assets/editorial/"],
-.questionPremiumVisual img[src*="assets/editorial/"] {
-  background:#020b18; object-fit:contain; aspect-ratio:3/2;
-}
-.premiumVisualButton:has(img[src*="assets/editorial/"]) span::before {
-  content:"PAINEL EDITORIAL • "; color:#0b63b6;
-}

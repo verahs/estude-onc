@@ -1,6 +1,7 @@
 window.ONC = window.ONC || {};
 ONC.Questions = {
   answered: {},
+  shownAt: {},
   init() {
     this.answered = ONC.Storage.get("onc_question_answered", {});
     const subjects = [...new Set(ONC_DATA.questions.map(q=>q.subject))];
@@ -24,6 +25,7 @@ ONC.Questions = {
       list.map(q=>this.card(q)).join("") || '<div class="card">Nenhuma questão encontrada.</div>';
   },
   card(q) {
+    this.shownAt[q.id] = performance.now();
     return `<article class="qcard" id="bank-${q.id}">
       <div class="qmeta"><span class="badge">${q.subject}</span><span class="badge">${q.topic}</span><span class="badge">${q.difficulty}</span></div>
       <div class="quizIntro">${q.intro || ""}</div>
@@ -50,6 +52,10 @@ ONC.Questions = {
     this.answered[id]=true;
     ONC.Storage.set("onc_question_answered",this.answered);
     ONC.Attention?.recordAttempt(q, value === q.answer, "question-bank");
+    ONC.LearningEngine?.recordResponse?.(q, value, {
+      source: "question-bank",
+      responseTimeMs: performance.now() - (this.shownAt[id] || performance.now())
+    });
     const diagnostic = ONC.AssessmentEngine.diagnostic(q, value);
     document.getElementById(`feedback-${id}`).innerHTML =
       `<div class="feedback personalizedFeedback ${diagnostic.correct ? "is-correct" : "is-wrong"}">
