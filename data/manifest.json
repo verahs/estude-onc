@@ -1,11 +1,21 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "3.0-sprint-2",
+  "version": "3.0-sprint-3",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
   "legacyContent": "legacy-content.json",
   "contentSchemaVersion": "2.1",
-  "catalog": "catalog.json"
+  "catalog": "catalog.json",
+  "features": [
+    "instant-search",
+    "favorites",
+    "resume-last-topic",
+    "discipline-progress",
+    "estimated-reading-time",
+    "spaced-review",
+    "study-session-stats",
+    "focus-mode"
+  ]
 }

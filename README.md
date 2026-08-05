@@ -1,21 +1,20 @@
-# Estude ONC 3.0 — Sprint 2
+# Estude ONC 3.0 — Sprint 3
 
 Plataforma educacional modular para preparação para a ONC.
 
-## O que mudou
-- 141 tópicos em arquivos JSON individuais;
-- catálogo mestre;
-- carregamento sob demanda;
-- cache e pré-carregamento;
-- melhor desempenho e manutenção;
-- CHANGELOG e teste de integridade.
-
-## Validação técnica
-Com Node.js instalado, execute na raiz:
-
-```bash
-node tests/validate-content.mjs
-```
+## Recursos desta sprint
+- favoritos;
+- continuar de onde parou;
+- progresso por disciplina;
+- estimativa de leitura;
+- revisão espaçada;
+- estatísticas semanais;
+- registro de sessões;
+- modo de foco com atalho `Esc`;
+- busca com atalho `/`.
 
 ## Publicação
-Copie todo o conteúdo para a raiz do repositório, faça commit e push. O GitHub Pages atualizará automaticamente.
+Copie todo o conteúdo para a raiz do repositório, faça commit e push.
+
+## Limitação atual
+Os dados do estudante ficam salvos no navegador usado. Ainda não há sincronização entre dispositivos.

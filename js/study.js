@@ -42,6 +42,7 @@ ONC.Study = {
       if (status) status.textContent = checked ? "Concluído" : "Pendente";
     }
     this.updateMetrics();
+    ONC.StudyTools?.renderDisciplineProgress();
   },
 
   render() {
@@ -181,7 +182,9 @@ ONC.Study = {
       data-visual-type="${this.escapeAttribute(topic.visualType || "")}"
       data-search="${this.escapeAttribute(searchableText)}"
       data-recurrence="${recurrence}"
-      data-recurrence-level="${level.key}">
+      data-recurrence-level="${level.key}"
+      data-discipline="${this.escapeAttribute(subject.name)}"
+      data-topic-title="${this.escapeAttribute(topic.title)}">
       <button class="topicSummary" type="button" aria-expanded="false"
         onclick="ONC.Study.toggleTopic(this)">
         <div class="topicTitleWrap">
@@ -205,6 +208,12 @@ ONC.Study = {
       <div class="topicDetails">
         <div class="topicReadingToolbar">
           <span>Leitura guiada</span>
+          <span class="readingEstimate" data-reading-estimate>Leitura estimada: —</span>
+          <button class="favoriteButton ${ONC.StudyTools?.isFavorite(id) ? "is-active" : ""}"
+            type="button"
+            aria-pressed="${ONC.StudyTools?.isFavorite(id) ? "true" : "false"}"
+            title="${ONC.StudyTools?.isFavorite(id) ? "Remover dos favoritos" : "Adicionar aos favoritos"}"
+            onclick="ONC.StudyTools.toggleFavorite('${id}', this)">★</button>
           <button class="btn btnSmall" type="button"
             onclick="ONC.Study.focusTopic('${id}')">Focar neste tópico</button>
           <button class="btn btnSmall" type="button"
@@ -239,6 +248,22 @@ ONC.Study = {
         ${this.visualFromType(content.visualType || card.dataset.visualType)}
       `;
       card.dataset.loaded = "true";
+
+      const readingMinutes = ONC.StudyTools?.estimateReadingMinutes(target.textContent || "") || 1;
+      const estimate = card.querySelector("[data-reading-estimate]");
+      if (estimate) estimate.textContent = `Leitura estimada: ${readingMinutes} min`;
+
+      ONC.StudyTools?.markTopicOpened(
+        card,
+        card.dataset.topicTitle,
+        card.dataset.discipline
+      );
+      ONC.StudyTools?.startSession(
+        card.dataset.topicId,
+        card.dataset.topicTitle,
+        card.dataset.discipline
+      );
+
       this.prefetchNeighbors(card);
     } catch (error) {
       console.error(error);
@@ -355,12 +380,14 @@ ONC.Study = {
   filter() {
     const q = document.getElementById("studySearch")?.value.trim().toLowerCase() || "";
     const recurrenceChoice = document.getElementById("recurrenceFilter")?.value || "all";
+    const favoritesOnly = document.getElementById("favoritesOnly")?.checked || false;
 
     document.querySelectorAll(".topicCard").forEach(card => {
       const matchesText = !q || card.dataset.search.includes(q);
       const matchesRecurrence = recurrenceChoice === "all" ||
         card.dataset.recurrenceLevel === recurrenceChoice;
-      const show = matchesText && matchesRecurrence;
+      const matchesFavorite = !favoritesOnly || ONC.StudyTools?.isFavorite(card.dataset.topicId);
+      const show = matchesText && matchesRecurrence && matchesFavorite;
       card.classList.toggle("hidden", !show);
 
       if (show && (q || recurrenceChoice !== "all")) {
