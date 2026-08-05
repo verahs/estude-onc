@@ -1,0 +1,248 @@
+/* Sprint 7.2.2 — Predição de Desempenho */
+
+.performancePredictionPanel,
+.performancePredictionReport {
+  margin: 16px 0;
+  border-color: #cfd7eb;
+  background:
+    radial-gradient(circle at top right, rgba(91,45,163,.10), transparent 34%),
+    linear-gradient(135deg, #f7f5fc, #fff);
+}
+
+.predictionHeader,
+.predictionReportHeader,
+.predictionFooter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.predictionHeader h2,
+.predictionReportHeader h2 {
+  margin: 4px 0;
+}
+
+.predictionHeader p,
+.predictionReportHeader p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.predictionScore {
+  display: grid;
+  min-width: 145px;
+  place-items: center;
+  border-radius: 18px;
+  background: #281b3c;
+  padding: 12px;
+  color: #fff;
+  text-align: center;
+}
+
+.predictionScore strong {
+  font-size: 2rem;
+}
+
+.predictionScore span {
+  font-size: .72rem;
+}
+
+.predictionRange {
+  margin: 18px 0;
+}
+
+.predictionTrack {
+  position: relative;
+  height: 15px;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#edf0f6,#d9dff0);
+}
+
+.predictionTrack i {
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#8d73bb,#5b2da3);
+}
+
+.predictionTrack b {
+  position: absolute;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  transform: translate(-50%,-50%);
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #281b3c;
+  box-shadow: 0 3px 10px rgba(40,27,60,.25);
+}
+
+.predictionScale {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: .7rem;
+}
+
+.predictionMetrics,
+.predictionReportGrid {
+  display: grid;
+  grid-template-columns: repeat(4,minmax(0,1fr));
+  gap: 9px;
+}
+
+.predictionMetrics article,
+.predictionReportGrid article {
+  border: 1px solid #dfe3ef;
+  border-radius: 13px;
+  background: #fff;
+  padding: 11px;
+}
+
+.predictionMetrics strong,
+.predictionMetrics span,
+.predictionMetrics small,
+.predictionReportGrid strong,
+.predictionReportGrid span {
+  display: block;
+}
+
+.predictionMetrics strong,
+.predictionReportGrid strong {
+  color: #5b2da3;
+  font-size: 1.2rem;
+}
+
+.predictionMetrics span,
+.predictionMetrics small,
+.predictionReportGrid span {
+  color: var(--muted);
+  font-size: .72rem;
+}
+
+.predictionColumns {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 12px;
+  margin: 14px 0;
+}
+
+.predictionColumns h3 {
+  margin: 0 0 8px;
+}
+
+.predictionRisk,
+.predictionOpportunity {
+  display: grid;
+  gap: 3px;
+  margin-bottom: 7px;
+  border-left: 4px solid #b9484d;
+  border-radius: 0 10px 10px 0;
+  background: #fff8f8;
+  padding: 9px 10px;
+}
+
+.predictionOpportunity {
+  border-left-color: #168a96;
+  background: #f4fbfa;
+}
+
+.predictionRisk span,
+.predictionOpportunity span {
+  color: var(--muted);
+  font-size: .75rem;
+}
+
+.predictionFooter {
+  align-items: center;
+  border-top: 1px solid #e1e5ef;
+  padding-top: 12px;
+}
+
+.predictionFooter small {
+  max-width: 760px;
+  color: var(--muted);
+}
+
+.subjectPredictionTable {
+  display: grid;
+  gap: 7px;
+  margin: 14px 0;
+}
+
+.subjectPredictionTable article {
+  display: grid;
+  grid-template-columns: minmax(180px,1.3fr) repeat(4,minmax(100px,.7fr));
+  gap: 9px;
+  align-items: center;
+  border: 1px solid #e1e5ed;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.subjectPredictionTable article > div {
+  display: grid;
+}
+
+.subjectPredictionTable span {
+  color: var(--muted);
+  font-size: .75rem;
+}
+
+.predictionMethod {
+  border: 1px solid #dde2ed;
+  border-radius: 12px;
+  background: #fafbfe;
+  padding: 10px 12px;
+}
+
+.predictionMethod summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+@media (max-width:850px) {
+  .predictionMetrics,
+  .predictionReportGrid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .subjectPredictionTable article {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .subjectPredictionTable article > div {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width:650px) {
+  .predictionHeader,
+  .predictionReportHeader,
+  .predictionFooter {
+    flex-direction: column;
+  }
+
+  .predictionScore {
+    width: 100%;
+  }
+
+  .predictionColumns {
+    grid-template-columns: 1fr;
+  }
+
+  .predictionScale span:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (max-width:430px) {
+  .predictionMetrics,
+  .predictionReportGrid,
+  .subjectPredictionTable article {
+    grid-template-columns: 1fr;
+  }
+}

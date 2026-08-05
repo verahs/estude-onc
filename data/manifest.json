@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.2.1",
+  "version": "7.2.2",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -70,7 +70,12 @@
     "organized-study-filters",
     "pedagogical-diagnostic-engine",
     "performance-indicator",
+    "performance-prediction",
     "personalized-feedback",
+    "prediction-calibration",
+    "prediction-confidence",
+    "prediction-interval",
+    "prediction-risk-factors",
     "premium-svg-library",
     "preparation-index",
     "prerequisite-intervention",
@@ -81,6 +86,7 @@
     "resume-last-topic",
     "risk-index",
     "root-cause-hypotheses",
+    "scenario-projection",
     "shareable-report",
     "skill-clustering",
     "smart-topic-navigation",
@@ -89,6 +95,7 @@
     "structured-study-history",
     "student-levels",
     "study-session-stats",
+    "subject-performance-estimate",
     "time-boxed-study-plan",
     "topic-visuals-141",
     "tutor-engine",
@@ -109,5 +116,6 @@
   "adaptiveEngineVersion": "1.0",
   "diagnosticEngineVersion": "1.0",
   "smartNavigationVersion": "1.0",
-  "dailyCoachVersion": "1.0"
+  "dailyCoachVersion": "1.0",
+  "performancePredictionVersion": "1.0"
 }

@@ -1,5 +1,22 @@
 # Changelog
 
+## [7.2.2] — 2026-08-05 — Predição de Desempenho
+
+### Adicionado
+- Estimativa central de desempenho interno.
+- Faixa de incerteza e confiança declarada.
+- Estimativas por disciplina.
+- Cenário condicionado à conclusão do Coach Diário.
+- Riscos que ampliam a incerteza.
+- Oportunidades de ganho por disciplina.
+- Calibração retrospectiva com erro absoluto médio.
+- Atualização após questões e simulados.
+
+### Transparência
+- A estimativa não representa nota oficial, corte, classificação ou medalha.
+- Amostras pequenas ampliam a faixa de incerteza.
+- A calibração só aparece após histórico mínimo de simulados.
+
 ## [7.2.1] — 2026-08-05 — Coach Diário
 
 ### Adicionado

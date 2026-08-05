@@ -60,6 +60,8 @@ ONC.LearningEngine = {
     ONC.AdaptiveTutorUI?.render?.();
     ONC.DailyCoachEngine?.refresh?.("response");
     ONC.DailyCoachUI?.render?.();
+    ONC.PerformancePredictionEngine?.refresh?.("response");
+    ONC.PerformancePredictionUI?.render?.();
     return event;
   },
 
