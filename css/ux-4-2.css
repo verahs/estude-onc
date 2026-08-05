@@ -1,0 +1,302 @@
+/* Sprint 4.2 — Painel de atenção recolhido */
+
+.attentionDisclosure {
+  padding: 0;
+  overflow: hidden;
+  border-color: #ead8a9;
+  background: linear-gradient(135deg, #fffdf7, #fff);
+}
+
+.attentionDisclosure > summary {
+  list-style: none;
+}
+
+.attentionDisclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.attentionPanelSummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 92px;
+  padding: 18px 20px;
+  cursor: pointer;
+}
+
+.attentionPanelHeading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+
+.attentionPanelIcon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 15px;
+  background: #fff2cc;
+  font-size: 1.25rem;
+}
+
+.attentionPanelHeading h3 {
+  margin: 4px 0;
+}
+
+.attentionPanelHeading p {
+  margin: 0;
+}
+
+.attentionPanelMeta {
+  display: grid;
+  justify-items: end;
+  gap: 5px;
+  flex: 0 0 auto;
+}
+
+.attentionPanelMeta strong {
+  color: #9a5700;
+  font-size: .86rem;
+}
+
+.attentionPanelAction {
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: #fff;
+  padding: 7px 10px;
+  font-size: .77rem;
+  font-weight: 850;
+}
+
+.attentionDisclosure[open] .attentionPanelAction {
+  font-size: 0;
+}
+
+.attentionDisclosure[open] .attentionPanelAction::after {
+  content: "Recolher";
+  font-size: .77rem;
+}
+
+.attentionPanelBody {
+  border-top: 1px solid var(--line);
+  padding: 18px 20px 20px;
+}
+
+.attentionPanelExplanation {
+  margin-bottom: 14px;
+  border-left: 4px solid #e0a441;
+  border-radius: 0 12px 12px 0;
+  background: #fff9e9;
+  padding: 11px 13px;
+}
+
+.attentionPanelExplanation strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.attentionPanelExplanation p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .82rem;
+  line-height: 1.45;
+}
+
+.attentionCompactList {
+  display: grid;
+  gap: 8px;
+}
+
+.attentionTopic {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+}
+
+.attentionTopic > summary {
+  list-style: none;
+}
+
+.attentionTopic > summary::-webkit-details-marker {
+  display: none;
+}
+
+.attentionTopicSummary {
+  display: grid;
+  grid-template-columns: 34px minmax(180px, 1fr) minmax(100px, .45fr) auto 22px;
+  align-items: center;
+  gap: 10px;
+  min-height: 58px;
+  padding: 9px 13px;
+  cursor: pointer;
+}
+
+.attentionTopicIcon {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: #fff3cf;
+}
+
+.attentionTopicName {
+  font-weight: 850;
+}
+
+.attentionTopicDiscipline {
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.attentionTopicPriority {
+  border-radius: 999px;
+  padding: 4px 8px;
+  font-size: .70rem;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.attentionTopic--attention .attentionTopicPriority {
+  color: #735700;
+  background: #fff1bc;
+}
+
+.attentionTopic--review .attentionTopicPriority {
+  color: #8a4800;
+  background: #ffe3be;
+}
+
+.attentionTopic--critical .attentionTopicPriority {
+  color: #9c2029;
+  background: #ffe0e2;
+}
+
+.attentionTopicChevron {
+  transition: transform .2s ease;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.attentionTopic[open] .attentionTopicChevron {
+  transform: rotate(180deg);
+}
+
+.attentionTopicDetails {
+  display: grid;
+  gap: 14px;
+  border-top: 1px solid var(--line);
+  padding: 15px;
+  background: #fbfcfe;
+}
+
+.attentionDetailGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.attentionDetailGrid > div {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  padding: 11px;
+}
+
+.attentionDetailGrid span,
+.attentionDetailGrid strong,
+.attentionDetailGrid small {
+  display: block;
+}
+
+.attentionDetailGrid span {
+  color: var(--muted);
+  font-size: .70rem;
+  font-weight: 850;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.attentionDetailGrid strong {
+  margin-top: 5px;
+}
+
+.attentionDetailGrid small {
+  margin-top: 3px;
+  color: var(--muted);
+}
+
+.attentionReason {
+  border-radius: 12px;
+  background: #fff;
+  padding: 12px;
+}
+
+.attentionReason ul {
+  margin: 7px 0 0;
+  padding-left: 19px;
+}
+
+.attentionReason li {
+  margin: 4px 0;
+  color: #506176;
+}
+
+.attentionShowAll {
+  display: block;
+  margin: 13px auto 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+  padding: 8px 13px;
+  color: var(--text);
+  font: inherit;
+  font-size: .80rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.attentionPanelFooter {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 13px;
+  border-top: 1px solid var(--line);
+  padding-top: 11px;
+}
+
+@media (max-width: 760px) {
+  .attentionPanelSummary {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .attentionPanelMeta {
+    width: 100%;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-items: start;
+  }
+
+  .attentionTopicSummary {
+    grid-template-columns: 34px minmax(0, 1fr) 22px;
+  }
+
+  .attentionTopicDiscipline,
+  .attentionTopicPriority {
+    grid-column: 2;
+  }
+
+  .attentionTopicChevron {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .attentionDetailGrid {
+    grid-template-columns: 1fr;
+  }
+}

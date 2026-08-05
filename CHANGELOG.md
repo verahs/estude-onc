@@ -1,5 +1,20 @@
 # Changelog
 
+## [4.2] — 2026-08-05
+
+### Alterado
+- O painel “Seus pontos de atenção” fica recolhido por padrão.
+- Cada conteúdo de atenção tornou-se um item expansível.
+- O estado fechado mostra apenas tema, disciplina e nível de prioridade.
+- Os detalhes exibem desempenho, último erro, recorrência e motivo da recomendação.
+- O botão de revisão aparece somente após a expansão do conteúdo.
+- A lista mostra cinco itens inicialmente e permite consultar todos.
+
+### UX
+- Redução significativa da altura ocupada na Home.
+- Linguagem visual alinhada aos acordes de disciplinas, grupos e tópicos.
+- Melhor leitura em telas de celular e tablet.
+
 ## [4.1] — 2026-08-05
 
 ### Adicionado

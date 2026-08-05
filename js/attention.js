@@ -219,46 +219,101 @@ ONC.Attention = {
   renderPanel() {
     const root = document.getElementById("attentionPanelList");
     const summary = document.getElementById("attentionPanelSummary");
+    const panel = document.getElementById("attentionDisclosure");
+    const counter = document.getElementById("attentionDisclosureCount");
     if (!root || !summary) return;
 
     const alerts = this.allAlerts();
+    const visibleLimit = Number(root.dataset.limit || 5);
+    const expandedAll = root.dataset.showAll === "true";
+    const visibleAlerts = expandedAll ? alerts : alerts.slice(0, visibleLimit);
+
+    if (counter) {
+      counter.textContent = `${alerts.length} conteúdo${alerts.length === 1 ? "" : "s"}`;
+    }
+
     summary.textContent = alerts.length
-      ? `Revise ${alerts.length} conteúdo${alerts.length === 1 ? "" : "s"} identificado${alerts.length === 1 ? "" : "s"} pelos seus resultados.`
+      ? `O tutor identificou ${alerts.length} assunto${alerts.length === 1 ? "" : "s"} que pode${alerts.length === 1 ? "" : "m"} reduzir seu desempenho.`
       : "Nenhum conteúdo em atenção neste momento.";
 
     if (!alerts.length) {
+      if (panel) panel.open = false;
       root.innerHTML = `
         <div class="dashboardEmpty">
           <strong>Nenhum alerta gerado</strong>
-          <span>Os alertas aparecem somente quando há erro em questões ou simulados. A recorrência sozinha não gera atenção.</span>
+          <span>Os alertas aparecem somente quando há erro em questões ou simulados.</span>
         </div>`;
       return;
     }
 
-    root.innerHTML = alerts.slice(0, 8).map(alert => {
-      const accuracy = alert.attempts
-        ? Math.round((alert.correct / alert.attempts) * 100)
-        : 0;
-      const lastError = this.attempts[alert.topicId]?.lastErrorAt;
-      const days = this.daysSince(lastError);
-      const when = days === 0 ? "hoje" : `há ${days} dia${days === 1 ? "" : "s"}`;
+    root.innerHTML = `
+      <div class="attentionCompactList">
+        ${visibleAlerts.map(alert => {
+          const accuracy = alert.attempts
+            ? Math.round((alert.correct / alert.attempts) * 100)
+            : 0;
+          const lastError = this.attempts[alert.topicId]?.lastErrorAt;
+          const days = this.daysSince(lastError);
+          const when = days === 0 ? "Hoje" : `Há ${days} dia${days === 1 ? "" : "s"}`;
 
-      return `
-        <article class="attentionItem attentionItem--${alert.level}">
-          <div class="attentionItemIcon" aria-hidden="true">${alert.levelInfo.icon}</div>
-          <div class="attentionItemContent">
-            <strong>${alert.title}</strong>
-            <small>${alert.discipline}</small>
-            <div class="attentionReasonGrid">
-              <span><b>Desempenho:</b> ${alert.correct} acerto${alert.correct === 1 ? "" : "s"} em ${alert.attempts} tentativa${alert.attempts === 1 ? "" : "s"} (${accuracy}%)</span>
-              <span><b>Último erro:</b> ${when}</span>
-              <span><b>Prioridade:</b> ${alert.levelInfo.label} • recorrência ${alert.recurrence}%</span>
-            </div>
-          </div>
-          <button class="btn btnSmall" type="button"
-            onclick="ONC.Attention.openTopic('${alert.topicId}')">⚠ Revisar agora</button>
-        </article>`;
-    }).join("");
+          return `
+            <details class="attentionTopic attentionTopic--${alert.level}">
+              <summary class="attentionTopicSummary">
+                <span class="attentionTopicIcon" aria-hidden="true">${alert.levelInfo.icon}</span>
+                <span class="attentionTopicName">${alert.title}</span>
+                <span class="attentionTopicDiscipline">${alert.discipline}</span>
+                <span class="attentionTopicPriority">${alert.levelInfo.label}</span>
+                <span class="attentionTopicChevron" aria-hidden="true">⌄</span>
+              </summary>
+
+              <div class="attentionTopicDetails">
+                <div class="attentionDetailGrid">
+                  <div>
+                    <span>Desempenho</span>
+                    <strong>${alert.correct} de ${alert.attempts} acertos</strong>
+                    <small>${accuracy}% de precisão</small>
+                  </div>
+                  <div>
+                    <span>Último erro</span>
+                    <strong>${when}</strong>
+                    <small>${alert.errors} erro${alert.errors === 1 ? "" : "s"} registrado${alert.errors === 1 ? "" : "s"}</small>
+                  </div>
+                  <div>
+                    <span>Importância</span>
+                    <strong>${alert.recurrence}% de recorrência</strong>
+                    <small>${alert.recurrence >= 10 ? "Muito alta" : alert.recurrence >= 8 ? "Alta" : alert.recurrence >= 5 ? "Média" : "Complementar"}</small>
+                  </div>
+                </div>
+
+                <div class="attentionReason">
+                  <strong>Por que o tutor recomendou este conteúdo?</strong>
+                  <ul>
+                    ${alert.reasons.map(reason => `<li>${reason}</li>`).join("")}
+                  </ul>
+                </div>
+
+                <button class="btn primary" type="button"
+                  onclick="ONC.Attention.openTopic('${alert.topicId}')">
+                  Revisar este conteúdo
+                </button>
+              </div>
+            </details>`;
+        }).join("")}
+      </div>
+
+      ${alerts.length > visibleLimit ? `
+        <button class="attentionShowAll" type="button"
+          onclick="ONC.Attention.toggleShowAll()">
+          ${expandedAll ? "Mostrar menos" : `Mostrar todos (${alerts.length})`}
+        </button>` : ""}
+    `;
+  },
+
+  toggleShowAll() {
+    const root = document.getElementById("attentionPanelList");
+    if (!root) return;
+    root.dataset.showAll = root.dataset.showAll === "true" ? "false" : "true";
+    this.renderPanel();
   },
 
   openTopic(id) {

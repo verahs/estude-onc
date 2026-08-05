@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "4.1",
+  "version": "4.2",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -9,8 +9,12 @@
   "contentSchemaVersion": "2.1",
   "catalog": "catalog.json",
   "features": [
+    "attention-compact-summary",
     "attention-engine",
     "attention-filter",
+    "attention-show-all",
+    "attention-topic-disclosure",
+    "collapsed-attention-panel",
     "collapsed-recurrence-panel",
     "daily-mission",
     "daily-streak",
