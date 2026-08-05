@@ -1,5 +1,18 @@
 # Changelog
 
+## [6.1] — 2026-08-05 — Astronomia Científica Premium
+
+### Adicionado
+- 31 cenas científicas exclusivas para Astronomia.
+- Imagens WebP em 1400 × 820 pixels.
+- Iluminação, profundidade, textura, atmosfera e composição editorial.
+- Cenas específicas para Terra, Lua, eclipses, Sistema Solar, Universo e orientação.
+- Integração automática com tópicos, banco de questões e simulados.
+
+### Alterado
+- As ilustrações SVG básicas de Astronomia foram substituídas por cenas semirrealistas.
+- As outras disciplinas permanecem na biblioteca vetorial até suas respectivas entregas.
+
 ## [5.3.1] — 2026-08-05 — Biblioteca Visual Premium
 
 ### Adicionado

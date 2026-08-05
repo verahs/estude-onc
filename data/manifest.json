@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "5.3.1",
+  "version": "6.1",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -11,6 +11,7 @@
   "features": [
     "adaptive-simulation",
     "advanced-dashboard",
+    "astronomy-editorial-library",
     "attention-compact-summary",
     "attention-engine",
     "attention-filter",
@@ -46,6 +47,7 @@
     "organized-study-filters",
     "performance-indicator",
     "personalized-feedback",
+    "premium-astronomy-scenes",
     "premium-svg-library",
     "preparation-index",
     "priority-insights",
@@ -54,6 +56,7 @@
     "resilient-startup",
     "resume-last-topic",
     "risk-index",
+    "semi-realistic-webp-astronomy",
     "shareable-report",
     "smart-tutor",
     "spaced-review",
@@ -73,6 +76,12 @@
     "count": 141,
     "style": "premium didactic semi-realistic vector",
     "zoom": true,
-    "questionIntegration": true
+    "questionIntegration": true,
+    "astronomyPremium": {
+      "count": 31,
+      "format": "WebP",
+      "resolution": "1400x820",
+      "style": "semi-realistic scientific editorial"
+    }
   }
 }

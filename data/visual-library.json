@@ -1,224 +1,348 @@
 {
   "schemaVersion": "2.0",
-  "generatedFor": "Estude ONC 5.3.1",
+  "generatedFor": "Estude ONC 6.1",
   "count": 141,
   "illustrations": {
     "astronomia-forma-da-terra": {
-      "path": "assets/illustrations/astronomia-forma-da-terra.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-forma-da-terra.webp",
       "title": "Forma da Terra",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Forma da Terra"
+      "alt": "Ilustração científica semirrealista sobre Forma da Terra",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-atmosfera": {
-      "path": "assets/illustrations/astronomia-atmosfera.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-atmosfera.webp",
       "title": "Atmosfera",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Atmosfera"
+      "alt": "Ilustração científica semirrealista sobre Atmosfera",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-rotacao": {
-      "path": "assets/illustrations/astronomia-rotacao.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-rotacao.webp",
       "title": "Rotação",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Rotação"
+      "alt": "Ilustração científica semirrealista sobre Rotação",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-polos-e-equador": {
-      "path": "assets/illustrations/astronomia-polos-e-equador.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-polos-e-equador.webp",
       "title": "Polos e equador",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Polos e equador"
+      "alt": "Ilustração científica semirrealista sobre Polos e equador",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-pontos-cardeais": {
-      "path": "assets/illustrations/astronomia-pontos-cardeais.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-pontos-cardeais.webp",
       "title": "Pontos cardeais",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Pontos cardeais"
+      "alt": "Ilustração científica semirrealista sobre Pontos cardeais",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-dia-e-noite": {
-      "path": "assets/illustrations/astronomia-dia-e-noite.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-dia-e-noite.webp",
       "title": "Dia e noite",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Dia e noite"
+      "alt": "Ilustração científica semirrealista sobre Dia e noite",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-estrutura-interna-da-terra": {
-      "path": "assets/illustrations/astronomia-estrutura-interna-da-terra.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-estrutura-interna-da-terra.webp",
       "title": "Estrutura interna da Terra",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Estrutura interna da Terra"
+      "alt": "Ilustração científica semirrealista sobre Estrutura interna da Terra",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-alteracoes-na-superficie": {
-      "path": "assets/illustrations/astronomia-alteracoes-na-superficie.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-alteracoes-na-superficie.webp",
       "title": "Alterações na superfície",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Alterações na superfície"
+      "alt": "Ilustração científica semirrealista sobre Alterações na superfície",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-mares": {
-      "path": "assets/illustrations/astronomia-mares.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-mares.webp",
       "title": "Marés",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Marés"
+      "alt": "Ilustração científica semirrealista sobre Marés",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-bussola": {
-      "path": "assets/illustrations/astronomia-bussola.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-bussola.webp",
       "title": "Bússola",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Bússola"
+      "alt": "Ilustração científica semirrealista sobre Bússola",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-fusos-horarios": {
-      "path": "assets/illustrations/astronomia-fusos-horarios.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-fusos-horarios.webp",
       "title": "Fusos horários",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Fusos horários"
+      "alt": "Ilustração científica semirrealista sobre Fusos horários",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-ecliptica": {
-      "path": "assets/illustrations/astronomia-ecliptica.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-ecliptica.webp",
       "title": "Eclíptica",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Eclíptica"
+      "alt": "Ilustração científica semirrealista sobre Eclíptica",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-coordenadas-geograficas": {
-      "path": "assets/illustrations/astronomia-coordenadas-geograficas.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-coordenadas-geograficas.webp",
       "title": "Coordenadas geográficas",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Coordenadas geográficas"
+      "alt": "Ilustração científica semirrealista sobre Coordenadas geográficas",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-solsticio-e-equinocio": {
-      "path": "assets/illustrations/astronomia-solsticio-e-equinocio.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-solsticio-e-equinocio.webp",
       "title": "Solstício e equinócio",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Solstício e equinócio"
+      "alt": "Ilustração científica semirrealista sobre Solstício e equinócio",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-zonas-termicas": {
-      "path": "assets/illustrations/astronomia-zonas-termicas.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-zonas-termicas.webp",
       "title": "Zonas térmicas",
       "discipline": "Astronomia",
       "group": "Terra e orientação",
-      "alt": "Ilustração didática sobre Zonas térmicas"
+      "alt": "Ilustração científica semirrealista sobre Zonas térmicas",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-fases-da-lua": {
-      "path": "assets/illustrations/astronomia-fases-da-lua.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-fases-da-lua.webp",
       "title": "Fases da Lua",
       "discipline": "Astronomia",
       "group": "Lua, Sol e movimentos",
-      "alt": "Ilustração didática sobre Fases da Lua"
+      "alt": "Ilustração científica semirrealista sobre Fases da Lua",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-mes-lunar": {
-      "path": "assets/illustrations/astronomia-mes-lunar.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-mes-lunar.webp",
       "title": "Mês lunar",
       "discipline": "Astronomia",
       "group": "Lua, Sol e movimentos",
-      "alt": "Ilustração didática sobre Mês lunar"
+      "alt": "Ilustração científica semirrealista sobre Mês lunar",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-eclipses": {
-      "path": "assets/illustrations/astronomia-eclipses.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-eclipses.webp",
       "title": "Eclipses",
       "discipline": "Astronomia",
       "group": "Lua, Sol e movimentos",
-      "alt": "Ilustração didática sobre Eclipses"
+      "alt": "Ilustração científica semirrealista sobre Eclipses",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-translacao-da-terra": {
-      "path": "assets/illustrations/astronomia-translacao-da-terra.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-translacao-da-terra.webp",
       "title": "Translação da Terra",
       "discipline": "Astronomia",
       "group": "Lua, Sol e movimentos",
-      "alt": "Ilustração didática sobre Translação da Terra"
+      "alt": "Ilustração científica semirrealista sobre Translação da Terra",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-ano-e-estacoes-do-ano": {
-      "path": "assets/illustrations/astronomia-ano-e-estacoes-do-ano.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-ano-e-estacoes-do-ano.webp",
       "title": "Ano e estações do ano",
       "discipline": "Astronomia",
       "group": "Lua, Sol e movimentos",
-      "alt": "Ilustração didática sobre Ano e estações do ano"
+      "alt": "Ilustração científica semirrealista sobre Ano e estações do ano",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-objetos-do-sistema-solar": {
-      "path": "assets/illustrations/astronomia-objetos-do-sistema-solar.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-objetos-do-sistema-solar.webp",
       "title": "Objetos do Sistema Solar",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Objetos do Sistema Solar"
+      "alt": "Ilustração científica semirrealista sobre Objetos do Sistema Solar",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-planetas-e-satelites": {
-      "path": "assets/illustrations/astronomia-planetas-e-satelites.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-planetas-e-satelites.webp",
       "title": "Planetas e satélites",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Planetas e satélites"
+      "alt": "Ilustração científica semirrealista sobre Planetas e satélites",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-asteroides-e-cometas": {
-      "path": "assets/illustrations/astronomia-asteroides-e-cometas.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-asteroides-e-cometas.webp",
       "title": "Asteroides e cometas",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Asteroides e cometas"
+      "alt": "Ilustração científica semirrealista sobre Asteroides e cometas",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-estrelas-e-galaxias": {
-      "path": "assets/illustrations/astronomia-estrelas-e-galaxias.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-estrelas-e-galaxias.webp",
       "title": "Estrelas e galáxias",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Estrelas e galáxias"
+      "alt": "Ilustração científica semirrealista sobre Estrelas e galáxias",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-constelacoes": {
-      "path": "assets/illustrations/astronomia-constelacoes.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-constelacoes.webp",
       "title": "Constelações",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Constelações"
+      "alt": "Ilustração científica semirrealista sobre Constelações",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-origem-do-universo": {
-      "path": "assets/illustrations/astronomia-origem-do-universo.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-origem-do-universo.webp",
       "title": "Origem do Universo",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Origem do Universo"
+      "alt": "Ilustração científica semirrealista sobre Origem do Universo",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-historia-da-astronomia": {
-      "path": "assets/illustrations/astronomia-historia-da-astronomia.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-historia-da-astronomia.webp",
       "title": "História da Astronomia",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre História da Astronomia"
+      "alt": "Ilustração científica semirrealista sobre História da Astronomia",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-conquista-do-espaco": {
-      "path": "assets/illustrations/astronomia-conquista-do-espaco.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-conquista-do-espaco.webp",
       "title": "Conquista do espaço",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Conquista do espaço"
+      "alt": "Ilustração científica semirrealista sobre Conquista do espaço",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-gravitacao-e-peso": {
-      "path": "assets/illustrations/astronomia-gravitacao-e-peso.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-gravitacao-e-peso.webp",
       "title": "Gravitação e peso",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Gravitação e peso"
+      "alt": "Ilustração científica semirrealista sobre Gravitação e peso",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-unidade-astronomica": {
-      "path": "assets/illustrations/astronomia-unidade-astronomica.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-unidade-astronomica.webp",
       "title": "Unidade Astronômica",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Unidade Astronômica"
+      "alt": "Ilustração científica semirrealista sobre Unidade Astronômica",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "astronomia-ano-luz-e-unidades-luz": {
-      "path": "assets/illustrations/astronomia-ano-luz-e-unidades-luz.svg",
+      "path": "assets/illustrations-premium/astronomia/astronomia-ano-luz-e-unidades-luz.webp",
       "title": "Ano-luz e unidades-luz",
       "discipline": "Astronomia",
       "group": "Sistema Solar e Universo",
-      "alt": "Ilustração didática sobre Ano-luz e unidades-luz"
+      "alt": "Ilustração científica semirrealista sobre Ano-luz e unidades-luz",
+      "format": "webp",
+      "width": 1400,
+      "height": 820,
+      "edition": "6.1"
     },
     "biologia-celula-como-unidade-da-vida": {
       "path": "assets/illustrations/biologia-celula-como-unidade-da-vida.svg",
@@ -990,5 +1114,11 @@
       "group": "Mundo moderno e colonização",
       "alt": "Ilustração didática sobre História das Mulheres"
     }
+  },
+  "premiumAstronomy": {
+    "count": 31,
+    "format": "WebP",
+    "style": "semi-realistic scientific editorial",
+    "resolution": "1400x820"
   }
 }
