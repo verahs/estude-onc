@@ -12,11 +12,13 @@ ONC.SmartTutor = {
     this.refreshing = true;
 
     try {
+      ONC.MasteryEngine?.refresh();
       ONC.ProgressEngine.refresh();
       ONC.MissionEngine.updateAutomaticCompletion();
       ONC.MissionEngine.save();
       ONC.Gamification?.syncMissionAwards();
       ONC.UIComponents?.Dashboard?.renderAll();
+      ONC.DashboardEngine?.render();
       ONC.StudyTools?.renderResumeCard();
       ONC.StudyTools?.renderWeeklyStats();
       ONC.StudyTools?.renderReviewQueue();

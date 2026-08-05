@@ -1,5 +1,14 @@
 # Changelog
 
+## [5.0] — 2026-08-05
+
+### Adicionado
+- Motor de domínio com leitura, questões, revisões e memória.
+- Curva de esquecimento e próxima revisão.
+- Tutor explicável e meta diária de XP.
+- Indicadores de domínio médio e memória consolidada.
+- Detalhamento do domínio por tópico.
+
 ## [4.2.1] — 2026-08-05
 
 ### Corrigido
