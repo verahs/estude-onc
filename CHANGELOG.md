@@ -1,5 +1,22 @@
 # Changelog
 
+## [7.1.2] — 2026-08-05 — Smart Navigation Engine
+
+### Adicionado
+- Índice global dos 141 tópicos.
+- Localização por ID, título e correspondência aproximada.
+- Navegação automática até disciplina, grupo e tópico.
+- Modo foco para recomendações do tutor.
+- Rolagem suave e destaque temporário.
+- Banner explicando o motivo da recomendação.
+- Conclusão de revisão e retorno ao diagnóstico.
+- Histórico e analytics de navegação orientada.
+- API única para diagnóstico, missão, revisão e pontos de atenção.
+
+### Corrigido
+- Botões de pré-requisito que não localizavam o tópico.
+- Expansão incompleta de disciplina, grupo e conteúdo.
+
 ## [7.1.1] — 2026-08-05 — Motor de Diagnóstico
 
 ### Adicionado

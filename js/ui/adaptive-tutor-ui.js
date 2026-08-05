@@ -54,7 +54,7 @@ ONC.AdaptiveTutorUI = {
           <p>${next.reasons.join(" • ")}</p>
         </div>
         <button class="btn primary" type="button"
-          onclick="ONC.Attention.openTopic('${next.topicId}')">Começar</button>
+          onclick="ONC.SmartNavigator.goToWeakness('${next.topicId}')">Começar</button>
       </div>
       <div class="adaptiveMetrics">
         <span><b>${next.mastery}%</b> domínio</span>

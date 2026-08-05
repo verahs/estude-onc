@@ -44,7 +44,7 @@ ONC.DashboardEngine = {
         </div>
       </div>
       <button class="btn primary"
-        onclick="ONC.Attention.openTopic('${item.id}')">Continuar</button>`;
+        onclick="ONC.SmartNavigator.goToWeakness('${item.id}')">▶ Continuar estudo</button>`;
   },
 
   review() {
@@ -74,6 +74,6 @@ ONC.DashboardEngine = {
         } • cerca de 2 minutos</small>
       </div>
       <button class="btn"
-        onclick="ONC.Attention.openTopic('${next.id}')">Iniciar</button>`;
+        onclick="ONC.SmartNavigator.goToRevision('${next.id}')">🚀 Começar revisão</button>`;
   }
 };

@@ -316,15 +316,23 @@ ONC.Attention = {
     this.renderPanel();
   },
 
-  openTopic(id) {
+  openTopic(id, options = {}) {
+    if (ONC.SmartNavigator?.goToTopic) {
+      return ONC.SmartNavigator.goToTopic(id, {
+        source: options.source || "attention",
+        reason: options.reason || "Este conteúdo foi indicado pelos seus pontos de atenção.",
+        focus: options.focus !== false
+      });
+    }
+
     const card = document.querySelector(`[data-topic-id="${id}"]`);
-    if (!card) return;
+    if (!card) return false;
     card.closest(".subject")?.classList.add("open");
     card.closest(".group")?.classList.add("open");
     card.classList.add("open");
-    card.querySelector(".topicSummary")?.setAttribute("aria-expanded", "true");
     ONC.Study.ensureTopicLoaded(card);
     card.scrollIntoView({ behavior: "smooth", block: "start" });
+    return true;
   },
 
   reset() {

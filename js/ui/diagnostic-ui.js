@@ -37,8 +37,12 @@ ONC.DiagnosticUI = {
             <div class="diagnosticPrerequisite">
               <b>Fundamento relacionado</b>
               <button type="button" class="textButton"
-                onclick="ONC.Attention.openTopic('${diagnosis.prerequisite.topicId}')">
-                Revisar ${diagnosis.prerequisite.title}
+                onclick="ONC.SmartNavigator.goToPrerequisite('${diagnosis.prerequisite.topicId}', {
+                  reason: 'Este conteúdo é um pré-requisito para corrigir a dificuldade identificada.',
+                  returnTarget: { sectionId: 'reportsSection', elementId: 'diagnosticReport' },
+                  retryQuestionId: '${diagnosis.questionId || ""}'
+                })">
+                📖 Revisar agora: ${diagnosis.prerequisite.title}
               </button>
             </div>` : ""}
           <small>${diagnosis.limitations}</small>

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.1.1",
+  "version": "7.1.2",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -18,6 +18,7 @@
     "attention-filter",
     "attention-show-all",
     "attention-topic-disclosure",
+    "automatic-path-expansion",
     "backward-compatible-mastery-api",
     "cognitive-topic-profile",
     "collapsed-attention-panel",
@@ -30,6 +31,7 @@
     "decision-audit",
     "diagnostic-confidence",
     "diagnostic-evidence",
+    "diagnostic-return-flow",
     "discipline-progress",
     "discipline-radar",
     "dynamic-priority-engine",
@@ -39,7 +41,9 @@
     "explainable-recommendations",
     "favorites",
     "focus-mode",
+    "focus-mode-navigation",
     "forgetting-curve",
+    "global-content-index",
     "guardian-dashboard",
     "instant-search",
     "knowledge-graph",
@@ -52,6 +56,9 @@
     "memory-engine",
     "misconception-taxonomy",
     "module-contracts",
+    "navigation-analytics",
+    "navigation-highlight",
+    "navigation-history",
     "next-best-action",
     "next-review-card",
     "organized-study-filters",
@@ -70,6 +77,7 @@
     "root-cause-hypotheses",
     "shareable-report",
     "skill-clustering",
+    "smart-topic-navigation",
     "smart-tutor",
     "spaced-review",
     "structured-study-history",
@@ -77,6 +85,7 @@
     "study-session-stats",
     "topic-visuals-141",
     "tutor-engine",
+    "tutor-navigation-banner",
     "ux-intelligent",
     "visual-lightbox",
     "weekly-learning-summary",
@@ -91,5 +100,6 @@
     "questionIntegration": true
   },
   "adaptiveEngineVersion": "1.0",
-  "diagnosticEngineVersion": "1.0"
+  "diagnosticEngineVersion": "1.0",
+  "smartNavigationVersion": "1.0"
 }

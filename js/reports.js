@@ -19,5 +19,6 @@ ONC.Reports = {
 
     ONC.AssessmentUI?.renderReportWidgets();
     ONC.AdvancedDashboardUI?.render();
+    ONC.NavigationUI?.renderReport?.();
   }
 };

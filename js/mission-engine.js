@@ -164,7 +164,7 @@ ONC.MissionEngine = {
     }
 
     if (task.topicId) {
-      ONC.Attention.openTopic(task.topicId);
+      ONC.SmartNavigator.goToMission(task.topicId);
     }
   },
 
