@@ -1,5 +1,22 @@
 # Changelog
 
+## [5.3] — 2026-08-05
+
+### Adicionado
+- Backup completo dos dados locais em JSON.
+- Restauração validada de backup.
+- Backup temporário de segurança antes da restauração.
+- Exclusão protegida do histórico de aprendizagem.
+- Migração versionada dos dados locais.
+- Indicadores de integridade e uso do armazenamento.
+- Preferências de tamanho do texto, contraste e movimento.
+- Download do relatório do responsável em formato textual.
+
+### Segurança
+- A importação aceita apenas chaves internas `onc_`.
+- A exclusão exige confirmação textual.
+- Preferências e usuário podem ser preservados ao limpar o histórico.
+
 ## [5.2] — 2026-08-05
 
 ### Adicionado

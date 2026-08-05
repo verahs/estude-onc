@@ -1,0 +1,222 @@
+/* Sprint 5.3 — Consolidação, portabilidade e acessibilidade */
+
+.appNotification {
+  position: fixed;
+  top: 82px;
+  left: 50%;
+  z-index: 500;
+  max-width: min(520px, calc(100vw - 32px));
+  transform: translate(-50%, -20px);
+  border: 1px solid #bfd9c9;
+  border-radius: 13px;
+  background: #effaf4;
+  padding: 11px 14px;
+  color: #245c3b;
+  font-weight: 750;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease, transform .2s ease;
+  box-shadow: 0 12px 30px rgba(22, 54, 40, .14);
+}
+
+.appNotification.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.appNotification.is-error {
+  border-color: #edb8b8;
+  background: #fff1f1;
+  color: #7a2025;
+}
+
+.systemManagementGrid {
+  display: grid;
+  grid-template-columns: minmax(360px, 1.15fr) minmax(300px, .85fr);
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.advancedCardHeader p {
+  margin: 5px 0 0;
+  color: var(--muted);
+}
+
+.dataHealth {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.dataHealth article {
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: #f8fafd;
+  padding: 11px;
+}
+
+.dataHealth article strong,
+.dataHealth article span {
+  display: block;
+}
+
+.dataHealth article strong {
+  color: #173a66;
+}
+
+.dataHealth article span {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: .72rem;
+}
+
+.dataHealth article.is-ok strong {
+  color: #27724b;
+}
+
+.dataHealth article.is-warning strong {
+  color: #a15b00;
+}
+
+.dataHealthDates {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: 3px;
+  color: var(--muted);
+  font-size: .74rem;
+}
+
+.dataManagementActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.dangerOutline {
+  border-color: #d99797 !important;
+  color: #8b2c32 !important;
+}
+
+.preferenceFields {
+  display: grid;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.preferenceFields label {
+  display: grid;
+  gap: 6px;
+}
+
+.preferenceFields span {
+  font-size: .78rem;
+  font-weight: 800;
+}
+
+.preferenceFields select {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: #fff;
+  padding: 10px 11px;
+  color: var(--text);
+  font: inherit;
+}
+
+.guardianActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.visuallyHidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  white-space: nowrap !important;
+}
+
+/* Preference: larger text */
+body[data-font-size="large"] {
+  font-size: 112.5%;
+}
+
+body[data-font-size="large"] .wrap {
+  max-width: 1240px;
+}
+
+/* Preference: high contrast */
+body[data-contrast="high"] {
+  --text: #000;
+  --muted: #303030;
+  --line: #59636f;
+  --bg: #fff;
+}
+
+body[data-contrast="high"] .card,
+body[data-contrast="high"] .tutorCard,
+body[data-contrast="high"] .preparationPanel,
+body[data-contrast="high"] .levelCard,
+body[data-contrast="high"] .dailySummary {
+  border-width: 2px;
+  box-shadow: none;
+}
+
+body[data-contrast="high"] .btn {
+  border-color: #111;
+}
+
+body[data-contrast="high"] .primary {
+  background: #003f8f;
+}
+
+/* Preference: reduced motion */
+body[data-motion="reduced"] *,
+body[data-motion="reduced"] *::before,
+body[data-motion="reduced"] *::after {
+  scroll-behavior: auto !important;
+  animation-duration: .001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: .001ms !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .systemManagementGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .dataHealth {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .dataHealth {
+    grid-template-columns: 1fr;
+  }
+
+  .dataManagementActions,
+  .guardianActions {
+    flex-direction: column;
+  }
+
+  .dataManagementActions .btn,
+  .guardianActions .btn {
+    width: 100%;
+  }
+}

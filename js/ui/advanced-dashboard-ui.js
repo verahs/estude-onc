@@ -72,9 +72,14 @@ ONC.AdvancedDashboardUI = {
           <h2>${summary.student}</h2>
           <p>Resumo objetivo da última semana de estudo.</p>
         </div>
-        <button class="btn" type="button" onclick="ONC.GuardianReport.print()">
-          Imprimir relatório
-        </button>
+        <div class="guardianActions">
+          <button class="btn" type="button" onclick="ONC.GuardianReport.downloadText()">
+            Baixar resumo
+          </button>
+          <button class="btn" type="button" onclick="ONC.GuardianReport.print()">
+            Imprimir relatório
+          </button>
+        </div>
       </div>
 
       <div class="guardianMetrics">

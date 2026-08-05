@@ -10,8 +10,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   const startup = [
+    ["DataMigration", "init"],
     ["Users", "init"],
     ["Classroom", "init"],
+    ["Notifications", "init"],
+    ["Preferences", "init"],
+    ["DataPortability", "init"],
     ["Study", "init"],
     ["StudyTools", "init"],
     ["Attention", "init"],
@@ -31,6 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ["DashboardEngine", "init"],
     ["GuardianReport", "init"],
     ["AdvancedDashboardUI", "init"],
+    ["SystemSettingsUI", "init"],
     ["SmartTutor", "init"],
     ["Questions", "init"],
     ["Quiz", "init"],

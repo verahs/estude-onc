@@ -11,6 +11,26 @@ ONC.GuardianReport = {
     }, 300);
   },
 
+  downloadText() {
+    const date = new Date().toISOString().slice(0, 10);
+    ONC.DataPortability.download(
+      `estude-onc-relatorio-${date}.txt`,
+      this.exportText(),
+      "text/plain;charset=utf-8"
+    );
+    ONC.Notifications?.announce?.("Relatório textual baixado.");
+  },
+
+  downloadJSON() {
+    const date = new Date().toISOString().slice(0, 10);
+    const summary = ONC.AdvancedAnalytics.guardianSummary();
+    ONC.DataPortability.download(
+      `estude-onc-relatorio-${date}.json`,
+      JSON.stringify(summary, null, 2)
+    );
+    ONC.Notifications?.announce?.("Relatório em dados baixado.");
+  },
+
   exportText() {
     const summary = ONC.AdvancedAnalytics.guardianSummary();
 
