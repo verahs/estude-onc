@@ -1,0 +1,276 @@
+/* Sprint 5.2 — Dashboard Avançado */
+
+.advancedDashboardGrid {
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);
+  gap: 16px;
+  margin: 16px 0;
+}
+
+.advancedCardHeader h2 {
+  margin: 4px 0 0;
+}
+
+.disciplineRadar {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.disciplineRadar svg {
+  width: 100%;
+  height: auto;
+}
+
+.radarGrid {
+  fill: none;
+  stroke: #dfe7f1;
+  stroke-width: 1;
+}
+
+.radarAxis {
+  stroke: #d6deea;
+  stroke-width: 1;
+}
+
+.radarValue {
+  fill: rgba(44, 99, 199, .20);
+  stroke: #2c63c7;
+  stroke-width: 2;
+}
+
+.radarDot {
+  fill: #2c63c7;
+}
+
+.radarLabel {
+  fill: #42536a;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.weeklyChartBars {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  min-height: 230px;
+  align-items: end;
+  padding-top: 20px;
+}
+
+.weeklyBarItem {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+
+.weeklyBarTrack {
+  display: flex;
+  align-items: end;
+  width: 30px;
+  height: 160px;
+  border-radius: 10px;
+  background: #edf1f7;
+  overflow: hidden;
+}
+
+.weeklyBarTrack i {
+  display: block;
+  width: 100%;
+  min-height: 4px;
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(180deg, #5b2da3, #2c63c7);
+}
+
+.weeklyBarItem strong {
+  font-size: .78rem;
+}
+
+.weeklyBarItem span {
+  color: var(--muted);
+  font-size: .72rem;
+  text-transform: capitalize;
+}
+
+.weeklyMetrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.weeklyMetrics span {
+  border-radius: 11px;
+  background: #f3f6fa;
+  padding: 8px 10px;
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.weeklyMetrics strong {
+  color: var(--text);
+}
+
+.learningInsights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.insightCard {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #fff;
+  padding: 14px;
+}
+
+.insightIcon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  background: #eef5fd;
+  font-size: 1.2rem;
+}
+
+.insightCard div {
+  display: grid;
+  gap: 2px;
+}
+
+.insightCard small,
+.insightCard span {
+  color: var(--muted);
+}
+
+.guardianDashboard {
+  margin: 16px 0;
+}
+
+.guardianHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.guardianHeader h2 {
+  margin: 4px 0;
+}
+
+.guardianHeader p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.guardianMetrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.guardianMetrics article {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #f8fafd;
+  padding: 13px;
+}
+
+.guardianMetrics strong,
+.guardianMetrics span {
+  display: block;
+}
+
+.guardianMetrics strong {
+  color: #173a66;
+  font-size: 1.55rem;
+}
+
+.guardianMetrics span {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: .76rem;
+}
+
+.guardianNarrative {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.guardianNarrative article {
+  border-left: 4px solid #2c63c7;
+  border-radius: 0 13px 13px 0;
+  background: #f6f9fd;
+  padding: 12px;
+}
+
+.guardianNarrative h3 {
+  margin: 0 0 6px;
+}
+
+.guardianNarrative p {
+  margin: 0;
+  color: #526276;
+}
+
+.guardianNote {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: .74rem;
+}
+
+@media print {
+  body.printingGuardianReport * {
+    visibility: hidden !important;
+  }
+
+  body.printingGuardianReport #guardianDashboard,
+  body.printingGuardianReport #guardianDashboard * {
+    visibility: visible !important;
+  }
+
+  body.printingGuardianReport #guardianDashboard {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    border: 0;
+    box-shadow: none;
+  }
+
+  body.printingGuardianReport .guardianHeader .btn {
+    display: none !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .advancedDashboardGrid,
+  .learningInsights,
+  .guardianNarrative {
+    grid-template-columns: 1fr;
+  }
+
+  .guardianMetrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .guardianHeader {
+    flex-direction: column;
+  }
+
+  .guardianMetrics {
+    grid-template-columns: 1fr;
+  }
+
+  .weeklyBarTrack {
+    width: 24px;
+    height: 130px;
+  }
+}

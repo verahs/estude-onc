@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "5.1.1",
+  "version": "5.2",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -10,6 +10,7 @@
   "catalog": "catalog.json",
   "features": [
     "adaptive-simulation",
+    "advanced-dashboard",
     "attention-compact-summary",
     "attention-engine",
     "attention-filter",
@@ -23,6 +24,7 @@
     "daily-streak",
     "daily-summary",
     "discipline-progress",
+    "discipline-radar",
     "dynamic-priority-engine",
     "enhanced-attention-reasons",
     "estimated-reading-time",
@@ -30,6 +32,7 @@
     "favorites",
     "focus-mode",
     "forgetting-curve",
+    "guardian-dashboard",
     "instant-search",
     "learning-analytics-engine",
     "learning-heatmap",
@@ -44,10 +47,12 @@
     "performance-indicator",
     "personalized-feedback",
     "preparation-index",
+    "priority-insights",
     "quiz-result-auto-scroll",
     "resilient-startup",
     "resume-last-topic",
     "risk-index",
+    "shareable-report",
     "smart-tutor",
     "spaced-review",
     "structured-study-history",
@@ -55,6 +60,7 @@
     "study-session-stats",
     "tutor-engine",
     "ux-intelligent",
+    "weekly-learning-summary",
     "xp-system"
   ],
   "architectureVersion": "2.0"

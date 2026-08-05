@@ -18,5 +18,6 @@ ONC.Reports = {
       : '<p class="note">Nenhum simulado concluído.</p>';
 
     ONC.AssessmentUI?.renderReportWidgets();
+    ONC.AdvancedDashboardUI?.render();
   }
 };

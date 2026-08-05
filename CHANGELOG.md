@@ -1,5 +1,20 @@
 # Changelog
 
+## [5.2] — 2026-08-05
+
+### Adicionado
+- Dashboard avançado nos relatórios.
+- Radar de aprendizagem por disciplina.
+- Gráfico de atividade dos últimos sete dias.
+- Cards de maior domínio, maior oportunidade e maior cobertura.
+- Painel do responsável.
+- Relatório imprimível do responsável.
+- Resumo semanal com tempo, questões, precisão e dias ativos.
+
+### Transparência
+- O painel do responsável utiliza somente dados registrados no navegador.
+- As métricas não substituem avaliação escolar ou orientação pedagógica.
+
 ## [5.1.1] — 2026-08-05 — Reestruturada
 
 ### Corrigido
