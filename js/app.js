@@ -1,0 +1,32 @@
+window.ONC = window.ONC || {};
+
+document.addEventListener("DOMContentLoaded", async () => {
+  try {
+    await window.ONC_DATA_READY;
+
+    const startup = [
+      ["Users", "init"],
+      ["Classroom", "init"],
+      ["Study", "init"],
+      ["Questions", "init"],
+      ["Quiz", "init"],
+      ["Classroom", "addFromCurrentUser"],
+      ["UI", "applyRole"]
+    ];
+
+    startup.forEach(([moduleName, methodName]) => {
+      const module = window.ONC?.[moduleName];
+      if (module && typeof module[methodName] === "function") {
+        module[methodName]();
+      }
+    });
+  } catch (error) {
+    console.error(error);
+    const box = document.getElementById("runtimeErrorBox");
+    if (box) {
+      box.classList.remove("hidden");
+      box.textContent =
+        "Erro ao carregar a plataforma. Para testar localmente, abra o projeto por um servidor web ou publique o pacote no Netlify.";
+    }
+  }
+});

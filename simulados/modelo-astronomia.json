@@ -1,0 +1,17 @@
+{
+  "id": "sim-astro-modelo",
+  "title": "Simulado de Astronomia",
+  "questionCount": 10,
+  "durationMinutes": 30,
+  "filters": {
+    "subjects": [
+      "Astronomia"
+    ],
+    "difficulties": [
+      "Fácil",
+      "Médio",
+      "Difícil"
+    ],
+    "minimumRecurrence": 0
+  }
+}

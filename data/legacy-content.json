@@ -1,0 +1,770 @@
+{
+  "schemaVersion": "1.0",
+  "richContent": {
+    "Astronomia||Forma da Terra": {
+      "concept": "A Terra tem forma aproximadamente esférica, com leve achatamento nos polos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Em um eclipse lunar, a sombra da Terra projetada na Lua aparece curva. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Atmosfera": {
+      "concept": "É a camada de gases que envolve a Terra e ajuda a manter condições adequadas à vida. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O ar que respiramos e a formação de nuvens ocorrem na atmosfera. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Rotação": {
+      "concept": "É o movimento da Terra em torno do próprio eixo, com duração aproximada de 24 horas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A alternância entre dia e noite acontece por causa da rotação. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Polos e equador": {
+      "concept": "Os polos são as extremidades do eixo terrestre; o equador divide o planeta em hemisférios Norte e Sul. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O Brasil está, em sua maior parte, no Hemisfério Sul. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Pontos cardeais e colaterais": {
+      "concept": "São referências de orientação: norte, sul, leste, oeste e direções intermediárias. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O Sol nasce aproximadamente no leste e se põe aproximadamente no oeste. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Dia e noite": {
+      "concept": "Ocorrem porque diferentes partes da Terra ficam voltadas para o Sol durante a rotação. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Quando é dia no Brasil, pode ser noite em países do outro lado do planeta. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Origem e estrutura interna da Terra": {
+      "concept": "A Terra formou-se há bilhões de anos e possui crosta, manto e núcleo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Os vulcões trazem materiais quentes provenientes de regiões internas do planeta. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Alterações na superfície": {
+      "concept": "A superfície terrestre muda por ação da água, vento, gelo, vulcanismo e movimentos tectônicos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A chuva pode desgastar o solo e formar ravinas. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Marés": {
+      "concept": "São variações periódicas do nível do mar, principalmente pela atração gravitacional da Lua. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Em algumas praias, a faixa de areia fica muito maior na maré baixa. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Bússola": {
+      "concept": "Instrumento cujo ponteiro se alinha aproximadamente ao campo magnético terrestre. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma bússola ajuda a localizar o norte durante uma trilha. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Horas e fusos horários": {
+      "concept": "A Terra foi dividida em fusos porque diferentes regiões recebem luz solar em horários distintos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Quando é meio-dia em Brasília, pode ser outro horário em Londres. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Eclíptica": {
+      "concept": "É o caminho aparente do Sol no céu ao longo do ano. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "As constelações do zodíaco ficam próximas da eclíptica. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Coordenadas geográficas": {
+      "concept": "Latitude e longitude permitem localizar qualquer ponto na superfície terrestre. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Brasília pode ser localizada por suas coordenadas em um mapa digital. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Solstícios e equinócios": {
+      "concept": "Solstícios marcam maior diferença entre dia e noite; equinócios têm dia e noite com durações próximas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O início astronômico das estações ocorre nesses eventos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Zonas térmicas": {
+      "concept": "São faixas da Terra definidas pela incidência de luz solar: tropical, temperadas e polares. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Regiões próximas ao equador recebem luz mais direta ao longo do ano. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Horário de verão": {
+      "concept": "É o adiantamento oficial do relógio para aproveitar mais a luz natural em parte do ano. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Quando adotado, os relógios podem ser adiantados em uma hora. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Terra e orientação"
+    },
+    "Astronomia||Fases da Lua": {
+      "concept": "São mudanças na aparência iluminada da Lua vistas da Terra. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A Lua pode aparecer cheia, minguante, nova ou crescente. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Lua, Sol e movimentos"
+    },
+    "Astronomia||Mês lunar": {
+      "concept": "É o intervalo aproximado entre duas fases iguais da Lua. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "De uma Lua cheia até a próxima passam cerca de 29,5 dias. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Lua, Sol e movimentos"
+    },
+    "Astronomia||Eclipses": {
+      "concept": "Acontecem quando Sol, Terra e Lua ficam alinhados de modo especial. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "No eclipse solar, a Lua encobre o Sol para quem está em determinada região. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Lua, Sol e movimentos"
+    },
+    "Astronomia||Translação da Terra": {
+      "concept": "É o movimento da Terra ao redor do Sol. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma volta completa corresponde aproximadamente a um ano. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Lua, Sol e movimentos"
+    },
+    "Astronomia||Estações do ano": {
+      "concept": "Resultam da inclinação do eixo terrestre combinada com a translação. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Quando é verão no Hemisfério Sul, é inverno no Hemisfério Norte. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Lua, Sol e movimentos"
+    },
+    "Astronomia||Objetos do Sistema Solar": {
+      "concept": "Incluem o Sol, planetas, satélites, asteroides, cometas e outros corpos menores. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A Lua é satélite natural da Terra. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Planetas e satélites": {
+      "concept": "Planetas orbitam estrelas; satélites naturais orbitam planetas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Marte é planeta e Fobos é um de seus satélites. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Asteroides e cometas": {
+      "concept": "Asteroides são corpos rochosos; cometas têm gelo, poeira e podem formar cauda. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O cometa Halley torna-se visível periodicamente. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Estrelas e galáxias": {
+      "concept": "Estrelas produzem energia; galáxias reúnem bilhões de estrelas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O Sol é uma estrela da Via Láctea. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Constelações e céu": {
+      "concept": "Constelações são agrupamentos aparentes de estrelas usados para reconhecimento do céu. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O Cruzeiro do Sul ajuda a localizar aproximadamente o sul. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Origem do Universo": {
+      "concept": "O modelo científico predominante descreve um Universo em expansão desde um estado muito quente e denso. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Galáxias distantes apresentam sinais de afastamento. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||História da Astronomia": {
+      "concept": "Estuda como diferentes povos observaram e explicaram o céu ao longo do tempo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Povos antigos usavam astros para calendários e navegação. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Conquista do espaço": {
+      "concept": "Abrange missões, satélites, sondas e viagens espaciais. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Satélites artificiais ajudam na previsão do tempo. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Elementos químicos e origem": {
+      "concept": "Muitos elementos foram formados em estrelas e eventos cósmicos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O ferro presente no corpo humano teve origem em processos estelares. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Gravitação, força e peso": {
+      "concept": "A gravidade atrai massas; peso é a força gravitacional sobre um corpo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Na Lua, uma pessoa pesa menos porque a gravidade é menor. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Unidade Astronômica": {
+      "concept": "É uma unidade baseada na distância média entre a Terra e o Sol. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Distâncias dentro do Sistema Solar podem ser expressas em UA. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Astronomia||Ano-luz e unidades-luz": {
+      "concept": "São distâncias percorridas pela luz em determinado intervalo de tempo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Dizer que uma estrela está a 10 anos-luz significa que sua luz levou 10 anos para chegar. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Solar e Universo"
+    },
+    "Biologia||Célula como unidade da vida": {
+      "concept": "A célula é a menor unidade estrutural e funcional dos seres vivos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A pele é formada por muitas células organizadas em tecidos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Vida e corpo humano"
+    },
+    "Biologia||Organização dos seres vivos": {
+      "concept": "Células formam tecidos, tecidos formam órgãos e órgãos formam sistemas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Células musculares formam tecido muscular, presente em órgãos como o coração. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Vida e corpo humano"
+    },
+    "Biologia||Sistema locomotor e nervoso": {
+      "concept": "Movimento e sustentação dependem da ação integrada dos sistemas ósseo, muscular e nervoso. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Para chutar uma bola, o cérebro envia comandos aos músculos ligados aos ossos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Vida e corpo humano"
+    },
+    "Biologia||Sistema nervoso": {
+      "concept": "Coordena ações, sensações e respostas do organismo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Ao tocar algo quente, o corpo reage rapidamente afastando a mão. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Vida e corpo humano"
+    },
+    "Biologia||Substâncias psicoativas": {
+      "concept": "Podem alterar a atividade do sistema nervoso, a percepção e o comportamento. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Álcool pode reduzir reflexos e coordenação motora. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Vida e corpo humano"
+    },
+    "Biologia||Visão": {
+      "concept": "O olho capta luz e o cérebro interpreta as informações visuais. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A imagem de uma placa é formada no olho e interpretada pelo cérebro. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Vida e corpo humano"
+    },
+    "Biologia||Lentes corretivas": {
+      "concept": "Lentes alteram o caminho da luz para corrigir problemas de visão. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Óculos podem ajudar uma pessoa com miopia a enxergar objetos distantes. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Vida e corpo humano"
+    },
+    "Biologia||Diversidade de ecossistemas": {
+      "concept": "Ecossistemas variam conforme água, solo, luz, temperatura, fauna e flora. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O Cerrado tem estação seca marcante e plantas adaptadas à falta de água. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ecologia e ambiente"
+    },
+    "Biologia||Fenômenos naturais": {
+      "concept": "Eventos naturais podem modificar ambientes e populações. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma enchente pode destruir abrigos de animais e alterar cursos d’água. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ecologia e ambiente"
+    },
+    "Biologia||Impactos ambientais": {
+      "concept": "Mudanças causadas por ações humanas ou eventos naturais podem afetar espécies e habitats. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Desmatamento pode reduzir alimento e abrigo disponíveis. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ecologia e ambiente"
+    },
+    "Biologia||Extinção, migração e mudança de hábitos": {
+      "concept": "Populações podem desaparecer, deslocar-se ou mudar comportamentos quando o ambiente se altera. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Animais podem migrar após uma seca prolongada. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ecologia e ambiente"
+    },
+    "Biologia||Indicadores de saúde pública": {
+      "concept": "Dados como mortalidade infantil, saneamento e incidência de doenças ajudam a avaliar a saúde coletiva. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma cidade com melhor saneamento tende a registrar menos doenças transmitidas pela água. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Saúde pública e tecnologia"
+    },
+    "Biologia||Vacinação": {
+      "concept": "Vacinas estimulam o sistema imunológico a reconhecer agentes causadores de doenças. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A vacinação em massa ajuda a reduzir a circulação de vírus. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Saúde pública e tecnologia"
+    },
+    "Biologia||Doenças de veiculação hídrica e atmosférica": {
+      "concept": "Algumas doenças são transmitidas por água contaminada ou pelo ar. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Água sem tratamento pode transmitir infecções intestinais. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Saúde pública e tecnologia"
+    },
+    "Biologia||Tecnologia e qualidade de vida": {
+      "concept": "Tecnologias podem melhorar saúde, ambiente, comunicação e acesso a serviços. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Sensores podem monitorar a qualidade do ar de uma cidade. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Saúde pública e tecnologia"
+    },
+    "Física||Frações e porcentagens": {
+      "concept": "Frações representam partes de um todo; porcentagens representam partes de cem. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "25% de 20 corresponde a 5. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos I"
+    },
+    "Física||Reta numérica com naturais": {
+      "concept": "Números podem ser organizados em uma reta em ordem crescente. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O número 8 fica à direita do número 5. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos I"
+    },
+    "Física||Pares ordenados naturais": {
+      "concept": "Um ponto no plano pode ser indicado por duas coordenadas, como (x, y). Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "No ponto (3, 2), caminhamos 3 unidades na horizontal e 2 na vertical. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos I"
+    },
+    "Física||Perímetro de quadriláteros": {
+      "concept": "Perímetro é a soma dos comprimentos dos lados. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Um retângulo de lados 4 m e 3 m tem perímetro 14 m. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos I"
+    },
+    "Física||Paralelismo e perpendicularismo": {
+      "concept": "Retas paralelas não se cruzam; perpendiculares formam ângulo de 90°. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Lados opostos de um retângulo são paralelos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos I"
+    },
+    "Física||Prismas e pirâmides": {
+      "concept": "Sólidos possuem faces, arestas e vértices. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Um cubo tem 6 faces, 12 arestas e 8 vértices. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos I"
+    },
+    "Física||Esfericidade da Terra": {
+      "concept": "Há diversas evidências de que a Terra é aproximadamente esférica. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Navios desaparecem no horizonte primeiro pela parte inferior. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Forma, estrutura e movimentos da Terra"
+    },
+    "Física||Orientação pelo Sol": {
+      "concept": "A posição aparente do Sol ajuda a estimar direções. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Pela manhã, o Sol aparece aproximadamente no leste. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Forma, estrutura e movimentos da Terra"
+    },
+    "Física||Orientação pela bússola": {
+      "concept": "A bússola indica aproximadamente a direção norte-sul. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Em uma caminhada, ela pode ajudar a manter o rumo. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Forma, estrutura e movimentos da Terra"
+    },
+    "Física||Gnômon e sombras": {
+      "concept": "Uma haste vertical projeta sombras que mudam conforme a posição aparente do Sol. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Ao meio-dia solar, a sombra tende a ser menor que no início da manhã. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Forma, estrutura e movimentos da Terra"
+    },
+    "Física||Acréscimos e decréscimos percentuais": {
+      "concept": "Percentuais podem representar aumentos ou reduções. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Um produto de R$ 100 com desconto de 20% passa a custar R$ 80. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Racionais na reta numérica": {
+      "concept": "Números decimais e fracionários também podem ser posicionados em uma reta. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "0,5 fica entre 0 e 1. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Pares ordenados racionais": {
+      "concept": "Coordenadas podem conter frações ou decimais. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O ponto (1,5; 2) fica entre 1 e 2 no eixo horizontal. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Proporcionalidade direta e inversa": {
+      "concept": "Na direta, grandezas aumentam juntas; na inversa, uma aumenta enquanto a outra diminui. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Mais torneiras iguais podem encher um tanque em menos tempo. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Equações de 1º grau": {
+      "concept": "São igualdades com incógnita elevada à primeira potência. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Em x + 3 = 8, x vale 5. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Transformações geométricas": {
+      "concept": "Figuras podem sofrer translação, rotação e reflexão no plano. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Virar uma figura como em um espelho é uma reflexão. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Ângulos em paralelas": {
+      "concept": "Retas paralelas cortadas por transversal formam relações entre ângulos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Alguns ângulos correspondentes têm a mesma medida. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Soma dos ângulos do triângulo": {
+      "concept": "Os ângulos internos de um triângulo somam 180°. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Se dois ângulos medem 50° e 60°, o terceiro mede 70°. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Área de figuras": {
+      "concept": "Área mede a superfície ocupada. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Um retângulo de 5 cm por 3 cm tem área 15 cm². Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Volume de blocos": {
+      "concept": "Volume mede o espaço ocupado por um corpo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Um bloco 2 × 3 × 4 tem volume 24 unidades cúbicas. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Circunferência e diâmetro": {
+      "concept": "A razão entre comprimento da circunferência e diâmetro é aproximadamente π. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma roda maior percorre mais distância a cada volta. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Fundamentos Matemáticos II"
+    },
+    "Física||Máquinas simples": {
+      "concept": "Dispositivos como alavancas e roldanas facilitam tarefas mecânicas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Um abridor de garrafas funciona como alavanca. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Máquinas, calor e temperatura"
+    },
+    "Física||Calor e temperatura": {
+      "concept": "Temperatura mede o estado térmico; calor é energia transferida por diferença de temperatura. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma colher aquece ao ficar dentro de uma sopa quente. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Máquinas, calor e temperatura"
+    },
+    "Física||Sensação térmica": {
+      "concept": "É a percepção de frio ou calor, influenciada por vento, umidade e outros fatores. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Com vento forte, a sensação pode ser de temperatura menor. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Máquinas, calor e temperatura"
+    },
+    "Física||Propagação do calor": {
+      "concept": "O calor pode se propagar por condução, convecção e radiação. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O cabo metálico de uma panela aquece por condução. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Máquinas, calor e temperatura"
+    },
+    "Física||Escolha de materiais": {
+      "concept": "Materiais conduzem ou isolam calor de maneiras diferentes. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Cabos de panela costumam usar materiais isolantes. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Máquinas, calor e temperatura"
+    },
+    "Física||Equipamentos térmicos": {
+      "concept": "Dispositivos térmicos controlam transferência de calor. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A garrafa térmica reduz trocas de calor com o ambiente. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Máquinas, calor e temperatura"
+    },
+    "Física||Equilíbrio termodinâmico": {
+      "concept": "Ocorre quando corpos em contato chegam à mesma temperatura. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma bebida gelada esquenta até se aproximar da temperatura do ambiente. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Máquinas, calor e temperatura"
+    },
+    "Física||Novos materiais e tecnologias": {
+      "concept": "Avanços em materiais alteram máquinas, automação e vida cotidiana. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Sensores permitem que aparelhos regulem temperatura automaticamente. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Máquinas, calor e temperatura"
+    },
+    "Física||Efeito estufa": {
+      "concept": "É um fenômeno natural que mantém a Terra aquecida; seu aumento artificial intensifica o aquecimento global. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Gases liberados pela queima de combustíveis aumentam a retenção de calor. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Máquinas, calor e temperatura"
+    },
+    "História||Introdução aos estudos históricos": {
+      "concept": "A História investiga ações humanas e transformações ao longo do tempo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Estudar uma cidade antiga ajuda a entender como viviam seus habitantes. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "História, tempo e fontes"
+    },
+    "História||Ofício do historiador": {
+      "concept": "O historiador analisa fontes, formula perguntas e constrói interpretações. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Cartas, objetos e fotografias podem ser comparados para estudar um período. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "História, tempo e fontes"
+    },
+    "História||Memória": {
+      "concept": "Memória é a forma como pessoas e grupos recordam o passado. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma família preserva lembranças por meio de fotografias e relatos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "História, tempo e fontes"
+    },
+    "História||Periodização": {
+      "concept": "É a divisão do tempo histórico em períodos para facilitar o estudo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Antiguidade e Idade Média são exemplos de periodizações. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "História, tempo e fontes"
+    },
+    "História||Tempo e História": {
+      "concept": "O tempo histórico considera mudanças, permanências e diferentes ritmos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma tecnologia pode mudar rapidamente, enquanto costumes mudam lentamente. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "História, tempo e fontes"
+    },
+    "História||Fontes e documentos": {
+      "concept": "Fontes históricas podem ser escritas, orais, materiais, visuais ou digitais. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma moeda antiga é uma fonte material. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "História, tempo e fontes"
+    },
+    "História||Narrativa": {
+      "concept": "É a organização de uma interpretação sobre acontecimentos históricos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Dois autores podem enfatizar aspectos diferentes do mesmo fato. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "História, tempo e fontes"
+    },
+    "História||Origem e evolução humana": {
+      "concept": "A ciência estuda a evolução humana por fósseis, genética e arqueologia; narrativas míticas expressam crenças culturais. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Fósseis ajudam a reconstruir características de antigos hominínios. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Origens da humanidade"
+    },
+    "História||Paleolítico": {
+      "concept": "Período marcado por caça, coleta e uso de pedra lascada. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Grupos deslocavam-se em busca de alimentos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Origens da humanidade"
+    },
+    "História||Neolítico": {
+      "concept": "Período associado à agricultura, domesticação e sedentarização. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Comunidades passaram a cultivar plantas e criar animais. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Origens da humanidade"
+    },
+    "História||Idade dos Metais": {
+      "concept": "Período em que metais passaram a ser usados em ferramentas e armas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Objetos de bronze eram mais resistentes que muitos objetos de pedra. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Origens da humanidade"
+    },
+    "História||Deslocamentos e sedentarização": {
+      "concept": "Grupos humanos migraram e, em alguns contextos, fixaram-se em aldeias. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A agricultura favoreceu moradias permanentes. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Origens da humanidade"
+    },
+    "História||Invenção da escrita": {
+      "concept": "A escrita permitiu registrar informações, leis, comércio e memórias. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Tabletes de argila registravam transações na Mesopotâmia. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Origens da humanidade"
+    },
+    "História||Origens do homem americano": {
+      "concept": "Estudos investigam diferentes rotas e períodos de ocupação das Américas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Sítios arqueológicos fornecem vestígios de antigos habitantes. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Origens da humanidade"
+    },
+    "História||África antiga": {
+      "concept": "Sociedades africanas desenvolveram formas diversas de organização política, econômica e cultural. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O Egito antigo organizou-se às margens do Nilo. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Antiguidade e Idade Média"
+    },
+    "História||Mesopotâmia": {
+      "concept": "Região entre rios onde surgiram cidades, escrita e diferentes impérios. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A irrigação ajudou a agricultura. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Antiguidade e Idade Média"
+    },
+    "História||Grécia e Roma": {
+      "concept": "Sociedades clássicas influenciaram política, direito, arte e cultura. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A democracia ateniense era restrita a parte da população. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Antiguidade e Idade Média"
+    },
+    "História||Américas antigas": {
+      "concept": "Povos americanos desenvolveram sociedades complexas antes da chegada europeia. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Maias criaram calendários e centros urbanos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Antiguidade e Idade Média"
+    },
+    "História||Transição para o mundo medieval": {
+      "concept": "O fim do Império Romano do Ocidente transformou estruturas políticas e sociais. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Poderes locais ganharam importância. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Antiguidade e Idade Média"
+    },
+    "História||Império Bizantino": {
+      "concept": "Manteve tradições romanas no Oriente e teve Constantinopla como centro. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Sua posição favorecia comércio entre continentes. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Antiguidade e Idade Média"
+    },
+    "História||Feudalismo": {
+      "concept": "Organização social, econômica e política baseada em vínculos de dependência e terra. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Servos trabalhavam em propriedades senhoriais. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Antiguidade e Idade Média"
+    },
+    "História||Papel da Igreja": {
+      "concept": "A Igreja teve forte influência religiosa, cultural e política. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Mosteiros preservaram e copiaram manuscritos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Antiguidade e Idade Média"
+    },
+    "História||Mundo Islâmico": {
+      "concept": "Sociedades islâmicas desenvolveram redes comerciais, ciência e cultura. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Estudiosos contribuíram para matemática e medicina. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Antiguidade e Idade Média"
+    },
+    "História||Culturas africanas antigas e medievais": {
+      "concept": "Havia grande diversidade de povos, reinos, línguas e tradições. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O Império do Mali destacou-se no comércio transaariano. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Culturas, mulheres e ciência histórica"
+    },
+    "História||Culturas pré-colombianas": {
+      "concept": "Maias, astecas, incas e muitos outros povos possuíam formas próprias de organização. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Os incas construíram estradas nos Andes. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Culturas, mulheres e ciência histórica"
+    },
+    "História||Sociedades europeias e não europeias": {
+      "concept": "A História compara diferentes sociedades sem tratá-las como inferiores ou superiores. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Rotas comerciais ligavam regiões da África, Ásia e Europa. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Culturas, mulheres e ciência histórica"
+    },
+    "História||História das Mulheres": {
+      "concept": "Investiga papéis, experiências, trabalhos e relações de poder envolvendo mulheres. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Mulheres participaram da produção, do comércio e da vida religiosa. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Culturas, mulheres e ciência histórica"
+    },
+    "História||Teoria, método e historiografia": {
+      "concept": "A ciência histórica utiliza métodos de análise e debate interpretações. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Historiadores podem revisar conclusões diante de novas fontes. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Culturas, mulheres e ciência histórica"
+    },
+    "História||História da Ciência": {
+      "concept": "Estuda conhecimentos produzidos por diferentes sociedades e seus efeitos atuais. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Árabes, africanos, asiáticos e europeus contribuíram para conhecimentos científicos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Culturas, mulheres e ciência histórica"
+    },
+    "História||Modernidade": {
+      "concept": "Conceito usado para estudar transformações políticas, econômicas, culturais e científicas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A imprensa ampliou a circulação de ideias. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Mundo Antigo e Mundo Novo": {
+      "concept": "Expressões europeias usadas no contexto das navegações e da conquista das Américas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Europeus chamaram as Américas de Novo Mundo. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Cultura material e imaterial": {
+      "concept": "Material inclui objetos; imaterial inclui práticas, saberes e tradições. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma cerâmica é material; uma dança tradicional é imaterial. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Absolutismo": {
+      "concept": "Modelo de concentração de poder nas monarquias europeias. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Reis centralizaram impostos, exércitos e leis. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Humanismo e Renascimento": {
+      "concept": "Movimentos que valorizaram estudos clássicos, artes e investigação. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Artistas estudaram anatomia e perspectiva. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Monarquias europeias": {
+      "concept": "Estados centralizados ampliaram administração e poder real. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Reinos organizaram exércitos permanentes. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Reformas religiosas": {
+      "concept": "Movimentos que fragmentaram a cristandade ocidental e transformaram relações políticas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Novas igrejas cristãs surgiram na Europa. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Descobertas científicas e expansão marítima": {
+      "concept": "Novos conhecimentos e técnicas favoreceram navegação e mudanças científicas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Mapas e instrumentos náuticos ajudaram viagens oceânicas. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Mercantilismo": {
+      "concept": "Conjunto de práticas econômicas voltadas ao fortalecimento dos Estados. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Monarquias incentivavam exportações e controle colonial. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Escravidão moderna e tráfico": {
+      "concept": "A expansão colonial estruturou um sistema de escravização e tráfico transatlântico. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Milhões de africanos foram forçados a atravessar o Atlântico. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Mundo moderno e colonização"
+    },
+    "História||Conquista da América": {
+      "concept": "Processo de invasão, guerra, alianças, doenças e dominação europeia. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Epidemias afetaram fortemente populações indígenas. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Colonização europeia": {
+      "concept": "Europeus instalaram estruturas políticas e econômicas em territórios americanos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Colônias produziram bens para mercados externos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Resistência indígena": {
+      "concept": "Povos indígenas resistiram por guerras, fugas, negociações e preservação cultural. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Comunidades mantiveram línguas e tradições. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Chegada dos portugueses": {
+      "concept": "A chegada portuguesa em 1500 iniciou nova fase de contato, conflito e colonização. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Relatos europeus descreveram povos e paisagens. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Povos indígenas do Brasil": {
+      "concept": "O território era habitado por muitos povos com línguas e culturas diversas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Diferentes povos tinham modos próprios de viver e organizar-se. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Indígenas hoje": {
+      "concept": "Povos indígenas continuam presentes, diversos e atuantes na sociedade. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Comunidades lutam por territórios e direitos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Brasil Holandês": {
+      "concept": "Partes do Nordeste foram ocupadas por neerlandeses no século XVII. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Recife tornou-se centro administrativo durante o governo de Nassau. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Inquisição no Brasil": {
+      "concept": "A Inquisição portuguesa atuou também na colônia, perseguindo práticas consideradas heréticas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Denúncias podiam resultar em investigação religiosa. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Economia colonial": {
+      "concept": "A economia envolveu açúcar, mineração, drogas do sertão e trabalho compulsório. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Engenhos produziam açúcar para exportação. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Organização colonial e reformas pombalinas": {
+      "concept": "A administração colonial foi modificada em diferentes períodos. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Reformas buscaram fortalecer o controle da Coroa. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "História||Mulheres no mundo moderno": {
+      "concept": "Mulheres atuaram em famílias, trabalho, religião, comércio e resistências. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Mulheres administravam negócios e propriedades em diferentes sociedades. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Américas e Brasil colonial"
+    },
+    "Química||Matéria": {
+      "concept": "É tudo que tem massa e ocupa lugar no espaço. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Água, ar, madeira e metal são formas de matéria. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Matéria, energia e transformações"
+    },
+    "Química||Energia": {
+      "concept": "É a capacidade de produzir mudanças ou realizar trabalho. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A energia elétrica acende uma lâmpada. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Matéria, energia e transformações"
+    },
+    "Química||Matéria e energia no cotidiano": {
+      "concept": "Processos cotidianos envolvem materiais e transformações de energia. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Um liquidificador transforma energia elétrica em movimento. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Matéria, energia e transformações"
+    },
+    "Química||Fontes de energia": {
+      "concept": "São recursos usados para obter energia, renováveis ou não renováveis. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Sol e vento são fontes renováveis. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Matéria, energia e transformações"
+    },
+    "Química||Uso da energia": {
+      "concept": "A energia pode ser transformada entre formas diferentes. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma pilha transforma energia química em elétrica. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Matéria, energia e transformações"
+    },
+    "Química||Reações químicas": {
+      "concept": "Processos em que substâncias se transformam em outras. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Ferro enferrujando é uma reação química. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Matéria, energia e transformações"
+    },
+    "Química||Transformação física e química": {
+      "concept": "Na física, a substância permanece a mesma; na química, formam-se novas substâncias. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Derreter gelo é físico; queimar papel é químico. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Matéria, energia e transformações"
+    },
+    "Química||Combustão": {
+      "concept": "É uma reação com liberação de energia, geralmente envolvendo combustível e oxigênio. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "A chama do fogão resulta da combustão do gás. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Matéria, energia e transformações"
+    },
+    "Química||Materiais sintéticos": {
+      "concept": "São materiais produzidos ou modificados por processos industriais. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Plásticos são usados em embalagens e objetos. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Matéria, energia e transformações"
+    },
+    "Química||Mistura homogênea": {
+      "concept": "Apresenta aspecto uniforme e uma única fase visível. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Água com sal dissolvido é homogênea. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Misturas e separação"
+    },
+    "Química||Mistura heterogênea": {
+      "concept": "Apresenta duas ou mais fases visíveis. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Água e óleo formam mistura heterogênea. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Misturas e separação"
+    },
+    "Química||Separação de materiais": {
+      "concept": "Métodos físicos separam componentes de misturas. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma peneira separa areia de pedras. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Misturas e separação"
+    },
+    "Química||Tratamento da água": {
+      "concept": "Combina etapas para remover impurezas e tornar a água adequada ao consumo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Filtração remove partículas suspensas. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Misturas e separação"
+    },
+    "Química||Separação no tratamento da água": {
+      "concept": "Processos incluem coagulação, floculação, decantação, filtração e desinfecção. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Na decantação, partículas mais densas se depositam no fundo. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Misturas e separação"
+    },
+    "Química||Tratamento do esgoto": {
+      "concept": "Reduz poluentes antes da devolução da água ao ambiente. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Microrganismos podem decompor matéria orgânica. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Misturas e separação"
+    },
+    "Química||Diferentes tipos de água": {
+      "concept": "Água pode ser potável, mineral, destilada, salgada, doce ou residuária. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Água do mar contém grande quantidade de sais. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Misturas e separação"
+    },
+    "Química||Composição do ar": {
+      "concept": "O ar é uma mistura de gases, principalmente nitrogênio e oxigênio. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O oxigênio é necessário para a respiração humana. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ar, água e propriedades"
+    },
+    "Química||Efeito estufa": {
+      "concept": "Gases atmosféricos retêm parte do calor e mantêm o planeta aquecido. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O aumento de dióxido de carbono intensifica o fenômeno. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ar, água e propriedades"
+    },
+    "Química||Camada de ozônio": {
+      "concept": "Região da atmosfera com ozônio que absorve grande parte da radiação ultravioleta. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Protetor solar ajuda a reduzir danos da radiação que alcança a superfície. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ar, água e propriedades"
+    },
+    "Química||Constituição química da água": {
+      "concept": "A molécula de água é formada por hidrogênio e oxigênio. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Sua fórmula é H₂O. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ar, água e propriedades"
+    },
+    "Química||Propriedades físico-químicas da água": {
+      "concept": "A água dissolve muitas substâncias e apresenta comportamentos térmicos importantes. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "O suor ajuda a resfriar o corpo ao evaporar. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ar, água e propriedades"
+    },
+    "Química||Densidade": {
+      "concept": "É a relação entre massa e volume. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Óleo fica sobre a água porque é menos denso. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ar, água e propriedades"
+    },
+    "Química||Flutuabilidade": {
+      "concept": "Depende da relação entre a densidade do objeto, do líquido e do empuxo. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Um navio de aço flutua por causa do formato e do volume de água deslocado. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Ar, água e propriedades"
+    },
+    "Química||Unidades do SI": {
+      "concept": "O Sistema Internacional padroniza medidas como metro, quilograma, segundo e kelvin. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "Uma distância pode ser expressa em metros ou quilômetros. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Internacional"
+    },
+    "Química||Múltiplos e submúltiplos": {
+      "concept": "Prefixos como quilo, centi e mili indicam escalas de medida. Para dominar este conteúdo, identifique a definição, o processo envolvido e o resultado observado. Em seguida, relacione essas três partes. Essa relação ajuda a reconhecer o mesmo conceito quando a prova apresenta uma situação diferente daquela estudada.",
+      "example": "1 quilômetro corresponde a 1.000 metros. Esse exemplo corresponde ao conceito porque apresenta uma situação concreta em que a definição pode ser observada. Na prova, identifique no enunciado qual trecho mostra o fenômeno e qual trecho mostra sua consequência.",
+      "group": "Sistema Internacional"
+    }
+  }
+}

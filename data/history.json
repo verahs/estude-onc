@@ -1,0 +1,2749 @@
+{
+  "schemaVersion": "1.0",
+  "discipline": "História",
+  "icon": "📜",
+  "groups": [
+    {
+      "name": "História, tempo e fontes",
+      "topics": [
+        "Introdução aos estudos históricos",
+        "Ofício do historiador",
+        "Memória",
+        "Periodização",
+        "Tempo e História",
+        "Fontes históricas e documentos",
+        "Narrativa"
+      ]
+    },
+    {
+      "name": "Origens da humanidade",
+      "topics": [
+        "Origem e evolução humana",
+        "Paleolítico",
+        "Neolítico",
+        "Idade dos Metais",
+        "Deslocamentos e sedentarização",
+        "Invenção da escrita",
+        "Origens do homem americano"
+      ]
+    },
+    {
+      "name": "Antiguidade e Idade Média",
+      "topics": [
+        "África antiga",
+        "Mesopotâmia",
+        "Grécia e Roma",
+        "Américas antigas",
+        "Passagem para o mundo medieval",
+        "Império Bizantino",
+        "Feudalismo",
+        "Papel da Igreja",
+        "Mundo Islâmico"
+      ]
+    },
+    {
+      "name": "Mundo moderno e colonização",
+      "topics": [
+        "Modernidade",
+        "Absolutismo",
+        "Humanismo e Renascimento",
+        "Monarquias europeias",
+        "Reformas religiosas",
+        "Descobertas científicas e expansão marítima",
+        "Mercantilismo",
+        "Escravidão moderna e tráfico",
+        "Conquista da América",
+        "Colonização europeia",
+        "Resistência indígena",
+        "América Portuguesa",
+        "Brasil Holandês",
+        "Inquisição no Brasil",
+        "Economia colonial",
+        "Reformas pombalinas",
+        "História das Mulheres"
+      ]
+    }
+  ],
+  "topics": {
+    "Introdução aos estudos históricos": {
+      "definition": "História é a área do conhecimento que investiga as ações humanas no tempo. Ela procura explicar mudanças, permanências, conflitos, escolhas e diferentes formas de organização das sociedades.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>As sociedades deixam vestígios escritos, materiais, visuais e orais.</li><li>Esses vestígios são analisados para responder perguntas sobre o passado.</li><li>O estudo histórico relaciona passado e presente, sem tratar a História como simples lista de datas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores, arqueólogos, pesquisadores e comunidades que preservam memórias.</li><li>Povos, grupos sociais e instituições representados nas fontes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Formulação de perguntas.</li><li>Análise e comparação de fontes.</li><li>Localização no tempo e no espaço.</li><li>Identificação de causas, consequências, mudanças e permanências.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Novas fontes podem modificar interpretações anteriores.</li><li>Temas como história indígena, africana, das mulheres e do cotidiano ganharam mais espaço.</li></ul></section></div>",
+      "result": "O estudo histórico permite compreender como sociedades foram formadas, por que se transformaram e de que maneira o passado influencia identidades, instituições e problemas atuais.",
+      "example": "Comparar fotografias antigas e atuais de uma cidade ajuda a perceber mudanças nos transportes, nas construções e no modo de vida.",
+      "exam": "A prova pode apresentar duas fontes sobre o mesmo acontecimento e perguntar por que elas revelam perspectivas diferentes.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "introducao-aos-estudos-historicos-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "História é a área do conhecimento que investiga as ações humanas no tempo. Ela procura explicar mudanças, permanências, conflitos, escolhas e diferentes formas de organização das sociedades."
+        },
+        {
+          "id": "introducao-aos-estudos-historicos-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "introducao-aos-estudos-historicos-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>As sociedades deixam vestígios escritos, materiais, visuais e orais.</li><li>Esses vestígios são analisados para responder perguntas sobre o passado.</li><li>O estudo histórico relaciona passado e presente, sem tratar a História como simples lista de datas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores, arqueólogos, pesquisadores e comunidades que preservam memórias.</li><li>Povos, grupos sociais e instituições representados nas fontes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Formulação de perguntas.</li><li>Análise e comparação de fontes.</li><li>Localização no tempo e no espaço.</li><li>Identificação de causas, consequências, mudanças e permanências.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Novas fontes podem modificar interpretações anteriores.</li><li>Temas como história indígena, africana, das mulheres e do cotidiano ganharam mais espaço.</li></ul></section></div>"
+        },
+        {
+          "id": "introducao-aos-estudos-historicos-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O estudo histórico permite compreender como sociedades foram formadas, por que se transformaram e de que maneira o passado influencia identidades, instituições e problemas atuais."
+        },
+        {
+          "id": "introducao-aos-estudos-historicos-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Comparar fotografias antigas e atuais de uma cidade ajuda a perceber mudanças nos transportes, nas construções e no modo de vida."
+        },
+        {
+          "id": "introducao-aos-estudos-historicos-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar duas fontes sobre o mesmo acontecimento e perguntar por que elas revelam perspectivas diferentes."
+        },
+        {
+          "id": "introducao-aos-estudos-historicos-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "História é a área do conhecimento que investiga as ações humanas no tempo. Ela procura explicar mudanças, permanências, conflitos, escolhas e diferentes formas de organização das sociedades.",
+            "O estudo histórico permite compreender como sociedades foram formadas, por que se transformaram e de que maneira o passado influencia identidades, instituições e problemas atuais."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Ofício do historiador": {
+      "definition": "O ofício do historiador consiste em pesquisar o passado por meio de perguntas, fontes e argumentos fundamentados.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>O historiador não presencia a maior parte dos fatos que estuda.</li><li>Ele trabalha com vestígios produzidos por pessoas e instituições.</li><li>Toda fonte possui autoria, finalidade e contexto.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores, arqueólogos, arquivistas e pesquisadores.</li><li>Autores e grupos citados ou omitidos nas fontes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Definir um problema de pesquisa.</li><li>Selecionar fontes.</li><li>Verificar autoria, data e intenção.</li><li>Comparar evidências.</li><li>Construir uma explicação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Tecnologias digitais ampliaram o acesso a documentos.</li><li>Relatos orais, fotografias e objetos cotidianos passaram a ser mais valorizados.</li></ul></section></div>",
+      "result": "O historiador produz interpretações sustentadas por evidências. Essas interpretações podem ser revistas quando surgem novas fontes ou novas perguntas.",
+      "example": "Para estudar uma greve, podem ser comparados jornais, atas sindicais, fotografias e depoimentos de trabalhadores.",
+      "exam": "Uma questão pode perguntar qual procedimento aumenta a confiabilidade de uma pesquisa: comparar fontes e verificar seu contexto.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "oficio-do-historiador-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "O ofício do historiador consiste em pesquisar o passado por meio de perguntas, fontes e argumentos fundamentados."
+        },
+        {
+          "id": "oficio-do-historiador-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "oficio-do-historiador-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>O historiador não presencia a maior parte dos fatos que estuda.</li><li>Ele trabalha com vestígios produzidos por pessoas e instituições.</li><li>Toda fonte possui autoria, finalidade e contexto.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores, arqueólogos, arquivistas e pesquisadores.</li><li>Autores e grupos citados ou omitidos nas fontes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Definir um problema de pesquisa.</li><li>Selecionar fontes.</li><li>Verificar autoria, data e intenção.</li><li>Comparar evidências.</li><li>Construir uma explicação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Tecnologias digitais ampliaram o acesso a documentos.</li><li>Relatos orais, fotografias e objetos cotidianos passaram a ser mais valorizados.</li></ul></section></div>"
+        },
+        {
+          "id": "oficio-do-historiador-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O historiador produz interpretações sustentadas por evidências. Essas interpretações podem ser revistas quando surgem novas fontes ou novas perguntas."
+        },
+        {
+          "id": "oficio-do-historiador-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Para estudar uma greve, podem ser comparados jornais, atas sindicais, fotografias e depoimentos de trabalhadores."
+        },
+        {
+          "id": "oficio-do-historiador-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "Uma questão pode perguntar qual procedimento aumenta a confiabilidade de uma pesquisa: comparar fontes e verificar seu contexto."
+        },
+        {
+          "id": "oficio-do-historiador-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "O ofício do historiador consiste em pesquisar o passado por meio de perguntas, fontes e argumentos fundamentados.",
+            "O historiador produz interpretações sustentadas por evidências. Essas interpretações podem ser revistas quando surgem novas fontes ou novas perguntas."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Memória": {
+      "definition": "Memória é a maneira como pessoas e grupos lembram e atribuem significado ao passado. Ela é seletiva e pode mudar com o tempo.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Famílias e comunidades preservam lembranças por relatos, festas, monumentos e tradições.</li><li>Alguns acontecimentos são destacados e outros podem ser esquecidos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Indivíduos, famílias, comunidades e instituições.</li><li>Grupos que disputam reconhecimento de suas experiências.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Seleção do que será lembrado.</li><li>Transmissão por narrativas, símbolos e rituais.</li><li>Disputa entre versões do passado.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Memórias coletivas podem ser revistas.</li><li>Experiências antes silenciadas podem ganhar visibilidade.</li></ul></section></div>",
+      "result": "A memória fortalece identidades, mas precisa ser comparada com outras fontes quando usada na pesquisa histórica.",
+      "example": "Um monumento pode homenagear um personagem, enquanto outro grupo recorda os conflitos ligados à sua atuação.",
+      "exam": "A prova pode apresentar um depoimento e perguntar por que ele representa uma perspectiva, e não uma reprodução perfeita do passado.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "memoria-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Memória é a maneira como pessoas e grupos lembram e atribuem significado ao passado. Ela é seletiva e pode mudar com o tempo."
+        },
+        {
+          "id": "memoria-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "memoria-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Famílias e comunidades preservam lembranças por relatos, festas, monumentos e tradições.</li><li>Alguns acontecimentos são destacados e outros podem ser esquecidos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Indivíduos, famílias, comunidades e instituições.</li><li>Grupos que disputam reconhecimento de suas experiências.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Seleção do que será lembrado.</li><li>Transmissão por narrativas, símbolos e rituais.</li><li>Disputa entre versões do passado.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Memórias coletivas podem ser revistas.</li><li>Experiências antes silenciadas podem ganhar visibilidade.</li></ul></section></div>"
+        },
+        {
+          "id": "memoria-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A memória fortalece identidades, mas precisa ser comparada com outras fontes quando usada na pesquisa histórica."
+        },
+        {
+          "id": "memoria-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Um monumento pode homenagear um personagem, enquanto outro grupo recorda os conflitos ligados à sua atuação."
+        },
+        {
+          "id": "memoria-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar um depoimento e perguntar por que ele representa uma perspectiva, e não uma reprodução perfeita do passado."
+        },
+        {
+          "id": "memoria-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Memória é a maneira como pessoas e grupos lembram e atribuem significado ao passado. Ela é seletiva e pode mudar com o tempo.",
+            "A memória fortalece identidades, mas precisa ser comparada com outras fontes quando usada na pesquisa histórica."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Periodização": {
+      "definition": "Periodização é a divisão do tempo histórico em períodos para facilitar o estudo. Essas divisões são convenções criadas por pesquisadores.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A História abrange processos muito longos.</li><li>Marcos ajudam a organizar mudanças e permanências.</li><li>A divisão europeia não explica igualmente a história de todos os povos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores e instituições de ensino.</li><li>Sociedades tomadas como referência para definir os períodos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Escolha de marcos de início e fim.</li><li>Agrupamento de características comuns.</li><li>Comparação entre períodos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Periodizações podem ser revistas.</li><li>Histórias africanas, indígenas e asiáticas exigem outros marcos.</li></ul></section></div>",
+      "result": "A periodização organiza o estudo, mas não significa que todas as sociedades mudaram ao mesmo tempo.",
+      "example": "O ano de 1453 é usado como marco entre Idade Média e Moderna na Europa, mas não teve o mesmo significado em todo o mundo.",
+      "exam": "A questão pode pedir por que uma periodização é uma ferramenta de estudo, e não uma divisão natural do tempo.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "periodizacao-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Periodização é a divisão do tempo histórico em períodos para facilitar o estudo. Essas divisões são convenções criadas por pesquisadores."
+        },
+        {
+          "id": "periodizacao-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "periodizacao-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A História abrange processos muito longos.</li><li>Marcos ajudam a organizar mudanças e permanências.</li><li>A divisão europeia não explica igualmente a história de todos os povos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores e instituições de ensino.</li><li>Sociedades tomadas como referência para definir os períodos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Escolha de marcos de início e fim.</li><li>Agrupamento de características comuns.</li><li>Comparação entre períodos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Periodizações podem ser revistas.</li><li>Histórias africanas, indígenas e asiáticas exigem outros marcos.</li></ul></section></div>"
+        },
+        {
+          "id": "periodizacao-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A periodização organiza o estudo, mas não significa que todas as sociedades mudaram ao mesmo tempo."
+        },
+        {
+          "id": "periodizacao-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "O ano de 1453 é usado como marco entre Idade Média e Moderna na Europa, mas não teve o mesmo significado em todo o mundo."
+        },
+        {
+          "id": "periodizacao-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode pedir por que uma periodização é uma ferramenta de estudo, e não uma divisão natural do tempo."
+        },
+        {
+          "id": "periodizacao-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Periodização é a divisão do tempo histórico em períodos para facilitar o estudo. Essas divisões são convenções criadas por pesquisadores.",
+            "A periodização organiza o estudo, mas não significa que todas as sociedades mudaram ao mesmo tempo."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Tempo e História": {
+      "definition": "Tempo histórico é a dimensão em que ocorrem mudanças e permanências nas sociedades. Ele envolve ritmos diferentes de transformação.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Algumas mudanças são rápidas, como revoluções.</li><li>Outras são lentas, como alterações culturais.</li><li>Processos distintos podem ocorrer ao mesmo tempo.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Sociedades e grupos afetados de maneiras diferentes.</li><li>Pesquisadores que estudam curta, média e longa duração.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cronologia.</li><li>Duração.</li><li>Simultaneidade.</li><li>Relação entre passado, presente e futuro.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>A forma de medir o tempo variou entre culturas.</li><li>Calendários e marcos históricos mudaram conforme sociedades e religiões.</li></ul></section></div>",
+      "result": "Compreender o tempo histórico ajuda a perceber que leis podem mudar rapidamente, enquanto costumes e desigualdades podem permanecer por muito tempo.",
+      "example": "Uma nova lei entra em vigor em um dia, mas a mudança de hábitos sociais pode levar décadas.",
+      "exam": "A prova pode comparar dois processos e pedir qual representa uma transformação de longa duração.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "tempo-e-historia-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Tempo histórico é a dimensão em que ocorrem mudanças e permanências nas sociedades. Ele envolve ritmos diferentes de transformação."
+        },
+        {
+          "id": "tempo-e-historia-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "tempo-e-historia-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Algumas mudanças são rápidas, como revoluções.</li><li>Outras são lentas, como alterações culturais.</li><li>Processos distintos podem ocorrer ao mesmo tempo.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Sociedades e grupos afetados de maneiras diferentes.</li><li>Pesquisadores que estudam curta, média e longa duração.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cronologia.</li><li>Duração.</li><li>Simultaneidade.</li><li>Relação entre passado, presente e futuro.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>A forma de medir o tempo variou entre culturas.</li><li>Calendários e marcos históricos mudaram conforme sociedades e religiões.</li></ul></section></div>"
+        },
+        {
+          "id": "tempo-e-historia-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "Compreender o tempo histórico ajuda a perceber que leis podem mudar rapidamente, enquanto costumes e desigualdades podem permanecer por muito tempo."
+        },
+        {
+          "id": "tempo-e-historia-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Uma nova lei entra em vigor em um dia, mas a mudança de hábitos sociais pode levar décadas."
+        },
+        {
+          "id": "tempo-e-historia-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode comparar dois processos e pedir qual representa uma transformação de longa duração."
+        },
+        {
+          "id": "tempo-e-historia-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Tempo histórico é a dimensão em que ocorrem mudanças e permanências nas sociedades. Ele envolve ritmos diferentes de transformação.",
+            "Compreender o tempo histórico ajuda a perceber que leis podem mudar rapidamente, enquanto costumes e desigualdades podem permanecer por muito tempo."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Fontes históricas e documentos": {
+      "definition": "Fontes históricas são vestígios usados para estudar o passado, como textos, objetos, imagens, edifícios, mapas, depoimentos e registros digitais.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Toda fonte foi produzida em uma situação específica.</li><li>Nenhuma fonte é totalmente neutra.</li><li>Ausências e silêncios também podem ser importantes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Autores das fontes.</li><li>Públicos a quem elas se destinavam.</li><li>Grupos representados ou omitidos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Identificar autoria e data.</li><li>Analisar finalidade.</li><li>Comparar com outras fontes.</li><li>Avaliar o que a fonte mostra e o que não mostra.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>O conceito de fonte se ampliou além dos documentos oficiais.</li><li>Objetos cotidianos e oralidade passaram a ser valorizados.</li></ul></section></div>",
+      "result": "A análise crítica das fontes permite reconstruir aspectos do passado e compreender diferentes pontos de vista.",
+      "example": "Uma carta de um governante e o relato de um trabalhador podem descrever o mesmo fato de modos diferentes.",
+      "exam": "A ONC pode apresentar imagem e texto e pedir qual conclusão é sustentada pelas duas evidências.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "fontes-historicas-e-documentos-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Fontes históricas são vestígios usados para estudar o passado, como textos, objetos, imagens, edifícios, mapas, depoimentos e registros digitais."
+        },
+        {
+          "id": "fontes-historicas-e-documentos-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "fontes-historicas-e-documentos-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Toda fonte foi produzida em uma situação específica.</li><li>Nenhuma fonte é totalmente neutra.</li><li>Ausências e silêncios também podem ser importantes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Autores das fontes.</li><li>Públicos a quem elas se destinavam.</li><li>Grupos representados ou omitidos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Identificar autoria e data.</li><li>Analisar finalidade.</li><li>Comparar com outras fontes.</li><li>Avaliar o que a fonte mostra e o que não mostra.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>O conceito de fonte se ampliou além dos documentos oficiais.</li><li>Objetos cotidianos e oralidade passaram a ser valorizados.</li></ul></section></div>"
+        },
+        {
+          "id": "fontes-historicas-e-documentos-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A análise crítica das fontes permite reconstruir aspectos do passado e compreender diferentes pontos de vista."
+        },
+        {
+          "id": "fontes-historicas-e-documentos-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Uma carta de um governante e o relato de um trabalhador podem descrever o mesmo fato de modos diferentes."
+        },
+        {
+          "id": "fontes-historicas-e-documentos-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A ONC pode apresentar imagem e texto e pedir qual conclusão é sustentada pelas duas evidências."
+        },
+        {
+          "id": "fontes-historicas-e-documentos-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Fontes históricas são vestígios usados para estudar o passado, como textos, objetos, imagens, edifícios, mapas, depoimentos e registros digitais.",
+            "A análise crítica das fontes permite reconstruir aspectos do passado e compreender diferentes pontos de vista."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Narrativa": {
+      "definition": "Narrativa histórica é a explicação organizada que relaciona acontecimentos, fontes e argumentos.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Os fatos precisam ser conectados por contexto, causas e consequências.</li><li>Perguntas diferentes podem gerar narrativas diferentes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores.</li><li>Autores das fontes.</li><li>Grupos sociais presentes na interpretação.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Selecionar informações.</li><li>Organizar sequência lógica.</li><li>Usar evidências.</li><li>Explicar conflitos e transformações.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Narrativas mudam com novas fontes e perspectivas.</li><li>Grupos antes ignorados podem ganhar destaque.</li></ul></section></div>",
+      "result": "A narrativa histórica dá sentido às evidências, mas deve ser fundamentada e não pode ser confundida com opinião sem prova.",
+      "example": "Uma narrativa sobre a abolição pode destacar leis, movimentos sociais e lutas de pessoas escravizadas.",
+      "exam": "A questão pode pedir qual explicação está mais bem sustentada pelas fontes apresentadas.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "narrativa-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Narrativa histórica é a explicação organizada que relaciona acontecimentos, fontes e argumentos."
+        },
+        {
+          "id": "narrativa-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "narrativa-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Os fatos precisam ser conectados por contexto, causas e consequências.</li><li>Perguntas diferentes podem gerar narrativas diferentes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Historiadores.</li><li>Autores das fontes.</li><li>Grupos sociais presentes na interpretação.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Selecionar informações.</li><li>Organizar sequência lógica.</li><li>Usar evidências.</li><li>Explicar conflitos e transformações.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Narrativas mudam com novas fontes e perspectivas.</li><li>Grupos antes ignorados podem ganhar destaque.</li></ul></section></div>"
+        },
+        {
+          "id": "narrativa-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A narrativa histórica dá sentido às evidências, mas deve ser fundamentada e não pode ser confundida com opinião sem prova."
+        },
+        {
+          "id": "narrativa-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Uma narrativa sobre a abolição pode destacar leis, movimentos sociais e lutas de pessoas escravizadas."
+        },
+        {
+          "id": "narrativa-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode pedir qual explicação está mais bem sustentada pelas fontes apresentadas."
+        },
+        {
+          "id": "narrativa-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Narrativa histórica é a explicação organizada que relaciona acontecimentos, fontes e argumentos.",
+            "A narrativa histórica dá sentido às evidências, mas deve ser fundamentada e não pode ser confundida com opinião sem prova."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Origem e evolução humana": {
+      "definition": "A evolução humana é o longo processo biológico e cultural que levou ao surgimento do Homo sapiens a partir de ancestrais comuns com outros primatas.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>O processo começou na África há milhões de anos.</li><li>Existiram diferentes espécies de hominínios.</li><li>Mudanças ambientais influenciaram adaptações.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Diversas espécies de hominínios.</li><li>Grupos de Homo sapiens que migraram para outros continentes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Adaptações corporais.</li><li>Produção de ferramentas.</li><li>Domínio do fogo.</li><li>Comunicação e cooperação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Aumento da capacidade de planejar.</li><li>Aperfeiçoamento técnico.</li><li>Ocupação de ambientes variados.</li></ul></section></div>",
+      "result": "A combinação entre evolução biológica e aprendizagem cultural ampliou a capacidade humana de adaptação e cooperação.",
+      "example": "Ferramentas e restos de fogueiras indicam planejamento e transmissão de conhecimentos.",
+      "exam": "A prova pode comparar fósseis e ferramentas e pedir qual evidência é biológica e qual é cultural.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "origem-e-evolucao-humana-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "A evolução humana é o longo processo biológico e cultural que levou ao surgimento do Homo sapiens a partir de ancestrais comuns com outros primatas."
+        },
+        {
+          "id": "origem-e-evolucao-humana-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "origem-e-evolucao-humana-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>O processo começou na África há milhões de anos.</li><li>Existiram diferentes espécies de hominínios.</li><li>Mudanças ambientais influenciaram adaptações.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Diversas espécies de hominínios.</li><li>Grupos de Homo sapiens que migraram para outros continentes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Adaptações corporais.</li><li>Produção de ferramentas.</li><li>Domínio do fogo.</li><li>Comunicação e cooperação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Aumento da capacidade de planejar.</li><li>Aperfeiçoamento técnico.</li><li>Ocupação de ambientes variados.</li></ul></section></div>"
+        },
+        {
+          "id": "origem-e-evolucao-humana-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A combinação entre evolução biológica e aprendizagem cultural ampliou a capacidade humana de adaptação e cooperação."
+        },
+        {
+          "id": "origem-e-evolucao-humana-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Ferramentas e restos de fogueiras indicam planejamento e transmissão de conhecimentos."
+        },
+        {
+          "id": "origem-e-evolucao-humana-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode comparar fósseis e ferramentas e pedir qual evidência é biológica e qual é cultural."
+        },
+        {
+          "id": "origem-e-evolucao-humana-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "A evolução humana é o longo processo biológico e cultural que levou ao surgimento do Homo sapiens a partir de ancestrais comuns com outros primatas.",
+            "A combinação entre evolução biológica e aprendizagem cultural ampliou a capacidade humana de adaptação e cooperação."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Paleolítico": {
+      "definition": "Paleolítico é o período mais antigo da Pré-História, marcado pela pedra lascada, caça, pesca, coleta e vida predominantemente nômade.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Começou há cerca de 2,6 milhões de anos.</li><li>A agricultura ainda não era praticada.</li><li>A sobrevivência dependia dos recursos naturais disponíveis.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Pequenos grupos familiares.</li><li>Caçadores-coletores.</li><li>Comunidades nômades.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cooperação na caça e proteção.</li><li>Divisão simples de tarefas.</li><li>Uso de abrigos naturais.</li><li>Ferramentas de pedra, osso e madeira.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Domínio gradual do fogo.</li><li>Aperfeiçoamento das ferramentas.</li><li>Desenvolvimento da linguagem e da arte rupestre.</li></ul></section></div>",
+      "result": "O Paleolítico consolidou cooperação, comunicação, domínio do fogo e fabricação de ferramentas. Essas práticas aumentaram a sobrevivência e prepararam mudanças posteriores.",
+      "example": "Quando os animais migravam e os frutos se tornavam escassos, o grupo precisava deslocar-se.",
+      "exam": "A questão pode mostrar ferramentas de pedra lascada e restos de fogueira e pedir qual modo de vida é mais provável.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "paleolitico-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Paleolítico é o período mais antigo da Pré-História, marcado pela pedra lascada, caça, pesca, coleta e vida predominantemente nômade."
+        },
+        {
+          "id": "paleolitico-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "paleolitico-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Começou há cerca de 2,6 milhões de anos.</li><li>A agricultura ainda não era praticada.</li><li>A sobrevivência dependia dos recursos naturais disponíveis.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Pequenos grupos familiares.</li><li>Caçadores-coletores.</li><li>Comunidades nômades.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cooperação na caça e proteção.</li><li>Divisão simples de tarefas.</li><li>Uso de abrigos naturais.</li><li>Ferramentas de pedra, osso e madeira.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Domínio gradual do fogo.</li><li>Aperfeiçoamento das ferramentas.</li><li>Desenvolvimento da linguagem e da arte rupestre.</li></ul></section></div>"
+        },
+        {
+          "id": "paleolitico-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O Paleolítico consolidou cooperação, comunicação, domínio do fogo e fabricação de ferramentas. Essas práticas aumentaram a sobrevivência e prepararam mudanças posteriores."
+        },
+        {
+          "id": "paleolitico-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Quando os animais migravam e os frutos se tornavam escassos, o grupo precisava deslocar-se."
+        },
+        {
+          "id": "paleolitico-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode mostrar ferramentas de pedra lascada e restos de fogueira e pedir qual modo de vida é mais provável."
+        },
+        {
+          "id": "paleolitico-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Paleolítico é o período mais antigo da Pré-História, marcado pela pedra lascada, caça, pesca, coleta e vida predominantemente nômade.",
+            "O Paleolítico consolidou cooperação, comunicação, domínio do fogo e fabricação de ferramentas. Essas práticas aumentaram a sobrevivência e prepararam mudanças posteriores."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Neolítico": {
+      "definition": "Neolítico é o período em que vários grupos passaram a praticar agricultura, domesticar animais e viver de forma mais sedentária.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Começou em épocas diferentes conforme a região.</li><li>Mudanças climáticas favoreceram novas formas de obter alimentos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Agricultores.</li><li>Pastores.</li><li>Artesãos.</li><li>Comunidades aldeãs.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cultivo de plantas.</li><li>Domesticação de animais.</li><li>Construção de aldeias.</li><li>Armazenamento de alimentos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Sedentarização.</li><li>Crescimento populacional.</li><li>Especialização do trabalho.</li><li>Aumento das trocas.</li></ul></section></div>",
+      "result": "A produção de alimentos permitiu maior estabilidade, crescimento das aldeias e novas formas de organização econômica e social.",
+      "example": "Uma comunidade que planta cereais precisa permanecer próxima às áreas cultivadas.",
+      "exam": "A prova pode apresentar silos, cerâmica e sementes e pedir qual mudança do Neolítico está representada.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "neolitico-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Neolítico é o período em que vários grupos passaram a praticar agricultura, domesticar animais e viver de forma mais sedentária."
+        },
+        {
+          "id": "neolitico-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "neolitico-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Começou em épocas diferentes conforme a região.</li><li>Mudanças climáticas favoreceram novas formas de obter alimentos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Agricultores.</li><li>Pastores.</li><li>Artesãos.</li><li>Comunidades aldeãs.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cultivo de plantas.</li><li>Domesticação de animais.</li><li>Construção de aldeias.</li><li>Armazenamento de alimentos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Sedentarização.</li><li>Crescimento populacional.</li><li>Especialização do trabalho.</li><li>Aumento das trocas.</li></ul></section></div>"
+        },
+        {
+          "id": "neolitico-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A produção de alimentos permitiu maior estabilidade, crescimento das aldeias e novas formas de organização econômica e social."
+        },
+        {
+          "id": "neolitico-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Uma comunidade que planta cereais precisa permanecer próxima às áreas cultivadas."
+        },
+        {
+          "id": "neolitico-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar silos, cerâmica e sementes e pedir qual mudança do Neolítico está representada."
+        },
+        {
+          "id": "neolitico-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Neolítico é o período em que vários grupos passaram a praticar agricultura, domesticar animais e viver de forma mais sedentária.",
+            "A produção de alimentos permitiu maior estabilidade, crescimento das aldeias e novas formas de organização econômica e social."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Idade dos Metais": {
+      "definition": "Idade dos Metais é o período em que sociedades desenvolveram técnicas de fundição e uso de cobre, bronze e ferro.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A metalurgia surgiu em momentos diferentes.</li><li>Exigia conhecimento técnico e acesso a minérios.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Mineradores.</li><li>Artesãos metalúrgicos.</li><li>Comerciantes.</li><li>Guerreiros e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Extração de minério.</li><li>Fundição.</li><li>Especialização do trabalho.</li><li>Redes de troca.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ferramentas mais resistentes.</li><li>Armas mais eficientes.</li><li>Maior desigualdade em algumas sociedades.</li></ul></section></div>",
+      "result": "A metalurgia ampliou produtividade, comércio e poder militar, contribuindo para sociedades mais complexas.",
+      "example": "Uma enxada de metal podia durar mais e facilitar o cultivo.",
+      "exam": "A questão pode comparar ferramentas de pedra e metal e perguntar qual consequência econômica decorreu da metalurgia.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "idade-dos-metais-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Idade dos Metais é o período em que sociedades desenvolveram técnicas de fundição e uso de cobre, bronze e ferro."
+        },
+        {
+          "id": "idade-dos-metais-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "idade-dos-metais-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A metalurgia surgiu em momentos diferentes.</li><li>Exigia conhecimento técnico e acesso a minérios.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Mineradores.</li><li>Artesãos metalúrgicos.</li><li>Comerciantes.</li><li>Guerreiros e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Extração de minério.</li><li>Fundição.</li><li>Especialização do trabalho.</li><li>Redes de troca.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ferramentas mais resistentes.</li><li>Armas mais eficientes.</li><li>Maior desigualdade em algumas sociedades.</li></ul></section></div>"
+        },
+        {
+          "id": "idade-dos-metais-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A metalurgia ampliou produtividade, comércio e poder militar, contribuindo para sociedades mais complexas."
+        },
+        {
+          "id": "idade-dos-metais-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Uma enxada de metal podia durar mais e facilitar o cultivo."
+        },
+        {
+          "id": "idade-dos-metais-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode comparar ferramentas de pedra e metal e perguntar qual consequência econômica decorreu da metalurgia."
+        },
+        {
+          "id": "idade-dos-metais-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Idade dos Metais é o período em que sociedades desenvolveram técnicas de fundição e uso de cobre, bronze e ferro.",
+            "A metalurgia ampliou produtividade, comércio e poder militar, contribuindo para sociedades mais complexas."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Deslocamentos e sedentarização": {
+      "definition": "Deslocamento é a mudança de lugar de grupos humanos; sedentarização é a fixação mais permanente em um território.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Caçadores-coletores deslocavam-se conforme os recursos.</li><li>A agricultura favoreceu a permanência próxima às áreas cultivadas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Povos nômades.</li><li>Agricultores sedentários.</li><li>Pastores de deslocamento sazonal.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Busca por água e alimento.</li><li>Uso de rotas.</li><li>Construção de aldeias.</li><li>Controle de áreas produtivas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação de assentamentos permanentes.</li><li>Aumento populacional.</li><li>Novas relações de propriedade e poder.</li></ul></section></div>",
+      "result": "A sedentarização transformou moradia, trabalho, produção de alimentos e relações sociais.",
+      "example": "Uma aldeia agrícola precisa organizar o uso da água e a divisão das terras.",
+      "exam": "A prova pode mostrar aldeia com silos e campos cultivados e pedir qual processo histórico aparece.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "deslocamentos-e-sedentarizacao-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Deslocamento é a mudança de lugar de grupos humanos; sedentarização é a fixação mais permanente em um território."
+        },
+        {
+          "id": "deslocamentos-e-sedentarizacao-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "deslocamentos-e-sedentarizacao-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Caçadores-coletores deslocavam-se conforme os recursos.</li><li>A agricultura favoreceu a permanência próxima às áreas cultivadas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Povos nômades.</li><li>Agricultores sedentários.</li><li>Pastores de deslocamento sazonal.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Busca por água e alimento.</li><li>Uso de rotas.</li><li>Construção de aldeias.</li><li>Controle de áreas produtivas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação de assentamentos permanentes.</li><li>Aumento populacional.</li><li>Novas relações de propriedade e poder.</li></ul></section></div>"
+        },
+        {
+          "id": "deslocamentos-e-sedentarizacao-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A sedentarização transformou moradia, trabalho, produção de alimentos e relações sociais."
+        },
+        {
+          "id": "deslocamentos-e-sedentarizacao-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Uma aldeia agrícola precisa organizar o uso da água e a divisão das terras."
+        },
+        {
+          "id": "deslocamentos-e-sedentarizacao-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode mostrar aldeia com silos e campos cultivados e pedir qual processo histórico aparece."
+        },
+        {
+          "id": "deslocamentos-e-sedentarizacao-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Deslocamento é a mudança de lugar de grupos humanos; sedentarização é a fixação mais permanente em um território.",
+            "A sedentarização transformou moradia, trabalho, produção de alimentos e relações sociais."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Invenção da escrita": {
+      "definition": "A escrita é um sistema de sinais usado para registrar linguagem, informações e ideias de forma duradoura.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Surgiu em diferentes sociedades.</li><li>Na Mesopotâmia, foi usada em registros administrativos e comerciais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Escribas.</li><li>Governantes.</li><li>Comerciantes.</li><li>Templos e administradores.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Criação de símbolos.</li><li>Padronização dos registros.</li><li>Controle de impostos, estoques e leis.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação da administração.</li><li>Preservação de textos.</li><li>Fortalecimento de instituições.</li></ul></section></div>",
+      "result": "A escrita permitiu registrar leis, contas, crenças e acontecimentos, ampliando a memória social.",
+      "example": "Tabuletas registravam a entrada e saída de cereais de depósitos.",
+      "exam": "A questão pode apresentar escrita cuneiforme e perguntar qual necessidade favoreceu seu desenvolvimento.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "invencao-da-escrita-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "A escrita é um sistema de sinais usado para registrar linguagem, informações e ideias de forma duradoura."
+        },
+        {
+          "id": "invencao-da-escrita-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "invencao-da-escrita-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Surgiu em diferentes sociedades.</li><li>Na Mesopotâmia, foi usada em registros administrativos e comerciais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Escribas.</li><li>Governantes.</li><li>Comerciantes.</li><li>Templos e administradores.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Criação de símbolos.</li><li>Padronização dos registros.</li><li>Controle de impostos, estoques e leis.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação da administração.</li><li>Preservação de textos.</li><li>Fortalecimento de instituições.</li></ul></section></div>"
+        },
+        {
+          "id": "invencao-da-escrita-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A escrita permitiu registrar leis, contas, crenças e acontecimentos, ampliando a memória social."
+        },
+        {
+          "id": "invencao-da-escrita-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Tabuletas registravam a entrada e saída de cereais de depósitos."
+        },
+        {
+          "id": "invencao-da-escrita-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode apresentar escrita cuneiforme e perguntar qual necessidade favoreceu seu desenvolvimento."
+        },
+        {
+          "id": "invencao-da-escrita-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "A escrita é um sistema de sinais usado para registrar linguagem, informações e ideias de forma duradoura.",
+            "A escrita permitiu registrar leis, contas, crenças e acontecimentos, ampliando a memória social."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Origens do homem americano": {
+      "definition": "O povoamento da América foi o processo de chegada e dispersão de grupos humanos pelo continente.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Ocorreu durante a Pré-História.</li><li>Há diferentes hipóteses e evidências arqueológicas.</li><li>A passagem por Bering é uma das principais rotas propostas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Caçadores-coletores.</li><li>Populações adaptadas a diferentes ambientes americanos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Migrações graduais.</li><li>Produção de ferramentas.</li><li>Ocupação de territórios.</li><li>Adaptação climática.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Diversificação cultural.</li><li>Formação de diferentes povos.</li><li>Desenvolvimento de modos de vida próprios.</li></ul></section></div>",
+      "result": "O povoamento produziu grande diversidade de sociedades, línguas e culturas muito antes da chegada dos europeus.",
+      "example": "Fogueiras e ferramentas em sítios arqueológicos ajudam a estimar datas de ocupação.",
+      "exam": "A prova pode apresentar mapa de rotas e datações e pedir qual hipótese é melhor sustentada.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "origens-do-homem-americano-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "O povoamento da América foi o processo de chegada e dispersão de grupos humanos pelo continente."
+        },
+        {
+          "id": "origens-do-homem-americano-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "origens-do-homem-americano-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Ocorreu durante a Pré-História.</li><li>Há diferentes hipóteses e evidências arqueológicas.</li><li>A passagem por Bering é uma das principais rotas propostas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Caçadores-coletores.</li><li>Populações adaptadas a diferentes ambientes americanos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Migrações graduais.</li><li>Produção de ferramentas.</li><li>Ocupação de territórios.</li><li>Adaptação climática.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Diversificação cultural.</li><li>Formação de diferentes povos.</li><li>Desenvolvimento de modos de vida próprios.</li></ul></section></div>"
+        },
+        {
+          "id": "origens-do-homem-americano-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O povoamento produziu grande diversidade de sociedades, línguas e culturas muito antes da chegada dos europeus."
+        },
+        {
+          "id": "origens-do-homem-americano-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Fogueiras e ferramentas em sítios arqueológicos ajudam a estimar datas de ocupação."
+        },
+        {
+          "id": "origens-do-homem-americano-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar mapa de rotas e datações e pedir qual hipótese é melhor sustentada."
+        },
+        {
+          "id": "origens-do-homem-americano-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "O povoamento da América foi o processo de chegada e dispersão de grupos humanos pelo continente.",
+            "O povoamento produziu grande diversidade de sociedades, línguas e culturas muito antes da chegada dos europeus."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "África antiga": {
+      "definition": "África antiga reúne diversas sociedades e reinos africanos anteriores à expansão europeia moderna, com formas próprias de governo, comércio, religião e cultura.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Grande diversidade geográfica e cultural.</li><li>Rotas comerciais ligavam interior, litoral, Mediterrâneo e Oriente.</li><li>O continente não possuía uma única história ou cultura.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Egípcios, núbios, povos bantos e diversas sociedades regionais.</li><li>Reis, comerciantes, agricultores, artesãos e sacerdotes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Reinos e cidades.</li><li>Agricultura e mineração.</li><li>Comércio de ouro, sal e outros produtos.</li><li>Religiões e tradições locais.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação e queda de reinos.</li><li>Expansão de rotas comerciais.</li><li>Migrações e intercâmbios culturais.</li></ul></section></div>",
+      "result": "As sociedades africanas criaram conhecimentos, Estados e redes comerciais importantes, contrariando a ideia equivocada de uma África sem história.",
+      "example": "O comércio de ouro ligava regiões africanas a mercados do norte do continente.",
+      "exam": "A questão pode usar mapa de rotas e pedir o que ele revela sobre comércio e organização política africana.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "africa-antiga-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "África antiga reúne diversas sociedades e reinos africanos anteriores à expansão europeia moderna, com formas próprias de governo, comércio, religião e cultura."
+        },
+        {
+          "id": "africa-antiga-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "africa-antiga-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Grande diversidade geográfica e cultural.</li><li>Rotas comerciais ligavam interior, litoral, Mediterrâneo e Oriente.</li><li>O continente não possuía uma única história ou cultura.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Egípcios, núbios, povos bantos e diversas sociedades regionais.</li><li>Reis, comerciantes, agricultores, artesãos e sacerdotes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Reinos e cidades.</li><li>Agricultura e mineração.</li><li>Comércio de ouro, sal e outros produtos.</li><li>Religiões e tradições locais.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação e queda de reinos.</li><li>Expansão de rotas comerciais.</li><li>Migrações e intercâmbios culturais.</li></ul></section></div>"
+        },
+        {
+          "id": "africa-antiga-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "As sociedades africanas criaram conhecimentos, Estados e redes comerciais importantes, contrariando a ideia equivocada de uma África sem história."
+        },
+        {
+          "id": "africa-antiga-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "O comércio de ouro ligava regiões africanas a mercados do norte do continente."
+        },
+        {
+          "id": "africa-antiga-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode usar mapa de rotas e pedir o que ele revela sobre comércio e organização política africana."
+        },
+        {
+          "id": "africa-antiga-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "África antiga reúne diversas sociedades e reinos africanos anteriores à expansão europeia moderna, com formas próprias de governo, comércio, religião e cultura.",
+            "As sociedades africanas criaram conhecimentos, Estados e redes comerciais importantes, contrariando a ideia equivocada de uma África sem história."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Mesopotâmia": {
+      "definition": "Mesopotâmia foi a região entre os rios Tigre e Eufrates onde surgiram cidades e Estados como Suméria, Babilônia e Assíria.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Rios favoreciam agricultura.</li><li>Cheias exigiam canais e organização coletiva.</li><li>A região possuía terras férteis, mas poucos recursos minerais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Camponeses.</li><li>Sacerdotes.</li><li>Governantes.</li><li>Escribas.</li><li>Artesãos e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cidades-Estado.</li><li>Templos.</li><li>Irrigação.</li><li>Tributos.</li><li>Escrita cuneiforme.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento urbano.</li><li>Criação de leis.</li><li>Disputas entre cidades e impérios.</li></ul></section></div>",
+      "result": "A Mesopotâmia desenvolveu escrita, legislação, cidades e sistemas de irrigação que influenciaram sociedades posteriores.",
+      "example": "Canais levavam água dos rios até campos em períodos secos.",
+      "exam": "A prova pode apresentar imagem de canal ou tabuleta e pedir qual necessidade social está representada.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "mesopotamia-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Mesopotâmia foi a região entre os rios Tigre e Eufrates onde surgiram cidades e Estados como Suméria, Babilônia e Assíria."
+        },
+        {
+          "id": "mesopotamia-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "mesopotamia-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Rios favoreciam agricultura.</li><li>Cheias exigiam canais e organização coletiva.</li><li>A região possuía terras férteis, mas poucos recursos minerais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Camponeses.</li><li>Sacerdotes.</li><li>Governantes.</li><li>Escribas.</li><li>Artesãos e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Cidades-Estado.</li><li>Templos.</li><li>Irrigação.</li><li>Tributos.</li><li>Escrita cuneiforme.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento urbano.</li><li>Criação de leis.</li><li>Disputas entre cidades e impérios.</li></ul></section></div>"
+        },
+        {
+          "id": "mesopotamia-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A Mesopotâmia desenvolveu escrita, legislação, cidades e sistemas de irrigação que influenciaram sociedades posteriores."
+        },
+        {
+          "id": "mesopotamia-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Canais levavam água dos rios até campos em períodos secos."
+        },
+        {
+          "id": "mesopotamia-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar imagem de canal ou tabuleta e pedir qual necessidade social está representada."
+        },
+        {
+          "id": "mesopotamia-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Mesopotâmia foi a região entre os rios Tigre e Eufrates onde surgiram cidades e Estados como Suméria, Babilônia e Assíria.",
+            "A Mesopotâmia desenvolveu escrita, legislação, cidades e sistemas de irrigação que influenciaram sociedades posteriores."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Grécia e Roma": {
+      "definition": "Grécia e Roma foram sociedades da Antiguidade que influenciaram política, direito, filosofia, arte e organização urbana.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A Grécia era formada por cidades-Estado.</li><li>Roma passou de cidade a império.</li><li>Ambas dependiam de trabalho escravo.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Cidadãos, mulheres, estrangeiros, escravizados, soldados e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Polis e democracia limitada em Atenas.</li><li>República e Império em Roma.</li><li>Exércitos, leis e comércio mediterrânico.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansão territorial.</li><li>Conflitos sociais.</li><li>Transformações políticas.</li></ul></section></div>",
+      "result": "Seus legados aparecem em conceitos políticos, sistemas jurídicos, arquitetura e línguas, mas suas sociedades eram profundamente desiguais.",
+      "example": "Na democracia ateniense, apenas parte dos homens livres participava das decisões.",
+      "exam": "A prova pode comparar democracia antiga e atual e pedir uma diferença fundamental.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "grecia-e-roma-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Grécia e Roma foram sociedades da Antiguidade que influenciaram política, direito, filosofia, arte e organização urbana."
+        },
+        {
+          "id": "grecia-e-roma-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "grecia-e-roma-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>A Grécia era formada por cidades-Estado.</li><li>Roma passou de cidade a império.</li><li>Ambas dependiam de trabalho escravo.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Cidadãos, mulheres, estrangeiros, escravizados, soldados e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Polis e democracia limitada em Atenas.</li><li>República e Império em Roma.</li><li>Exércitos, leis e comércio mediterrânico.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansão territorial.</li><li>Conflitos sociais.</li><li>Transformações políticas.</li></ul></section></div>"
+        },
+        {
+          "id": "grecia-e-roma-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "Seus legados aparecem em conceitos políticos, sistemas jurídicos, arquitetura e línguas, mas suas sociedades eram profundamente desiguais."
+        },
+        {
+          "id": "grecia-e-roma-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Na democracia ateniense, apenas parte dos homens livres participava das decisões."
+        },
+        {
+          "id": "grecia-e-roma-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode comparar democracia antiga e atual e pedir uma diferença fundamental."
+        },
+        {
+          "id": "grecia-e-roma-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Grécia e Roma foram sociedades da Antiguidade que influenciaram política, direito, filosofia, arte e organização urbana.",
+            "Seus legados aparecem em conceitos políticos, sistemas jurídicos, arquitetura e línguas, mas suas sociedades eram profundamente desiguais."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Américas antigas": {
+      "definition": "Américas antigas incluem sociedades indígenas complexas desenvolvidas antes da chegada dos europeus, como maias, astecas e incas.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Grande diversidade ambiental.</li><li>Desenvolvimento independente de cidades, agricultura e conhecimentos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Maias, astecas, incas e muitos outros povos.</li><li>Agricultores, artesãos, sacerdotes, guerreiros e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Agricultura intensiva.</li><li>Tributos.</li><li>Cidades e impérios.</li><li>Calendários e conhecimentos astronômicos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansões territoriais.</li><li>Conflitos.</li><li>Adaptações ambientais.</li></ul></section></div>",
+      "result": "Essas sociedades criaram tecnologias, sistemas políticos e conhecimentos sofisticados antes da colonização europeia.",
+      "example": "Terraços agrícolas incas permitiam cultivo em áreas montanhosas.",
+      "exam": "A questão pode mostrar técnica agrícola e pedir como ela se relaciona ao ambiente.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "americas-antigas-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Américas antigas incluem sociedades indígenas complexas desenvolvidas antes da chegada dos europeus, como maias, astecas e incas."
+        },
+        {
+          "id": "americas-antigas-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "americas-antigas-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Grande diversidade ambiental.</li><li>Desenvolvimento independente de cidades, agricultura e conhecimentos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Maias, astecas, incas e muitos outros povos.</li><li>Agricultores, artesãos, sacerdotes, guerreiros e governantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Agricultura intensiva.</li><li>Tributos.</li><li>Cidades e impérios.</li><li>Calendários e conhecimentos astronômicos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansões territoriais.</li><li>Conflitos.</li><li>Adaptações ambientais.</li></ul></section></div>"
+        },
+        {
+          "id": "americas-antigas-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "Essas sociedades criaram tecnologias, sistemas políticos e conhecimentos sofisticados antes da colonização europeia."
+        },
+        {
+          "id": "americas-antigas-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Terraços agrícolas incas permitiam cultivo em áreas montanhosas."
+        },
+        {
+          "id": "americas-antigas-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode mostrar técnica agrícola e pedir como ela se relaciona ao ambiente."
+        },
+        {
+          "id": "americas-antigas-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Américas antigas incluem sociedades indígenas complexas desenvolvidas antes da chegada dos europeus, como maias, astecas e incas.",
+            "Essas sociedades criaram tecnologias, sistemas políticos e conhecimentos sofisticados antes da colonização europeia."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Passagem para o mundo medieval": {
+      "definition": "A passagem para o mundo medieval foi o processo de transformação do Império Romano do Ocidente e formação de novas sociedades na Europa.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crise política e econômica romana.</li><li>Migrações e invasões.</li><li>Ruralização.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Romanos.</li><li>Povos germânicos.</li><li>Igreja cristã.</li><li>Camponeses e elites locais.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Fragmentação política.</li><li>Economia rural.</li><li>Fusão de costumes romanos e germânicos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Queda do poder imperial no Ocidente.</li><li>Fortalecimento de poderes locais.</li><li>Expansão do cristianismo.</li></ul></section></div>",
+      "result": "Formaram-se reinos e estruturas sociais que deram origem ao mundo medieval europeu.",
+      "example": "Antigos territórios romanos passaram a ser controlados por diferentes reinos germânicos.",
+      "exam": "A prova pode apresentar mapa da fragmentação romana e pedir qual mudança política ocorreu.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "passagem-para-o-mundo-medieval-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "A passagem para o mundo medieval foi o processo de transformação do Império Romano do Ocidente e formação de novas sociedades na Europa."
+        },
+        {
+          "id": "passagem-para-o-mundo-medieval-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "passagem-para-o-mundo-medieval-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crise política e econômica romana.</li><li>Migrações e invasões.</li><li>Ruralização.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Romanos.</li><li>Povos germânicos.</li><li>Igreja cristã.</li><li>Camponeses e elites locais.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Fragmentação política.</li><li>Economia rural.</li><li>Fusão de costumes romanos e germânicos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Queda do poder imperial no Ocidente.</li><li>Fortalecimento de poderes locais.</li><li>Expansão do cristianismo.</li></ul></section></div>"
+        },
+        {
+          "id": "passagem-para-o-mundo-medieval-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "Formaram-se reinos e estruturas sociais que deram origem ao mundo medieval europeu."
+        },
+        {
+          "id": "passagem-para-o-mundo-medieval-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Antigos territórios romanos passaram a ser controlados por diferentes reinos germânicos."
+        },
+        {
+          "id": "passagem-para-o-mundo-medieval-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar mapa da fragmentação romana e pedir qual mudança política ocorreu."
+        },
+        {
+          "id": "passagem-para-o-mundo-medieval-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "A passagem para o mundo medieval foi o processo de transformação do Império Romano do Ocidente e formação de novas sociedades na Europa.",
+            "Formaram-se reinos e estruturas sociais que deram origem ao mundo medieval europeu."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Império Bizantino": {
+      "definition": "Império Bizantino foi a continuidade do Império Romano no Oriente, com capital em Constantinopla.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Sobreviveu à queda do Império Romano do Ocidente.</li><li>Localização estratégica entre Europa e Ásia.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Imperadores.</li><li>Comerciantes.</li><li>Camponeses.</li><li>Clero cristão oriental.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Poder imperial centralizado.</li><li>Comércio intenso.</li><li>Cristianismo ortodoxo.</li><li>Código de Justiniano.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansões e perdas territoriais.</li><li>Ruptura com a Igreja de Roma.</li><li>Queda em 1453.</li></ul></section></div>",
+      "result": "Preservou conhecimentos greco-romanos, influenciou o direito e conectou rotas comerciais entre continentes.",
+      "example": "Constantinopla controlava uma passagem importante entre o Mar Negro e o Mediterrâneo.",
+      "exam": "A questão pode usar mapa comercial e pedir por que Constantinopla era estratégica.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "imperio-bizantino-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Império Bizantino foi a continuidade do Império Romano no Oriente, com capital em Constantinopla."
+        },
+        {
+          "id": "imperio-bizantino-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "imperio-bizantino-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Sobreviveu à queda do Império Romano do Ocidente.</li><li>Localização estratégica entre Europa e Ásia.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Imperadores.</li><li>Comerciantes.</li><li>Camponeses.</li><li>Clero cristão oriental.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Poder imperial centralizado.</li><li>Comércio intenso.</li><li>Cristianismo ortodoxo.</li><li>Código de Justiniano.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansões e perdas territoriais.</li><li>Ruptura com a Igreja de Roma.</li><li>Queda em 1453.</li></ul></section></div>"
+        },
+        {
+          "id": "imperio-bizantino-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "Preservou conhecimentos greco-romanos, influenciou o direito e conectou rotas comerciais entre continentes."
+        },
+        {
+          "id": "imperio-bizantino-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Constantinopla controlava uma passagem importante entre o Mar Negro e o Mediterrâneo."
+        },
+        {
+          "id": "imperio-bizantino-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode usar mapa comercial e pedir por que Constantinopla era estratégica."
+        },
+        {
+          "id": "imperio-bizantino-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Império Bizantino foi a continuidade do Império Romano no Oriente, com capital em Constantinopla.",
+            "Preservou conhecimentos greco-romanos, influenciou o direito e conectou rotas comerciais entre continentes."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Feudalismo": {
+      "definition": "Feudalismo foi uma forma de organização social, econômica e política predominante em partes da Europa medieval.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Fragmentação do poder.</li><li>Ruralização.</li><li>Insegurança após o fim do Império Romano do Ocidente.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Nobreza.</li><li>Clero.</li><li>Camponeses e servos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Senhorios rurais.</li><li>Poder local.</li><li>Obrigações servis.</li><li>Produção agrícola.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento do comércio e das cidades enfraqueceu gradualmente estruturas feudais.</li></ul></section></div>",
+      "result": "O feudalismo organizou a produção rural e o poder local, mas manteve fortes desigualdades sociais.",
+      "example": "Servos trabalhavam em terras senhoriais e entregavam parte da produção.",
+      "exam": "A prova pode apresentar esquema de senhorio e pedir qual relação social está representada.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "feudalismo-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Feudalismo foi uma forma de organização social, econômica e política predominante em partes da Europa medieval."
+        },
+        {
+          "id": "feudalismo-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "feudalismo-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Fragmentação do poder.</li><li>Ruralização.</li><li>Insegurança após o fim do Império Romano do Ocidente.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Nobreza.</li><li>Clero.</li><li>Camponeses e servos.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Senhorios rurais.</li><li>Poder local.</li><li>Obrigações servis.</li><li>Produção agrícola.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento do comércio e das cidades enfraqueceu gradualmente estruturas feudais.</li></ul></section></div>"
+        },
+        {
+          "id": "feudalismo-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O feudalismo organizou a produção rural e o poder local, mas manteve fortes desigualdades sociais."
+        },
+        {
+          "id": "feudalismo-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Servos trabalhavam em terras senhoriais e entregavam parte da produção."
+        },
+        {
+          "id": "feudalismo-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar esquema de senhorio e pedir qual relação social está representada."
+        },
+        {
+          "id": "feudalismo-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Feudalismo foi uma forma de organização social, econômica e política predominante em partes da Europa medieval.",
+            "O feudalismo organizou a produção rural e o poder local, mas manteve fortes desigualdades sociais."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Papel da Igreja": {
+      "definition": "Na Europa medieval, a Igreja Católica exerceu forte influência religiosa, política, cultural e econômica.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Fragmentação política.</li><li>Predomínio do cristianismo.</li><li>Baixa escolarização fora de instituições religiosas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Clero.</li><li>Nobreza.</li><li>Camponeses.</li><li>Ordens monásticas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Mosteiros.</li><li>Cobrança de dízimos.</li><li>Educação e preservação de manuscritos.</li><li>Interferência política.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento de críticas.</li><li>Conflitos com monarcas.</li><li>Reformas religiosas posteriores.</li></ul></section></div>",
+      "result": "A Igreja ajudou a organizar a vida social e cultural, mas também concentrou poder e riqueza.",
+      "example": "Mosteiros copiavam manuscritos e preservavam textos antigos.",
+      "exam": "A questão pode mostrar um mosteiro e pedir qual função cultural ele exercia.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "papel-da-igreja-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Na Europa medieval, a Igreja Católica exerceu forte influência religiosa, política, cultural e econômica."
+        },
+        {
+          "id": "papel-da-igreja-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "papel-da-igreja-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Fragmentação política.</li><li>Predomínio do cristianismo.</li><li>Baixa escolarização fora de instituições religiosas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Clero.</li><li>Nobreza.</li><li>Camponeses.</li><li>Ordens monásticas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Mosteiros.</li><li>Cobrança de dízimos.</li><li>Educação e preservação de manuscritos.</li><li>Interferência política.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento de críticas.</li><li>Conflitos com monarcas.</li><li>Reformas religiosas posteriores.</li></ul></section></div>"
+        },
+        {
+          "id": "papel-da-igreja-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A Igreja ajudou a organizar a vida social e cultural, mas também concentrou poder e riqueza."
+        },
+        {
+          "id": "papel-da-igreja-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Mosteiros copiavam manuscritos e preservavam textos antigos."
+        },
+        {
+          "id": "papel-da-igreja-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode mostrar um mosteiro e pedir qual função cultural ele exercia."
+        },
+        {
+          "id": "papel-da-igreja-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Na Europa medieval, a Igreja Católica exerceu forte influência religiosa, política, cultural e econômica.",
+            "A Igreja ajudou a organizar a vida social e cultural, mas também concentrou poder e riqueza."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Mundo Islâmico": {
+      "definition": "Mundo Islâmico refere-se às sociedades formadas a partir da expansão do Islã desde o século VII.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Surgimento do Islã na Península Arábica.</li><li>Expansão territorial e comercial.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Muçulmanos de diferentes povos.</li><li>Comerciantes.</li><li>Sábios.</li><li>Governantes e comunidades religiosas diversas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Califados.</li><li>Cidades comerciais.</li><li>Centros de estudo.</li><li>Redes entre África, Ásia e Europa.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansão cultural e científica.</li><li>Diversificação política.</li><li>Trocas com outros povos.</li></ul></section></div>",
+      "result": "Sociedades islâmicas preservaram e produziram conhecimentos em matemática, medicina, astronomia e filosofia.",
+      "example": "Estudiosos traduziram e ampliaram obras gregas e indianas.",
+      "exam": "A questão pode apresentar invenção ou texto científico e pedir qual contribuição do mundo islâmico aparece.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "mundo-islamico-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Mundo Islâmico refere-se às sociedades formadas a partir da expansão do Islã desde o século VII."
+        },
+        {
+          "id": "mundo-islamico-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "mundo-islamico-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Surgimento do Islã na Península Arábica.</li><li>Expansão territorial e comercial.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Muçulmanos de diferentes povos.</li><li>Comerciantes.</li><li>Sábios.</li><li>Governantes e comunidades religiosas diversas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Califados.</li><li>Cidades comerciais.</li><li>Centros de estudo.</li><li>Redes entre África, Ásia e Europa.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Expansão cultural e científica.</li><li>Diversificação política.</li><li>Trocas com outros povos.</li></ul></section></div>"
+        },
+        {
+          "id": "mundo-islamico-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "Sociedades islâmicas preservaram e produziram conhecimentos em matemática, medicina, astronomia e filosofia."
+        },
+        {
+          "id": "mundo-islamico-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Estudiosos traduziram e ampliaram obras gregas e indianas."
+        },
+        {
+          "id": "mundo-islamico-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode apresentar invenção ou texto científico e pedir qual contribuição do mundo islâmico aparece."
+        },
+        {
+          "id": "mundo-islamico-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Mundo Islâmico refere-se às sociedades formadas a partir da expansão do Islã desde o século VII.",
+            "Sociedades islâmicas preservaram e produziram conhecimentos em matemática, medicina, astronomia e filosofia."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Modernidade": {
+      "definition": "Modernidade, no contexto histórico escolar, refere-se às transformações ocorridas sobretudo entre os séculos XV e XVIII: fortalecimento dos Estados, expansão comercial, Renascimento, reformas religiosas e Revolução Científica.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crise de estruturas feudais.</li><li>Crescimento das cidades e do comércio.</li><li>Expansão marítima.</li><li>Circulação de novas ideias.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarcas.</li><li>Burguesia.</li><li>Igrejas.</li><li>Navegadores.</li><li>Cientistas, artistas e camponeses.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Centralização política.</li><li>Mercantilismo.</li><li>Colonização.</li><li>Imprensa e circulação de ideias.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Fortalecimento dos Estados nacionais.</li><li>Ampliação do comércio mundial.</li><li>Questionamento de autoridades tradicionais.</li><li>Novas formas de compreender a natureza.</li></ul></section></div>",
+      "result": "A Modernidade transformou relações políticas, econômicas e culturais. Consolidou Estados, integrou continentes e favoreceu novas ideias científicas e religiosas.",
+      "example": "A imprensa permitiu produzir mais livros e espalhar ideias rapidamente.",
+      "exam": "A prova pode apresentar mapa de navegações, pintura renascentista ou texto científico e pedir qual transformação moderna aparece.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "modernidade-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Modernidade, no contexto histórico escolar, refere-se às transformações ocorridas sobretudo entre os séculos XV e XVIII: fortalecimento dos Estados, expansão comercial, Renascimento, reformas religiosas e Revolução Científica."
+        },
+        {
+          "id": "modernidade-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "modernidade-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crise de estruturas feudais.</li><li>Crescimento das cidades e do comércio.</li><li>Expansão marítima.</li><li>Circulação de novas ideias.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarcas.</li><li>Burguesia.</li><li>Igrejas.</li><li>Navegadores.</li><li>Cientistas, artistas e camponeses.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Centralização política.</li><li>Mercantilismo.</li><li>Colonização.</li><li>Imprensa e circulação de ideias.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Fortalecimento dos Estados nacionais.</li><li>Ampliação do comércio mundial.</li><li>Questionamento de autoridades tradicionais.</li><li>Novas formas de compreender a natureza.</li></ul></section></div>"
+        },
+        {
+          "id": "modernidade-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A Modernidade transformou relações políticas, econômicas e culturais. Consolidou Estados, integrou continentes e favoreceu novas ideias científicas e religiosas."
+        },
+        {
+          "id": "modernidade-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "A imprensa permitiu produzir mais livros e espalhar ideias rapidamente."
+        },
+        {
+          "id": "modernidade-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar mapa de navegações, pintura renascentista ou texto científico e pedir qual transformação moderna aparece."
+        },
+        {
+          "id": "modernidade-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Modernidade, no contexto histórico escolar, refere-se às transformações ocorridas sobretudo entre os séculos XV e XVIII: fortalecimento dos Estados, expansão comercial, Renascimento, reformas religiosas e Revolução Cient…",
+            "A Modernidade transformou relações políticas, econômicas e culturais. Consolidou Estados, integrou continentes e favoreceu novas ideias científicas e religiosas."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Absolutismo": {
+      "definition": "Absolutismo foi uma forma de monarquia em que o rei concentrava amplos poderes políticos, administrativos e militares.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Enfraquecimento de parte da nobreza feudal.</li><li>Formação dos Estados nacionais.</li><li>Unificação de leis, impostos e exércitos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Reis.</li><li>Nobreza.</li><li>Burguesia.</li><li>Camponeses e funcionários do Estado.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Centralização do poder.</li><li>Exército permanente.</li><li>Cobrança de impostos.</li><li>Burocracia estatal.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Redução da autonomia feudal.</li><li>Fortalecimento da corte.</li><li>Aumento das tensões fiscais.</li></ul></section></div>",
+      "result": "O absolutismo fortaleceu Estados nacionais, mas gerou conflitos por privilégios, impostos e concentração de poder.",
+      "example": "Luís XIV controlou a nobreza e fortaleceu a administração real na França.",
+      "exam": "A prova pode apresentar frase sobre poder real e pedir qual característica absolutista ela expressa.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "absolutismo-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Absolutismo foi uma forma de monarquia em que o rei concentrava amplos poderes políticos, administrativos e militares."
+        },
+        {
+          "id": "absolutismo-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "absolutismo-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Enfraquecimento de parte da nobreza feudal.</li><li>Formação dos Estados nacionais.</li><li>Unificação de leis, impostos e exércitos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Reis.</li><li>Nobreza.</li><li>Burguesia.</li><li>Camponeses e funcionários do Estado.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Centralização do poder.</li><li>Exército permanente.</li><li>Cobrança de impostos.</li><li>Burocracia estatal.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Redução da autonomia feudal.</li><li>Fortalecimento da corte.</li><li>Aumento das tensões fiscais.</li></ul></section></div>"
+        },
+        {
+          "id": "absolutismo-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O absolutismo fortaleceu Estados nacionais, mas gerou conflitos por privilégios, impostos e concentração de poder."
+        },
+        {
+          "id": "absolutismo-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Luís XIV controlou a nobreza e fortaleceu a administração real na França."
+        },
+        {
+          "id": "absolutismo-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar frase sobre poder real e pedir qual característica absolutista ela expressa."
+        },
+        {
+          "id": "absolutismo-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Absolutismo foi uma forma de monarquia em que o rei concentrava amplos poderes políticos, administrativos e militares.",
+            "O absolutismo fortaleceu Estados nacionais, mas gerou conflitos por privilégios, impostos e concentração de poder."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Humanismo e Renascimento": {
+      "definition": "Humanismo valorizou o ser humano, a razão e os estudos clássicos; Renascimento foi um movimento cultural e artístico ligado a essas ideias.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crescimento urbano e comercial.</li><li>Contato com textos greco-romanos.</li><li>Apoio de mecenas.</li><li>Difusão pela imprensa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Artistas.</li><li>Intelectuais.</li><li>Cientistas.</li><li>Mecenas e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Estudo da natureza.</li><li>Perspectiva nas artes.</li><li>Valorização da observação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Novas técnicas artísticas.</li><li>Maior interesse pela anatomia e ciência.</li><li>Questionamento de explicações tradicionais.</li></ul></section></div>",
+      "result": "O Renascimento ampliou a produção artística e científica e criou novas formas de representar o ser humano e investigar a natureza.",
+      "example": "Artistas estudavam anatomia para representar o corpo com precisão.",
+      "exam": "A questão pode mostrar obra com perspectiva e pedir qual característica renascentista aparece.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "humanismo-e-renascimento-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Humanismo valorizou o ser humano, a razão e os estudos clássicos; Renascimento foi um movimento cultural e artístico ligado a essas ideias."
+        },
+        {
+          "id": "humanismo-e-renascimento-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "humanismo-e-renascimento-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Crescimento urbano e comercial.</li><li>Contato com textos greco-romanos.</li><li>Apoio de mecenas.</li><li>Difusão pela imprensa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Artistas.</li><li>Intelectuais.</li><li>Cientistas.</li><li>Mecenas e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Estudo da natureza.</li><li>Perspectiva nas artes.</li><li>Valorização da observação.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Novas técnicas artísticas.</li><li>Maior interesse pela anatomia e ciência.</li><li>Questionamento de explicações tradicionais.</li></ul></section></div>"
+        },
+        {
+          "id": "humanismo-e-renascimento-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O Renascimento ampliou a produção artística e científica e criou novas formas de representar o ser humano e investigar a natureza."
+        },
+        {
+          "id": "humanismo-e-renascimento-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Artistas estudavam anatomia para representar o corpo com precisão."
+        },
+        {
+          "id": "humanismo-e-renascimento-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode mostrar obra com perspectiva e pedir qual característica renascentista aparece."
+        },
+        {
+          "id": "humanismo-e-renascimento-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Humanismo valorizou o ser humano, a razão e os estudos clássicos; Renascimento foi um movimento cultural e artístico ligado a essas ideias.",
+            "O Renascimento ampliou a produção artística e científica e criou novas formas de representar o ser humano e investigar a natureza."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Monarquias europeias": {
+      "definition": "Monarquias europeias modernas foram Estados governados por reis que buscaram centralizar poder e controlar territórios.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Enfraquecimento do feudalismo.</li><li>Crescimento comercial.</li><li>Disputas territoriais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarcas.</li><li>Nobreza.</li><li>Burguesia.</li><li>Exércitos e burocratas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Leis unificadas.</li><li>Impostos nacionais.</li><li>Exércitos permanentes.</li><li>Diplomacia.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação de Estados nacionais.</li><li>Maior centralização.</li><li>Conflitos entre coroas.</li></ul></section></div>",
+      "result": "Essas monarquias criaram estruturas políticas que favoreceram expansão marítima e administração colonial.",
+      "example": "Portugal organizou impostos e navegação sob autoridade real.",
+      "exam": "A prova pode apresentar mapa político e pedir qual processo de centralização está representado.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "monarquias-europeias-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Monarquias europeias modernas foram Estados governados por reis que buscaram centralizar poder e controlar territórios."
+        },
+        {
+          "id": "monarquias-europeias-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "monarquias-europeias-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Enfraquecimento do feudalismo.</li><li>Crescimento comercial.</li><li>Disputas territoriais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarcas.</li><li>Nobreza.</li><li>Burguesia.</li><li>Exércitos e burocratas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Leis unificadas.</li><li>Impostos nacionais.</li><li>Exércitos permanentes.</li><li>Diplomacia.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Formação de Estados nacionais.</li><li>Maior centralização.</li><li>Conflitos entre coroas.</li></ul></section></div>"
+        },
+        {
+          "id": "monarquias-europeias-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "Essas monarquias criaram estruturas políticas que favoreceram expansão marítima e administração colonial."
+        },
+        {
+          "id": "monarquias-europeias-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Portugal organizou impostos e navegação sob autoridade real."
+        },
+        {
+          "id": "monarquias-europeias-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar mapa político e pedir qual processo de centralização está representado."
+        },
+        {
+          "id": "monarquias-europeias-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Monarquias europeias modernas foram Estados governados por reis que buscaram centralizar poder e controlar territórios.",
+            "Essas monarquias criaram estruturas políticas que favoreceram expansão marítima e administração colonial."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Reformas religiosas": {
+      "definition": "As Reformas Religiosas foram movimentos do século XVI que criticaram práticas da Igreja Católica e originaram novas igrejas cristãs.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Críticas à venda de indulgências.</li><li>Interesse de governantes em ampliar autonomia.</li><li>Circulação de ideias pela imprensa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Católicos.</li><li>Luteranos.</li><li>Calvinistas.</li><li>Anglicanos.</li><li>Governantes e fiéis.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Rompimento com Roma.</li><li>Tradução da Bíblia.</li><li>Contrarreforma e Concílio de Trento.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Pluralização religiosa.</li><li>Conflitos políticos.</li><li>Mudanças educacionais e culturais.</li></ul></section></div>",
+      "result": "As reformas romperam a unidade religiosa da Europa e influenciaram política, cultura e colonização.",
+      "example": "A impressão de textos permitiu rápida circulação das ideias de Lutero.",
+      "exam": "A prova pode apresentar crítica religiosa e pedir qual problema estava sendo questionado.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "reformas-religiosas-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "As Reformas Religiosas foram movimentos do século XVI que criticaram práticas da Igreja Católica e originaram novas igrejas cristãs."
+        },
+        {
+          "id": "reformas-religiosas-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "reformas-religiosas-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Críticas à venda de indulgências.</li><li>Interesse de governantes em ampliar autonomia.</li><li>Circulação de ideias pela imprensa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Católicos.</li><li>Luteranos.</li><li>Calvinistas.</li><li>Anglicanos.</li><li>Governantes e fiéis.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Rompimento com Roma.</li><li>Tradução da Bíblia.</li><li>Contrarreforma e Concílio de Trento.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Pluralização religiosa.</li><li>Conflitos políticos.</li><li>Mudanças educacionais e culturais.</li></ul></section></div>"
+        },
+        {
+          "id": "reformas-religiosas-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "As reformas romperam a unidade religiosa da Europa e influenciaram política, cultura e colonização."
+        },
+        {
+          "id": "reformas-religiosas-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "A impressão de textos permitiu rápida circulação das ideias de Lutero."
+        },
+        {
+          "id": "reformas-religiosas-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar crítica religiosa e pedir qual problema estava sendo questionado."
+        },
+        {
+          "id": "reformas-religiosas-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "As Reformas Religiosas foram movimentos do século XVI que criticaram práticas da Igreja Católica e originaram novas igrejas cristãs.",
+            "As reformas romperam a unidade religiosa da Europa e influenciaram política, cultura e colonização."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Descobertas científicas e expansão marítima": {
+      "definition": "Esse tema reúne avanços técnicos e científicos que favoreceram navegações e novas explicações sobre o mundo.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Busca por rotas comerciais.</li><li>Aperfeiçoamento de mapas e instrumentos.</li><li>Interesse de monarquias e comerciantes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Navegadores.</li><li>Cartógrafos.</li><li>Astrônomos.</li><li>Monarcas e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Uso de bússola, astrolábio e caravelas.</li><li>Financiamento estatal.</li><li>Produção de mapas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação do conhecimento geográfico.</li><li>Conexão entre continentes.</li><li>Colonização.</li></ul></section></div>",
+      "result": "As navegações ampliaram trocas e conhecimentos, mas também impulsionaram conquista, exploração e escravidão.",
+      "example": "O astrolábio ajudava a estimar posição pela observação dos astros.",
+      "exam": "A prova pode apresentar instrumento náutico e perguntar qual problema ele ajudava a resolver.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "descobertas-cientificas-e-expansao-maritima-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Esse tema reúne avanços técnicos e científicos que favoreceram navegações e novas explicações sobre o mundo."
+        },
+        {
+          "id": "descobertas-cientificas-e-expansao-maritima-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "descobertas-cientificas-e-expansao-maritima-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Busca por rotas comerciais.</li><li>Aperfeiçoamento de mapas e instrumentos.</li><li>Interesse de monarquias e comerciantes.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Navegadores.</li><li>Cartógrafos.</li><li>Astrônomos.</li><li>Monarcas e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Uso de bússola, astrolábio e caravelas.</li><li>Financiamento estatal.</li><li>Produção de mapas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação do conhecimento geográfico.</li><li>Conexão entre continentes.</li><li>Colonização.</li></ul></section></div>"
+        },
+        {
+          "id": "descobertas-cientificas-e-expansao-maritima-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "As navegações ampliaram trocas e conhecimentos, mas também impulsionaram conquista, exploração e escravidão."
+        },
+        {
+          "id": "descobertas-cientificas-e-expansao-maritima-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "O astrolábio ajudava a estimar posição pela observação dos astros."
+        },
+        {
+          "id": "descobertas-cientificas-e-expansao-maritima-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar instrumento náutico e perguntar qual problema ele ajudava a resolver."
+        },
+        {
+          "id": "descobertas-cientificas-e-expansao-maritima-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Esse tema reúne avanços técnicos e científicos que favoreceram navegações e novas explicações sobre o mundo.",
+            "As navegações ampliaram trocas e conhecimentos, mas também impulsionaram conquista, exploração e escravidão."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Mercantilismo": {
+      "definition": "Mercantilismo foi o conjunto de práticas econômicas adotadas por monarquias europeias para fortalecer o Estado.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão comercial marítima.</li><li>Formação de impérios coloniais.</li><li>Disputa por metais e mercados.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarquias.</li><li>Comerciantes.</li><li>Companhias de comércio.</li><li>Colonos e populações exploradas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Protecionismo.</li><li>Balança comercial favorável.</li><li>Metalismo.</li><li>Monopólio colonial.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação do comércio atlântico.</li><li>Maior intervenção estatal.</li><li>Exploração colonial.</li></ul></section></div>",
+      "result": "O mercantilismo fortaleceu Estados e comerciantes europeus, mas sustentou colonização e desigualdades.",
+      "example": "Uma colônia era obrigada a vender certos produtos apenas à metrópole.",
+      "exam": "A questão pode apresentar lei de monopólio e pedir qual prática mercantilista aparece.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "mercantilismo-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Mercantilismo foi o conjunto de práticas econômicas adotadas por monarquias europeias para fortalecer o Estado."
+        },
+        {
+          "id": "mercantilismo-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "mercantilismo-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão comercial marítima.</li><li>Formação de impérios coloniais.</li><li>Disputa por metais e mercados.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Monarquias.</li><li>Comerciantes.</li><li>Companhias de comércio.</li><li>Colonos e populações exploradas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Protecionismo.</li><li>Balança comercial favorável.</li><li>Metalismo.</li><li>Monopólio colonial.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação do comércio atlântico.</li><li>Maior intervenção estatal.</li><li>Exploração colonial.</li></ul></section></div>"
+        },
+        {
+          "id": "mercantilismo-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O mercantilismo fortaleceu Estados e comerciantes europeus, mas sustentou colonização e desigualdades."
+        },
+        {
+          "id": "mercantilismo-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Uma colônia era obrigada a vender certos produtos apenas à metrópole."
+        },
+        {
+          "id": "mercantilismo-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode apresentar lei de monopólio e pedir qual prática mercantilista aparece."
+        },
+        {
+          "id": "mercantilismo-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Mercantilismo foi o conjunto de práticas econômicas adotadas por monarquias europeias para fortalecer o Estado.",
+            "O mercantilismo fortaleceu Estados e comerciantes europeus, mas sustentou colonização e desigualdades."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Escravidão moderna e tráfico": {
+      "definition": "A escravidão moderna foi um sistema de exploração que transformou pessoas, sobretudo africanas, em propriedade e mão de obra forçada.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão colonial.</li><li>Demanda por trabalho nas Américas.</li><li>Comércio atlântico.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Africanos escravizados.</li><li>Traficantes.</li><li>Proprietários coloniais.</li><li>Estados europeus.</li><li>Comunidades resistentes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Captura e venda.</li><li>Travessia atlântica.</li><li>Trabalho forçado.</li><li>Violência e resistência.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento do tráfico.</li><li>Formação de sociedades escravistas.</li><li>Abolições após longas lutas.</li></ul></section></div>",
+      "result": "O tráfico causou mortes, separação de famílias e desigualdades profundas. Também houve preservação cultural e resistência.",
+      "example": "Quilombos reuniam pessoas que fugiam da escravidão e criavam comunidades.",
+      "exam": "A prova pode combinar mapa do tráfico e fonte sobre resistência e pedir uma conclusão.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "escravidao-moderna-e-trafico-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "A escravidão moderna foi um sistema de exploração que transformou pessoas, sobretudo africanas, em propriedade e mão de obra forçada."
+        },
+        {
+          "id": "escravidao-moderna-e-trafico-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "escravidao-moderna-e-trafico-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão colonial.</li><li>Demanda por trabalho nas Américas.</li><li>Comércio atlântico.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Africanos escravizados.</li><li>Traficantes.</li><li>Proprietários coloniais.</li><li>Estados europeus.</li><li>Comunidades resistentes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Captura e venda.</li><li>Travessia atlântica.</li><li>Trabalho forçado.</li><li>Violência e resistência.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Crescimento do tráfico.</li><li>Formação de sociedades escravistas.</li><li>Abolições após longas lutas.</li></ul></section></div>"
+        },
+        {
+          "id": "escravidao-moderna-e-trafico-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O tráfico causou mortes, separação de famílias e desigualdades profundas. Também houve preservação cultural e resistência."
+        },
+        {
+          "id": "escravidao-moderna-e-trafico-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Quilombos reuniam pessoas que fugiam da escravidão e criavam comunidades."
+        },
+        {
+          "id": "escravidao-moderna-e-trafico-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode combinar mapa do tráfico e fonte sobre resistência e pedir uma conclusão."
+        },
+        {
+          "id": "escravidao-moderna-e-trafico-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "A escravidão moderna foi um sistema de exploração que transformou pessoas, sobretudo africanas, em propriedade e mão de obra forçada.",
+            "O tráfico causou mortes, separação de famílias e desigualdades profundas. Também houve preservação cultural e resistência."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Conquista da América": {
+      "definition": "Conquista da América foi o processo de invasão, domínio e exploração de territórios e povos americanos por potências europeias.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão marítima.</li><li>Busca por riquezas.</li><li>Interesses religiosos e políticos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Povos indígenas.</li><li>Conquistadores europeus.</li><li>Missionários.</li><li>Aliados locais.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Guerra.</li><li>Alianças.</li><li>Epidemias.</li><li>Imposição de trabalho e tributos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Queda de impérios.</li><li>Redução populacional.</li><li>Transformações culturais e territoriais.</li></ul></section></div>",
+      "result": "A conquista alterou profundamente sociedades americanas por violência, doenças, exploração e imposição cultural.",
+      "example": "Doenças trazidas pelos europeus atingiram populações sem imunidade prévia.",
+      "exam": "A questão pode combinar mapa, relato e dados populacionais para identificar fatores da conquista.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "conquista-da-america-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Conquista da América foi o processo de invasão, domínio e exploração de territórios e povos americanos por potências europeias."
+        },
+        {
+          "id": "conquista-da-america-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "conquista-da-america-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão marítima.</li><li>Busca por riquezas.</li><li>Interesses religiosos e políticos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Povos indígenas.</li><li>Conquistadores europeus.</li><li>Missionários.</li><li>Aliados locais.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Guerra.</li><li>Alianças.</li><li>Epidemias.</li><li>Imposição de trabalho e tributos.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Queda de impérios.</li><li>Redução populacional.</li><li>Transformações culturais e territoriais.</li></ul></section></div>"
+        },
+        {
+          "id": "conquista-da-america-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A conquista alterou profundamente sociedades americanas por violência, doenças, exploração e imposição cultural."
+        },
+        {
+          "id": "conquista-da-america-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Doenças trazidas pelos europeus atingiram populações sem imunidade prévia."
+        },
+        {
+          "id": "conquista-da-america-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode combinar mapa, relato e dados populacionais para identificar fatores da conquista."
+        },
+        {
+          "id": "conquista-da-america-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Conquista da América foi o processo de invasão, domínio e exploração de territórios e povos americanos por potências europeias.",
+            "A conquista alterou profundamente sociedades americanas por violência, doenças, exploração e imposição cultural."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Colonização europeia": {
+      "definition": "Colonização europeia foi a ocupação e exploração de territórios controlados por metrópoles europeias.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão marítima.</li><li>Mercantilismo.</li><li>Disputa entre potências.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Metrópoles.</li><li>Colonos.</li><li>Povos indígenas.</li><li>Africanos escravizados.</li><li>Missionários.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Administração colonial.</li><li>Exploração de recursos.</li><li>Monopólios comerciais.</li><li>Trabalho forçado.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Criação de sociedades coloniais.</li><li>Misturas culturais.</li><li>Conflitos e resistências.</li></ul></section></div>",
+      "result": "A colonização integrou continentes de forma desigual e produziu profundas mudanças demográficas, culturais e ambientais.",
+      "example": "A produção de açúcar ligava terras americanas, trabalho escravizado e mercados europeus.",
+      "exam": "A prova pode apresentar fluxo comercial e perguntar quem se beneficiava e quem era explorado.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "colonizacao-europeia-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Colonização europeia foi a ocupação e exploração de territórios controlados por metrópoles europeias."
+        },
+        {
+          "id": "colonizacao-europeia-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "colonizacao-europeia-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Expansão marítima.</li><li>Mercantilismo.</li><li>Disputa entre potências.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Metrópoles.</li><li>Colonos.</li><li>Povos indígenas.</li><li>Africanos escravizados.</li><li>Missionários.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Administração colonial.</li><li>Exploração de recursos.</li><li>Monopólios comerciais.</li><li>Trabalho forçado.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Criação de sociedades coloniais.</li><li>Misturas culturais.</li><li>Conflitos e resistências.</li></ul></section></div>"
+        },
+        {
+          "id": "colonizacao-europeia-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A colonização integrou continentes de forma desigual e produziu profundas mudanças demográficas, culturais e ambientais."
+        },
+        {
+          "id": "colonizacao-europeia-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "A produção de açúcar ligava terras americanas, trabalho escravizado e mercados europeus."
+        },
+        {
+          "id": "colonizacao-europeia-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar fluxo comercial e perguntar quem se beneficiava e quem era explorado."
+        },
+        {
+          "id": "colonizacao-europeia-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Colonização europeia foi a ocupação e exploração de territórios controlados por metrópoles europeias.",
+            "A colonização integrou continentes de forma desigual e produziu profundas mudanças demográficas, culturais e ambientais."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Resistência indígena": {
+      "definition": "Resistência indígena reúne ações de defesa, negociação, fuga, guerra e preservação cultural diante da colonização.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Invasão de territórios.</li><li>Escravização.</li><li>Doenças.</li><li>Missões religiosas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Diversos povos indígenas.</li><li>Colonizadores.</li><li>Missionários.</li><li>Aliados indígenas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Confrontos.</li><li>Alianças estratégicas.</li><li>Deslocamentos.</li><li>Manutenção de línguas e costumes.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Adaptação de estratégias.</li><li>Reorganização de comunidades.</li><li>Continuidade das lutas territoriais.</li></ul></section></div>",
+      "result": "A resistência garantiu sobrevivência de povos, identidades e conhecimentos indígenas.",
+      "example": "Alguns povos formaram alianças temporárias para enfrentar invasores.",
+      "exam": "A prova pode apresentar relato colonial e pedir qual ação demonstra resistência.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "resistencia-indigena-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Resistência indígena reúne ações de defesa, negociação, fuga, guerra e preservação cultural diante da colonização."
+        },
+        {
+          "id": "resistencia-indigena-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "resistencia-indigena-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Invasão de territórios.</li><li>Escravização.</li><li>Doenças.</li><li>Missões religiosas.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Diversos povos indígenas.</li><li>Colonizadores.</li><li>Missionários.</li><li>Aliados indígenas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Confrontos.</li><li>Alianças estratégicas.</li><li>Deslocamentos.</li><li>Manutenção de línguas e costumes.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Adaptação de estratégias.</li><li>Reorganização de comunidades.</li><li>Continuidade das lutas territoriais.</li></ul></section></div>"
+        },
+        {
+          "id": "resistencia-indigena-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A resistência garantiu sobrevivência de povos, identidades e conhecimentos indígenas."
+        },
+        {
+          "id": "resistencia-indigena-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Alguns povos formaram alianças temporárias para enfrentar invasores."
+        },
+        {
+          "id": "resistencia-indigena-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar relato colonial e pedir qual ação demonstra resistência."
+        },
+        {
+          "id": "resistencia-indigena-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Resistência indígena reúne ações de defesa, negociação, fuga, guerra e preservação cultural diante da colonização.",
+            "A resistência garantiu sobrevivência de povos, identidades e conhecimentos indígenas."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "América Portuguesa": {
+      "definition": "América Portuguesa foi o conjunto de territórios americanos controlados por Portugal, base da formação histórica do Brasil.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Colonização a partir do século XVI.</li><li>Interesse em ocupar e explorar o território.</li><li>Disputa com outras potências.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Portugueses.</li><li>Povos indígenas.</li><li>Africanos escravizados.</li><li>Missionários e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Capitanias.</li><li>Governo-geral.</li><li>Produção açucareira.</li><li>Escravidão.</li><li>Expansão territorial.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Interiorização.</li><li>Diversificação econômica.</li><li>Crescimento urbano e conflitos.</li></ul></section></div>",
+      "result": "A colonização portuguesa formou sociedade marcada por exploração, escravidão, desigualdade e mistura cultural.",
+      "example": "Engenhos reuniam produção agrícola, instalações e trabalho escravizado.",
+      "exam": "A questão pode apresentar planta de engenho e pedir quais relações sociais aparecem.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "america-portuguesa-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "América Portuguesa foi o conjunto de territórios americanos controlados por Portugal, base da formação histórica do Brasil."
+        },
+        {
+          "id": "america-portuguesa-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "america-portuguesa-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Colonização a partir do século XVI.</li><li>Interesse em ocupar e explorar o território.</li><li>Disputa com outras potências.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Portugueses.</li><li>Povos indígenas.</li><li>Africanos escravizados.</li><li>Missionários e comerciantes.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Capitanias.</li><li>Governo-geral.</li><li>Produção açucareira.</li><li>Escravidão.</li><li>Expansão territorial.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Interiorização.</li><li>Diversificação econômica.</li><li>Crescimento urbano e conflitos.</li></ul></section></div>"
+        },
+        {
+          "id": "america-portuguesa-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A colonização portuguesa formou sociedade marcada por exploração, escravidão, desigualdade e mistura cultural."
+        },
+        {
+          "id": "america-portuguesa-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Engenhos reuniam produção agrícola, instalações e trabalho escravizado."
+        },
+        {
+          "id": "america-portuguesa-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode apresentar planta de engenho e pedir quais relações sociais aparecem."
+        },
+        {
+          "id": "america-portuguesa-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "América Portuguesa foi o conjunto de territórios americanos controlados por Portugal, base da formação histórica do Brasil.",
+            "A colonização portuguesa formou sociedade marcada por exploração, escravidão, desigualdade e mistura cultural."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Brasil Holandês": {
+      "definition": "Brasil Holandês foi o período de domínio neerlandês em partes do Nordeste, principalmente entre 1630 e 1654.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Disputa pelo açúcar.</li><li>Conflitos europeus.</li><li>Interesse da Companhia das Índias Ocidentais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Holandeses.</li><li>Senhores de engenho.</li><li>População local.</li><li>Indígenas e africanos escravizados.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Controle de áreas açucareiras.</li><li>Administração de Nassau.</li><li>Créditos aos produtores.</li><li>Obras urbanas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Modernização de Recife.</li><li>Conflitos por dívidas.</li><li>Expulsão dos holandeses.</li></ul></section></div>",
+      "result": "O período intensificou disputas comerciais e deixou marcas urbanas, artísticas e científicas.",
+      "example": "Pintores e naturalistas registraram paisagens e habitantes do Nordeste.",
+      "exam": "A prova pode usar pintura de Frans Post e perguntar o que ela revela.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "brasil-holandes-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Brasil Holandês foi o período de domínio neerlandês em partes do Nordeste, principalmente entre 1630 e 1654."
+        },
+        {
+          "id": "brasil-holandes-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "brasil-holandes-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Disputa pelo açúcar.</li><li>Conflitos europeus.</li><li>Interesse da Companhia das Índias Ocidentais.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Holandeses.</li><li>Senhores de engenho.</li><li>População local.</li><li>Indígenas e africanos escravizados.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Controle de áreas açucareiras.</li><li>Administração de Nassau.</li><li>Créditos aos produtores.</li><li>Obras urbanas.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Modernização de Recife.</li><li>Conflitos por dívidas.</li><li>Expulsão dos holandeses.</li></ul></section></div>"
+        },
+        {
+          "id": "brasil-holandes-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "O período intensificou disputas comerciais e deixou marcas urbanas, artísticas e científicas."
+        },
+        {
+          "id": "brasil-holandes-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Pintores e naturalistas registraram paisagens e habitantes do Nordeste."
+        },
+        {
+          "id": "brasil-holandes-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode usar pintura de Frans Post e perguntar o que ela revela."
+        },
+        {
+          "id": "brasil-holandes-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Brasil Holandês foi o período de domínio neerlandês em partes do Nordeste, principalmente entre 1630 e 1654.",
+            "O período intensificou disputas comerciais e deixou marcas urbanas, artísticas e científicas."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Inquisição no Brasil": {
+      "definition": "A Inquisição foi uma instituição religiosa que investigava e punia práticas consideradas contrárias ao catolicismo.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Contrarreforma católica.</li><li>Colonização portuguesa.</li><li>Controle religioso e social.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Inquisidores.</li><li>Clero.</li><li>Cristãos-novos.</li><li>Pessoas acusadas de práticas religiosas ou morais proibidas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Denúncias.</li><li>Investigações.</li><li>Visitações.</li><li>Punições.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Maior vigilância religiosa.</li><li>Perseguição a grupos específicos.</li><li>Medo e controle social.</li></ul></section></div>",
+      "result": "A Inquisição reforçou intolerância religiosa e perseguiu práticas culturais e crenças diversas.",
+      "example": "Cristãos-novos podiam ser denunciados por manter costumes judaicos.",
+      "exam": "A prova pode apresentar trecho de denúncia e perguntar qual mecanismo de controle está presente.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "inquisicao-no-brasil-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "A Inquisição foi uma instituição religiosa que investigava e punia práticas consideradas contrárias ao catolicismo."
+        },
+        {
+          "id": "inquisicao-no-brasil-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "inquisicao-no-brasil-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Contrarreforma católica.</li><li>Colonização portuguesa.</li><li>Controle religioso e social.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Inquisidores.</li><li>Clero.</li><li>Cristãos-novos.</li><li>Pessoas acusadas de práticas religiosas ou morais proibidas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Denúncias.</li><li>Investigações.</li><li>Visitações.</li><li>Punições.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Maior vigilância religiosa.</li><li>Perseguição a grupos específicos.</li><li>Medo e controle social.</li></ul></section></div>"
+        },
+        {
+          "id": "inquisicao-no-brasil-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A Inquisição reforçou intolerância religiosa e perseguiu práticas culturais e crenças diversas."
+        },
+        {
+          "id": "inquisicao-no-brasil-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Cristãos-novos podiam ser denunciados por manter costumes judaicos."
+        },
+        {
+          "id": "inquisicao-no-brasil-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar trecho de denúncia e perguntar qual mecanismo de controle está presente."
+        },
+        {
+          "id": "inquisicao-no-brasil-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "A Inquisição foi uma instituição religiosa que investigava e punia práticas consideradas contrárias ao catolicismo.",
+            "A Inquisição reforçou intolerância religiosa e perseguiu práticas culturais e crenças diversas."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Economia colonial": {
+      "definition": "Economia colonial foi o conjunto de atividades produtivas organizadas para atender aos interesses da metrópole.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Mercantilismo.</li><li>Monopólio comercial.</li><li>Exploração de recursos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Metrópole.</li><li>Grandes proprietários.</li><li>Comerciantes.</li><li>Trabalhadores livres e escravizados.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Latifúndio.</li><li>Monocultura.</li><li>Exportação.</li><li>Escravidão.</li><li>Mineração.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Diversificação regional.</li><li>Expansão para o interior.</li><li>Crescimento de mercados internos.</li></ul></section></div>",
+      "result": "A economia colonial gerou riqueza concentrada, dependência externa e desigualdades duradouras.",
+      "example": "A produção de açúcar dependia de grandes propriedades e trabalho escravizado.",
+      "exam": "A prova pode apresentar dados de exportação e pedir qual atividade predominava.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "economia-colonial-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Economia colonial foi o conjunto de atividades produtivas organizadas para atender aos interesses da metrópole."
+        },
+        {
+          "id": "economia-colonial-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "economia-colonial-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Mercantilismo.</li><li>Monopólio comercial.</li><li>Exploração de recursos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Metrópole.</li><li>Grandes proprietários.</li><li>Comerciantes.</li><li>Trabalhadores livres e escravizados.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Latifúndio.</li><li>Monocultura.</li><li>Exportação.</li><li>Escravidão.</li><li>Mineração.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Diversificação regional.</li><li>Expansão para o interior.</li><li>Crescimento de mercados internos.</li></ul></section></div>"
+        },
+        {
+          "id": "economia-colonial-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "A economia colonial gerou riqueza concentrada, dependência externa e desigualdades duradouras."
+        },
+        {
+          "id": "economia-colonial-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "A produção de açúcar dependia de grandes propriedades e trabalho escravizado."
+        },
+        {
+          "id": "economia-colonial-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar dados de exportação e pedir qual atividade predominava."
+        },
+        {
+          "id": "economia-colonial-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Economia colonial foi o conjunto de atividades produtivas organizadas para atender aos interesses da metrópole.",
+            "A economia colonial gerou riqueza concentrada, dependência externa e desigualdades duradouras."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "Reformas pombalinas": {
+      "definition": "Reformas pombalinas foram medidas do século XVIII adotadas pela Coroa portuguesa para aumentar o controle do Estado sobre economia, educação e colônias.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Despotismo esclarecido.</li><li>Crise econômica portuguesa.</li><li>Busca por maior eficiência administrativa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Marquês de Pombal.</li><li>Coroa portuguesa.</li><li>Jesuítas.</li><li>Colonos e povos indígenas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Expulsão dos jesuítas.</li><li>Mudanças educacionais.</li><li>Reorganização econômica e administrativa.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Maior controle estatal.</li><li>Mudança na educação.</li><li>Reorganização de companhias comerciais.</li></ul></section></div>",
+      "result": "As reformas fortaleceram o poder da Coroa, mas também causaram conflitos e impactos sobre missões e educação.",
+      "example": "A expulsão dos jesuítas alterou escolas e missões na colônia.",
+      "exam": "A questão pode apresentar decreto e pedir qual objetivo centralizador está expresso.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "reformas-pombalinas-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "Reformas pombalinas foram medidas do século XVIII adotadas pela Coroa portuguesa para aumentar o controle do Estado sobre economia, educação e colônias."
+        },
+        {
+          "id": "reformas-pombalinas-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "reformas-pombalinas-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Despotismo esclarecido.</li><li>Crise econômica portuguesa.</li><li>Busca por maior eficiência administrativa.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Marquês de Pombal.</li><li>Coroa portuguesa.</li><li>Jesuítas.</li><li>Colonos e povos indígenas.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Expulsão dos jesuítas.</li><li>Mudanças educacionais.</li><li>Reorganização econômica e administrativa.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Maior controle estatal.</li><li>Mudança na educação.</li><li>Reorganização de companhias comerciais.</li></ul></section></div>"
+        },
+        {
+          "id": "reformas-pombalinas-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "As reformas fortaleceram o poder da Coroa, mas também causaram conflitos e impactos sobre missões e educação."
+        },
+        {
+          "id": "reformas-pombalinas-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "A expulsão dos jesuítas alterou escolas e missões na colônia."
+        },
+        {
+          "id": "reformas-pombalinas-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A questão pode apresentar decreto e pedir qual objetivo centralizador está expresso."
+        },
+        {
+          "id": "reformas-pombalinas-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "Reformas pombalinas foram medidas do século XVIII adotadas pela Coroa portuguesa para aumentar o controle do Estado sobre economia, educação e colônias.",
+            "As reformas fortaleceram o poder da Coroa, mas também causaram conflitos e impactos sobre missões e educação."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    },
+    "História das Mulheres": {
+      "definition": "História das Mulheres estuda experiências, trabalhos, direitos, resistências e formas de participação feminina em diferentes sociedades.",
+      "process": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Muitas fontes tradicionais privilegiaram ações masculinas.</li><li>Novas pesquisas ampliaram o uso de cartas, processos e relatos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Mulheres de diferentes classes, raças, povos e períodos.</li><li>Instituições que regulavam seus direitos e papéis.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Trabalho doméstico e produtivo.</li><li>Participação política e cultural.</li><li>Normas de gênero.</li><li>Resistências.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação de direitos.</li><li>Maior presença em espaços públicos.</li><li>Persistência de desigualdades.</li></ul></section></div>",
+      "result": "Esse campo mostra que mulheres sempre participaram da História, embora muitas vezes tenham sido invisibilizadas.",
+      "example": "Processos judiciais podem revelar mulheres administrando negócios ou defendendo propriedades.",
+      "exam": "A prova pode apresentar fonte escrita por uma mulher e perguntar o que ela revela sobre seu papel social.",
+      "schemaVersion": "2.0",
+      "blocks": [
+        {
+          "id": "historia-das-mulheres-definition",
+          "type": "concept",
+          "label": "Entenda a ideia",
+          "content": "História das Mulheres estuda experiências, trabalhos, direitos, resistências e formas de participação feminina em diferentes sociedades."
+        },
+        {
+          "id": "historia-das-mulheres-source",
+          "type": "observe",
+          "label": "Leia como historiador",
+          "content": "Ao analisar uma fonte, observe quem a produziu, em que época, com qual finalidade e quais grupos aparecem ou foram silenciados."
+        },
+        {
+          "id": "historia-das-mulheres-process",
+          "type": "process",
+          "label": "Como funciona",
+          "content": "<div class='historyProcess'><section><h5>Contexto</h5><ul><li>Muitas fontes tradicionais privilegiaram ações masculinas.</li><li>Novas pesquisas ampliaram o uso de cartas, processos e relatos.</li></ul></section><section><h5>Grupos envolvidos</h5><ul><li>Mulheres de diferentes classes, raças, povos e períodos.</li><li>Instituições que regulavam seus direitos e papéis.</li></ul></section><section><h5>Organização e interesses</h5><ul><li>Trabalho doméstico e produtivo.</li><li>Participação política e cultural.</li><li>Normas de gênero.</li><li>Resistências.</li></ul></section><section><h5>Mudanças ao longo do tempo</h5><ul><li>Ampliação de direitos.</li><li>Maior presença em espaços públicos.</li><li>Persistência de desigualdades.</li></ul></section></div>"
+        },
+        {
+          "id": "historia-das-mulheres-result",
+          "type": "result",
+          "label": "O que podemos concluir",
+          "content": "Esse campo mostra que mulheres sempre participaram da História, embora muitas vezes tenham sido invisibilizadas."
+        },
+        {
+          "id": "historia-das-mulheres-example",
+          "type": "example",
+          "label": "Veja na prática",
+          "content": "Processos judiciais podem revelar mulheres administrando negócios ou defendendo propriedades."
+        },
+        {
+          "id": "historia-das-mulheres-exam",
+          "type": "onc",
+          "label": "Pense como na ONC",
+          "content": "A prova pode apresentar fonte escrita por uma mulher e perguntar o que ela revela sobre seu papel social."
+        },
+        {
+          "id": "historia-das-mulheres-review",
+          "type": "review",
+          "label": "Revisão rápida",
+          "items": [
+            "História das Mulheres estuda experiências, trabalhos, direitos, resistências e formas de participação feminina em diferentes sociedades.",
+            "Esse campo mostra que mulheres sempre participaram da História, embora muitas vezes tenham sido invisibilizadas."
+          ]
+        }
+      ],
+      "learningDesign": {
+        "flexible": true,
+        "minimumCore": [
+          "concept",
+          "example",
+          "onc"
+        ],
+        "editorialPremises": [
+          "Existe uma maneira mais clara de explicar isso para um aluno de 11 anos?",
+          "Como eu explicaria isso para a Helena usando uma folha de papel, um lápis e cinco minutos?"
+        ]
+      }
+    }
+  }
+}

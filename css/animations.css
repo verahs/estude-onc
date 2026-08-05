@@ -1,0 +1,4 @@
+/* Sprint 0 — animações devem respeitar prefers-reduced-motion. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; }
+}

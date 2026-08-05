@@ -1,0 +1,261 @@
+/* Estude ONC 3.0 — Sprint 1
+   Módulo Estudar com blocos flexíveis e leitura guiada. */
+
+.studyHero {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.heroEyebrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: .78rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  opacity: .86;
+}
+
+.subjectHead,
+.groupHead,
+.topicSummary {
+  width: 100%;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.subjectHead:focus-visible,
+.groupHead:focus-visible,
+.topicSummary:focus-visible,
+.btn:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid rgba(44, 99, 199, .38);
+  outline-offset: 3px;
+}
+
+.topicCard {
+  scroll-margin-top: 92px;
+  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+
+.topicCard.open {
+  border-color: rgba(44, 99, 199, .35);
+  box-shadow: 0 16px 38px rgba(31, 42, 68, .10);
+}
+
+.topicCard.is-complete {
+  border-left: 5px solid #278b62;
+}
+
+.topicCard.is-complete .topicName {
+  color: #176949;
+}
+
+.topicReadingToolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 10px 0 16px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 14px;
+}
+
+.topicReadingToolbar > span {
+  margin-right: auto;
+  color: var(--muted);
+  font-size: .82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.btnSmall {
+  min-height: 34px;
+  padding: 7px 11px;
+  font-size: .82rem;
+}
+
+.learningFlow {
+  display: grid;
+  gap: 14px;
+}
+
+.learningBlock {
+  --block-accent: #2c63c7;
+  --block-bg: #f4f8ff;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--block-accent);
+  border-radius: 16px;
+  background: var(--block-bg);
+  padding: 16px 18px;
+}
+
+.learningBlock__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.learningBlock__header h4 {
+  margin: 0;
+  color: #13284d;
+  font-size: 1rem;
+}
+
+.learningBlock__icon {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 auto;
+  border-radius: 10px;
+  background: rgba(255,255,255,.78);
+}
+
+.learningBlock__content {
+  line-height: 1.72;
+}
+
+.learningBlock__content p:first-child { margin-top: 0; }
+.learningBlock__content p:last-child { margin-bottom: 0; }
+.learningBlock__content ul,
+.learningBlock__content ol { padding-left: 22px; }
+.learningBlock__content li { margin: 6px 0; }
+
+.learningBlock__list {
+  margin: 0;
+  padding-left: 23px;
+}
+
+.learningBlock__list li {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.learningBlock--concept { --block-accent: #2c63c7; --block-bg: #f4f8ff; }
+.learningBlock--process { --block-accent: #c9782d; --block-bg: #fff8f0; }
+.learningBlock--result { --block-accent: #278b62; --block-bg: #f1faf6; }
+.learningBlock--example { --block-accent: #3e83b9; --block-bg: #f1f8fc; }
+.learningBlock--onc { --block-accent: #6546b5; --block-bg: #f7f3ff; }
+.learningBlock--observe { --block-accent: #a26a00; --block-bg: #fff9e8; }
+.learningBlock--strategy { --block-accent: #276f94; --block-bg: #eef8fc; }
+.learningBlock--connection { --block-accent: #168a96; --block-bg: #effbfb; }
+.learningBlock--review { --block-accent: #7a4a9e; --block-bg: #faf4ff; }
+.learningBlock--visual { --block-accent: #506176; --block-bg: #f5f7fa; }
+
+.learningVisual {
+  overflow: hidden;
+  border-radius: 14px;
+  background: white;
+}
+
+.learningVisual svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 390px;
+}
+
+.readingMode .topbar,
+.readingMode .mobileNav,
+.readingMode .studyControls,
+.readingMode .grid,
+.readingMode .recurrencePanel,
+.readingMode .studyFilterBar,
+.readingMode footer {
+  display: none !important;
+}
+
+.readingMode main.wrap {
+  max-width: 900px;
+  padding-top: 18px;
+}
+
+.readingMode .studyHero {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  padding: 14px 18px;
+  min-height: auto;
+}
+
+.readingMode .studyHero h1,
+.readingMode .studyHero p,
+.readingMode .studyHero .heroEyebrow {
+  display: none;
+}
+
+.readingMode .subject,
+.readingMode .group,
+.readingMode .topicCard {
+  display: none;
+}
+
+.readingMode .subject:has(.readingFocus),
+.readingMode .group:has(.readingFocus),
+.readingMode .topicCard.readingFocus {
+  display: block;
+}
+
+.readingMode .subject:has(.readingFocus) > .subjectHead,
+.readingMode .group:has(.readingFocus) > .groupHead,
+.readingMode .readingFocus > .topicSummary .expandSymbol {
+  display: none;
+}
+
+.readingMode .subject:has(.readingFocus) > .subjectBody,
+.readingMode .group:has(.readingFocus) > .groupBody,
+.readingMode .readingFocus > .topicDetails {
+  display: block !important;
+}
+
+.readingMode .readingFocus {
+  border: 0;
+  box-shadow: none;
+}
+
+@media (max-width: 720px) {
+  .studyHero {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .topicReadingToolbar {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .topicReadingToolbar > span {
+    width: 100%;
+  }
+
+  .learningBlock {
+    padding: 14px;
+    border-radius: 14px;
+  }
+}
+
+@media print {
+  body * { visibility: hidden !important; }
+  .topicCard.printTarget,
+  .topicCard.printTarget * { visibility: visible !important; }
+  .topicCard.printTarget {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    border: 0;
+    box-shadow: none;
+  }
+  .topicCard.printTarget .topicDetails { display: block !important; }
+  .topicCard.printTarget .topicReadingToolbar,
+  .topicCard.printTarget input,
+  .topicCard.printTarget .expandSymbol { display: none !important; }
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0",
+  "ranking": [
+    {
+      "category": "Astronomia — Terra, orientação, sombras, fusos e estações",
+      "count": 12,
+      "percent": 12
+    },
+    {
+      "category": "Astronomia — Sistema Solar, estrelas e Universo",
+      "count": 11,
+      "percent": 11
+    },
+    {
+      "category": "Biologia — células, corpo humano, visão e sistema nervoso",
+      "count": 9,
+      "percent": 9
+    },
+    {
+      "category": "Física — calor, temperatura, energia e clima",
+      "count": 9,
+      "percent": 9
+    },
+    {
+      "category": "História — sociedades antigas e medievais",
+      "count": 8,
+      "percent": 8
+    },
+    {
+      "category": "Biologia — ecologia, biomas, biodiversidade e impactos",
+      "count": 8,
+      "percent": 8
+    },
+    {
+      "category": "Química — matéria, propriedades, misturas e transformações",
+      "count": 8,
+      "percent": 8
+    },
+    {
+      "category": "História — fontes, patrimônio e interpretação histórica",
+      "count": 7,
+      "percent": 7
+    },
+    {
+      "category": "Biologia — saúde pública, vacinação e saneamento",
+      "count": 7,
+      "percent": 7
+    },
+    {
+      "category": "Física/Matemática — medidas, geometria, proporções e gráficos",
+      "count": 6,
+      "percent": 6
+    },
+    {
+      "category": "Astronomia — Lua, fases e eclipses",
+      "count": 5,
+      "percent": 5
+    },
+    {
+      "category": "Química/Física — densidade, flutuação e propriedades da água",
+      "count": 5,
+      "percent": 5
+    },
+    {
+      "category": "História — colonização, expansão e economia colonial",
+      "count": 4,
+      "percent": 4
+    },
+    {
+      "category": "Física — movimento, ondas e máquinas",
+      "count": 1,
+      "percent": 1
+    }
+  ]
+}

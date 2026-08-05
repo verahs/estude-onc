@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Configuração de Simulado ONC",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "questionCount",
+    "durationMinutes",
+    "filters"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "questionCount": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "durationMinutes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "filters": {
+      "type": "object",
+      "properties": {
+        "subjects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "difficulties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "minimumRecurrence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    }
+  }
+}

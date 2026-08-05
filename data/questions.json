@@ -1,0 +1,815 @@
+{
+  "schemaVersion": "1.0",
+  "questions": [
+    {
+      "id": "A01",
+      "subject": "Astronomia",
+      "topic": "Rotação",
+      "difficulty": "Fácil",
+      "q": "Qual fenômeno é explicado principalmente pelo movimento de rotação da Terra?",
+      "options": [
+        "As estações do ano",
+        "A alternância entre dia e noite",
+        "As fases da Lua",
+        "Os eclipses solares",
+        "A formação das marés"
+      ],
+      "answer": 1,
+      "explanation": "A rotação é o giro da Terra em torno do próprio eixo. Enquanto uma parte fica voltada para o Sol, é dia; na parte oposta, é noite.",
+      "intro": "Durante uma atividade de observação do céu, estudantes registraram que o Sol apareceu no horizonte pela manhã, atingiu sua maior altura ao meio-dia e desapareceu no lado oposto no fim da tarde.",
+      "visual": "rotation"
+    },
+    {
+      "id": "A02",
+      "subject": "Astronomia",
+      "topic": "Fases da Lua",
+      "difficulty": "Fácil",
+      "q": "As fases da Lua acontecem porque:",
+      "options": [
+        "a Lua produz quantidades diferentes de luz",
+        "a sombra da Terra sempre cobre parte da Lua",
+        "vemos porções diferentes da face iluminada da Lua",
+        "a Lua muda de tamanho durante o mês",
+        "o Sol gira ao redor da Lua"
+      ],
+      "answer": 2,
+      "explanation": "A Lua não produz luz própria. Ela reflete a luz do Sol e, conforme muda sua posição em relação à Terra e ao Sol, vemos diferentes partes iluminadas.",
+      "intro": "Ao longo de quatro semanas, uma turma fotografou a Lua sempre no mesmo horário. As imagens mostraram mudanças na porção iluminada visível da Lua.",
+      "visual": "moon_phases"
+    },
+    {
+      "id": "A03",
+      "subject": "Astronomia",
+      "topic": "Estações do ano",
+      "difficulty": "Média",
+      "q": "Qual combinação explica corretamente as estações do ano?",
+      "options": [
+        "Rotação da Terra e fases da Lua",
+        "Inclinação do eixo terrestre e translação",
+        "Distância fixa entre Terra e Sol",
+        "Movimento das nuvens e do vento",
+        "Eclipses e marés"
+      ],
+      "answer": 1,
+      "explanation": "As estações surgem da inclinação do eixo da Terra combinada com o movimento de translação ao redor do Sol.",
+      "intro": "O gráfico abaixo representa a duração aproximada do dia em uma cidade do Hemisfério Sul ao longo de quatro meses do ano.",
+      "visual": "day_length_chart"
+    },
+    {
+      "id": "A04",
+      "subject": "Astronomia",
+      "topic": "Gravitação e peso",
+      "difficulty": "Média",
+      "q": "Uma pessoa teria menor peso na Lua porque:",
+      "options": [
+        "sua massa diminuiria",
+        "a Lua não possui gravidade",
+        "a gravidade da Lua é menor",
+        "não existe atmosfera",
+        "a Lua gira mais devagar"
+      ],
+      "answer": 2,
+      "explanation": "A massa da pessoa permanece praticamente a mesma, mas o peso depende da gravidade local. Como a gravidade lunar é menor, o peso também é menor.",
+      "intro": "Uma astronauta mede sua massa e seu peso na Terra e depois repete a medição na Lua. Sua massa permanece praticamente a mesma, mas o peso é menor na Lua.",
+      "visual": "gravity_compare"
+    },
+    {
+      "id": "A05",
+      "subject": "Astronomia",
+      "topic": "Constelações",
+      "difficulty": "Fácil",
+      "q": "Uma utilidade histórica das constelações foi:",
+      "options": [
+        "produzir luz para a Terra",
+        "orientar deslocamentos e navegação",
+        "causar as estações do ano",
+        "controlar as marés",
+        "medir a temperatura do ar"
+      ],
+      "answer": 1,
+      "explanation": "Diferentes povos usaram constelações como referências para orientação, navegação e construção de calendários.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre constelações para responder.",
+      "visual": null
+    },
+    {
+      "id": "A06",
+      "subject": "Astronomia",
+      "topic": "Ano-luz",
+      "difficulty": "Média",
+      "q": "Ano-luz é uma unidade usada para medir:",
+      "options": [
+        "tempo",
+        "massa",
+        "temperatura",
+        "distância",
+        "velocidade"
+      ],
+      "answer": 3,
+      "explanation": "Ano-luz é a distância que a luz percorre em um ano. Apesar do nome conter 'ano', trata-se de uma medida de distância.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre ano-luz para responder.",
+      "visual": null
+    },
+    {
+      "id": "B01",
+      "subject": "Biologia",
+      "topic": "Célula",
+      "difficulty": "Fácil",
+      "q": "A célula é considerada:",
+      "options": [
+        "a menor unidade estrutural e funcional da vida",
+        "um tipo de tecido",
+        "um órgão completo",
+        "uma substância química",
+        "um sistema do corpo"
+      ],
+      "answer": 0,
+      "explanation": "Todos os seres vivos são formados por células, que realizam funções essenciais à vida.",
+      "intro": "Em uma aula de Ciências, os estudantes observaram ao microscópio uma fina camada de cebola. Eles identificaram várias estruturas delimitadas, semelhantes a pequenos compartimentos.",
+      "visual": "cell"
+    },
+    {
+      "id": "B02",
+      "subject": "Biologia",
+      "topic": "Organização dos seres vivos",
+      "difficulty": "Fácil",
+      "q": "Qual sequência mostra corretamente os níveis de organização do corpo?",
+      "options": [
+        "órgão → célula → tecido → sistema",
+        "célula → tecido → órgão → sistema",
+        "tecido → sistema → célula → órgão",
+        "sistema → órgão → tecido → célula",
+        "célula → sistema → tecido → órgão"
+      ],
+      "answer": 1,
+      "explanation": "Células semelhantes formam tecidos; tecidos formam órgãos; órgãos trabalham juntos em sistemas.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre organização dos seres vivos para responder.",
+      "visual": null
+    },
+    {
+      "id": "B03",
+      "subject": "Biologia",
+      "topic": "Sistema nervoso",
+      "difficulty": "Média",
+      "q": "Ao tocar uma panela muito quente, retiramos a mão rapidamente. Isso mostra a atuação integrada de:",
+      "options": [
+        "sistema digestório e respiratório",
+        "sistema nervoso e locomotor",
+        "sistema circulatório e digestório",
+        "sistema reprodutor e urinário",
+        "sistema respiratório e endócrino"
+      ],
+      "answer": 1,
+      "explanation": "O sistema nervoso percebe o estímulo e envia comandos; músculos e ossos executam o movimento de afastar a mão.",
+      "intro": "Ao tocar acidentalmente uma superfície muito quente, uma pessoa retira a mão rapidamente, antes mesmo de pensar conscientemente sobre o movimento.",
+      "visual": "reflex_arc"
+    },
+    {
+      "id": "B04",
+      "subject": "Biologia",
+      "topic": "Vacinação",
+      "difficulty": "Média",
+      "q": "A principal função de uma vacina é:",
+      "options": [
+        "curar imediatamente qualquer doença",
+        "substituir o sistema imunológico",
+        "estimular o organismo a reconhecer um agente infeccioso",
+        "impedir todas as mutações dos vírus",
+        "eliminar a necessidade de saneamento"
+      ],
+      "answer": 2,
+      "explanation": "A vacina prepara o sistema imunológico para reconhecer e responder mais rapidamente a determinados agentes causadores de doenças.",
+      "intro": "Uma campanha de vacinação elevou a cobertura vacinal de uma comunidade de 55% para 92%. Nos meses seguintes, o número de casos graves caiu de forma acentuada.",
+      "visual": "vaccination_chart"
+    },
+    {
+      "id": "B05",
+      "subject": "Biologia",
+      "topic": "Ecossistemas",
+      "difficulty": "Fácil",
+      "q": "Qual característica está mais associada ao Cerrado?",
+      "options": [
+        "gelo permanente",
+        "vegetação adaptada a períodos de seca",
+        "ausência de árvores",
+        "chuvas o ano inteiro sem estação seca",
+        "solo sempre alagado"
+      ],
+      "answer": 1,
+      "explanation": "O Cerrado apresenta estação seca marcante e muitas plantas com adaptações à falta de água e ao fogo.",
+      "intro": "Em uma região de Cerrado, pesquisadores observaram árvores de troncos retorcidos, casca grossa e raízes profundas.",
+      "visual": "cerrado"
+    },
+    {
+      "id": "B06",
+      "subject": "Biologia",
+      "topic": "Saúde pública",
+      "difficulty": "Média",
+      "q": "Qual indicador ajuda a avaliar as condições de saúde de uma comunidade?",
+      "options": [
+        "cor das casas",
+        "taxa de mortalidade infantil",
+        "quantidade de carros",
+        "altura média dos prédios",
+        "número de praças"
+      ],
+      "answer": 1,
+      "explanation": "A mortalidade infantil, o saneamento e a incidência de doenças são indicadores usados para avaliar a saúde coletiva.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre saúde pública para responder.",
+      "visual": null
+    },
+    {
+      "id": "F01",
+      "subject": "Física",
+      "topic": "Frações e porcentagens",
+      "difficulty": "Fácil",
+      "q": "25% de 40 corresponde a:",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "25% é o mesmo que 1/4. Um quarto de 40 é 10.",
+      "intro": "Uma escola recebeu 80 livros para a biblioteca. Desses, 25% eram de Ciências.",
+      "visual": "percentage_chart"
+    },
+    {
+      "id": "F02",
+      "subject": "Física",
+      "topic": "Perímetro",
+      "difficulty": "Fácil",
+      "q": "Um retângulo mede 5 cm por 3 cm. Seu perímetro é:",
+      "options": [
+        "8 cm",
+        "15 cm",
+        "16 cm",
+        "20 cm",
+        "30 cm"
+      ],
+      "answer": 2,
+      "explanation": "Perímetro é a soma de todos os lados: 5 + 3 + 5 + 3 = 16 cm.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre perímetro para responder.",
+      "visual": null
+    },
+    {
+      "id": "F03",
+      "subject": "Física",
+      "topic": "Calor e temperatura",
+      "difficulty": "Média",
+      "q": "Qual afirmação está correta?",
+      "options": [
+        "calor e temperatura são exatamente a mesma coisa",
+        "calor é energia transferida por diferença de temperatura",
+        "temperatura é uma forma de matéria",
+        "calor só existe em objetos quentes",
+        "temperatura mede massa"
+      ],
+      "answer": 1,
+      "explanation": "Temperatura indica o estado térmico. Calor é a energia transferida de um corpo para outro quando há diferença de temperatura.",
+      "intro": "Duas xícaras, uma com água a 80 °C e outra com água a 20 °C, foram colocadas lado a lado sobre uma mesa.",
+      "visual": "temperature_compare"
+    },
+    {
+      "id": "F04",
+      "subject": "Física",
+      "topic": "Propagação do calor",
+      "difficulty": "Média",
+      "q": "O cabo metálico de uma colher aquece quando ela fica em uma sopa quente. O processo predominante é:",
+      "options": [
+        "condução",
+        "convecção",
+        "radiação",
+        "reflexão",
+        "evaporação"
+      ],
+      "answer": 0,
+      "explanation": "Na condução, a energia térmica passa através do material, especialmente em sólidos como metais.",
+      "intro": "Uma colher metálica foi deixada dentro de uma panela com sopa quente. Após alguns minutos, o cabo da colher também estava aquecido.",
+      "visual": "heat_conduction"
+    },
+    {
+      "id": "F05",
+      "subject": "Física",
+      "topic": "Máquinas simples",
+      "difficulty": "Fácil",
+      "q": "Qual objeto funciona como uma alavanca?",
+      "options": [
+        "abridor de garrafas",
+        "termômetro",
+        "bússola",
+        "lâmpada",
+        "ímã"
+      ],
+      "answer": 0,
+      "explanation": "O abridor usa um ponto de apoio e multiplica a força aplicada, característica de uma alavanca.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre máquinas simples para responder.",
+      "visual": null
+    },
+    {
+      "id": "F06",
+      "subject": "Física",
+      "topic": "Área",
+      "difficulty": "Média",
+      "q": "A área de um triângulo com base 8 cm e altura 5 cm é:",
+      "options": [
+        "13 cm²",
+        "20 cm²",
+        "40 cm²",
+        "26 cm²",
+        "80 cm²"
+      ],
+      "answer": 1,
+      "explanation": "Área do triângulo = base × altura ÷ 2. Então: 8 × 5 ÷ 2 = 20 cm².",
+      "intro": "Uma praça triangular possui base de 8 metros e altura de 5 metros. A prefeitura deseja calcular a área para colocar grama.",
+      "visual": "triangle_area"
+    },
+    {
+      "id": "H01",
+      "subject": "História",
+      "topic": "Fontes históricas",
+      "difficulty": "Fácil",
+      "q": "Qual item pode ser usado como fonte histórica material?",
+      "options": [
+        "uma moeda antiga",
+        "apenas um livro didático",
+        "somente uma opinião atual",
+        "uma previsão do tempo futura",
+        "um cálculo matemático sem contexto"
+      ],
+      "answer": 0,
+      "explanation": "Objetos, construções, roupas e moedas são exemplos de fontes materiais utilizadas pelos historiadores.",
+      "intro": "Um museu reúne moedas, cartas, ferramentas, fotografias e depoimentos relacionados à história de uma cidade.",
+      "visual": "historical_sources"
+    },
+    {
+      "id": "H02",
+      "subject": "História",
+      "topic": "Ofício do historiador",
+      "difficulty": "Média",
+      "q": "O historiador trabalha principalmente:",
+      "options": [
+        "inventando acontecimentos",
+        "analisando fontes e construindo interpretações",
+        "prevendo exatamente o futuro",
+        "decorando datas sem contexto",
+        "substituindo todas as memórias pessoais"
+      ],
+      "answer": 1,
+      "explanation": "O historiador formula perguntas, analisa fontes e constrói interpretações fundamentadas sobre o passado.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre ofício do historiador para responder.",
+      "visual": null
+    },
+    {
+      "id": "H03",
+      "subject": "História",
+      "topic": "Neolítico",
+      "difficulty": "Fácil",
+      "q": "Uma transformação marcante do Neolítico foi:",
+      "options": [
+        "invenção do avião",
+        "agricultura e sedentarização",
+        "uso da internet",
+        "fim de todas as guerras",
+        "descoberta da eletricidade"
+      ],
+      "answer": 1,
+      "explanation": "A agricultura e a domesticação de animais favoreceram a formação de aldeias permanentes.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre neolítico para responder.",
+      "visual": null
+    },
+    {
+      "id": "H04",
+      "subject": "História",
+      "topic": "Mesopotâmia",
+      "difficulty": "Média",
+      "q": "O desenvolvimento da agricultura na Mesopotâmia esteve relacionado:",
+      "options": [
+        "ao uso de geleiras",
+        "aos rios e sistemas de irrigação",
+        "à ausência de água",
+        "ao cultivo apenas em montanhas",
+        "à navegação oceânica"
+      ],
+      "answer": 1,
+      "explanation": "Os rios Tigre e Eufrates foram fundamentais para irrigação e agricultura na região.",
+      "intro": "Em uma região entre dois rios, agricultores construíram canais para levar água até áreas de cultivo durante períodos secos.",
+      "visual": "mesopotamia_irrigation"
+    },
+    {
+      "id": "H05",
+      "subject": "História",
+      "topic": "Renascimento",
+      "difficulty": "Média",
+      "q": "O Humanismo e o Renascimento valorizaram:",
+      "options": [
+        "a proibição das artes",
+        "os estudos clássicos e a investigação",
+        "o abandono da ciência",
+        "somente a vida rural",
+        "a ausência de mudanças culturais"
+      ],
+      "answer": 1,
+      "explanation": "Esses movimentos valorizaram textos clássicos, artes, observação da natureza e novas formas de investigação.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre renascimento para responder.",
+      "visual": null
+    },
+    {
+      "id": "H06",
+      "subject": "História",
+      "topic": "Resistência indígena",
+      "difficulty": "Média",
+      "q": "A resistência indígena à colonização ocorreu por meio de:",
+      "options": [
+        "apenas aceitação",
+        "guerras, fugas, negociações e preservação cultural",
+        "abandono completo das tradições",
+        "ausência de organização",
+        "somente migração para a Europa"
+      ],
+      "answer": 1,
+      "explanation": "Povos indígenas resistiram de formas diversas, incluindo enfrentamentos, alianças, fugas e manutenção de línguas e costumes.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre resistência indígena para responder.",
+      "visual": null
+    },
+    {
+      "id": "Q01",
+      "subject": "Química",
+      "topic": "Matéria",
+      "difficulty": "Fácil",
+      "q": "Qual alternativa apresenta apenas exemplos de matéria?",
+      "options": [
+        "luz e som",
+        "água, ar e madeira",
+        "calor e velocidade",
+        "energia e força",
+        "tempo e distância"
+      ],
+      "answer": 1,
+      "explanation": "Matéria tem massa e ocupa lugar no espaço. Água, ar e madeira atendem a essa definição.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre matéria para responder.",
+      "visual": null
+    },
+    {
+      "id": "Q02",
+      "subject": "Química",
+      "topic": "Transformações físicas e químicas",
+      "difficulty": "Fácil",
+      "q": "Qual situação representa transformação química?",
+      "options": [
+        "gelo derretendo",
+        "papel sendo cortado",
+        "ferro enferrujando",
+        "água evaporando",
+        "vidro quebrando"
+      ],
+      "answer": 2,
+      "explanation": "Na ferrugem, novas substâncias são formadas. Isso caracteriza transformação química.",
+      "intro": "Durante um experimento, foram observadas três situações: gelo derretendo, papel sendo cortado e ferro formando ferrugem.",
+      "visual": "physical_chemical"
+    },
+    {
+      "id": "Q03",
+      "subject": "Química",
+      "topic": "Misturas",
+      "difficulty": "Fácil",
+      "q": "Água e óleo formam uma mistura:",
+      "options": [
+        "homogênea",
+        "heterogênea",
+        "pura",
+        "gasosa",
+        "metálica"
+      ],
+      "answer": 1,
+      "explanation": "Água e óleo formam fases visíveis distintas, portanto constituem uma mistura heterogênea.",
+      "intro": "Uma estudante colocou água e óleo em um copo transparente, agitou a mistura e aguardou alguns minutos.",
+      "visual": "oil_water"
+    },
+    {
+      "id": "Q04",
+      "subject": "Química",
+      "topic": "Tratamento da água",
+      "difficulty": "Média",
+      "q": "Na decantação, ocorre principalmente:",
+      "options": [
+        "a evaporação completa da água",
+        "a deposição de partículas mais densas",
+        "a produção de oxigênio",
+        "o congelamento da mistura",
+        "a transformação do sal em gás"
+      ],
+      "answer": 1,
+      "explanation": "Na decantação, partículas mais densas se depositam no fundo, facilitando a separação.",
+      "intro": "Em uma estação de tratamento, a água com partículas em suspensão permanece em um tanque por determinado tempo.",
+      "visual": "decantation"
+    },
+    {
+      "id": "Q05",
+      "subject": "Química",
+      "topic": "Composição do ar",
+      "difficulty": "Média",
+      "q": "O gás mais abundante no ar atmosférico é:",
+      "options": [
+        "oxigênio",
+        "nitrogênio",
+        "gás carbônico",
+        "ozônio",
+        "hidrogênio"
+      ],
+      "answer": 1,
+      "explanation": "O nitrogênio corresponde à maior parte do ar atmosférico, enquanto o oxigênio ocupa a segunda maior proporção.",
+      "intro": "O gráfico apresenta a composição aproximada do ar atmosférico seco.",
+      "visual": "air_pie"
+    },
+    {
+      "id": "Q06",
+      "subject": "Química",
+      "topic": "Densidade",
+      "difficulty": "Média",
+      "q": "O óleo costuma ficar sobre a água porque:",
+      "options": [
+        "é mais denso que a água",
+        "é menos denso que a água",
+        "não possui massa",
+        "é sempre mais frio",
+        "vira gás em contato com água"
+      ],
+      "answer": 1,
+      "explanation": "O óleo é menos denso que a água, por isso tende a permanecer na parte superior da mistura.",
+      "intro": "Em um recipiente com água, uma camada de óleo permanece sobre a superfície mesmo após a mistura ser agitada.",
+      "visual": "density_layers"
+    },
+    {
+      "id": "A07",
+      "subject": "Astronomia",
+      "topic": "Fusos horários",
+      "difficulty": "Difícil",
+      "q": "Duas cidades estão separadas por 45° de longitude. Considerando que a Terra gira 360° em 24 horas, qual é a diferença aproximada de horário entre elas?",
+      "options": [
+        "1 hora",
+        "2 horas",
+        "3 horas",
+        "4 horas",
+        "6 horas"
+      ],
+      "answer": 2,
+      "explanation": "A Terra gira 15° por hora: 360° ÷ 24 = 15°. Assim, 45° ÷ 15° = 3 horas.",
+      "intro": "Um mapa mostra duas cidades localizadas em longitudes separadas por 45°. A rotação completa da Terra corresponde a 360° em 24 horas.",
+      "visual": "timezone"
+    },
+    {
+      "id": "A08",
+      "subject": "Astronomia",
+      "topic": "Estações do ano",
+      "difficulty": "Difícil",
+      "q": "Em dezembro, o Hemisfério Sul recebe luz solar mais diretamente que o Hemisfério Norte. Qual explicação está correta?",
+      "options": [
+        "A Terra está muito mais próxima do Sol",
+        "O eixo da Terra está inclinado e o Hemisfério Sul fica mais voltado para o Sol",
+        "A rotação da Terra diminui",
+        "A Lua reflete mais luz para o sul",
+        "O Sol muda de posição dentro do Sistema Solar"
+      ],
+      "answer": 1,
+      "explanation": "As estações resultam da inclinação do eixo terrestre combinada com a translação.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre estações do ano para responder.",
+      "visual": null
+    },
+    {
+      "id": "A09",
+      "subject": "Astronomia",
+      "topic": "Eclipses",
+      "difficulty": "Difícil",
+      "q": "Por que não ocorre eclipse solar em toda Lua nova?",
+      "options": [
+        "Porque a Lua não possui órbita",
+        "Porque a órbita da Lua é inclinada em relação ao plano da órbita da Terra",
+        "Porque o Sol muda de tamanho",
+        "Porque a Terra para de girar",
+        "Porque a Lua nova não recebe luz solar"
+      ],
+      "answer": 1,
+      "explanation": "A órbita lunar é inclinada. Na maioria das Luas novas, a Lua passa acima ou abaixo do alinhamento necessário.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre eclipses para responder.",
+      "visual": null
+    },
+    {
+      "id": "B07",
+      "subject": "Biologia",
+      "topic": "Ecossistemas",
+      "difficulty": "Difícil",
+      "q": "Após a retirada de predadores de um ecossistema, a população de herbívoros aumentou e a vegetação diminuiu. Qual relação explica melhor o resultado?",
+      "options": [
+        "Aumento dos herbívoros reduziu o consumo de plantas",
+        "Menos predadores permitiram mais herbívoros, elevando o consumo da vegetação",
+        "A vegetação diminuiu por falta de luz lunar",
+        "Predadores produzem alimento para plantas",
+        "Herbívoros deixaram de se reproduzir"
+      ],
+      "answer": 1,
+      "explanation": "Com menos predadores, há mais herbívoros e maior consumo de plantas.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre ecossistemas para responder.",
+      "visual": null
+    },
+    {
+      "id": "B08",
+      "subject": "Biologia",
+      "topic": "Vacinação",
+      "difficulty": "Difícil",
+      "q": "Uma comunidade apresenta alta cobertura vacinal. Pessoas que não podem receber determinada vacina podem ficar mais protegidas porque:",
+      "options": [
+        "a vacina muda o clima",
+        "há menor circulação do agente infeccioso",
+        "todos passam a produzir antibióticos",
+        "a água se torna potável",
+        "o vírus desaparece imediatamente do planeta"
+      ],
+      "answer": 1,
+      "explanation": "Quando muitas pessoas estão imunizadas, a circulação do agente diminui.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre vacinação para responder.",
+      "visual": null
+    },
+    {
+      "id": "B09",
+      "subject": "Biologia",
+      "topic": "Sistema nervoso",
+      "difficulty": "Difícil",
+      "q": "Uma substância reduz a velocidade de resposta do sistema nervoso. Qual consequência é mais provável ao dirigir?",
+      "options": [
+        "Reflexos mais rápidos",
+        "Maior tempo para reagir a um obstáculo",
+        "Aumento automático da visão",
+        "Diminuição da distância de frenagem",
+        "Melhora da coordenação motora"
+      ],
+      "answer": 1,
+      "explanation": "A resposta mais lenta aumenta o tempo de reação e o risco de acidente.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre sistema nervoso para responder.",
+      "visual": null
+    },
+    {
+      "id": "F07",
+      "subject": "Física",
+      "topic": "Proporcionalidade",
+      "difficulty": "Difícil",
+      "q": "Quatro torneiras iguais enchem um reservatório em 6 horas. Mantendo a mesma vazão, quanto tempo oito torneiras iguais levariam?",
+      "options": [
+        "2 horas",
+        "3 horas",
+        "6 horas",
+        "8 horas",
+        "12 horas"
+      ],
+      "answer": 1,
+      "explanation": "A relação é inversamente proporcional. Dobrar as torneiras reduz o tempo pela metade.",
+      "intro": "Quatro torneiras idênticas enchem um reservatório em 6 horas. Um técnico avalia quanto tempo seria necessário usando oito torneiras iguais.",
+      "visual": "inverse_proportion"
+    },
+    {
+      "id": "F08",
+      "subject": "Física",
+      "topic": "Propagação do calor",
+      "difficulty": "Difícil",
+      "q": "Uma garrafa térmica tem paredes duplas com uma região de quase vácuo entre elas. Essa estrutura reduz principalmente:",
+      "options": [
+        "condução e convecção",
+        "apenas a radiação",
+        "a massa do líquido",
+        "a temperatura inicial",
+        "a pressão atmosférica externa"
+      ],
+      "answer": 0,
+      "explanation": "O quase vácuo dificulta a condução e impede correntes de convecção entre as paredes.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre propagação do calor para responder.",
+      "visual": null
+    },
+    {
+      "id": "F09",
+      "subject": "Física",
+      "topic": "Área",
+      "difficulty": "Difícil",
+      "q": "Uma figura é formada por um retângulo de 8 cm por 5 cm, do qual foi retirado um quadrado de lado 2 cm. Qual é a área restante?",
+      "options": [
+        "32 cm²",
+        "36 cm²",
+        "38 cm²",
+        "40 cm²",
+        "44 cm²"
+      ],
+      "answer": 1,
+      "explanation": "40 cm² − 4 cm² = 36 cm².",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre área para responder.",
+      "visual": null
+    },
+    {
+      "id": "H07",
+      "subject": "História",
+      "topic": "Fontes históricas",
+      "difficulty": "Difícil",
+      "q": "Um historiador encontra uma carta de um governante e um relato de um trabalhador da mesma época. Por que comparar as duas fontes é importante?",
+      "options": [
+        "Para escolher automaticamente a fonte mais antiga",
+        "Para compreender diferentes perspectivas e interesses",
+        "Para provar que uma delas é sempre falsa",
+        "Para eliminar a necessidade de contexto",
+        "Para transformar opinião em fato absoluto"
+      ],
+      "answer": 1,
+      "explanation": "Fontes produzidas por grupos diferentes revelam perspectivas, interesses e silêncios distintos.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre fontes históricas para responder.",
+      "visual": null
+    },
+    {
+      "id": "H08",
+      "subject": "História",
+      "topic": "Colonização europeia",
+      "difficulty": "Difícil",
+      "q": "Qual alternativa apresenta uma consequência combinada da colonização europeia nas Américas?",
+      "options": [
+        "Fim imediato de todos os conflitos",
+        "Trocas culturais, violência, epidemias, exploração e resistências",
+        "Ausência de mudanças populacionais",
+        "Igualdade política entre todos os grupos",
+        "Desaparecimento completo das culturas indígenas"
+      ],
+      "answer": 1,
+      "explanation": "A colonização envolveu dominação, epidemias, exploração, trocas culturais e resistências.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre colonização europeia para responder.",
+      "visual": null
+    },
+    {
+      "id": "H09",
+      "subject": "História",
+      "topic": "Mercantilismo",
+      "difficulty": "Difícil",
+      "q": "Por que as monarquias europeias buscavam controlar o comércio colonial?",
+      "options": [
+        "Para reduzir suas receitas",
+        "Para fortalecer o Estado por impostos, metais e balança comercial favorável",
+        "Para impedir qualquer navegação",
+        "Para tornar as colônias independentes",
+        "Para acabar com a produção agrícola"
+      ],
+      "answer": 1,
+      "explanation": "As práticas mercantilistas buscavam acumular riqueza e fortalecer o Estado.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre mercantilismo para responder.",
+      "visual": null
+    },
+    {
+      "id": "Q07",
+      "subject": "Química",
+      "topic": "Densidade",
+      "difficulty": "Difícil",
+      "q": "Um objeto tem massa de 120 g e volume de 150 cm³. Sabendo que a densidade da água é 1 g/cm³, o objeto tende a:",
+      "options": [
+        "afundar, pois sua densidade é 1,25 g/cm³",
+        "flutuar, pois sua densidade é 0,8 g/cm³",
+        "afundar, pois não possui volume",
+        "evaporar",
+        "permanecer obrigatoriamente no meio da água"
+      ],
+      "answer": 1,
+      "explanation": "Densidade = 120 ÷ 150 = 0,8 g/cm³. Como é menor que a da água, tende a flutuar.",
+      "intro": "Um objeto de massa 120 g ocupa volume de 150 cm³. Ele será colocado em água, cuja densidade é 1 g/cm³.",
+      "visual": "density_calc"
+    },
+    {
+      "id": "Q08",
+      "subject": "Química",
+      "topic": "Separação de misturas",
+      "difficulty": "Difícil",
+      "q": "Uma mistura contém água, areia e sal dissolvido. Qual sequência permite separar os três componentes?",
+      "options": [
+        "Filtração e depois evaporação",
+        "Evaporação e depois filtração",
+        "Apenas peneiração",
+        "Apenas decantação",
+        "Imantação e fusão"
+      ],
+      "answer": 0,
+      "explanation": "A filtração separa a areia. Depois, a evaporação separa a água do sal.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre separação de misturas para responder.",
+      "visual": null
+    },
+    {
+      "id": "Q09",
+      "subject": "Química",
+      "topic": "Transformações físicas e químicas",
+      "difficulty": "Difícil",
+      "q": "Qual conjunto contém uma transformação física seguida de uma transformação química?",
+      "options": [
+        "derreter gelo e queimar madeira",
+        "enferrujar ferro e cortar papel",
+        "queimar álcool e evaporar água",
+        "assar pão e quebrar vidro",
+        "fermentar massa e congelar água"
+      ],
+      "answer": 0,
+      "explanation": "Derreter gelo é transformação física; queimar madeira é transformação química.",
+      "intro": "Leia a situação a seguir e use seus conhecimentos sobre transformações físicas e químicas para responder.",
+      "visual": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Estude ONC",
+  "version": "3.0-sprint-1",
+  "subjects": [
+    {
+      "name": "Astronomia",
+      "file": "astronomy.json"
+    },
+    {
+      "name": "Biologia",
+      "file": "biology.json"
+    },
+    {
+      "name": "Física",
+      "file": "physics.json"
+    },
+    {
+      "name": "História",
+      "file": "history.json"
+    },
+    {
+      "name": "Química",
+      "file": "chemistry.json"
+    }
+  ],
+  "questions": "questions.json",
+  "recurrence": "recurrence.json",
+  "visuals": "visuals.json",
+  "legacyContent": "legacy-content.json",
+  "contentSchemaVersion": "2.0"
+}

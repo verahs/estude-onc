@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0",
+  "visualTopics": {
+    "Astronomia||Rotação": "rotation",
+    "Astronomia||Fases da Lua": "moon",
+    "Astronomia||Eclipses": "eclipse",
+    "Biologia||Célula como unidade da vida": "cell",
+    "Biologia||Diversidade de ecossistemas": "ecosystem",
+    "Física||Pares ordenados": "coordinates",
+    "Física||Propagação do calor": "heat",
+    "Química||Tratamento da água": "water",
+    "Química||Composição do ar": "air",
+    "Química||Densidade": "density",
+    "História||Periodização": "timeline"
+  }
+}
