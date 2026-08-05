@@ -58,6 +58,8 @@ ONC.LearningEngine = {
     ONC.RecommendationEngine?.refresh?.("response", topic.id);
     ONC.AdaptivePlanner?.recalculate?.("response");
     ONC.AdaptiveTutorUI?.render?.();
+    ONC.DailyCoachEngine?.refresh?.("response");
+    ONC.DailyCoachUI?.render?.();
     return event;
   },
 

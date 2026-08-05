@@ -1,5 +1,22 @@
 # Changelog
 
+## [7.2.1] — 2026-08-05 — Coach Diário
+
+### Adicionado
+- Saudação e orientação diária individualizada.
+- Seleção de tempo disponível entre 5 e 30 minutos.
+- Plano otimizado conforme prioridade, confiança e diversidade de disciplinas.
+- Mensagens motivacionais baseadas em evidências reais.
+- Detecção de inatividade, concentração de estudos, pressa, abandono e excesso de simulados.
+- Impacto potencial apresentado como índice interno, com limite de interpretação.
+- Aplicação do plano diretamente à missão diária.
+- Painel executivo nos relatórios.
+
+### Transparência
+- O Coach não prevê nota, classificação ou medalha.
+- O impacto é uma estimativa interna de priorização, com confiança declarada.
+- As orientações comportamentais são sugestões de rotina, não diagnósticos.
+
 ## [7.1.2] — 2026-08-05 — Smart Navigation Engine
 
 ### Adicionado

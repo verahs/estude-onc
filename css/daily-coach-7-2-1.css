@@ -1,0 +1,295 @@
+/* Sprint 7.2.1 — Coach Diário */
+
+.dailyCoachPanel {
+  margin: 16px 0;
+  border-color: #bed9d0;
+  background:
+    radial-gradient(circle at top right, rgba(92, 184, 178, .16), transparent 34%),
+    linear-gradient(135deg, #f4fbf9, #fff);
+}
+
+.dailyCoachHeader,
+.coachReportHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.dailyCoachHeader h2,
+.coachReportHeader h2 {
+  margin: 4px 0;
+}
+
+.dailyCoachHeader p,
+.coachReportHeader p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.coachTimeSelector {
+  display: grid;
+  min-width: 135px;
+  gap: 5px;
+}
+
+.coachTimeSelector span {
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.coachTimeSelector select {
+  border: 1px solid #b8d8ce;
+  border-radius: 11px;
+  background: #fff;
+  padding: 9px 10px;
+  color: var(--text);
+  font: inherit;
+  font-weight: 800;
+}
+
+.coachEvidence {
+  display: grid;
+  gap: 3px;
+  margin: 15px 0;
+  border-left: 4px solid #168a96;
+  border-radius: 0 12px 12px 0;
+  background: #edf8f7;
+  padding: 10px 12px;
+}
+
+.coachEvidence span {
+  color: #16717a;
+  font-size: .68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.coachAttention {
+  margin: 12px 0;
+  border: 1px solid #ecd9ad;
+  border-radius: 13px;
+  background: #fffaf0;
+  padding: 10px 12px;
+}
+
+.coachAttention summary {
+  cursor: pointer;
+  color: #755410;
+  font-weight: 850;
+}
+
+.coachAttention > div {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.coachFlag {
+  border-radius: 11px;
+  background: #fff;
+  padding: 10px;
+}
+
+.coachFlag strong,
+.coachFlag span {
+  display: block;
+}
+
+.coachFlag p {
+  margin: 4px 0;
+  color: var(--muted);
+}
+
+.coachFlag span {
+  color: #7d5a0b;
+  font-size: .72rem;
+  font-weight: 800;
+}
+
+.coachFlag--high {
+  border-left: 4px solid #b9484d;
+}
+
+.coachFlag--medium {
+  border-left: 4px solid #d59a28;
+}
+
+.coachPlan {
+  display: grid;
+  gap: 9px;
+  margin: 14px 0;
+}
+
+.coachTask {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #d8e6e3;
+  border-radius: 14px;
+  background: #fff;
+  padding: 12px;
+}
+
+.coachTaskNumber {
+  display: grid;
+  place-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 11px;
+  background: #dff2ef;
+  color: #176e72;
+  font-weight: 900;
+}
+
+.coachTaskContent {
+  display: grid;
+  gap: 3px;
+}
+
+.coachTaskContent > span {
+  color: #168a96;
+  font-size: .68rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.coachTaskContent h3,
+.coachTaskContent p {
+  margin: 0;
+}
+
+.coachTaskContent p {
+  color: #566779;
+  font-size: .78rem;
+}
+
+.coachTaskContent > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.coachTaskContent small {
+  border-radius: 999px;
+  background: #f0f5f5;
+  padding: 4px 7px;
+  color: #566779;
+}
+
+.coachFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-top: 1px solid #dce8e5;
+  padding-top: 13px;
+}
+
+.coachFooter > div {
+  display: grid;
+  gap: 2px;
+}
+
+.coachFooter span,
+.coachFooter small {
+  color: var(--muted);
+  font-size: .72rem;
+}
+
+.dailyCoachReport {
+  margin: 16px 0;
+}
+
+.coachReportGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 9px;
+  margin: 14px 0;
+}
+
+.coachReportGrid article {
+  border: 1px solid #dde7e5;
+  border-radius: 13px;
+  background: #f7fbfa;
+  padding: 11px;
+}
+
+.coachReportGrid strong,
+.coachReportGrid span {
+  display: block;
+}
+
+.coachReportGrid strong {
+  color: #176e72;
+  font-size: 1.35rem;
+}
+
+.coachReportGrid span {
+  color: var(--muted);
+  font-size: .72rem;
+}
+
+.coachReportNarrative {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.coachReportNarrative article {
+  border-left: 4px solid #168a96;
+  border-radius: 0 12px 12px 0;
+  background: #f4f9f8;
+  padding: 11px;
+}
+
+.coachReportNarrative h3,
+.coachReportNarrative p {
+  margin: 0;
+}
+
+.coachReportNarrative p {
+  margin-top: 5px;
+  color: var(--muted);
+}
+
+@media (max-width: 850px) {
+  .coachReportGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .coachReportNarrative {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .dailyCoachHeader,
+  .coachReportHeader,
+  .coachFooter {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .coachTask {
+    grid-template-columns: auto 1fr;
+  }
+
+  .coachTask > .btn {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .coachTimeSelector {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 430px) {
+  .coachReportGrid {
+    grid-template-columns: 1fr;
+  }
+}
