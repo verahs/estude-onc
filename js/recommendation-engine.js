@@ -116,6 +116,10 @@ ONC.RecommendationEngine = {
     if (topic.recurrence >= 10) reasons.push("é muito recorrente nas provas analisadas");
     else if (topic.recurrence >= 8) reasons.push("é recorrente nas provas analisadas");
     if (priority?.daysInactive >= 7) reasons.push(`${priority.daysInactive} dias sem atividade`);
+    const diagnosis = ONC.DiagnosticEngine?.summary?.(topic.id);
+    if (diagnosis?.dominantLabel) {
+      reasons.push(`padrão provável: ${diagnosis.dominantLabel.toLowerCase()}`);
+    }
     if (graphRisk.length) reasons.push("este tópico influencia conteúdos relacionados");
     return reasons.slice(0, 5);
   },

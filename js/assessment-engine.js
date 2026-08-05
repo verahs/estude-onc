@@ -90,8 +90,15 @@ ONC.AssessmentEngine = {
       : `${"ABCDE"[selectedValue]}. ${question.options[selectedValue]}`;
     const correctText = `${"ABCDE"[question.answer]}. ${question.options[question.answer]}`;
 
+    const causeDiagnosis = ONC.DiagnosticEngine?.diagnose?.(
+      question,
+      selectedValue,
+      ONC.DiagnosticEngine?.latestLearningEvent?.(question.id)
+    ) || null;
+
     if (correct) {
       return {
+        causeDiagnosis,
         correct: true,
         title: "Você aplicou o conceito corretamente.",
         selectedText,
@@ -102,6 +109,7 @@ ONC.AssessmentEngine = {
     }
 
     return {
+      causeDiagnosis,
       correct: false,
       title: "Vamos corrigir o raciocínio.",
       selectedText,

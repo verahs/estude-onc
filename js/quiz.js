@@ -127,6 +127,7 @@ ONC.Quiz = {
           <div><b>Resposta correta:</b> ${diagnostic.correctText}</div>
           <p>${diagnostic.message}</p>
           <small>${diagnostic.action}</small>
+          ${ONC.DiagnosticUI?.feedback?.(diagnostic.causeDiagnosis) || ""}
         </div>`);
     });
     const total = this.active.questions.length;
@@ -148,6 +149,7 @@ ONC.Quiz = {
       pct
     });
     ONC.Storage.set("onc_quiz_seen",this.seen);
+    ONC.DiagnosticUI?.renderReports?.();
     document.getElementById("quizArea").insertAdjacentHTML("afterbegin",
       `<div class="resultPanel" id="quizResultPanel" tabindex="-1" aria-live="polite">
         <h2>Resultado</h2>

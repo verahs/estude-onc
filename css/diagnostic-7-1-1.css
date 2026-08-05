@@ -1,0 +1,158 @@
+/* Sprint 7.1.1 — Motor de Diagnóstico */
+
+.diagnosticFeedback {
+  margin-top: 12px;
+  border: 1px solid #d6e1ee;
+  border-radius: 13px;
+  background: #f8fbff;
+  overflow: hidden;
+}
+
+.diagnosticFeedback summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  cursor: pointer;
+  padding: 11px 12px;
+  font-weight: 850;
+}
+
+.diagnosticConfidence {
+  border-radius: 999px;
+  padding: 5px 8px;
+  font-size: .68rem;
+}
+
+.diagnosticConfidence--high {
+  background: #dff4e8;
+  color: #276747;
+}
+
+.diagnosticConfidence--medium {
+  background: #fff0c9;
+  color: #7d5700;
+}
+
+.diagnosticConfidence--low {
+  background: #edf0f5;
+  color: #566274;
+}
+
+.diagnosticFeedbackBody {
+  display: grid;
+  gap: 10px;
+  border-top: 1px solid #dfe7f0;
+  padding: 12px;
+}
+
+.diagnosticFeedbackBody h4,
+.diagnosticFeedbackBody p {
+  margin: 0;
+}
+
+.diagnosticEvidence,
+.diagnosticAction,
+.diagnosticPrerequisite {
+  border-radius: 10px;
+  background: #fff;
+  padding: 9px 10px;
+}
+
+.diagnosticEvidence b,
+.diagnosticAction b,
+.diagnosticPrerequisite b,
+.diagnosticAction span {
+  display: block;
+}
+
+.diagnosticEvidence ul {
+  margin: 6px 0 0;
+  padding-left: 20px;
+}
+
+.diagnosticReport {
+  margin: 16px 0;
+}
+
+.diagnosticReportHeader h2 {
+  margin: 4px 0;
+}
+
+.diagnosticReportHeader p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.diagnosticClusters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.diagnosticClusters article {
+  border: 1px solid #dde5ef;
+  border-radius: 14px;
+  background: #f9fbfd;
+  padding: 12px;
+}
+
+.diagnosticClusterHeading {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.diagnosticClusterHeading span,
+.diagnosticClusters small,
+.diagnosticClusters article > span {
+  color: var(--muted);
+  font-size: .72rem;
+}
+
+.diagnosticClusters p {
+  margin: 7px 0;
+}
+
+.diagnosticClusterMeter {
+  overflow: hidden;
+  height: 7px;
+  margin: 10px 0 5px;
+  border-radius: 999px;
+  background: #e4eaf1;
+}
+
+.diagnosticClusterMeter i {
+  display: block;
+  height: 100%;
+  background: #2c63c7;
+}
+
+.diagnosticDisclaimer {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: .72rem;
+}
+
+.adaptiveProfileTable article {
+  grid-template-columns: minmax(190px, 1.4fr) repeat(5, minmax(105px, .7fr));
+}
+
+@media (max-width: 850px) {
+  .diagnosticClusters {
+    grid-template-columns: 1fr;
+  }
+
+  .adaptiveProfileTable article {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .diagnosticFeedback summary,
+  .diagnosticClusterHeading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

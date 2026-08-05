@@ -78,7 +78,8 @@ ONC.AdaptiveTutorUI = {
     const ranked = ONC.RecommendationEngine.rank({ limit: 8, excludeMastered: false });
     const profiles = ranked.map(item => ({
       ...item,
-      profile: ONC.LearningEngine.profile(item.topicId)
+      profile: ONC.LearningEngine.profile(item.topicId),
+      diagnosis: ONC.DiagnosticEngine?.summary?.(item.topicId)
     }));
 
     root.innerHTML = `
@@ -102,6 +103,7 @@ ONC.AdaptiveTutorUI = {
             <span>${item.confidence}% confiança</span>
             <span>${this.trendLabel(item.trend)}</span>
             <span>${this.errorLabel(item.errorType)}</span>
+            <span>${item.diagnosis?.dominantLabel || "causa ainda incerta"}</span>
           </article>`).join("")}
       </div>
       <details class="auditDisclosure">

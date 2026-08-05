@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "notice": "As hipóteses são pedagógicas e probabilísticas. Não constituem diagnóstico profissional.",
+  "categories": {
+    "concept-confusion": {
+      "label": "Confusão entre conceitos próximos",
+      "description": "O padrão sugere troca entre termos ou fenômenos relacionados.",
+      "intervention": "Comparar os dois conceitos lado a lado e resolver um exemplo de contraste."
+    },
+    "causal-reversal": {
+      "label": "Relação de causa e efeito invertida",
+      "description": "O estudante pode ter reconhecido os elementos, mas invertido o que causa o fenômeno.",
+      "intervention": "Reconstruir a sequência: causa → processo → consequência."
+    },
+    "scale-unit": {
+      "label": "Escala ou unidade interpretada incorretamente",
+      "description": "O padrão sugere dificuldade em distinguir grandeza, unidade ou ordem de magnitude.",
+      "intervention": "Revisar a grandeza medida, a unidade e uma comparação concreta."
+    },
+    "spatial-model": {
+      "label": "Dificuldade de visualização espacial",
+      "description": "O estudante pode ter dificuldade para imaginar posições, movimentos ou perspectivas.",
+      "intervention": "Usar desenho, globo, modelo físico ou sequência de posições."
+    },
+    "reading-evidence": {
+      "label": "Evidência do enunciado não utilizada",
+      "description": "A alternativa escolhida parece ignorar uma informação decisiva do texto, gráfico ou imagem.",
+      "intervention": "Sublinhar dados, restrições e palavras-chave antes de escolher."
+    },
+    "procedural-step": {
+      "label": "Etapa de procedimento omitida",
+      "description": "O conceito geral pode estar presente, mas uma etapa do raciocínio não foi aplicada.",
+      "intervention": "Resolver novamente usando uma sequência explícita de passos."
+    },
+    "overgeneralization": {
+      "label": "Generalização excessiva",
+      "description": "Uma regra válida em alguns casos pode ter sido aplicada como se valesse sempre.",
+      "intervention": "Comparar um caso em que a regra funciona com uma exceção."
+    },
+    "memory-retrieval": {
+      "label": "Recuperação instável da memória",
+      "description": "O histórico indica conhecimento anterior, mas a informação não foi recuperada com estabilidade.",
+      "intervention": "Fazer revisão curta e nova tentativa após intervalo."
+    },
+    "attention-speed": {
+      "label": "Resposta possivelmente apressada",
+      "description": "O tempo curto e o histórico sugerem que o raciocínio pode não ter sido conferido.",
+      "intervention": "Reler o comando e eliminar alternativas antes de responder."
+    },
+    "insufficient-evidence": {
+      "label": "Evidência insuficiente",
+      "description": "Ainda não há tentativas suficientes para inferir uma causa com segurança.",
+      "intervention": "Responder mais questões variadas do mesmo conteúdo."
+    }
+  },
+  "comparisons": [
+    {
+      "terms": [
+        "rotação",
+        "translação"
+      ],
+      "category": "concept-confusion",
+      "skill": "movimentos terrestres"
+    },
+    {
+      "terms": [
+        "latitude",
+        "longitude"
+      ],
+      "category": "concept-confusion",
+      "skill": "coordenadas geográficas"
+    },
+    {
+      "terms": [
+        "calor",
+        "temperatura"
+      ],
+      "category": "concept-confusion",
+      "skill": "energia térmica"
+    },
+    {
+      "terms": [
+        "massa",
+        "peso"
+      ],
+      "category": "concept-confusion",
+      "skill": "grandezas mecânicas"
+    },
+    {
+      "terms": [
+        "mistura",
+        "substância"
+      ],
+      "category": "concept-confusion",
+      "skill": "classificação da matéria"
+    },
+    {
+      "terms": [
+        "transformação física",
+        "transformação química"
+      ],
+      "category": "concept-confusion",
+      "skill": "transformações da matéria"
+    },
+    {
+      "terms": [
+        "planeta",
+        "satélite"
+      ],
+      "category": "concept-confusion",
+      "skill": "corpos celestes"
+    },
+    {
+      "terms": [
+        "tempo",
+        "distância"
+      ],
+      "category": "scale-unit",
+      "skill": "unidades astronômicas"
+    },
+    {
+      "terms": [
+        "densidade",
+        "massa",
+        "volume"
+      ],
+      "category": "procedural-step",
+      "skill": "razão massa-volume"
+    },
+    {
+      "terms": [
+        "mitose",
+        "meiose"
+      ],
+      "category": "concept-confusion",
+      "skill": "divisão celular"
+    }
+  ]
+}

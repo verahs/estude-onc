@@ -1,5 +1,22 @@
 # Changelog
 
+## [7.1.1] — 2026-08-05 — Motor de Diagnóstico
+
+### Adicionado
+- Taxonomia de dificuldades e misconceptions.
+- Hipótese de causa provável para respostas incorretas.
+- Evidências utilizadas na inferência.
+- Índice de confiança do diagnóstico.
+- Intervenção pedagógica sugerida.
+- Indicação de fundamento ou pré-requisito relacionado.
+- Agrupamento de causas por habilidade nos relatórios.
+- Integração das causas prováveis com o Recommendation Engine.
+
+### Salvaguardas
+- O sistema usa linguagem probabilística.
+- Baixa evidência reduz a confiança declarada.
+- As hipóteses não equivalem a diagnóstico psicológico, médico ou pedagógico profissional.
+
 ## [7.0] — 2026-08-05 — IA Adaptativa e Motor Pedagógico
 
 ### Adicionado

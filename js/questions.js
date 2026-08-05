@@ -64,7 +64,9 @@ ONC.Questions = {
         <div><b>Resposta correta:</b> ${diagnostic.correctText}</div>
         <p>${diagnostic.message}</p>
         <small>${diagnostic.action}</small>
+        ${ONC.DiagnosticUI?.feedback?.(diagnostic.causeDiagnosis) || ""}
       </div>`;
+    ONC.DiagnosticUI?.renderReports?.();
   },
   clearCurrent(){
     document.querySelectorAll("#questionBank input[type=radio]").forEach(i=>{i.checked=false;i.disabled=false;i.closest(".qoption").classList.remove("correct","wrong")});
