@@ -3,20 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Estude ONC 4.0 — Tutor Inteligente</title>
+<title>Estude ONC 4.1 — UX Inteligente</title>
 
 
 
 
 
-<link rel="stylesheet" href="./css/layout.css?v=4.0.0">
-<link rel="stylesheet" href="./css/cards.css?v=4.0.0">
-<link rel="stylesheet" href="./css/buttons.css?v=4.0.0">
-<link rel="stylesheet" href="./css/animations.css?v=4.0.0">
-<link rel="stylesheet" href="./css/study.css?v=4.0.0">
-<link rel="stylesheet" href="./css/dashboard.css?v=4.0.0">
-<link rel="stylesheet" href="./css/quiz.css?v=4.0.0">
-<link rel="stylesheet" href="./css/reports.css?v=4.0.0">
+<link rel="stylesheet" href="./css/layout.css?v=4.1.0">
+<link rel="stylesheet" href="./css/cards.css?v=4.1.0">
+<link rel="stylesheet" href="./css/buttons.css?v=4.1.0">
+<link rel="stylesheet" href="./css/animations.css?v=4.1.0">
+<link rel="stylesheet" href="./css/study.css?v=4.1.0">
+<link rel="stylesheet" href="./css/dashboard.css?v=4.1.0">
+<link rel="stylesheet" href="./css/ux-4-1.css?v=4.1.0">
+<link rel="stylesheet" href="./css/quiz.css?v=4.1.0">
+<link rel="stylesheet" href="./css/reports.css?v=4.1.0">
 </head>
 <body>
 
@@ -57,9 +58,9 @@
 <section id="studySection">
   <section class="hero studyHero">
       <div>
-        <span class="heroEyebrow">Versão 4.0</span>
-        <h1>Seu tutor para a ONC</h1>
-        <p>Receba uma missão diária, siga a próxima melhor ação e acompanhe o domínio construído em cada tema.</p>
+        <span class="heroEyebrow">Versão 4.1</span>
+        <h1>Seu plano de estudo, sem perder tempo</h1>
+        <p>Veja o que fazer agora, por que foi recomendado e quanto falta para avançar.</p>
       </div>
       <button id="exitReadingMode" class="btn hidden" type="button"
         onclick="ONC.Study.exitReadingMode()">Sair do modo de leitura</button>
@@ -75,8 +76,11 @@
 
   <section class="preparationPanel" aria-label="Preparação estimada">
     <div class="preparationMain">
-      <span class="dashboardLabel">Preparação estimada</span>
-      <strong id="preparationValue">0%</strong>
+      <span class="dashboardLabel">Preparação para a ONC</span>
+      <div class="preparationHeading">
+        <strong id="preparationValue">0%</strong>
+        <span id="preparationLevel" class="preparationLevel">🌱 Iniciante</span>
+      </div>
       <p id="preparationMessage">O tutor está analisando seu histórico.</p>
       <div class="preparationBar"><span id="preparationBar"></span></div>
     </div>
@@ -84,8 +88,13 @@
       <div><strong>141</strong><span>tópicos</span></div>
       <div><strong id="studiedTopicsMetric">0</strong><span>estudados</span></div>
       <div><strong id="masteredTopicsMetric">0</strong><span>dominados</span></div>
+      <div><strong id="remainingTopicsMetric">141</strong><span>para iniciar</span></div>
     </div>
   </section>
+
+  <section id="studentLevelCard" class="levelCard" aria-label="Nível e experiência"></section>
+
+  <section id="dailySummary" class="dailySummary" aria-label="Resumo de hoje"></section>
 
   
   
@@ -95,6 +104,8 @@
   <article class="tutorCard missionCard" id="dailyMission"></article>
 
   <article class="tutorCard nextActionCard" id="nextBestAction"></article>
+
+  <article class="tutorCard nextReviewCard" id="nextReviewCard"></article>
 
   <article class="tutorCard tutorCard--wide attentionPanel">
     <div class="dashboardCardHeader">
@@ -273,27 +284,32 @@
 
 
 
-<script src="./js/error-handler.js?v=4.0.0" defer></script>
-<script src="./js/data-loader.js?v=4.0.0" defer></script>
-<script src="./js/storage.js?v=4.0.0" defer></script>
-<script src="./js/users.js?v=4.0.0" defer></script>
-<script src="./js/router.js?v=4.0.0" defer></script>
-<script src="./js/search.js?v=4.0.0" defer></script>
-<script src="./js/filters.js?v=4.0.0" defer></script>
-<script src="./js/topic-repository.js?v=4.0.0" defer></script>
-<script src="./js/study-tools.js?v=4.0.0" defer></script>
-<script src="./js/attention.js?v=4.0.0" defer></script>
-<script src="./js/study-history.js?v=4.0.0" defer></script>
-<script src="./js/progress-engine.js?v=4.0.0" defer></script>
-<script src="./js/priority-engine.js?v=4.0.0" defer></script>
-<script src="./js/mission-engine.js?v=4.0.0" defer></script>
-<script src="./js/smart-tutor.js?v=4.0.0" defer></script>
-<script src="./js/components.js?v=4.0.0" defer></script>
-<script src="./js/study.js?v=4.0.0" defer></script>
-<script src="./js/questions.js?v=4.0.0" defer></script>
-<script src="./js/quiz.js?v=4.0.0" defer></script>
-<script src="./js/reports.js?v=4.0.0" defer></script>
-<script src="./js/classroom.js?v=4.0.0" defer></script>
-<script src="./js/app.js?v=4.0.0" defer></script>
+<script src="./js/error-handler.js?v=4.1.0" defer></script>
+<script src="./js/data-loader.js?v=4.1.0" defer></script>
+<script src="./js/storage.js?v=4.1.0" defer></script>
+<script src="./js/users.js?v=4.1.0" defer></script>
+<script src="./js/router.js?v=4.1.0" defer></script>
+<script src="./js/search.js?v=4.1.0" defer></script>
+<script src="./js/filters.js?v=4.1.0" defer></script>
+<script src="./js/topic-repository.js?v=4.1.0" defer></script>
+<script src="./js/study-tools.js?v=4.1.0" defer></script>
+<script src="./js/attention.js?v=4.1.0" defer></script>
+<script src="./js/study-history.js?v=4.1.0" defer></script>
+<script src="./js/progress-engine.js?v=4.1.0" defer></script>
+<script src="./js/priority-engine.js?v=4.1.0" defer></script>
+<script src="./js/mission-engine.js?v=4.1.0" defer></script>
+<script src="./js/smart-tutor.js?v=4.1.0" defer></script>
+<script src="./js/gamification.js?v=4.1.0" defer></script>
+<script src="./js/ui/level-ui.js?v=4.1.0" defer></script>
+<script src="./js/ui/mission-ui.js?v=4.1.0" defer></script>
+<script src="./js/ui/review-ui.js?v=4.1.0" defer></script>
+<script src="./js/ui/dashboard-ui.js?v=4.1.0" defer></script>
+<script src="./js/components.js?v=4.1.0" defer></script>
+<script src="./js/study.js?v=4.1.0" defer></script>
+<script src="./js/questions.js?v=4.1.0" defer></script>
+<script src="./js/quiz.js?v=4.1.0" defer></script>
+<script src="./js/reports.js?v=4.1.0" defer></script>
+<script src="./js/classroom.js?v=4.1.0" defer></script>
+<script src="./js/app.js?v=4.1.0" defer></script>
 </body>
 </html>

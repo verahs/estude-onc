@@ -1,0 +1,222 @@
+/* Sprint 4.1 — UX Inteligente */
+
+.preparationHeading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+}
+
+.preparationLevel {
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .9);
+  padding: 6px 11px;
+  color: #365a83;
+  font-size: .82rem;
+  font-weight: 850;
+}
+
+.preparationMetrics {
+  grid-template-columns: repeat(4, minmax(86px, 1fr));
+}
+
+.levelCard,
+.dailySummary {
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  margin: 18px 0;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px 22px;
+  box-shadow: 0 12px 28px rgba(31, 42, 68, .06);
+}
+
+.levelCard {
+  grid-template-columns: minmax(250px, .9fr) minmax(280px, 1.1fr);
+}
+
+.levelIdentity {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.levelIcon {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background: #edf6ff;
+  font-size: 1.65rem;
+}
+
+.levelIdentity h3,
+.dailySummary h2 {
+  margin: 4px 0;
+}
+
+.levelIdentity p,
+.dailySummary p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.levelProgressHeader {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 7px;
+}
+
+.levelProgress {
+  overflow: hidden;
+  height: 10px;
+  border-radius: 999px;
+  background: #e6edf5;
+}
+
+.levelProgress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #5b2da3, #2c63c7);
+}
+
+.levelProgressArea small {
+  display: block;
+  margin-top: 7px;
+  color: var(--muted);
+}
+
+.dailySummary {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  background: linear-gradient(135deg, #fff9ec, #fff);
+  border-color: #eadbb7;
+}
+
+.summaryWelcome,
+.summaryCelebration {
+  font-size: 2rem;
+}
+
+.summaryMetrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.summaryMetrics span {
+  border-radius: 12px;
+  background: rgba(255,255,255,.9);
+  padding: 8px 10px;
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.summaryMetrics strong {
+  color: var(--text);
+}
+
+.missionReward {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 9px 16px;
+  margin-top: 14px;
+  border-top: 1px solid var(--line);
+  padding-top: 13px;
+  color: #506176;
+  font-size: .82rem;
+}
+
+.xpChip {
+  border-radius: 999px;
+  background: #f1e9ff;
+  padding: 2px 7px;
+  color: #6546b5;
+  font-weight: 850;
+}
+
+.afterAction {
+  display: block;
+  margin-top: 8px;
+  color: #395f88;
+  font-weight: 750;
+}
+
+.nextReviewCard {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 16px;
+  grid-column: 1 / -1;
+  border-color: #e5ddc7;
+  background: linear-gradient(135deg, #fffdf7, #fff);
+}
+
+.reviewCardIcon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 15px;
+  background: #fff4d4;
+  font-size: 1.3rem;
+}
+
+.reviewCardContent h3 {
+  margin: 4px 0;
+}
+
+.reviewCardContent p,
+.reviewCardContent small {
+  margin: 0;
+  color: var(--muted);
+}
+
+.reviewCardContent small {
+  display: block;
+  margin-top: 5px;
+}
+
+.attentionReasonGrid {
+  display: grid;
+  gap: 3px;
+  margin-top: 7px;
+  color: #59697b;
+  font-size: .76rem;
+  line-height: 1.45;
+}
+
+.masteryBadge span {
+  letter-spacing: .04em;
+}
+
+@media (max-width: 900px) {
+  .levelCard,
+  .dailySummary,
+  .nextReviewCard {
+    grid-template-columns: 1fr;
+  }
+
+  .preparationMetrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .summaryMetrics {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 560px) {
+  .preparationMetrics {
+    grid-template-columns: 1fr;
+  }
+
+  .missionReward {
+    flex-direction: column;
+  }
+}

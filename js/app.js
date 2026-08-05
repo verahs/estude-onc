@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       ["ProgressEngine", "init"],
       ["PriorityEngine", "init"],
       ["MissionEngine", "init"],
+      ["Gamification", "init"],
       ["SmartTutor", "init"],
       ["Questions", "init"],
       ["Quiz", "init"],

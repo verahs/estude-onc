@@ -92,7 +92,9 @@ ONC.ProgressEngine = {
   },
 
   stars(mastery) {
-    const count = this.level(mastery).stars;
+    const count = mastery <= 0
+      ? 0
+      : Math.max(1, Math.min(5, Math.ceil(mastery / 20)));
     return "★".repeat(count) + "☆".repeat(5 - count);
   },
 
@@ -142,11 +144,13 @@ ONC.ProgressEngine = {
     const bar = document.getElementById("preparationBar");
     const studied = document.getElementById("studiedTopicsMetric");
     const mastered = document.getElementById("masteredTopicsMetric");
+    const remaining = document.getElementById("remainingTopicsMetric");
 
     if (value) value.textContent = `${summary.preparation}%`;
     if (bar) bar.style.width = `${summary.preparation}%`;
     if (studied) studied.textContent = summary.studied;
     if (mastered) mastered.textContent = summary.mastered;
+    if (remaining) remaining.textContent = Math.max(0, summary.total - summary.studied);
   },
 
   disciplineSummary(discipline) {

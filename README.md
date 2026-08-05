@@ -1,16 +1,23 @@
-# Estude ONC — Versão 4.0
+# Estude ONC — Versão 4.1
 
-## Tutor Inteligente
-- missão do dia;
+## UX Inteligente
+- missão diária com XP e recompensa;
+- níveis do estudante;
+- sequência diária;
+- resumo do dia;
 - próxima melhor ação;
-- índice de domínio por tópico;
-- prioridade dinâmica;
-- preparação estimada;
-- histórico estruturado;
-- dashboard orientado à ação.
-
-## Nota metodológica
-A “preparação estimada” é um índice interno de domínio e cobertura. Não é previsão de nota nem garantia de resultado na ONC.
+- próxima revisão;
+- estrelas de domínio coerentes;
+- motivos claros nos alertas;
+- preparação inicial mais motivadora.
 
 ## Publicação
 Copie todos os arquivos e pastas para a raiz do repositório, faça commit e push.
+
+## Teste recomendado
+1. Confira “Versão 4.1”.
+2. Verifique nível, XP e sequência.
+3. Confira missão, recompensa e próxima ação.
+4. Abra um tópico e verifique as estrelas de domínio.
+5. Responda uma questão incorretamente e confira a justificativa no painel de atenção.
+6. Verifique o card de próxima revisão.

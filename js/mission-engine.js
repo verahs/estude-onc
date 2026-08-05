@@ -141,7 +141,8 @@ ONC.MissionEngine = {
       .reduce((sum, item) => sum + Number(item.xp || 0), 0);
 
     this.save();
-    ONC.SmartTutor.renderMission();
+    ONC.Gamification?.syncMissionAwards();
+    ONC.SmartTutor?.refresh();
   },
 
   openTask(taskId) {

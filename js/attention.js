@@ -223,8 +223,8 @@ ONC.Attention = {
 
     const alerts = this.allAlerts();
     summary.textContent = alerts.length
-      ? `${alerts.length} conteúdo${alerts.length === 1 ? "" : "s"} identificado${alerts.length === 1 ? "" : "s"} a partir dos erros`
-      : "Nenhum conteúdo em atenção neste momento";
+      ? `Revise ${alerts.length} conteúdo${alerts.length === 1 ? "" : "s"} identificado${alerts.length === 1 ? "" : "s"} pelos seus resultados.`
+      : "Nenhum conteúdo em atenção neste momento.";
 
     if (!alerts.length) {
       root.innerHTML = `
@@ -235,16 +235,30 @@ ONC.Attention = {
       return;
     }
 
-    root.innerHTML = alerts.slice(0, 8).map(alert => `
-      <article class="attentionItem attentionItem--${alert.level}">
-        <div class="attentionItemIcon" aria-hidden="true">${alert.levelInfo.icon}</div>
-        <div class="attentionItemContent">
-          <strong>${alert.title}</strong>
-          <small>${alert.discipline} • ${alert.reasons.join(" • ")}</small>
-        </div>
-        <button class="btn btnSmall" type="button"
-          onclick="ONC.Attention.openTopic('${alert.topicId}')">Revisar</button>
-      </article>`).join("");
+    root.innerHTML = alerts.slice(0, 8).map(alert => {
+      const accuracy = alert.attempts
+        ? Math.round((alert.correct / alert.attempts) * 100)
+        : 0;
+      const lastError = this.attempts[alert.topicId]?.lastErrorAt;
+      const days = this.daysSince(lastError);
+      const when = days === 0 ? "hoje" : `há ${days} dia${days === 1 ? "" : "s"}`;
+
+      return `
+        <article class="attentionItem attentionItem--${alert.level}">
+          <div class="attentionItemIcon" aria-hidden="true">${alert.levelInfo.icon}</div>
+          <div class="attentionItemContent">
+            <strong>${alert.title}</strong>
+            <small>${alert.discipline}</small>
+            <div class="attentionReasonGrid">
+              <span><b>Desempenho:</b> ${alert.correct} acerto${alert.correct === 1 ? "" : "s"} em ${alert.attempts} tentativa${alert.attempts === 1 ? "" : "s"} (${accuracy}%)</span>
+              <span><b>Último erro:</b> ${when}</span>
+              <span><b>Prioridade:</b> ${alert.levelInfo.label} • recorrência ${alert.recurrence}%</span>
+            </div>
+          </div>
+          <button class="btn btnSmall" type="button"
+            onclick="ONC.Attention.openTopic('${alert.topicId}')">⚠ Revisar agora</button>
+        </article>`;
+    }).join("");
   },
 
   openTopic(id) {

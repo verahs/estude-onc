@@ -1,5 +1,26 @@
 # Changelog
 
+## [4.1] — 2026-08-05
+
+### Adicionado
+- Níveis do estudante e barra de evolução por XP.
+- Sequência diária calculada a partir da atividade real.
+- Resumo inteligente do dia.
+- Card de próxima revisão.
+- Recompensa total e bônus por missão concluída.
+- Componentes de interface separados em `js/ui`.
+
+### Alterado
+- Zero por cento de domínio agora exibe cinco estrelas vazias.
+- A próxima melhor ação mostra a primeira tarefa pendente e o passo seguinte.
+- Pontos de atenção explicam desempenho, último erro e prioridade.
+- Preparação inicial mostra nível, tópicos iniciados, dominados e restantes.
+- Botões de revisão receberam uma chamada de ação mais clara.
+
+### Arquitetura
+- Motores de domínio, prioridade e missão permanecem independentes da camada visual.
+- A apresentação foi dividida em `level-ui.js`, `mission-ui.js`, `review-ui.js` e `dashboard-ui.js`.
+
 ## [4.0] — 2026-08-05
 
 ### Adicionado
