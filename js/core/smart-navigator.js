@@ -174,6 +174,7 @@ ONC.SmartNavigator = {
     ONC.ProcrastinationUI?.render?.();
     ONC.LearningCoach?.refresh?.("review-complete");
     ONC.LearningCoachUI?.render?.();
+    ONC.IntelligentXPEngine?.recordReview?.(topicId, result.durationSeconds);
 
     this.announce("Revisão concluída.");
     ONC.Notifications?.announce?.("Revisão concluída. O tutor recalculou a próxima ação.");

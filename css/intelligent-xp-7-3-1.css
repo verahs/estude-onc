@@ -1,0 +1,275 @@
+/* Sprint 7.3.1 — XP Inteligente */
+
+.intelligentXPPanel,
+.intelligentXPReport {
+  margin:16px 0;
+  border-color:#ead9a9;
+  background:
+    radial-gradient(circle at top right,rgba(229,173,45,.14),transparent 34%),
+    linear-gradient(135deg,#fffaf0,#fff);
+}
+
+.xpHeader,
+.xpReportHeader,
+.xpFooter {
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.xpHeader h2,
+.xpReportHeader h2 {
+  margin:4px 0;
+}
+
+.xpHeader p,
+.xpReportHeader p {
+  margin:0;
+  color:var(--muted);
+}
+
+.xpTotal {
+  display:grid;
+  min-width:125px;
+  place-items:center;
+  border-radius:18px;
+  background:#79571a;
+  padding:12px;
+  color:#fff;
+}
+
+.xpTotal strong {
+  font-size:1.9rem;
+}
+
+.xpTotal span {
+  font-size:.7rem;
+}
+
+.xpProgress {
+  display:grid;
+  gap:7px;
+  margin:14px 0;
+}
+
+.xpProgress > div {
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.xpProgress span {
+  color:#79571a;
+  font-weight:850;
+}
+
+.xpProgress strong {
+  color:var(--muted);
+  font-size:.75rem;
+}
+
+.xpProgress > i {
+  overflow:hidden;
+  height:12px;
+  border-radius:999px;
+  background:#eee3c6;
+}
+
+.xpProgress > i b {
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,#e4b940,#9b6c11);
+}
+
+.xpMetrics,
+.xpReportGrid {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:8px;
+  margin:14px 0;
+}
+
+.xpMetrics article,
+.xpReportGrid article {
+  border:1px solid #eadfbe;
+  border-radius:12px;
+  background:#fff;
+  padding:10px;
+}
+
+.xpMetrics strong,
+.xpMetrics span,
+.xpReportGrid strong,
+.xpReportGrid span {
+  display:block;
+}
+
+.xpMetrics strong,
+.xpReportGrid strong {
+  color:#8a6419;
+  font-size:1.2rem;
+}
+
+.xpMetrics span,
+.xpReportGrid span {
+  color:var(--muted);
+  font-size:.7rem;
+}
+
+.xpHistory,
+.xpMethod {
+  border:1px solid #eadfbe;
+  border-radius:13px;
+  background:#fffdf8;
+  padding:10px 12px;
+}
+
+.xpHistory summary,
+.xpMethod summary {
+  cursor:pointer;
+  font-weight:850;
+}
+
+.xpHistory > div {
+  display:grid;
+  gap:7px;
+  margin-top:10px;
+}
+
+.xpHistory article {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  border-radius:10px;
+  background:#fff;
+  padding:9px;
+}
+
+.xpHistory article > div {
+  display:grid;
+  gap:3px;
+}
+
+.xpHistory span {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.xpHistory article > b {
+  white-space:nowrap;
+  color:#8a6419;
+}
+
+.xpFooter {
+  margin-top:12px;
+  border-top:1px solid #eadfbe;
+  padding-top:11px;
+}
+
+.xpFooter small {
+  color:var(--muted);
+}
+
+.xpCategoryList {
+  display:grid;
+  gap:9px;
+  margin:14px 0;
+}
+
+.xpCategoryList article {
+  display:grid;
+  gap:5px;
+}
+
+.xpCategoryList article > div {
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.xpCategoryList span {
+  color:var(--muted);
+}
+
+.xpCategoryList i {
+  overflow:hidden;
+  height:9px;
+  border-radius:999px;
+  background:#eee4ca;
+}
+
+.xpCategoryList i b {
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,#ddb446,#93620e);
+}
+
+.intelligentXPToast {
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  z-index:1000;
+  display:grid;
+  gap:2px;
+  min-width:180px;
+  transform:translateY(20px);
+  border:1px solid #e2c978;
+  border-radius:14px;
+  background:#fff8dc;
+  padding:12px 14px;
+  opacity:0;
+  pointer-events:none;
+  box-shadow:0 14px 35px rgba(82,57,11,.18);
+  transition:.25s ease;
+}
+
+.intelligentXPToast.is-visible {
+  transform:translateY(0);
+  opacity:1;
+}
+
+.intelligentXPToast strong {
+  color:#805a0f;
+  font-size:1.15rem;
+}
+
+.intelligentXPToast span {
+  color:#68582f;
+  font-size:.75rem;
+}
+
+@media (max-width:700px) {
+  .xpHeader,
+  .xpReportHeader,
+  .xpFooter,
+  .xpProgress > div {
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .xpTotal {
+    width:100%;
+  }
+
+  .xpMetrics,
+  .xpReportGrid {
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:430px) {
+  .xpMetrics,
+  .xpReportGrid {
+    grid-template-columns:1fr;
+  }
+
+  .intelligentXPToast {
+    right:10px;
+    bottom:10px;
+    left:10px;
+  }
+}

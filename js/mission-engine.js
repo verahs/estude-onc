@@ -120,6 +120,10 @@ ONC.MissionEngine = {
       }
     }
 
+    this.mission.tasks
+      .filter(task => task.completed)
+      .forEach(task => ONC.IntelligentXPEngine?.recordMissionTask?.(task));
+
     this.mission.xpEarned = this.mission.tasks
       .filter(task => task.completed)
       .reduce((sum, task) => sum + Number(task.xp || 0), 0);

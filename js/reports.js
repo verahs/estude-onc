@@ -29,5 +29,6 @@ ONC.Reports = {
     ONC.BehavioralDashboardUI?.renderReport?.();
     ONC.LearningCoachUI?.renderReport?.();
     ONC.GuardianDashboardUI?.renderReport?.();
+    ONC.IntelligentXPUI?.renderReport?.();
   }
 };

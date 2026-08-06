@@ -1,5 +1,24 @@
 # Changelog
 
+## [7.3.1] — 2026-08-05 — XP Inteligente
+
+### Adicionado
+- Livro-razão de XP por estudante.
+- Recompensas por aprendizagem, revisão, recuperação de erro, missão e consistência.
+- Multiplicador por dificuldade e origem da atividade.
+- Marcos de domínio e ritmo cuidadoso.
+- Limite pedagógico diário.
+- Redução de recompensa para repetição e respostas muito rápidas.
+- Átomos acumulados como prévia da futura economia virtual.
+- Níveis iniciais e progresso até o próximo nível.
+- Painel e relatório da origem do XP.
+
+### Regra pedagógica
+- Respostas incorretas não retiram XP.
+- Procrastinação não gera punição financeira.
+- Comportamentos artificiais reduzem ou anulam somente o novo ganho.
+- XP já conquistado nunca é confiscado.
+
 ## [7.2.5] — 2026-08-05 — Painel do Responsável
 
 ### Adicionado
