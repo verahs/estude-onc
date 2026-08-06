@@ -13,6 +13,7 @@ ONC.BadgeRuleEngine = {
   init() {
     this.load();
     this.registerCoreRules();
+    ONC.LearningBadgeCatalog?.register?.();
     this.evaluateAll("startup");
   },
 
@@ -160,6 +161,44 @@ ONC.BadgeRuleEngine = {
       entry.metadata?.bonuses?.some?.(bonus => bonus.key === "recovery")
     ).length;
 
+    const subjects = ONC.LearningAnalyticsEngine?.subjects?.() || [];
+    const profiles = ONC.LearningEngine?.allProfiles?.() || [];
+    const learningEvents = ONC.LearningEngine?.state?.events || [];
+
+    const hardCorrectEvents = learningEvents.filter(event =>
+      event.correct && event.difficulty === "Difícil"
+    );
+    const hardCorrectTopics = new Set(
+      hardCorrectEvents.map(event => event.topicId).filter(Boolean)
+    ).size;
+
+    const topicEvolution = profiles
+      .filter(profile => Number(profile.attempts || 0) > 0)
+      .map(profile => {
+        const events = learningEvents.filter(event =>
+          event.topicId === profile.topicId
+        );
+        const firstWindow = events.slice(0, Math.min(3, events.length));
+        const start = firstWindow.length
+          ? Math.round(firstWindow.filter(event => event.correct).length / firstWindow.length * 100)
+          : 0;
+        const current = Number(profile.masteryEstimate ?? profile.accuracy ?? 0);
+        const topic = ONC.KnowledgeGraph?.node?.(profile.topicId) ||
+          ONC.MasteryEngine?.topicIndex?.find?.(item => item.id === profile.topicId);
+        return {
+          topicId: profile.topicId,
+          title: topic?.title || profile.topicId,
+          start,
+          current,
+          gain: Math.max(0, Math.round(current - start))
+        };
+      })
+      .sort((a, b) => b.gain - a.gain);
+
+    const risingTopics = profiles.filter(profile =>
+      profile.trend === "rising"
+    ).length;
+
     return {
       xp: Number(ONC.IntelligentXPEngine?.state?.totalXP || 0),
       xpEvents: xpLedger.length,
@@ -173,7 +212,12 @@ ONC.BadgeRuleEngine = {
       levelIndex: Math.max(0, ONC.LevelSystem?.levels?.findIndex?.(
         level => level.key === levelSummary?.current?.key
       ) || 0),
-      distinctSources: sources.size
+      distinctSources: sources.size,
+      subjects,
+      topicEvolution,
+      risingTopics,
+      hardCorrect: hardCorrectEvents.length,
+      hardCorrectTopics
     };
   },
 
@@ -191,6 +235,9 @@ ONC.BadgeRuleEngine = {
       hidden: Boolean(rule.hidden),
       description: rule.description || "",
       reward: rule.reward || null,
+      icon: rule.icon || "🏅",
+      subcategory: rule.subcategory || null,
+      metadata: raw.metadata || {},
       current,
       target,
       percent,
@@ -211,7 +258,11 @@ ONC.BadgeRuleEngine = {
           title: rule.title,
           category: rule.category,
           reward: rule.reward || null,
+          icon: rule.icon || "🏅",
+          description: rule.description || "",
+          subcategory: rule.subcategory || null,
           evidence: result.evidence,
+          metadata: result.metadata || {},
           unlockedAt: new Date().toISOString(),
           trigger
         };

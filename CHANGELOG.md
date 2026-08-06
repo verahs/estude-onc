@@ -1,5 +1,24 @@
 # Changelog
 
+## [7.3.3.2] — 2026-08-05 — Medalhas de Aprendizagem
+
+### Adicionado
+- Newton: domínio e cobertura completos em Física.
+- Darwin: domínio e cobertura completos em Biologia.
+- Lavoisier: domínio e cobertura completos em Química.
+- Galileu: Astronomia completa com domínio médio mínimo de 85%.
+- Marie Curie: evolução de pelo menos 30 pontos em um tópico.
+- Einstein: dez questões difíceis corretas em três ou mais tópicos.
+- Método Científico: domínio mínimo em todas as disciplinas.
+- Domínio Crescente: tendência positiva em cinco tópicos.
+- Metadados e evidências específicas por medalha.
+- Catálogo modular separado do motor central.
+
+### Critérios
+- Medalhas de disciplina exigem cobertura, não apenas média.
+- Progresso parcial permanece visível.
+- Nenhuma medalha é concedida somente por volume de respostas.
+
 ## [7.3.3.1] — 2026-08-05 — Motor de Regras de Medalhas
 
 ### Adicionado

@@ -64,7 +64,7 @@ ONC.BadgeRuleUI = {
         ${summary.nearest.length ? summary.nearest.map(item => `
           <article>
             <div>
-              <strong>${item.title}</strong>
+              <strong>${item.icon || "🏅"} ${item.title}</strong>
               <span>${item.description}</span>
               <small>${item.evidence}</small>
             </div>
@@ -79,7 +79,7 @@ ONC.BadgeRuleUI = {
         <div>
           ${summary.rules.filter(item => item.visible).map(item => `
             <article class="${item.unlocked ? "is-unlocked" : ""}">
-              <span aria-hidden="true">${item.unlocked ? "🏅" : "◯"}</span>
+              <span aria-hidden="true">${item.unlocked ? (item.icon || "🏅") : "◯"}</span>
               <div>
                 <strong>${item.title}</strong>
                 <small>${item.category}</small>
