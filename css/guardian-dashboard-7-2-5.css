@@ -1,0 +1,288 @@
+/* Sprint 7.2.5 — Painel do Responsável */
+
+.guardianDashboardPanel,
+.guardianDashboardReport {
+  margin:16px 0;
+  border-color:#d3dfd8;
+  background:
+    radial-gradient(circle at top right,rgba(46,111,78,.10),transparent 34%),
+    linear-gradient(135deg,#f6fbf8,#fff);
+}
+
+.guardianHeader,
+.guardianReportHeader,
+.guardianFooter {
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.guardianHeader h2,
+.guardianReportHeader h2 {
+  margin:4px 0;
+}
+
+.guardianHeader p,
+.guardianReportHeader p {
+  margin:0;
+  color:var(--muted);
+}
+
+.guardianPreparation {
+  display:grid;
+  min-width:135px;
+  place-items:center;
+  border-radius:18px;
+  background:#2e6f4e;
+  padding:12px;
+  color:#fff;
+}
+
+.guardianPreparation strong {
+  font-size:1.8rem;
+}
+
+.guardianPreparation span {
+  font-size:.7rem;
+}
+
+.guardianMetrics {
+  display:grid;
+  grid-template-columns:repeat(6,minmax(0,1fr));
+  gap:8px;
+  margin:14px 0;
+}
+
+.guardianMetrics article,
+.guardianReportGrid article {
+  border:1px solid #dce7e0;
+  border-radius:12px;
+  background:#fff;
+  padding:10px;
+}
+
+.guardianMetrics strong,
+.guardianMetrics span,
+.guardianReportGrid strong,
+.guardianReportGrid span {
+  display:block;
+}
+
+.guardianMetrics strong,
+.guardianReportGrid strong {
+  color:#2e6f4e;
+  font-size:1.2rem;
+}
+
+.guardianMetrics span,
+.guardianReportGrid span {
+  color:var(--muted);
+  font-size:.7rem;
+}
+
+.guardianColumns {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+  margin:14px 0;
+}
+
+.guardianColumns h3 {
+  margin:0 0 9px;
+}
+
+.guardianColumns article {
+  display:grid;
+  gap:4px;
+  margin-bottom:8px;
+  border-left:4px solid #4e8a5b;
+  border-radius:0 11px 11px 0;
+  background:#f6fbf7;
+  padding:10px;
+}
+
+.guardianAttention article {
+  border-left-color:#d59a28;
+  background:#fffaf2;
+}
+
+.guardianAttention--high {
+  border-left-color:#b9484d !important;
+  background:#fff7f7 !important;
+}
+
+.guardianColumns span,
+.guardianColumns small {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.guardianSupport {
+  border:1px solid #dce7e0;
+  border-radius:13px;
+  background:#fbfdfb;
+  padding:10px 12px;
+}
+
+.guardianSupport summary {
+  cursor:pointer;
+  font-weight:850;
+}
+
+.guardianSupport > div {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+  margin-top:10px;
+}
+
+.guardianSupport article {
+  display:grid;
+  gap:4px;
+  border-radius:11px;
+  background:#fff;
+  padding:10px;
+}
+
+.guardianSupport span,
+.guardianSupport p {
+  color:var(--muted);
+  font-size:.75rem;
+}
+
+.guardianSupport p {
+  margin:2px 0 0;
+  font-weight:700;
+}
+
+.guardianFooter {
+  align-items:center;
+  margin-top:12px;
+  border-top:1px solid #dfe9e2;
+  padding-top:11px;
+}
+
+.guardianFooter small {
+  max-width:680px;
+  color:var(--muted);
+}
+
+.guardianFooter > div {
+  display:flex;
+  gap:8px;
+}
+
+.guardianReportGrid {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px;
+  margin:14px 0;
+}
+
+.guardianExecutiveActions {
+  margin:14px 0;
+}
+
+.guardianExecutiveActions h3 {
+  margin:0 0 10px;
+}
+
+.guardianExecutiveActions article {
+  display:flex;
+  gap:10px;
+  margin-bottom:8px;
+  border:1px solid #dce7e0;
+  border-radius:12px;
+  background:#fff;
+  padding:10px;
+}
+
+.guardianExecutiveActions article > b {
+  display:grid;
+  place-items:center;
+  width:30px;
+  height:30px;
+  border-radius:9px;
+  background:#dff0e5;
+  color:#2e6f4e;
+}
+
+.guardianExecutiveActions article > div {
+  display:grid;
+  gap:3px;
+}
+
+.guardianExecutiveActions span {
+  color:var(--muted);
+  font-size:.75rem;
+}
+
+.guardianMethod {
+  border:1px solid #dce7e0;
+  border-radius:12px;
+  background:#fafdfb;
+  padding:10px 12px;
+}
+
+.guardianMethod summary {
+  cursor:pointer;
+  font-weight:850;
+}
+
+@media print {
+  body.printingGuardianDashboard > * {
+    display:none !important;
+  }
+
+  body.printingGuardianDashboard #reportsSection,
+  body.printingGuardianDashboard #guardianDashboardReport,
+  body.printingGuardianDashboard #guardianDashboardReport * {
+    display:block !important;
+  }
+
+  body.printingGuardianDashboard #guardianDashboardReport {
+    position:absolute;
+    inset:0;
+    border:0;
+  }
+}
+
+@media (max-width:950px) {
+  .guardianMetrics {
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .guardianReportGrid {
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:680px) {
+  .guardianHeader,
+  .guardianReportHeader,
+  .guardianFooter {
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .guardianPreparation {
+    width:100%;
+  }
+
+  .guardianColumns,
+  .guardianSupport > div {
+    grid-template-columns:1fr;
+  }
+
+  .guardianFooter > div {
+    flex-direction:column;
+  }
+}
+
+@media (max-width:440px) {
+  .guardianMetrics,
+  .guardianReportGrid {
+    grid-template-columns:1fr;
+  }
+}

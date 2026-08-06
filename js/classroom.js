@@ -31,6 +31,18 @@ ONC.Classroom = {
     ONC.Users.updateChip();
     ONC.Study.progress=ONC.Storage.get("onc_progress_"+id,{});
     ONC.Study.render();
+    [
+      "StudyHistory","LearningEngine","DailyCoachEngine",
+      "PerformancePredictionEngine","StudyHabitEngine",
+      "ProcrastinationDetector","ConsistencyCoach",
+      "CognitiveFatigueCoach","BehavioralDashboardEngine",
+      "LearningCoach","GuardianDashboardEngine"
+    ].forEach(name => {
+      const module = ONC[name];
+      module?.load?.();
+      module?.refresh?.("student-switch");
+    });
+    ONC.GuardianDashboardUI?.render?.();
     ONC.Reports.render();
   },
   renderSwitcher(){

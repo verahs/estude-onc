@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.2.4",
+  "version": "7.2.5",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -66,7 +66,13 @@
     "focus-mode-navigation",
     "forgetting-curve",
     "global-content-index",
+    "guardian-attention-points",
     "guardian-dashboard",
+    "guardian-print-report",
+    "guardian-strengths",
+    "guardian-support-guidance",
+    "guardian-text-export",
+    "guardian-weekly-summary",
     "guided-practice-method",
     "habit-consistency-score",
     "habit-recommendations",
@@ -85,6 +91,7 @@
     "misconception-taxonomy",
     "mission-delay-analysis",
     "module-contracts",
+    "multi-student-dashboard-refresh",
     "navigation-analytics",
     "navigation-highlight",
     "navigation-history",
@@ -163,5 +170,6 @@
   "consistencyCoachVersion": "1.0",
   "cognitiveFatigueCoachVersion": "1.0",
   "behavioralDashboardVersion": "1.0",
-  "learningCoachVersion": "1.0"
+  "learningCoachVersion": "1.0",
+  "guardianDashboardVersion": "1.0"
 }

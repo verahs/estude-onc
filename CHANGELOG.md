@@ -1,5 +1,22 @@
 # Changelog
 
+## [7.2.5] — 2026-08-05 — Painel do Responsável
+
+### Adicionado
+- Resumo semanal executivo do estudante.
+- Indicadores de atividade, aprendizagem, memória e preparação.
+- Pontos positivos e pontos de atenção.
+- Orientações práticas para apoio sem pressão excessiva.
+- Integração de predição, comportamento e métodos de aprendizagem.
+- Exportação em texto e impressão.
+- Exibição específica para responsável e professor.
+- Atualização dos módulos ao alternar estudante.
+
+### Transparência
+- A faixa de desempenho é interna e não representa nota oficial ou medalha.
+- O painel não deve ser usado para rotular, punir ou comparar o estudante.
+- Os dados não substituem avaliação escolar, pedagógica, psicológica ou médica.
+
 ## [7.2.4] — 2026-08-05 — Coach de Aprendizagem
 
 ### Adicionado

@@ -74,6 +74,8 @@ ONC.LearningEngine = {
     ONC.BehavioralDashboardUI?.render?.();
     ONC.LearningCoach?.refresh?.("response");
     ONC.LearningCoachUI?.render?.();
+    ONC.GuardianDashboardEngine?.refresh?.("response");
+    ONC.GuardianDashboardUI?.render?.();
     return event;
   },
 
