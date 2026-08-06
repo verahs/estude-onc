@@ -32,5 +32,6 @@ ONC.Reports = {
     ONC.IntelligentXPUI?.renderReport?.();
     ONC.LevelSystemUI?.renderReport?.();
     ONC.BadgeRuleUI?.renderReport?.();
+    ONC.BehavioralBadgeUI?.renderReport?.();
   }
 };

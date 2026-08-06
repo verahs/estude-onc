@@ -14,6 +14,7 @@ ONC.BadgeRuleEngine = {
     this.load();
     this.registerCoreRules();
     ONC.LearningBadgeCatalog?.register?.();
+    ONC.BehavioralBadgeCatalog?.register?.();
     this.evaluateAll("startup");
   },
 
@@ -199,6 +200,77 @@ ONC.BadgeRuleEngine = {
       profile.trend === "rising"
     ).length;
 
+    const procrastinationHistory = ONC.ProcrastinationDetector?.state?.history || [];
+    const fatigueHistory = ONC.CognitiveFatigueCoach?.state?.history || [];
+    const consistencyHistory = ONC.ConsistencyCoach?.state?.history || [];
+    const habitHistory = ONC.StudyHabitEngine?.state?.history || [];
+    const xpEntries = xpLedger || [];
+
+    const uniqueDays = values => new Set(
+      values
+        .map(item => item.generatedAt || item.timestamp)
+        .filter(Boolean)
+        .map(value => new Date(value).toISOString().slice(0, 10))
+    ).size;
+
+    const lowProcrastinationDays = new Set(
+      procrastinationHistory
+        .filter(item => Number(item.score || 0) < 25)
+        .map(item => new Date(item.generatedAt).toISOString().slice(0, 10))
+    ).size;
+
+    const lowFatigueDays = new Set(
+      fatigueHistory
+        .filter(item => Number(item.score || 0) < 70)
+        .map(item => new Date(item.generatedAt).toISOString().slice(0, 10))
+    ).size;
+
+    const weeksTargetMet = new Set(
+      consistencyHistory
+        .filter(item => Number(item.active7 || 0) >= 3 && Number(item.score || 0) >= 55)
+        .map(item => {
+          const date = new Date(item.generatedAt);
+          const first = new Date(date.getFullYear(), 0, 1);
+          const week = Math.ceil((((date - first) / 86400000) + first.getDay() + 1) / 7);
+          return `${date.getFullYear()}-${week}`;
+        })
+    ).size;
+
+    const fullMissionDays = new Set(
+      xpEntries
+        .filter(item => item.category === "mission")
+        .map(item => new Date(item.timestamp).toISOString().slice(0, 10))
+    ).size;
+
+    const navigationSources = navigation
+      .filter(event => event.type === "open")
+      .map(event => String(event.source || "").toLowerCase());
+
+    const favoriteUses = navigationSources.filter(source => source.includes("favorite")).length;
+    const reviewUses = navigationSources.filter(source => source.includes("review")).length +
+      xpEntries.filter(item => item.category === "review").length;
+    const dailyPlanUses = navigationSources.filter(source =>
+      source.includes("mission") || source.includes("coach")
+    ).length;
+
+    const organizationToolsUsed = [
+      favoriteUses >= 3,
+      reviewUses >= 3,
+      dailyPlanUses >= 3
+    ].filter(Boolean).length;
+
+    const reviewsOnTime = xpEntries.filter(item => item.category === "review").length;
+    const overdueReviews = Number(
+      ONC.ProcrastinationDetector?.current?.()?.metrics?.overdue?.length || 0
+    );
+    const totalReviewsDue = reviewsOnTime + overdueReviews;
+
+    const lifetimeActiveDays = Math.max(
+      Number(habit?.profile?.active30 || 0),
+      uniqueDays(habitHistory),
+      uniqueDays(ONC.StudyHistory?.state?.sessions || [])
+    );
+
     return {
       xp: Number(ONC.IntelligentXPEngine?.state?.totalXP || 0),
       xpEvents: xpLedger.length,
@@ -217,7 +289,19 @@ ONC.BadgeRuleEngine = {
       topicEvolution,
       risingTopics,
       hardCorrect: hardCorrectEvents.length,
-      hardCorrectTopics
+      hardCorrectTopics,
+      lowProcrastinationDays,
+      lowFatigueDays,
+      weeksTargetMet,
+      fullMissionDays,
+      favoriteUses,
+      reviewUses,
+      dailyPlanUses,
+      organizationToolsUsed,
+      reviewsOnTime,
+      overdueReviews,
+      totalReviewsDue,
+      lifetimeActiveDays
     };
   },
 

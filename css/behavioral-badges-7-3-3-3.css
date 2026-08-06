@@ -1,0 +1,219 @@
+/* Sprint 7.3.3.3 — Medalhas Comportamentais */
+
+.behavioralBadgePanel,
+.behavioralBadgeReport {
+  margin:16px 0;
+  border-color:#cfe0d6;
+  background:
+    radial-gradient(circle at top right,rgba(46,111,78,.11),transparent 34%),
+    linear-gradient(135deg,#f6fbf8,#fff);
+}
+
+.behaviorBadgeHeader,
+.behaviorBadgeReportHeader {
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.behaviorBadgeHeader h2,
+.behaviorBadgeReportHeader h2 {
+  margin:4px 0;
+}
+
+.behaviorBadgeHeader p,
+.behaviorBadgeReportHeader p {
+  margin:0;
+  color:var(--muted);
+}
+
+.behaviorBadgeScore {
+  display:grid;
+  min-width:140px;
+  place-items:center;
+  border-radius:18px;
+  background:#2e6f4e;
+  padding:12px;
+  color:#fff;
+}
+
+.behaviorBadgeScore strong {
+  font-size:1.8rem;
+}
+
+.behaviorBadgeScore span {
+  font-size:.7rem;
+}
+
+.behaviorBadgeGrid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+  margin:14px 0;
+}
+
+.behaviorBadgeGrid article {
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr) auto;
+  gap:10px;
+  border-left:4px solid #a9b7ae;
+  border-radius:0 12px 12px 0;
+  background:#fff;
+  padding:10px;
+}
+
+.behaviorBadgeGrid article.is-unlocked {
+  border-left-color:#2e6f4e;
+  background:#f4fbf6;
+}
+
+.behaviorBadgeGrid article > span {
+  font-size:1.4rem;
+}
+
+.behaviorBadgeGrid article > div {
+  display:grid;
+  gap:4px;
+}
+
+.behaviorBadgeGrid small,
+.behaviorBadgeGrid em {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.behaviorBadgeGrid em {
+  font-style:normal;
+  font-weight:700;
+}
+
+.behaviorBadgeGrid i {
+  overflow:hidden;
+  height:7px;
+  border-radius:999px;
+  background:#e2ebe5;
+}
+
+.behaviorBadgeGrid i b {
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,#7bb38f,#2e6f4e);
+}
+
+.behaviorBadgeGrid u {
+  color:#2e6f4e;
+  font-size:.72rem;
+  font-weight:850;
+  text-decoration:none;
+}
+
+.behaviorBadgeNearest,
+.behaviorBadgeMethod {
+  border:1px solid #d8e6dd;
+  border-radius:13px;
+  background:#fbfdfb;
+  padding:10px 12px;
+}
+
+.behaviorBadgeNearest summary,
+.behaviorBadgeMethod summary {
+  cursor:pointer;
+  font-weight:850;
+}
+
+.behaviorBadgeNearest > div {
+  display:grid;
+  gap:8px;
+  margin-top:10px;
+}
+
+.behaviorBadgeNearest article {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:4px 12px;
+  border-radius:10px;
+  background:#fff;
+  padding:9px;
+}
+
+.behaviorBadgeNearest span {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.behaviorBadgeNearest b {
+  grid-row:1 / span 2;
+  grid-column:2;
+  align-self:center;
+  color:#2e6f4e;
+}
+
+.behaviorBadgeReportList {
+  display:grid;
+  gap:8px;
+  margin:14px 0;
+}
+
+.behaviorBadgeReportList article {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:7px 12px;
+  border:1px solid #dbe7df;
+  border-radius:12px;
+  background:#fff;
+  padding:10px;
+}
+
+.behaviorBadgeReportList article > div {
+  display:grid;
+  gap:3px;
+}
+
+.behaviorBadgeReportList span {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.behaviorBadgeReportList i {
+  grid-column:1 / -1;
+  overflow:hidden;
+  height:8px;
+  border-radius:999px;
+  background:#e2ebe5;
+}
+
+.behaviorBadgeReportList i u {
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,#72aa86,#2e6f4e);
+  text-decoration:none;
+}
+
+@media (max-width:720px) {
+  .behaviorBadgeHeader,
+  .behaviorBadgeReportHeader {
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .behaviorBadgeScore {
+    width:100%;
+  }
+
+  .behaviorBadgeGrid {
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:430px) {
+  .behaviorBadgeGrid article {
+    grid-template-columns:auto 1fr;
+  }
+
+  .behaviorBadgeGrid u {
+    grid-column:1 / -1;
+  }
+}

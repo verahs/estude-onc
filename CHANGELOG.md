@@ -1,5 +1,28 @@
 # Changelog
 
+## [7.3.3.3] — 2026-08-05 — Medalhas Comportamentais
+
+### Adicionado
+- Persistência.
+- Disciplina.
+- Memória.
+- Regularidade.
+- Foco.
+- Equilíbrio.
+- Planejamento.
+- Organização.
+- Cientista Consistente.
+- Mestre da Rotina.
+- Painel próprio de progresso.
+- Relatório comportamental de medalhas.
+- Indicação da medalha comportamental mais próxima no Coach Diário.
+- Catálogo modular reutilizável pelas próximas famílias de medalhas.
+
+### Proteções
+- Abrir a plataforma sem interação válida não gera progresso.
+- Os critérios usam eventos persistidos e motores existentes.
+- As medalhas não avaliam personalidade, moral, saúde mental ou contexto familiar.
+
 ## [7.3.3.2] — 2026-08-05 — Medalhas de Aprendizagem
 
 ### Adicionado

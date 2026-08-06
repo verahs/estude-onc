@@ -344,6 +344,18 @@ ONC.DailyCoachEngine = {
     return this.state.lastBrief;
   },
 
+
+  badgeHint() {
+    const summary = ONC.BadgeRuleEngine?.summary?.();
+    const nearest = summary?.nearest?.find(item => item.category === "comportamento");
+    if (!nearest) return null;
+    return {
+      title: nearest.title,
+      percent: nearest.percent,
+      message: `${nearest.title}: ${nearest.percent}% concluída. ${nearest.evidence}`
+    };
+  },
+
   brief() {
     if (this.state.lastBrief?.date !== this.todayKey()) {
       return this.refresh("new-day");
