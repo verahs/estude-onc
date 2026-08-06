@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ["IntelligentNotificationEngine", "init"],
     ["BadgeReportEngine", "init"],
     ["BadgeAIIntegrationEngine", "init"],
+    ["IntelligenceCenter", "init"],
     ["MissionEngine", "init"],
     ["Gamification", "init"],
     ["TutorEngine", "init"],

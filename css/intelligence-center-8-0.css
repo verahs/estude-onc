@@ -1,0 +1,563 @@
+/* Sprint 8.0 — UX Rebuild / Central de Inteligência */
+
+.intelligenceCenterSection {
+  max-width:none;
+  padding:0 !important;
+}
+
+.intelligenceShell {
+  display:grid;
+  grid-template-columns:230px minmax(0,1fr);
+  min-height:calc(100vh - 72px);
+  margin:0 calc(50% - 50vw);
+  background:#f3f6fa;
+}
+
+.intelligenceSidebar {
+  position:sticky;
+  top:0;
+  align-self:start;
+  display:flex;
+  height:calc(100vh - 1px);
+  flex-direction:column;
+  border-right:1px solid #dce3ed;
+  background:#fff;
+  padding:14px 10px;
+  z-index:20;
+}
+
+.intelligenceSidebarBrand {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  min-height:55px;
+  padding:6px 8px 14px;
+}
+
+.intelligenceSidebarBrand > div {
+  display:grid;
+}
+
+.intelligenceSidebarBrand span {
+  color:#6b7b91;
+  font-size:.68rem;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.intelligenceSidebarBrand strong {
+  color:#122142;
+  font-size:1.05rem;
+}
+
+.intelligenceSidebarBrand button,
+.intelligenceSidebarBottom button {
+  border:0;
+  border-radius:9px;
+  background:transparent;
+  cursor:pointer;
+}
+
+#intelligenceModuleNav {
+  display:grid;
+  gap:4px;
+}
+
+#intelligenceModuleNav button,
+.intelligenceSidebarBottom button {
+  display:grid;
+  grid-template-columns:28px 1fr;
+  align-items:center;
+  gap:9px;
+  width:100%;
+  border:0;
+  border-radius:10px;
+  background:transparent;
+  padding:10px;
+  color:#33425c;
+  text-align:left;
+  cursor:pointer;
+}
+
+#intelligenceModuleNav button:hover,
+.intelligenceSidebarBottom button:hover {
+  background:#eef3fa;
+}
+
+#intelligenceModuleNav button.is-active {
+  background:#e8f1fd;
+  color:#174f98;
+  font-weight:850;
+}
+
+#intelligenceModuleNav em,
+.intelligenceSidebarBottom em {
+  font-style:normal;
+}
+
+.intelligenceSidebarBottom {
+  display:grid;
+  gap:4px;
+  margin-top:auto;
+  border-top:1px solid #e3e8ef;
+  padding-top:9px;
+}
+
+.intelligenceWorkspace {
+  min-width:0;
+  height:calc(100vh - 1px);
+  overflow:auto;
+  padding:20px clamp(14px,3vw,34px) 50px;
+}
+
+.intelligenceWorkspaceHeader {
+  position:sticky;
+  top:-20px;
+  z-index:15;
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:18px;
+  margin:-20px 0 18px;
+  border-bottom:1px solid #dce3ed;
+  background:rgba(243,246,250,.94);
+  padding:20px 0 14px;
+  backdrop-filter:blur(12px);
+}
+
+.intelligenceWorkspaceHeader h1 {
+  margin:4px 0;
+  color:#101e3d;
+}
+
+.intelligenceWorkspaceHeader p {
+  margin:0;
+  color:#68768b;
+}
+
+.intelligenceBreadcrumb {
+  display:flex;
+  gap:7px;
+  color:#738097;
+  font-size:.72rem;
+}
+
+.intelligenceBreadcrumb strong {
+  color:#264e83;
+}
+
+.intelligenceHeaderTools {
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.intelligenceSearch {
+  display:flex;
+  align-items:center;
+  min-width:min(330px,35vw);
+  gap:8px;
+  border:1px solid #d5deea;
+  border-radius:12px;
+  background:#fff;
+  padding:8px 11px;
+}
+
+.intelligenceSearch input {
+  width:100%;
+  border:0;
+  outline:0;
+  background:transparent;
+}
+
+.intelligenceSearchResults {
+  position:sticky;
+  top:92px;
+  z-index:16;
+  display:grid;
+  gap:5px;
+  max-width:650px;
+  margin:-10px 0 14px auto;
+  border:1px solid #d4deeb;
+  border-radius:14px;
+  background:#fff;
+  padding:8px;
+  box-shadow:0 20px 50px rgba(28,47,74,.16);
+}
+
+.intelligenceSearchResults button {
+  display:flex;
+  gap:10px;
+  border:0;
+  border-radius:9px;
+  background:transparent;
+  padding:9px;
+  text-align:left;
+  cursor:pointer;
+}
+
+.intelligenceSearchResults button:hover {
+  background:#eef4fb;
+}
+
+.intelligenceSearchResults button > div {
+  display:grid;
+}
+
+.intelligenceSearchResults small {
+  color:#738097;
+}
+
+.intelligenceModule {
+  animation:intelligenceFade .18s ease;
+}
+
+@keyframes intelligenceFade {
+  from { opacity:0; transform:translateY(5px); }
+  to { opacity:1; transform:translateY(0); }
+}
+
+.intelligenceExecutiveGrid {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:10px;
+  margin-bottom:12px;
+}
+
+.intelligenceExecutiveGrid article {
+  display:grid;
+  gap:4px;
+  border:1px solid #d9e2ed;
+  border-radius:15px;
+  background:#fff;
+  padding:14px;
+}
+
+.intelligenceExecutiveGrid span,
+.intelligenceExecutiveGrid small {
+  color:#6b788d;
+}
+
+.intelligenceExecutiveGrid strong {
+  color:#153d73;
+  font-size:1.55rem;
+}
+
+.intelligenceDashboardColumns {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+  margin-bottom:12px;
+}
+
+.intelligenceOverviewCard {
+  border:1px solid #d9e2ed;
+  border-radius:15px;
+  background:#fff;
+  padding:15px;
+}
+
+.intelligenceOverviewCard h2 {
+  margin:4px 0 12px;
+}
+
+#intelligenceDashboardSummary {
+  display:grid;
+  gap:8px;
+}
+
+#intelligenceDashboardSummary article {
+  display:flex;
+  gap:10px;
+  border-radius:11px;
+  background:#f7f9fc;
+  padding:10px;
+}
+
+#intelligenceDashboardSummary article > span {
+  font-size:1.3rem;
+}
+
+#intelligenceDashboardSummary article > div {
+  display:grid;
+}
+
+#intelligenceDashboardSummary small {
+  color:#6c788a;
+}
+
+.intelligenceQuickModules {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+}
+
+.intelligenceQuickModules button {
+  display:flex;
+  gap:9px;
+  border:1px solid #e0e6ee;
+  border-radius:11px;
+  background:#fff;
+  padding:10px;
+  text-align:left;
+  cursor:pointer;
+}
+
+.intelligenceQuickModules button:hover {
+  border-color:#7ea1cd;
+  background:#f7faff;
+}
+
+.intelligenceQuickModules button > span {
+  font-size:1.25rem;
+}
+
+.intelligenceQuickModules button > div {
+  display:grid;
+}
+
+.intelligenceQuickModules small {
+  color:#6d7a8e;
+}
+
+#intelligenceDashboardFavorites,
+#intelligenceDashboardRecent {
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+}
+
+#intelligenceDashboardFavorites button,
+#intelligenceDashboardRecent button {
+  border:1px solid #dce4ee;
+  border-radius:999px;
+  background:#f8faff;
+  padding:7px 10px;
+  cursor:pointer;
+}
+
+.intelligenceModule > * {
+  margin-top:0;
+  margin-bottom:12px;
+}
+
+.intelligenceCardToolbar {
+  display:flex;
+  justify-content:flex-end;
+  gap:4px;
+  margin:-6px -4px 4px auto;
+}
+
+.intelligenceCardToolbar button {
+  display:grid;
+  width:30px;
+  height:30px;
+  place-items:center;
+  border:1px solid #e0e6ee;
+  border-radius:8px;
+  background:#fff;
+  color:#637186;
+  cursor:pointer;
+}
+
+.is-intelligence-collapsed {
+  min-height:48px !important;
+  max-height:58px !important;
+  overflow:hidden !important;
+}
+
+.is-intelligence-collapsed .intelligenceCardToolbar button:first-child {
+  transform:rotate(180deg);
+}
+
+.intelligenceSystemGrid {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:8px;
+  margin:12px 0;
+}
+
+.intelligenceSystemGrid button {
+  display:grid;
+  gap:4px;
+  border:1px solid #dfe5ed;
+  border-radius:12px;
+  background:#fff;
+  padding:12px;
+  text-align:left;
+  cursor:pointer;
+}
+
+.intelligenceSystemGrid button:first-letter {
+  font-size:1.4rem;
+}
+
+.intelligenceSystemGrid small {
+  color:#6f7b8d;
+}
+
+.intelligenceShell.is-sidebar-collapsed {
+  grid-template-columns:68px minmax(0,1fr);
+}
+
+.intelligenceShell.is-sidebar-collapsed .intelligenceSidebarBrand > div,
+.intelligenceShell.is-sidebar-collapsed #intelligenceModuleNav em,
+.intelligenceShell.is-sidebar-collapsed .intelligenceSidebarBottom em {
+  display:none;
+}
+
+.intelligenceShell.is-sidebar-collapsed #intelligenceModuleNav button,
+.intelligenceShell.is-sidebar-collapsed .intelligenceSidebarBottom button {
+  grid-template-columns:1fr;
+  justify-items:center;
+}
+
+html[data-intelligence-theme="dark"] .intelligenceShell,
+html[data-intelligence-theme="dark"] .intelligenceWorkspace {
+  background:#111827;
+}
+
+html[data-intelligence-theme="dark"] .intelligenceSidebar,
+html[data-intelligence-theme="dark"] .intelligenceWorkspaceHeader,
+html[data-intelligence-theme="dark"] .intelligenceOverviewCard,
+html[data-intelligence-theme="dark"] .intelligenceExecutiveGrid article,
+html[data-intelligence-theme="dark"] .intelligenceModule .card,
+html[data-intelligence-theme="dark"] .intelligenceSearch,
+html[data-intelligence-theme="dark"] .intelligenceSearchResults {
+  border-color:#2c3a4e;
+  background:#182235;
+  color:#edf3ff;
+}
+
+html[data-intelligence-theme="dark"] .intelligenceWorkspaceHeader {
+  background:rgba(17,24,39,.94);
+}
+
+html[data-intelligence-theme="dark"] .intelligenceWorkspaceHeader h1,
+html[data-intelligence-theme="dark"] .intelligenceSidebarBrand strong,
+html[data-intelligence-theme="dark"] .intelligenceExecutiveGrid strong {
+  color:#eef4ff;
+}
+
+html[data-intelligence-theme="dark"] .intelligenceWorkspaceHeader p,
+html[data-intelligence-theme="dark"] .intelligenceExecutiveGrid span,
+html[data-intelligence-theme="dark"] .intelligenceExecutiveGrid small {
+  color:#aebbd0;
+}
+
+html[data-intelligence-theme="dark"] #intelligenceModuleNav button,
+html[data-intelligence-theme="dark"] .intelligenceSidebarBottom button {
+  color:#d4ddec;
+}
+
+html[data-intelligence-theme="dark"] #intelligenceModuleNav button.is-active {
+  background:#243b5b;
+  color:#dcecff;
+}
+
+@media (max-width:900px) {
+  .intelligenceShell {
+    grid-template-columns:76px minmax(0,1fr);
+  }
+
+  .intelligenceSidebarBrand > div,
+  #intelligenceModuleNav em,
+  .intelligenceSidebarBottom em {
+    display:none;
+  }
+
+  #intelligenceModuleNav button,
+  .intelligenceSidebarBottom button {
+    grid-template-columns:1fr;
+    justify-items:center;
+  }
+
+  .intelligenceExecutiveGrid {
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .intelligenceWorkspaceHeader {
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .intelligenceHeaderTools {
+    width:100%;
+  }
+
+  .intelligenceSearch {
+    min-width:0;
+    flex:1;
+  }
+}
+
+@media (max-width:650px) {
+  .intelligenceShell {
+    display:block;
+    margin:0 calc(50% - 50vw);
+  }
+
+  .intelligenceSidebar {
+    position:sticky;
+    top:0;
+    width:100%;
+    height:auto;
+    flex-direction:row;
+    overflow-x:auto;
+    border-right:0;
+    border-bottom:1px solid #dce3ed;
+    padding:7px;
+  }
+
+  .intelligenceSidebarBrand {
+    display:none;
+  }
+
+  #intelligenceModuleNav {
+    display:flex;
+    min-width:max-content;
+  }
+
+  #intelligenceModuleNav button {
+    width:auto;
+    grid-template-columns:auto auto;
+  }
+
+  #intelligenceModuleNav em {
+    display:block;
+  }
+
+  .intelligenceSidebarBottom {
+    display:none;
+  }
+
+  .intelligenceWorkspace {
+    height:auto;
+    min-height:calc(100vh - 120px);
+    overflow:visible;
+    padding:14px 10px 40px;
+  }
+
+  .intelligenceWorkspaceHeader {
+    position:relative;
+    top:auto;
+    margin:0 0 12px;
+    padding:0 0 12px;
+  }
+
+  .intelligenceHeaderTools {
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .intelligenceExecutiveGrid,
+  .intelligenceDashboardColumns,
+  .intelligenceSystemGrid {
+    grid-template-columns:1fr;
+  }
+
+  .intelligenceQuickModules {
+    grid-template-columns:1fr;
+  }
+}

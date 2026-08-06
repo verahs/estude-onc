@@ -1,5 +1,30 @@
 # Changelog
 
+## [8.0.0] — 2026-08-05 — UX Rebuild / Central de Inteligência
+
+### Reestruturação
+- Relatórios renomeado para Central de Inteligência.
+- Shell modular com navegação lateral.
+- Dashboard executivo.
+- Módulos Aprendizagem, IA Pedagógica, Medalhas, Evolução, Responsável e Sistema.
+- Compatibilidade com todos os relatórios anteriores.
+- Troca instantânea de conteúdo sem recarregar a página.
+- Breadcrumb e persistência do último módulo.
+- Busca global entre painéis.
+- Favoritos e histórico de acesso.
+- Cards recolhíveis.
+- Renderização sob demanda por módulo.
+- Tema claro e escuro.
+- Layout responsivo para desktop, tablet e celular.
+- Visão simplificada para o responsável.
+- Camada de compatibilidade para evitar regressões.
+
+### Resultado de UX
+- Eliminação do relatório contínuo com rolagem excessiva.
+- Separação clara por finalidade.
+- Menor carga cognitiva.
+- Base escalável para novas sprints.
+
 ## [7.3.3.10] — 2026-08-05 — Integração de Medalhas com IA
 
 ### Adicionado
