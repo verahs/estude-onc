@@ -1,5 +1,26 @@
 # Changelog
 
+## [7.3.3.1] — 2026-08-05 — Motor de Regras de Medalhas
+
+### Adicionado
+- Registro modular de regras.
+- Avaliação automática por estudante.
+- Progresso, meta e percentual por medalha.
+- Evidência textual do critério.
+- Desbloqueio sem duplicidade.
+- Regras visíveis e ocultas.
+- Histórico de avaliações.
+- Notificação de conquista.
+- Catálogo inicial de regras.
+- Relatório por categoria.
+
+### Base preparada
+- Medalhas de aprendizagem.
+- Medalhas comportamentais.
+- Medalhas de recuperação.
+- Medalhas secretas.
+- Coleção e linha do tempo.
+
 ## [7.3.2] — 2026-08-05 — Sistema de Níveis
 
 ### Adicionado

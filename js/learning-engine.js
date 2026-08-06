@@ -77,6 +77,7 @@ ONC.LearningEngine = {
     ONC.GuardianDashboardEngine?.refresh?.("response");
     ONC.GuardianDashboardUI?.render?.();
     ONC.IntelligentXPEngine?.recordResponse?.(event);
+    ONC.BadgeRuleEngine?.evaluateAll?.("response");
     return event;
   },
 

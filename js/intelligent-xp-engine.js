@@ -233,6 +233,7 @@ ONC.IntelligentXPEngine = {
     ONC.IntelligentXPUI?.notify?.(entry);
     ONC.IntelligentXPUI?.render?.();
     ONC.LevelSystem?.evaluate?.("xp-grant");
+    ONC.BadgeRuleEngine?.evaluateAll?.("xp-grant");
     return entry;
   },
 

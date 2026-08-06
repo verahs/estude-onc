@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.3.2",
+  "version": "7.3.3.1",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -26,6 +26,12 @@
     "attention-topic-disclosure",
     "automatic-path-expansion",
     "backward-compatible-mastery-api",
+    "badge-evidence",
+    "badge-progress-tracking",
+    "badge-rule-engine",
+    "badge-rule-registry",
+    "badge-rule-report",
+    "badge-unlock-deduplication",
     "behavioral-dashboard",
     "behavioral-priority-ranking",
     "behavioral-strengths",
@@ -80,6 +86,7 @@
     "guided-practice-method",
     "habit-consistency-score",
     "habit-recommendations",
+    "hidden-badge-rule",
     "instant-search",
     "integrated-behavioral-score",
     "intelligent-xp",
@@ -189,5 +196,6 @@
   "learningCoachVersion": "1.0",
   "guardianDashboardVersion": "1.0",
   "intelligentXPVersion": "1.0",
-  "levelSystemVersion": "1.0"
+  "levelSystemVersion": "1.0",
+  "badgeRuleEngineVersion": "1.0"
 }
