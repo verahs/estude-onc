@@ -25,5 +25,6 @@ ONC.Reports = {
     ONC.StudyHabitUI?.renderReport?.();
     ONC.ProcrastinationUI?.renderReport?.();
     ONC.ConsistencyCoachUI?.renderReport?.();
+    ONC.CognitiveFatigueUI?.renderReport?.();
   }
 };

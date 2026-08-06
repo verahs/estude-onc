@@ -68,6 +68,8 @@ ONC.LearningEngine = {
     ONC.ProcrastinationUI?.render?.();
     ONC.ConsistencyCoach?.refresh?.("response");
     ONC.ConsistencyCoachUI?.render?.();
+    ONC.CognitiveFatigueCoach?.refresh?.("response");
+    ONC.CognitiveFatigueUI?.render?.();
     return event;
   },
 

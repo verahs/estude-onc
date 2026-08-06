@@ -1,5 +1,23 @@
 # Changelog
 
+## [7.2.3.4] — 2026-08-05 — Coach de Fadiga Cognitiva
+
+### Adicionado
+- Índice operacional de carga cognitiva.
+- Detecção de queda de precisão durante a sequência.
+- Aumento progressivo do tempo de resposta.
+- Erros consecutivos e erros muito rápidos.
+- Carga de estudo nas últimas quatro horas.
+- Trocas frequentes entre tópicos.
+- Recomendação proporcional: continuar, reduzir carga ou pausar.
+- Temporizador de pausa.
+- Alternativa de revisão leve.
+- Relatório detalhado dos componentes.
+
+### Transparência
+- O módulo não diagnostica fadiga, condição médica, transtorno do sono ou estado psicológico.
+- Dificuldade do conteúdo, interrupções e condições externas podem produzir sinais semelhantes.
+
 ## [7.2.3.3] — 2026-08-05 — Coach de Consistência
 
 ### Adicionado

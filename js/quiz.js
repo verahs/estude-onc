@@ -152,6 +152,8 @@ ONC.Quiz = {
     ONC.DiagnosticUI?.renderReports?.();
     ONC.PerformancePredictionEngine?.refresh?.("quiz-complete");
     ONC.PerformancePredictionUI?.render?.();
+    ONC.CognitiveFatigueCoach?.refresh?.("quiz-complete");
+    ONC.CognitiveFatigueUI?.render?.();
     document.getElementById("quizArea").insertAdjacentHTML("afterbegin",
       `<div class="resultPanel" id="quizResultPanel" tabindex="-1" aria-live="polite">
         <h2>Resultado</h2>

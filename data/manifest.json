@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.2.3.3",
+  "version": "7.2.3.4",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -10,6 +10,7 @@
   "catalog": "catalog.json",
   "features": [
     "abandoned-navigation-analysis",
+    "accuracy-decline-detection",
     "activity-streak",
     "adaptive-daily-planner",
     "adaptive-learning-engine",
@@ -24,10 +25,12 @@
     "backward-compatible-mastery-api",
     "behavioral-study-flags",
     "coach-mission-integration",
+    "cognitive-fatigue-coach",
     "cognitive-topic-profile",
     "collapsed-attention-panel",
     "collapsed-recurrence-panel",
     "confidence-score",
+    "consecutive-error-detection",
     "consistency-action-plan",
     "consistency-coach",
     "daily-coach",
@@ -64,6 +67,7 @@
     "learning-analytics-engine",
     "learning-heatmap",
     "learning-trends",
+    "low-load-recovery-action",
     "mastery-breakdown",
     "mastery-engine-v2",
     "mastery-index",
@@ -79,6 +83,7 @@
     "operational-delay-detector",
     "organized-study-filters",
     "overdue-review-analysis",
+    "pause-timer",
     "pedagogical-diagnostic-engine",
     "performance-indicator",
     "performance-prediction",
@@ -95,7 +100,9 @@
     "question-visual-integration",
     "quiz-result-auto-scroll",
     "rapid-exit-analysis",
+    "recent-workload-analysis",
     "resilient-startup",
+    "response-time-slowdown",
     "resume-last-topic",
     "risk-index",
     "root-cause-hypotheses",
@@ -140,5 +147,6 @@
   "performancePredictionVersion": "1.0",
   "studyHabitEngineVersion": "1.0",
   "procrastinationDetectorVersion": "1.0",
-  "consistencyCoachVersion": "1.0"
+  "consistencyCoachVersion": "1.0",
+  "cognitiveFatigueCoachVersion": "1.0"
 }
