@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.2.3.4",
+  "version": "7.2.3.5",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -23,7 +23,11 @@
     "attention-topic-disclosure",
     "automatic-path-expansion",
     "backward-compatible-mastery-api",
+    "behavioral-dashboard",
+    "behavioral-priority-ranking",
+    "behavioral-strengths",
     "behavioral-study-flags",
+    "behavioral-trend",
     "coach-mission-integration",
     "cognitive-fatigue-coach",
     "cognitive-topic-profile",
@@ -53,6 +57,7 @@
     "error-classification",
     "estimated-reading-time",
     "evidence-based-motivation",
+    "executive-behavioral-report",
     "explainable-recommendations",
     "favorites",
     "focus-mode",
@@ -63,6 +68,7 @@
     "habit-consistency-score",
     "habit-recommendations",
     "instant-search",
+    "integrated-behavioral-score",
     "knowledge-graph",
     "learning-analytics-engine",
     "learning-heatmap",
@@ -148,5 +154,6 @@
   "studyHabitEngineVersion": "1.0",
   "procrastinationDetectorVersion": "1.0",
   "consistencyCoachVersion": "1.0",
-  "cognitiveFatigueCoachVersion": "1.0"
+  "cognitiveFatigueCoachVersion": "1.0",
+  "behavioralDashboardVersion": "1.0"
 }

@@ -1,5 +1,22 @@
 # Changelog
 
+## [7.2.3.5] — 2026-08-05 — Painel Comportamental
+
+### Adicionado
+- Índice integrado de rotina.
+- Consolidação de hábitos, conclusão, consistência e carga sustentável.
+- Tendência recente e confiança da leitura.
+- Priorização dos três principais ajustes.
+- Destaque de padrões positivos.
+- Resumo semanal executivo.
+- Ação direta sobre a prioridade principal.
+- Painel detalhado para aluno e responsável.
+- Pontos observados recolhidos por padrão.
+
+### Transparência
+- O painel descreve apenas padrões operacionais de uso.
+- Não avalia personalidade, motivação, saúde mental, condição médica ou contexto familiar.
+
 ## [7.2.3.4] — 2026-08-05 — Coach de Fadiga Cognitiva
 
 ### Adicionado

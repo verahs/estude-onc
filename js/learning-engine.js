@@ -70,6 +70,8 @@ ONC.LearningEngine = {
     ONC.ConsistencyCoachUI?.render?.();
     ONC.CognitiveFatigueCoach?.refresh?.("response");
     ONC.CognitiveFatigueUI?.render?.();
+    ONC.BehavioralDashboardEngine?.refresh?.("response");
+    ONC.BehavioralDashboardUI?.render?.();
     return event;
   },
 
