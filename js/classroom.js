@@ -36,7 +36,7 @@ ONC.Classroom = {
       "PerformancePredictionEngine","StudyHabitEngine",
       "ProcrastinationDetector","ConsistencyCoach",
       "CognitiveFatigueCoach","BehavioralDashboardEngine",
-      "LearningCoach","GuardianDashboardEngine","IntelligentXPEngine","LevelSystem","BadgeRuleEngine"
+      "LearningCoach","GuardianDashboardEngine","IntelligentXPEngine","LevelSystem","BadgeRuleEngine","SecretDiscoveryEngine"
     ].forEach(name => {
       const module = ONC[name];
       module?.load?.();

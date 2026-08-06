@@ -16,6 +16,7 @@ ONC.BadgeRuleEngine = {
     ONC.LearningBadgeCatalog?.register?.();
     ONC.BehavioralBadgeCatalog?.register?.();
     ONC.RecoveryBadgeCatalog?.register?.();
+    ONC.SecretBadgeCatalog?.register?.();
     this.evaluateAll("startup");
   },
 
@@ -372,6 +373,86 @@ ONC.BadgeRuleEngine = {
       .filter(item => item.category === "recuperacao")
       .length;
 
+
+    const validLearningEvents = learningEvents.filter(event =>
+      event.timestamp &&
+      Number(event.responseTimeMs || 0) >= 3500
+    );
+
+    let validCorrectStreak = 0;
+    for (let index = validLearningEvents.length - 1; index >= 0; index -= 1) {
+      if (!validLearningEvents[index].correct) break;
+      validCorrectStreak += 1;
+    }
+
+    const topicEventsAll = ONC.StudyHistory?.state?.topicEvents || [];
+    const studiedTopics = new Set(
+      topicEventsAll
+        .filter(event => ["completed", "smart-navigation-complete", "diagnostic-review-complete"].includes(event.type))
+        .map(event => event.topicId)
+        .filter(Boolean)
+    ).size;
+    const totalTopics = Number(ONC.MasteryEngine?.topicIndex?.length || 141);
+
+    const astronomyEvents = learningEvents.filter(event =>
+      String(event.discipline || event.subject || "").toLowerCase().includes("astronomia")
+    );
+    const astronomyActiveDays = new Set(
+      astronomyEvents
+        .map(event => event.timestamp)
+        .filter(Boolean)
+        .map(value => new Date(value).toISOString().slice(0, 10))
+    ).size;
+    const astronomyAccuracy = astronomyEvents.length
+      ? Math.round(astronomyEvents.filter(event => event.correct).length / astronomyEvents.length * 100)
+      : 0;
+
+    const meaningfulSourceMap = new Map();
+    (ONC.NavigationHistory?.state?.events || [])
+      .filter(event => event.type === "complete" || Number(event.durationSeconds || 0) >= 90)
+      .forEach(event => {
+        if (event.source) meaningfulSourceMap.set(event.source, true);
+      });
+    const meaningfulSourceList = [...meaningfulSourceMap.keys()];
+    const meaningfulSources = meaningfulSourceList.length;
+
+    const toolChecks = {
+      favoritos: (ONC.NavigationHistory?.state?.events || []).some(event =>
+        String(event.source || "").includes("favorite") &&
+        (event.type === "complete" || Number(event.durationSeconds || 0) >= 90)
+      ),
+      revisoes: xpEntries.some(entry => entry.category === "review"),
+      simulados: learningEvents.some(event =>
+        String(event.source || "").includes("simulado") ||
+        String(event.source || "").includes("simulation")
+      ),
+      plano: xpEntries.some(entry => entry.category === "mission")
+    };
+    const secretToolList = Object.entries(toolChecks)
+      .filter(([, used]) => used)
+      .map(([name]) => name);
+    const secretToolsUsed = secretToolList.length;
+
+    const masteredSubjects = (subjects || []).filter(subject =>
+      Number(subject.average || 0) >= 90 &&
+      Number(subject.coverage || 0) >= 100
+    ).length;
+    const totalSubjects = (subjects || []).length;
+
+    const coreCategories = new Set(["aprendizagem", "comportamento", "recuperacao"]);
+    const coreRules = this.rules.filter(rule => coreCategories.has(rule.category) && !rule.hidden);
+    const visibleCoreBadgesTotal = coreRules.length;
+    const visibleCoreBadgesUnlocked = coreRules.filter(rule => this.state.unlocked[rule.id]).length;
+
+    const otherRules = this.rules.filter(rule => rule.id !== "cientista-supremo");
+    const allOtherBadgesTotal = otherRules.length;
+    const allOtherBadgesUnlocked = otherRules.filter(rule => this.state.unlocked[rule.id]).length;
+
+    const healthyStreak = Number(habit?.profile?.streak || 0);
+    const overloadConcentrated = Boolean(
+      ONC.ConsistencyCoach?.current?.()?.overload?.concentrated
+    );
+
     return {
       xp: Number(ONC.IntelligentXPEngine?.state?.totalXP || 0),
       xpEvents: xpLedger.length,
@@ -411,7 +492,24 @@ ONC.BadgeRuleEngine = {
       returnedAfterBreak,
       returnStreak,
       subjectRecovery,
-      recoveryBadgesUnlocked
+      recoveryBadgesUnlocked,
+      validCorrectStreak,
+      studiedTopics,
+      totalTopics,
+      astronomyActiveDays,
+      astronomyAccuracy,
+      meaningfulSources,
+      meaningfulSourceList,
+      secretToolsUsed,
+      secretToolList,
+      masteredSubjects,
+      totalSubjects,
+      visibleCoreBadgesTotal,
+      visibleCoreBadgesUnlocked,
+      allOtherBadgesTotal,
+      allOtherBadgesUnlocked,
+      healthyStreak,
+      overloadConcentrated
     };
   },
 
@@ -431,6 +529,7 @@ ONC.BadgeRuleEngine = {
       reward: rule.reward || null,
       icon: rule.icon || "🏅",
       subcategory: rule.subcategory || null,
+      rarity: rule.rarity || null,
       metadata: raw.metadata || {},
       current,
       target,
@@ -455,6 +554,7 @@ ONC.BadgeRuleEngine = {
           icon: rule.icon || "🏅",
           description: rule.description || "",
           subcategory: rule.subcategory || null,
+          rarity: rule.rarity || null,
           evidence: result.evidence,
           metadata: result.metadata || {},
           unlockedAt: new Date().toISOString(),

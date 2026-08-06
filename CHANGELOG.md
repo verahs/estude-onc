@@ -1,5 +1,21 @@
 # Changelog
 
+## [7.3.3.5] — 2026-08-05 — Medalhas Secretas
+
+### Adicionado
+- Catálogo independente de medalhas secretas.
+- Motor de descoberta e dicas em três estágios.
+- Sistema anti-spoiler.
+- Coleção secreta e linha do tempo.
+- Metadados de raridade.
+- Critérios seguros, sem premiar privação de sono, velocidade excessiva ou carga desproporcional.
+- Curiosidade Científica, Observador do Céu, Laboratório Oculto, Explorador Total, Precisão Sustentada, Polímata, Imparável, Cientista Lendário e Cientista Supremo.
+
+### Revisão crítica
+- A proposta de premiar estudo após 22h ou antes das 6h foi descartada.
+- A proposta de premiar velocidade foi substituída por precisão válida e sustentada.
+- O sistema privilegia exploração, domínio, consistência saudável e coleção.
+
 ## [7.3.3.4] — 2026-08-05 — Medalhas de Recuperação
 
 ### Adicionado
