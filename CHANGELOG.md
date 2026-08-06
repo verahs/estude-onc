@@ -1,5 +1,20 @@
 # Changelog
 
+## [7.3.3.6] — 2026-08-05 — Coleção de Medalhas
+
+### Adicionado
+- Catálogo unificado de todas as medalhas.
+- Filtros por categoria e status.
+- Busca textual.
+- Ordenação por progresso, data, nome e raridade.
+- Medalhas favoritas.
+- Modal de detalhes e evidências.
+- Linha do tempo das conquistas.
+- Progresso por categoria.
+- Relatório consolidado da coleção.
+- Proteção dos nomes e critérios das medalhas secretas.
+- Preferências separadas por estudante.
+
 ## [7.3.3.5] — 2026-08-05 — Medalhas Secretas
 
 ### Adicionado

@@ -586,6 +586,7 @@ ONC.BadgeRuleEngine = {
 
     this.save();
     ONC.BadgeRuleUI?.render?.();
+    ONC.BadgeCollectionEngine?.render?.();
     return results;
   },
 
