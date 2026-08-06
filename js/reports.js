@@ -23,5 +23,6 @@ ONC.Reports = {
     ONC.DailyCoachUI?.renderReport?.();
     ONC.PerformancePredictionUI?.renderReport?.();
     ONC.StudyHabitUI?.renderReport?.();
+    ONC.ProcrastinationUI?.renderReport?.();
   }
 };

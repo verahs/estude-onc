@@ -170,6 +170,8 @@ ONC.SmartNavigator = {
     ONC.DailyCoachUI?.render?.();
     ONC.StudyHabitEngine?.refresh?.("navigation-complete");
     ONC.StudyHabitUI?.render?.();
+    ONC.ProcrastinationDetector?.refresh?.("navigation-complete");
+    ONC.ProcrastinationUI?.render?.();
 
     this.announce("Revisão concluída.");
     ONC.Notifications?.announce?.("Revisão concluída. O tutor recalculou a próxima ação.");

@@ -1,5 +1,24 @@
 # Changelog
 
+## [7.2.3.2] — 2026-08-05 — Detector de Procrastinação
+
+### Adicionado
+- Índice operacional de adiamento.
+- Detecção de missão antiga ainda pendente.
+- Acúmulo de revisões vencidas.
+- Aberturas sem conclusão.
+- Sessões encerradas em menos de um minuto.
+- Trocas rápidas entre tópicos.
+- Períodos prolongados sem atividade.
+- Menor próxima ação para facilitar o início.
+- Confiança da análise e decomposição do índice.
+- Painel detalhado nos relatórios.
+
+### Transparência
+- O módulo não diagnostica procrastinação como traço psicológico.
+- O índice descreve apenas eventos observados no uso da plataforma.
+- Causas externas, técnicas ou familiares podem produzir padrões semelhantes.
+
 ## [7.2.3.1] — 2026-08-05 — Detector de Hábitos de Estudo
 
 ### Adicionado

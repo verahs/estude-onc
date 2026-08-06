@@ -3,33 +3,34 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Estude ONC 7.2.3.1 — Detector de Hábitos de Estudo</title>
+<title>Estude ONC 7.2.3.2 — Detector de Procrastinação</title>
 
 
 
 
 
-<link rel="stylesheet" href="./css/layout.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/cards.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/buttons.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/animations.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/study.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/dashboard.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/ux-4-1.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/ux-4-2.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/intelligence-5-0.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/assessment-5-1.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/dashboard-5-2.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/system-5-3.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/adaptive-7-0.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/diagnostic-7-1-1.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/smart-navigation-7-1-2.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/daily-coach-7-2-1.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/performance-prediction-7-2-2.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/study-habits-7-2-3-1.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/visual-library.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/quiz.css?v=7.2.3.1">
-<link rel="stylesheet" href="./css/reports.css?v=7.2.3.1">
+<link rel="stylesheet" href="./css/layout.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/cards.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/buttons.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/animations.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/study.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/dashboard.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/ux-4-1.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/ux-4-2.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/intelligence-5-0.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/assessment-5-1.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/dashboard-5-2.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/system-5-3.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/adaptive-7-0.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/diagnostic-7-1-1.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/smart-navigation-7-1-2.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/daily-coach-7-2-1.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/performance-prediction-7-2-2.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/study-habits-7-2-3-1.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/procrastination-7-2-3-2.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/visual-library.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/quiz.css?v=7.2.3.2">
+<link rel="stylesheet" href="./css/reports.css?v=7.2.3.2">
 </head>
 <body>
 <div id="appNotification" class="appNotification" role="status" aria-live="polite"></div>
@@ -71,7 +72,7 @@
 <section id="studySection">
   <section class="hero studyHero">
       <div>
-        <span class="heroEyebrow">Versão 7.2.3.1</span>
+        <span class="heroEyebrow">Versão 7.2.3.2</span>
         <h1>Aprenda, pratique e revise no momento certo</h1>
         <p>O tutor interpreta respostas, confiança, memória e relações entre conteúdos para recalcular cada próximo passo.</p>
       </div>
@@ -302,7 +303,9 @@
     <article id="performanceEstimate" class="card performanceEstimate"></article>
     <article class="card"><h2>Mapa de aprendizagem</h2><div id="learningHeatmap"></div></article>
   </section>
-  <section id="studyHabitReport" class="card studyHabitReport"></section>
+  <section id="procrastinationReport" class="card procrastinationReport"></section>
+
+<section id="studyHabitReport" class="card studyHabitReport"></section>
 
 <section id="performancePredictionReport" class="card performancePredictionReport"></section>
 
@@ -436,70 +439,72 @@
 
 
 
-<script src="./js/error-handler.js?v=7.2.3.1" defer></script>
-<script src="./js/data-loader.js?v=7.2.3.1" defer></script>
-<script src="./js/storage.js?v=7.2.3.1" defer></script>
-<script src="./js/visual-library.js?v=7.2.3.1" defer></script>
-<script src="./js/data-migration.js?v=7.2.3.1" defer></script>
-<script src="./js/preferences.js?v=7.2.3.1" defer></script>
-<script src="./js/data-portability.js?v=7.2.3.1" defer></script>
-<script src="./js/users.js?v=7.2.3.1" defer></script>
-<script src="./js/router.js?v=7.2.3.1" defer></script>
-<script src="./js/search.js?v=7.2.3.1" defer></script>
-<script src="./js/filters.js?v=7.2.3.1" defer></script>
-<script src="./js/topic-repository.js?v=7.2.3.1" defer></script>
-<script src="./js/study-tools.js?v=7.2.3.1" defer></script>
-<script src="./js/core/content-index.js?v=7.2.3.1" defer></script>
-<script src="./js/core/navigation-history.js?v=7.2.3.1" defer></script>
-<script src="./js/core/focus-mode.js?v=7.2.3.1" defer></script>
-<script src="./js/core/smart-navigator.js?v=7.2.3.1" defer></script>
-<script src="./js/attention.js?v=7.2.3.1" defer></script>
-<script src="./js/study-history.js?v=7.2.3.1" defer></script>
-<script src="./js/progress-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/priority-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/knowledge-graph.js?v=7.2.3.1" defer></script>
-<script src="./js/learning-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/diagnostic-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/recommendation-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/adaptive-planner.js?v=7.2.3.1" defer></script>
-<script src="./js/learning-analytics-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/mission-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/memory-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/mastery-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/tutor-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/daily-goals.js?v=7.2.3.1" defer></script>
-<script src="./js/dashboard-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/mastery-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/assessment-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/assessment-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/smart-tutor.js?v=7.2.3.1" defer></script>
-<script src="./js/gamification.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/level-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/mission-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/review-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/dashboard-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/components.js?v=7.2.3.1" defer></script>
-<script src="./js/study.js?v=7.2.3.1" defer></script>
-<script src="./js/questions.js?v=7.2.3.1" defer></script>
-<script src="./js/quiz.js?v=7.2.3.1" defer></script>
-<script src="./js/reports.js?v=7.2.3.1" defer></script>
-<script src="./js/classroom.js?v=7.2.3.1" defer></script>
-<script src="./js/advanced-analytics.js?v=7.2.3.1" defer></script>
-<script src="./js/guardian-report.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/radar-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/advanced-dashboard-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/architecture-diagnostics.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/system-settings-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/adaptive-tutor-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/diagnostic-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/navigation-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/daily-coach-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/daily-coach-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/performance-prediction-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/performance-prediction-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/study-habit-engine.js?v=7.2.3.1" defer></script>
-<script src="./js/ui/study-habit-ui.js?v=7.2.3.1" defer></script>
-<script src="./js/app.js?v=7.2.3.1" defer></script>
+<script src="./js/error-handler.js?v=7.2.3.2" defer></script>
+<script src="./js/data-loader.js?v=7.2.3.2" defer></script>
+<script src="./js/storage.js?v=7.2.3.2" defer></script>
+<script src="./js/visual-library.js?v=7.2.3.2" defer></script>
+<script src="./js/data-migration.js?v=7.2.3.2" defer></script>
+<script src="./js/preferences.js?v=7.2.3.2" defer></script>
+<script src="./js/data-portability.js?v=7.2.3.2" defer></script>
+<script src="./js/users.js?v=7.2.3.2" defer></script>
+<script src="./js/router.js?v=7.2.3.2" defer></script>
+<script src="./js/search.js?v=7.2.3.2" defer></script>
+<script src="./js/filters.js?v=7.2.3.2" defer></script>
+<script src="./js/topic-repository.js?v=7.2.3.2" defer></script>
+<script src="./js/study-tools.js?v=7.2.3.2" defer></script>
+<script src="./js/core/content-index.js?v=7.2.3.2" defer></script>
+<script src="./js/core/navigation-history.js?v=7.2.3.2" defer></script>
+<script src="./js/core/focus-mode.js?v=7.2.3.2" defer></script>
+<script src="./js/core/smart-navigator.js?v=7.2.3.2" defer></script>
+<script src="./js/attention.js?v=7.2.3.2" defer></script>
+<script src="./js/study-history.js?v=7.2.3.2" defer></script>
+<script src="./js/progress-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/priority-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/knowledge-graph.js?v=7.2.3.2" defer></script>
+<script src="./js/learning-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/diagnostic-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/recommendation-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/adaptive-planner.js?v=7.2.3.2" defer></script>
+<script src="./js/learning-analytics-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/mission-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/memory-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/mastery-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/tutor-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/daily-goals.js?v=7.2.3.2" defer></script>
+<script src="./js/dashboard-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/mastery-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/assessment-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/assessment-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/smart-tutor.js?v=7.2.3.2" defer></script>
+<script src="./js/gamification.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/level-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/mission-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/review-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/dashboard-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/components.js?v=7.2.3.2" defer></script>
+<script src="./js/study.js?v=7.2.3.2" defer></script>
+<script src="./js/questions.js?v=7.2.3.2" defer></script>
+<script src="./js/quiz.js?v=7.2.3.2" defer></script>
+<script src="./js/reports.js?v=7.2.3.2" defer></script>
+<script src="./js/classroom.js?v=7.2.3.2" defer></script>
+<script src="./js/advanced-analytics.js?v=7.2.3.2" defer></script>
+<script src="./js/guardian-report.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/radar-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/advanced-dashboard-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/architecture-diagnostics.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/system-settings-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/adaptive-tutor-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/diagnostic-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/navigation-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/daily-coach-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/daily-coach-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/performance-prediction-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/performance-prediction-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/study-habit-engine.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/study-habit-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/procrastination-detector.js?v=7.2.3.2" defer></script>
+<script src="./js/ui/procrastination-ui.js?v=7.2.3.2" defer></script>
+<script src="./js/app.js?v=7.2.3.2" defer></script>
 <dialog id="visualLightbox" class="visualLightbox" onclick="if(event.target===this) ONC.VisualLibrary.close()">
   <div class="visualLightboxHeader">
     <h2 id="visualLightboxTitle">Ilustração</h2>
