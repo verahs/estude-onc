@@ -172,6 +172,8 @@ ONC.SmartNavigator = {
     ONC.StudyHabitUI?.render?.();
     ONC.ProcrastinationDetector?.refresh?.("navigation-complete");
     ONC.ProcrastinationUI?.render?.();
+    ONC.LearningCoach?.refresh?.("review-complete");
+    ONC.LearningCoachUI?.render?.();
 
     this.announce("Revisão concluída.");
     ONC.Notifications?.announce?.("Revisão concluída. O tutor recalculou a próxima ação.");

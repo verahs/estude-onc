@@ -27,5 +27,6 @@ ONC.Reports = {
     ONC.ConsistencyCoachUI?.renderReport?.();
     ONC.CognitiveFatigueUI?.renderReport?.();
     ONC.BehavioralDashboardUI?.renderReport?.();
+    ONC.LearningCoachUI?.renderReport?.();
   }
 };

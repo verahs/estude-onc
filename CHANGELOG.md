@@ -1,5 +1,22 @@
 # Changelog
 
+## [7.2.4] — 2026-08-05 — Coach de Aprendizagem
+
+### Adicionado
+- Comparação de resultados por estratégia.
+- Identificação de padrões por tópico.
+- Recomendação entre leitura orientada, prática, prática guiada e revisão espaçada.
+- Passos objetivos para cada método.
+- Integração do método ao Coach Diário.
+- Acesso direto ao conteúdo ou às questões.
+- Confiança da recomendação.
+- Painel metodológico nos relatórios.
+
+### Transparência
+- O sistema não classifica o aluno em um estilo fixo de aprendizagem.
+- Resultados observados não comprovam causalidade nem preferência permanente.
+- O módulo não determina capacidade intelectual ou diagnóstico pedagógico.
+
 ## [7.2.3.5] — 2026-08-05 — Painel Comportamental
 
 ### Adicionado
