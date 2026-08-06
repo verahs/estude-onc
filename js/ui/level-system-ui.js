@@ -42,6 +42,7 @@ ONC.LevelSystemUI = {
     document.getElementById("levelUpDescription").textContent = level.description;
 
     modal.classList.add("is-visible");
+    ONC.IntelligentNotificationEngine?.emitLevelUp?.(event);
     clearTimeout(this.modalTimer);
     this.modalTimer = setTimeout(() => this.hideLevelUp(), 7000);
   },

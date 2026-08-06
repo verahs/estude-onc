@@ -37,5 +37,6 @@ ONC.Reports = {
     ONC.SecretBadgeUI?.renderReport?.();
     ONC.BadgeCollectionUI?.renderReport?.();
     ONC.BadgeTimelineUI?.renderReport?.();
+    ONC.IntelligentNotificationUI?.renderReport?.();
   }
 };

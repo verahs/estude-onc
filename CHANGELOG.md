@@ -1,5 +1,27 @@
 # Changelog
 
+## [7.3.3.8] — 2026-08-05 — Notificações Inteligentes
+
+### Adicionado
+- Central de notificações.
+- Alertas de medalhas conquistadas.
+- Alertas de medalhas próximas.
+- Alertas de marcos da coleção.
+- Integração com o Coach Diário.
+- Alertas de mudança de nível.
+- Chaves únicas contra duplicidade.
+- Horário silencioso configurável.
+- Limite diário.
+- Preferências por tipo.
+- Leitura, dispensa e limpeza.
+- Ações diretas para medalhas e áreas da plataforma.
+- Relatório de notificações.
+
+### Proteções
+- Notificações comuns respeitam o horário de descanso.
+- Limite diário reduz excesso de interrupções.
+- Medalhas não são apresentadas como objetivo principal do estudo.
+
 ## [7.3.3.7] — 2026-08-05 — Linha do Tempo de Medalhas
 
 ### Adicionado

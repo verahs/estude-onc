@@ -561,6 +561,7 @@ ONC.BadgeRuleEngine = {
           trigger
         };
         ONC.BadgeRuleUI?.notifyUnlock?.(this.state.unlocked[rule.id]);
+        ONC.IntelligentNotificationEngine?.emitUnlock?.(this.state.unlocked[rule.id]);
       }
 
       this.state.evaluations.push({
@@ -588,6 +589,7 @@ ONC.BadgeRuleEngine = {
     ONC.BadgeRuleUI?.render?.();
     ONC.BadgeCollectionEngine?.render?.();
     ONC.BadgeTimelineEngine?.render?.();
+    ONC.IntelligentNotificationEngine?.scan?.("badge-evaluation");
     return results;
   },
 
