@@ -1,0 +1,274 @@
+/* Sprint 8.1 — Planejador da Prova */
+
+.examStudyPlannerPanel {
+  border-color:#d5dfec;
+  background:
+    radial-gradient(circle at top right,rgba(44,99,199,.10),transparent 35%),
+    linear-gradient(135deg,#f8fbff,#fff);
+}
+
+.examPlannerHeader {
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.examPlannerHeader h2 {
+  margin:4px 0;
+}
+
+.examPlannerHeader p {
+  margin:0;
+  color:var(--muted);
+}
+
+.examPlannerUrgency {
+  display:grid;
+  min-width:145px;
+  place-items:center;
+  border-radius:18px;
+  background:#315a8f;
+  padding:12px;
+  color:#fff;
+  text-align:center;
+}
+
+.examPlannerUrgency span {
+  font-size:.72rem;
+}
+
+.examPlannerUrgency.urgency--critical,
+.examPlannerUrgency.urgency--today {
+  background:#a44e45;
+}
+
+.examPlannerUrgency.urgency--high {
+  background:#a36e24;
+}
+
+.examPlannerUrgency.urgency--moderate {
+  background:#4d6f9c;
+}
+
+.examPlannerUrgency.urgency--comfortable {
+  background:#387258;
+}
+
+.examPlannerUrgency.urgency--past {
+  background:#6f747b;
+}
+
+.examPlannerControls {
+  display:flex;
+  align-items:end;
+  gap:8px;
+  margin:14px 0;
+}
+
+.examPlannerControls label {
+  display:grid;
+  gap:5px;
+  min-width:230px;
+}
+
+.examPlannerControls label span {
+  color:var(--muted);
+  font-size:.72rem;
+  font-weight:800;
+}
+
+.examPlannerControls input {
+  min-height:40px;
+  border:1px solid #d8e1ec;
+  border-radius:10px;
+  background:#fff;
+  padding:8px 10px;
+}
+
+.examPlannerMetrics {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:8px;
+  margin:14px 0;
+}
+
+.examPlannerMetrics article {
+  border:1px solid #dce4ee;
+  border-radius:12px;
+  background:#fff;
+  padding:10px;
+}
+
+.examPlannerMetrics strong,
+.examPlannerMetrics span {
+  display:block;
+}
+
+.examPlannerMetrics strong {
+  color:#274f83;
+  font-size:1.05rem;
+}
+
+.examPlannerMetrics span {
+  color:var(--muted);
+  font-size:.7rem;
+}
+
+.examPlannerBody {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+  margin:14px 0;
+}
+
+.examPlannerBody > section {
+  border:1px solid #dce4ee;
+  border-radius:13px;
+  background:#fff;
+  padding:12px;
+}
+
+.examPlannerBody h3 {
+  margin:0 0 10px;
+}
+
+.examPlannerDistribution {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:8px;
+}
+
+.examPlannerDistribution article {
+  display:grid;
+  gap:3px;
+  border-radius:11px;
+  background:#f4f7fb;
+  padding:10px;
+}
+
+.examPlannerDistribution strong {
+  color:#274f83;
+  font-size:1.3rem;
+}
+
+.examPlannerDistribution span {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.examPlannerSession {
+  display:grid;
+  gap:4px;
+  margin-top:9px;
+  border-left:4px solid #4b78b2;
+  border-radius:0 10px 10px 0;
+  background:#f5f8fc;
+  padding:10px;
+}
+
+.examPlannerSession span {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.examPlannerMix {
+  display:grid;
+  gap:9px;
+}
+
+.examPlannerMix article {
+  display:grid;
+  gap:5px;
+}
+
+.examPlannerMix article > div {
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.examPlannerMix span {
+  color:var(--muted);
+}
+
+.examPlannerMix i {
+  overflow:hidden;
+  height:8px;
+  border-radius:999px;
+  background:#e5eaf1;
+}
+
+.examPlannerMix i b {
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,#83a4cf,#315a8f);
+}
+
+.examPlannerGuidance {
+  display:flex;
+  gap:10px;
+  border-left:4px solid #315a8f;
+  border-radius:0 12px 12px 0;
+  background:#f4f8fd;
+  padding:11px;
+}
+
+.examPlannerGuidance > span {
+  font-size:1.4rem;
+}
+
+.examPlannerGuidance p {
+  margin:3px 0 0;
+  color:var(--muted);
+}
+
+.examPlannerMethod {
+  margin-top:12px;
+  border:1px solid #dce4ee;
+  border-radius:12px;
+  background:#fbfcfe;
+  padding:10px 12px;
+}
+
+.examPlannerMethod summary {
+  cursor:pointer;
+  font-weight:850;
+}
+
+@media (max-width:800px) {
+  .examPlannerMetrics {
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:650px) {
+  .examPlannerHeader {
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .examPlannerUrgency {
+    width:100%;
+  }
+
+  .examPlannerControls {
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .examPlannerControls label {
+    min-width:0;
+  }
+
+  .examPlannerBody {
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:430px) {
+  .examPlannerMetrics {
+    grid-template-columns:1fr;
+  }
+}

@@ -1,5 +1,24 @@
 # Changelog
 
+## [8.1.0] — 2026-08-05 — Planejador da Prova
+
+### Adicionado
+- Data padrão da prova: 13/08/2026.
+- Campo editável no módulo Sistema.
+- Contagem regressiva em dias.
+- Carga diária sugerida.
+- Total de horas sugerido até a prova.
+- Reserva aproximada de um dia de descanso por semana.
+- Formato diário dos blocos de estudo.
+- Distribuição entre conteúdo, revisão e simulado.
+- Orientação por nível de urgência.
+- Persistência separada por estudante.
+
+### Proteção
+- No dia da prova, o sistema recomenda apenas revisão leve.
+- A carga é apresentada como referência, não obrigação.
+- Sono, saúde, escola e fadiga têm prioridade.
+
 ## [8.0.0] — 2026-08-05 — UX Rebuild / Central de Inteligência
 
 ### Reestruturação
