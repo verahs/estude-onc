@@ -1,5 +1,27 @@
 # Changelog
 
+## [7.3.3.9] — 2026-08-05 — Relatório de Medalhas
+
+### Adicionado
+- Relatório executivo da coleção.
+- Filtros por período e categoria.
+- Resumo geral e por categoria.
+- Conquistas recentes.
+- Próximas medalhas.
+- Conquistas de maior raridade.
+- Pontos positivos baseados em evidências.
+- Pontos de atenção baseados em progresso.
+- Tendência mensal.
+- Integração com marcos e notificações.
+- Exportação em texto.
+- Impressão.
+- Relatório detalhado na área de Relatórios.
+
+### Limites
+- O relatório não mede capacidade intelectual.
+- Medalhas não equivalem a nota ou resultado oficial da ONC.
+- Pontos positivos e de atenção não descrevem traços de personalidade.
+
 ## [7.3.3.8] — 2026-08-05 — Notificações Inteligentes
 
 ### Adicionado

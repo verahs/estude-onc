@@ -590,6 +590,7 @@ ONC.BadgeRuleEngine = {
     ONC.BadgeCollectionEngine?.render?.();
     ONC.BadgeTimelineEngine?.render?.();
     ONC.IntelligentNotificationEngine?.scan?.("badge-evaluation");
+    ONC.BadgeReportEngine?.refresh?.("badge-evaluation");
     return results;
   },
 
