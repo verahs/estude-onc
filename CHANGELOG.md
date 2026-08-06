@@ -1,5 +1,23 @@
 # Changelog
 
+## [7.3.3.10] — 2026-08-05 — Integração de Medalhas com IA
+
+### Adicionado
+- Cruzamento entre medalhas e prioridades do Recommendation Engine.
+- Compatibilidade pedagógica por categoria, tópico e disciplina.
+- Ajuste de segurança por fadiga e concentração de carga.
+- Sugestões explicáveis.
+- Integração opcional ao plano diário.
+- Ação direta para revisão, conteúdo ou coleção.
+- Mensagens para o Coach Diário.
+- Preferências por estudante.
+- Relatório da integração.
+
+### Regra central
+- Medalhas funcionam como reforço secundário.
+- Recuperação, aprendizagem, descanso e carga cognitiva têm prioridade.
+- A IA não recomenda tarefas apenas para desbloquear medalhas.
+
 ## [7.3.3.9] — 2026-08-05 — Relatório de Medalhas
 
 ### Adicionado

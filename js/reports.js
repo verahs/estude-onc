@@ -39,5 +39,6 @@ ONC.Reports = {
     ONC.BadgeTimelineUI?.renderReport?.();
     ONC.IntelligentNotificationUI?.renderReport?.();
     ONC.BadgeReportUI?.renderReport?.();
+    ONC.BadgeAIIntegrationUI?.renderReport?.();
   }
 };

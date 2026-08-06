@@ -345,6 +345,15 @@ ONC.DailyCoachEngine = {
   },
 
 
+  badgeAIHint() {
+    const analysis = ONC.BadgeAIIntegrationEngine?.current?.();
+    if (!analysis?.suggestions?.length) return null;
+    return {
+      message: analysis.coachMessage,
+      suggestion: analysis.suggestions[0]
+    };
+  },
+
   badgeHint() {
     const summary = ONC.BadgeRuleEngine?.summary?.();
     const nearest = summary?.nearest?.find(item => item.category === "comportamento");

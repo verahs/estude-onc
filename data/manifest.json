@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.3.3.9",
+  "version": "7.3.3.10",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -28,6 +28,14 @@
     "automatic-path-expansion",
     "backward-compatible-mastery-api",
     "badge-achievement-day-streak",
+    "badge-ai-coach-message",
+    "badge-ai-daily-plan",
+    "badge-ai-explainability",
+    "badge-ai-integration",
+    "badge-ai-overload-protection",
+    "badge-ai-preferences",
+    "badge-ai-report",
+    "badge-ai-safety-adjustment",
     "badge-attention-analysis",
     "badge-category-analysis",
     "badge-category-filters",
@@ -43,6 +51,7 @@
     "badge-monthly-evolution",
     "badge-monthly-report",
     "badge-nearest-analysis",
+    "badge-pedagogical-fit",
     "badge-progress-tracking",
     "badge-rare-achievements",
     "badge-report",
@@ -291,5 +300,6 @@
   "badgeCollectionVersion": "1.0",
   "badgeTimelineVersion": "1.0",
   "intelligentNotificationsVersion": "1.0",
-  "badgeReportVersion": "1.0"
+  "badgeReportVersion": "1.0",
+  "badgeAIIntegrationVersion": "1.0"
 }

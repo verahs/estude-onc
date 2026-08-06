@@ -591,6 +591,7 @@ ONC.BadgeRuleEngine = {
     ONC.BadgeTimelineEngine?.render?.();
     ONC.IntelligentNotificationEngine?.scan?.("badge-evaluation");
     ONC.BadgeReportEngine?.refresh?.("badge-evaluation");
+    ONC.BadgeAIIntegrationEngine?.refresh?.("badge-evaluation");
     return results;
   },
 
