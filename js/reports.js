@@ -30,5 +30,6 @@ ONC.Reports = {
     ONC.LearningCoachUI?.renderReport?.();
     ONC.GuardianDashboardUI?.renderReport?.();
     ONC.IntelligentXPUI?.renderReport?.();
+    ONC.LevelSystemUI?.renderReport?.();
   }
 };

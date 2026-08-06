@@ -1,5 +1,23 @@
 # Changelog
 
+## [7.3.2] — 2026-08-05 — Sistema de Níveis
+
+### Adicionado
+- Oito níveis progressivos vinculados ao XP Inteligente.
+- Linha de progressão completa.
+- Barra até o próximo nível.
+- Modal de subida de nível.
+- Desbloqueios cosméticos por etapa.
+- Resgate de recompensas.
+- Histórico de níveis atingidos.
+- Estado separado por estudante.
+- Relatório de progressão.
+
+### Regra de equidade
+- Recompensas de nível são cosméticas.
+- Nenhum nível altera respostas, notas ou acesso pedagógico essencial.
+- Nível não equivale a classificação oficial ou capacidade intelectual.
+
 ## [7.3.1] — 2026-08-05 — XP Inteligente
 
 ### Adicionado

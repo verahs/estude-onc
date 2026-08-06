@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.3.1",
+  "version": "7.3.2",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -41,6 +41,7 @@
     "consistency-action-plan",
     "consistency-coach",
     "consistency-xp",
+    "cosmetic-unlocks",
     "daily-coach",
     "daily-coach-report",
     "daily-goals",
@@ -88,6 +89,10 @@
     "learning-heatmap",
     "learning-recovery-xp",
     "learning-trends",
+    "level-reward-claim",
+    "level-roadmap",
+    "level-system",
+    "level-up-modal",
     "low-load-recovery-action",
     "mastery-breakdown",
     "mastery-engine-v2",
@@ -108,6 +113,7 @@
     "overdue-review-analysis",
     "pause-timer",
     "pedagogical-diagnostic-engine",
+    "per-student-level-state",
     "performance-indicator",
     "performance-prediction",
     "personalized-feedback",
@@ -159,6 +165,7 @@
     "weekly-learning-summary",
     "xp-daily-cap",
     "xp-ledger",
+    "xp-level-progression",
     "xp-system"
   ],
   "architectureVersion": "2.0",
@@ -181,5 +188,6 @@
   "behavioralDashboardVersion": "1.0",
   "learningCoachVersion": "1.0",
   "guardianDashboardVersion": "1.0",
-  "intelligentXPVersion": "1.0"
+  "intelligentXPVersion": "1.0",
+  "levelSystemVersion": "1.0"
 }
