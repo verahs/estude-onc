@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ["BadgeReportUI", "init"],
     ["BadgeAIIntegrationUI", "init"],
     ["ExamStudyPlannerUI", "init"],
+    ["UpdateManager", "init"],
     ["SystemSettingsUI", "init"],
     ["SmartTutor", "init"],
     ["Questions", "init"],

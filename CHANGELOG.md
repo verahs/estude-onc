@@ -1,5 +1,16 @@
 # Changelog
 
+## [8.2.0] — 2026-08-06 — Sistema Inteligente de Atualizações
+
+### Adicionado
+- Detecção automática de novas versões.
+- Aviso de atualização com ação imediata.
+- Verificação manual no módulo Sistema.
+- Histórico visual das versões.
+- Limpeza dos caches da plataforma durante atualização.
+- Preservação dos dados locais dos estudantes.
+- Opção de dispensar o aviso durante a sessão.
+
 ## [8.1.0] — 2026-08-05 — Planejador da Prova
 
 ### Adicionado

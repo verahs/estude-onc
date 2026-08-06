@@ -1,0 +1,32 @@
+{
+  "version": "8.2.0",
+  "publishedAt": "2026-08-06T19:42:00-03:00",
+  "title": "Sistema Inteligente de Atualizações",
+  "releases": [
+    {
+      "version": "8.2.0",
+      "date": "06/08/2026",
+      "title": "Sistema Inteligente de Atualizações",
+      "changes": [
+        "Detecção automática de novas versões publicadas.",
+        "Aviso discreto com opção Atualizar agora.",
+        "Verificação manual no módulo Sistema.",
+        "Histórico visual de versões e novidades.",
+        "Atualização com limpeza de caches da plataforma sem apagar o progresso local.",
+        "Opção Agora não para dispensar o aviso durante a sessão."
+      ]
+    },
+    {
+      "version": "8.1.0",
+      "date": "05/08/2026",
+      "title": "Planejador da Prova",
+      "changes": ["Data da prova editável.", "Contagem regressiva e carga sugerida de estudos.", "Planejamento incluído no módulo Sistema."]
+    },
+    {
+      "version": "8.0.0",
+      "date": "05/08/2026",
+      "title": "UX Rebuild",
+      "changes": ["Central de Inteligência modular.", "Novo dashboard, busca, favoritos e navegação por módulos."]
+    }
+  ]
+}
