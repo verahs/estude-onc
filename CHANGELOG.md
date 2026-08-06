@@ -1,5 +1,21 @@
 # Changelog
 
+## [7.3.3.7] — 2026-08-05 — Linha do Tempo de Medalhas
+
+### Adicionado
+- Histórico cronológico agrupado por dia.
+- Filtros por categoria e período.
+- Ordenação crescente e decrescente.
+- Evolução mensal.
+- Marcos automáticos da coleção.
+- Primeira conquista e primeira medalha secreta.
+- Marcos de 5, 10, 20, 30 e 50 medalhas.
+- Identificação de categorias completas.
+- Melhor sequência de dias com conquistas.
+- Exportação em texto.
+- Relatório temporal consolidado.
+- Integração com os detalhes da Coleção de Medalhas.
+
 ## [7.3.3.6] — 2026-08-05 — Coleção de Medalhas
 
 ### Adicionado

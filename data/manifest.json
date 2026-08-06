@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.3.3.6",
+  "version": "7.3.3.7",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -27,7 +27,9 @@
     "attention-topic-disclosure",
     "automatic-path-expansion",
     "backward-compatible-mastery-api",
+    "badge-achievement-day-streak",
     "badge-category-filters",
+    "badge-category-history",
     "badge-category-report",
     "badge-coach-hint",
     "badge-collection",
@@ -35,6 +37,8 @@
     "badge-detail-modal",
     "badge-evidence",
     "badge-favorites",
+    "badge-milestones",
+    "badge-monthly-evolution",
     "badge-progress-tracking",
     "badge-rule-engine",
     "badge-rule-registry",
@@ -42,6 +46,11 @@
     "badge-search",
     "badge-sorting",
     "badge-status-filters",
+    "badge-timeline",
+    "badge-timeline-day-groups",
+    "badge-timeline-export",
+    "badge-timeline-filters",
+    "badge-timeline-report",
     "badge-unlock-deduplication",
     "balance-badge",
     "behavioral-badge-report",
@@ -255,5 +264,6 @@
   "behavioralBadgesVersion": "1.0",
   "recoveryBadgesVersion": "1.0",
   "secretBadgesVersion": "1.0",
-  "badgeCollectionVersion": "1.0"
+  "badgeCollectionVersion": "1.0",
+  "badgeTimelineVersion": "1.0"
 }

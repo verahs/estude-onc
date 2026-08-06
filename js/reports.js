@@ -36,5 +36,6 @@ ONC.Reports = {
     ONC.RecoveryBadgeUI?.renderReport?.();
     ONC.SecretBadgeUI?.renderReport?.();
     ONC.BadgeCollectionUI?.renderReport?.();
+    ONC.BadgeTimelineUI?.renderReport?.();
   }
 };
