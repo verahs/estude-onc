@@ -1,5 +1,21 @@
 # Changelog
 
+## [7.2.3.3] — 2026-08-05 — Coach de Consistência
+
+### Adicionado
+- Índice geral de consistência.
+- Meta semanal dinâmica de dias ativos.
+- Equilíbrio de atividades entre disciplinas.
+- Detecção de carga concentrada em um único dia.
+- Plano prático para distribuir sessões.
+- Recomendação da disciplina menos atendida.
+- Relatório de distribuição por disciplina.
+- Integração com o banco de questões.
+
+### Transparência
+- O módulo descreve regularidade e distribuição do uso.
+- Não avalia disciplina pessoal, motivação, personalidade ou saúde mental.
+
 ## [7.2.3.2] — 2026-08-05 — Detector de Procrastinação
 
 ### Adicionado

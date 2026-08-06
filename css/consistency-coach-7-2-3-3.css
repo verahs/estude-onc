@@ -1,0 +1,255 @@
+/* Sprint 7.2.3.3 — Coach de Consistência */
+
+.consistencyCoachPanel,
+.consistencyCoachReport {
+  margin:16px 0;
+  border-color:#cfdfe8;
+  background:
+    radial-gradient(circle at top right,rgba(44,99,199,.10),transparent 34%),
+    linear-gradient(135deg,#f5f9fe,#fff);
+}
+
+.consistencyHeader,
+.consistencyReportHeader,
+.consistencyFooter {
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.consistencyHeader h2,
+.consistencyReportHeader h2 {
+  margin:4px 0;
+}
+
+.consistencyHeader p,
+.consistencyReportHeader p {
+  margin:0;
+  color:var(--muted);
+}
+
+.consistencyScore {
+  display:grid;
+  min-width:125px;
+  place-items:center;
+  border-radius:18px;
+  background:#244c75;
+  padding:12px;
+  color:#fff;
+}
+
+.consistencyScore strong {
+  font-size:1.8rem;
+}
+
+.consistencyScore span {
+  font-size:.7rem;
+}
+
+.consistencyMetrics,
+.consistencyReportGrid {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:8px;
+  margin:14px 0;
+}
+
+.consistencyMetrics article,
+.consistencyReportGrid article {
+  border:1px solid #dce5ed;
+  border-radius:12px;
+  background:#fff;
+  padding:10px;
+}
+
+.consistencyMetrics strong,
+.consistencyMetrics span,
+.consistencyReportGrid strong,
+.consistencyReportGrid span {
+  display:block;
+}
+
+.consistencyMetrics strong,
+.consistencyReportGrid strong {
+  color:#285983;
+  font-size:1.2rem;
+}
+
+.consistencyMetrics span,
+.consistencyReportGrid span {
+  color:var(--muted);
+  font-size:.7rem;
+}
+
+.consistencySignals {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+}
+
+.consistencySignal {
+  display:grid;
+  gap:4px;
+  border-left:4px solid #7d8d9b;
+  border-radius:0 11px 11px 0;
+  background:#fff;
+  padding:10px;
+}
+
+.consistencySignal--positive {
+  border-left-color:#4e8a5b;
+  background:#f5fbf6;
+}
+
+.consistencySignal--attention {
+  border-left-color:#d59a28;
+  background:#fffaf2;
+}
+
+.consistencySignal span,
+.consistencySignal p {
+  color:var(--muted);
+  font-size:.75rem;
+}
+
+.consistencySignal p {
+  margin:2px 0 0;
+  font-weight:700;
+}
+
+.consistencyPlan {
+  margin:14px 0;
+  border:1px solid #d9e4ec;
+  border-radius:14px;
+  background:#fff;
+  padding:12px;
+}
+
+.consistencyPlan > div:first-child {
+  display:grid;
+  gap:3px;
+  margin-bottom:9px;
+}
+
+.consistencyPlan > div:first-child span {
+  color:#2c63c7;
+  font-size:.68rem;
+  font-weight:900;
+  text-transform:uppercase;
+}
+
+.consistencyPlan > div:last-child {
+  display:grid;
+  gap:7px;
+}
+
+.consistencyPlan article {
+  display:grid;
+  gap:3px;
+  border-radius:10px;
+  background:#f5f8fb;
+  padding:9px;
+}
+
+.consistencyPlan span {
+  color:var(--muted);
+  font-size:.75rem;
+}
+
+.consistencyFooter {
+  align-items:center;
+  border-top:1px solid #dfe7ee;
+  padding-top:11px;
+}
+
+.consistencyFooter small {
+  max-width:780px;
+  color:var(--muted);
+}
+
+.disciplineLoad {
+  margin:14px 0;
+}
+
+.disciplineLoad h3 {
+  margin:0 0 10px;
+}
+
+.disciplineLoad article {
+  display:grid;
+  gap:5px;
+  margin-bottom:8px;
+}
+
+.disciplineLoad article > div:first-child {
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.disciplineLoad span {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.disciplineLoadBar {
+  overflow:hidden;
+  height:9px;
+  border-radius:999px;
+  background:#e5ebf1;
+}
+
+.disciplineLoadBar i {
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,#6d9bc7,#2c63c7);
+}
+
+.consistencyMethod {
+  border:1px solid #dce4eb;
+  border-radius:12px;
+  background:#fafcff;
+  padding:10px 12px;
+}
+
+.consistencyMethod summary {
+  cursor:pointer;
+  font-weight:850;
+}
+
+@media (max-width:760px) {
+  .consistencyMetrics,
+  .consistencyReportGrid {
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .consistencySignals {
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:560px) {
+  .consistencyHeader,
+  .consistencyReportHeader,
+  .consistencyFooter {
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .consistencyScore {
+    width:100%;
+  }
+
+  .disciplineLoad article > div:first-child {
+    flex-direction:column;
+  }
+}
+
+@media (max-width:410px) {
+  .consistencyMetrics,
+  .consistencyReportGrid {
+    grid-template-columns:1fr;
+  }
+}

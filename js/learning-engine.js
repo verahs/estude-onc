@@ -66,6 +66,8 @@ ONC.LearningEngine = {
     ONC.StudyHabitUI?.render?.();
     ONC.ProcrastinationDetector?.refresh?.("response");
     ONC.ProcrastinationUI?.render?.();
+    ONC.ConsistencyCoach?.refresh?.("response");
+    ONC.ConsistencyCoachUI?.render?.();
     return event;
   },
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "project": "Estude ONC",
-  "version": "7.2.3.2",
+  "version": "7.2.3.3",
   "questions": "questions.json",
   "recurrence": "recurrence.json",
   "visuals": "visuals.json",
@@ -28,6 +28,8 @@
     "collapsed-attention-panel",
     "collapsed-recurrence-panel",
     "confidence-score",
+    "consistency-action-plan",
+    "consistency-coach",
     "daily-coach",
     "daily-coach-report",
     "daily-goals",
@@ -39,6 +41,8 @@
     "diagnostic-confidence",
     "diagnostic-evidence",
     "diagnostic-return-flow",
+    "discipline-balance-score",
+    "discipline-load-report",
     "discipline-progress",
     "discipline-radar",
     "dynamic-priority-engine",
@@ -106,6 +110,7 @@
     "structured-study-history",
     "student-levels",
     "study-habit-detector",
+    "study-load-concentration",
     "study-session-stats",
     "subject-performance-estimate",
     "task-switching-analysis",
@@ -116,6 +121,7 @@
     "ux-intelligent",
     "visual-lightbox",
     "weekly-activity-pattern",
+    "weekly-frequency-target",
     "weekly-learning-summary",
     "xp-system"
   ],
@@ -133,5 +139,6 @@
   "dailyCoachVersion": "1.0",
   "performancePredictionVersion": "1.0",
   "studyHabitEngineVersion": "1.0",
-  "procrastinationDetectorVersion": "1.0"
+  "procrastinationDetectorVersion": "1.0",
+  "consistencyCoachVersion": "1.0"
 }
