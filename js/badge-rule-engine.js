@@ -15,6 +15,7 @@ ONC.BadgeRuleEngine = {
     this.registerCoreRules();
     ONC.LearningBadgeCatalog?.register?.();
     ONC.BehavioralBadgeCatalog?.register?.();
+    ONC.RecoveryBadgeCatalog?.register?.();
     this.evaluateAll("startup");
   },
 
@@ -271,6 +272,106 @@ ONC.BadgeRuleEngine = {
       uniqueDays(ONC.StudyHistory?.state?.sessions || [])
     );
 
+    const recoveryTopics = topicEvolution
+      .filter(item => item.gain > 0)
+      .sort((a, b) => b.gain - a.gain);
+
+    const questionAttempts = learningEvents
+      .filter(event => event.questionId)
+      .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+
+    const questionMap = new Map();
+    questionAttempts.forEach(event => {
+      const list = questionMap.get(event.questionId) || [];
+      list.push(event);
+      questionMap.set(event.questionId, list);
+    });
+
+    let correctedQuestions = 0;
+    questionMap.forEach(events => {
+      const firstWrongIndex = events.findIndex(event => !event.correct);
+      if (
+        firstWrongIndex >= 0 &&
+        events.slice(firstWrongIndex + 1).some(event => event.correct)
+      ) correctedQuestions += 1;
+    });
+
+    const recurringErrorRecoveries = profiles.filter(profile => {
+      const errorType = ONC.LearningEngine?.strongestErrorType?.(profile.topicId);
+      return (
+        errorType === "recurring" &&
+        Number(profile.recentAccuracy || 0) >= 70 &&
+        profile.trend === "rising"
+      );
+    }).length;
+
+    const highRiskReviews = xpEntries.filter(entry =>
+      entry.category === "review" &&
+      (
+        Number(entry.metadata?.forget || 0) >= 60 ||
+        entry.metadata?.risk === "high" ||
+        entry.metadata?.highRisk === true
+      )
+    ).length;
+
+    const recoveryDates = xpEntries
+      .filter(entry =>
+        entry.metadata?.bonuses?.some?.(bonus => bonus.key === "recovery")
+      )
+      .map(entry => new Date(entry.timestamp));
+
+    const recoveryWeeks = new Set(
+      recoveryDates.map(date => {
+        const first = new Date(date.getFullYear(), 0, 1);
+        const week = Math.ceil((((date - first) / 86400000) + first.getDay() + 1) / 7);
+        return `${date.getFullYear()}-${week}`;
+      })
+    ).size;
+
+    const sessionDates = [...new Set(
+      (ONC.StudyHistory?.state?.sessions || [])
+        .map(item => item.timestamp || (item.date ? `${item.date}T12:00:00` : null))
+        .filter(Boolean)
+        .map(value => new Date(value).toISOString().slice(0, 10))
+    )].sort();
+
+    let returnedAfterBreak = false;
+    let returnStreak = 0;
+    for (let index = 1; index < sessionDates.length; index += 1) {
+      const previous = new Date(`${sessionDates[index - 1]}T12:00:00`);
+      const currentDate = new Date(`${sessionDates[index]}T12:00:00`);
+      const gap = Math.round((currentDate - previous) / 86400000);
+      if (gap >= 4) {
+        returnedAfterBreak = true;
+        let streakCount = 1;
+        for (let cursor = index + 1; cursor < sessionDates.length; cursor += 1) {
+          const before = new Date(`${sessionDates[cursor - 1]}T12:00:00`);
+          const after = new Date(`${sessionDates[cursor]}T12:00:00`);
+          if (Math.round((after - before) / 86400000) === 1) streakCount += 1;
+          else break;
+        }
+        returnStreak = Math.max(returnStreak, streakCount);
+      }
+    }
+
+    const subjectRecovery = (subjects || [])
+      .map(subject => {
+        const history = ONC.LearningAnalyticsEngine?.subjectHistory?.(subject.name) || [];
+        const start = Number(history[0]?.average ?? subject.startAverage ?? subject.average);
+        const current = Number(subject.average || 0);
+        return {
+          name: subject.name,
+          start,
+          current,
+          gain: Math.max(0, Math.round(current - start))
+        };
+      })
+      .sort((a, b) => b.gain - a.gain);
+
+    const recoveryBadgesUnlocked = Object.values(this.state.unlocked || {})
+      .filter(item => item.category === "recuperacao")
+      .length;
+
     return {
       xp: Number(ONC.IntelligentXPEngine?.state?.totalXP || 0),
       xpEvents: xpLedger.length,
@@ -301,7 +402,16 @@ ONC.BadgeRuleEngine = {
       reviewsOnTime,
       overdueReviews,
       totalReviewsDue,
-      lifetimeActiveDays
+      lifetimeActiveDays,
+      recoveryTopics,
+      correctedQuestions,
+      recurringErrorRecoveries,
+      highRiskReviews,
+      recoveryWeeks,
+      returnedAfterBreak,
+      returnStreak,
+      subjectRecovery,
+      recoveryBadgesUnlocked
     };
   },
 

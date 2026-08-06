@@ -1,5 +1,27 @@
 # Changelog
 
+## [7.3.3.4] — 2026-08-05 — Medalhas de Recuperação
+
+### Adicionado
+- Fênix.
+- Recomeço.
+- Resiliência.
+- Segunda Tentativa.
+- Virada Científica.
+- Memória Recuperada.
+- Erro Transformado.
+- Retorno ao Ritmo.
+- Recuperação Consistente.
+- Superação Total (secreta).
+- Painel e relatório próprios.
+- Evidências por tópico, questão, revisão, disciplina e rotina.
+- Catálogo modular independente.
+
+### Critério pedagógico
+- A conquista exige melhora observável.
+- Repetição isolada não gera medalha.
+- Recuperação é reconhecida sem rotular o estudante.
+
 ## [7.3.3.3] — 2026-08-05 — Medalhas Comportamentais
 
 ### Adicionado

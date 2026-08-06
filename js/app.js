@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ["LevelSystemUI", "init"],
     ["BadgeRuleUI", "init"],
     ["BehavioralBadgeUI", "render"],
+    ["RecoveryBadgeUI", "render"],
     ["SystemSettingsUI", "init"],
     ["SmartTutor", "init"],
     ["Questions", "init"],

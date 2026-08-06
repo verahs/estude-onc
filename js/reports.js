@@ -33,5 +33,6 @@ ONC.Reports = {
     ONC.LevelSystemUI?.renderReport?.();
     ONC.BadgeRuleUI?.renderReport?.();
     ONC.BehavioralBadgeUI?.renderReport?.();
+    ONC.RecoveryBadgeUI?.renderReport?.();
   }
 };

@@ -1,0 +1,219 @@
+/* Sprint 7.3.3.4 — Medalhas de Recuperação */
+
+.recoveryBadgePanel,
+.recoveryBadgeReport {
+  margin:16px 0;
+  border-color:#ead3d6;
+  background:
+    radial-gradient(circle at top right,rgba(185,72,77,.10),transparent 34%),
+    linear-gradient(135deg,#fff7f8,#fff);
+}
+
+.recoveryBadgeHeader,
+.recoveryBadgeReportHeader {
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:18px;
+}
+
+.recoveryBadgeHeader h2,
+.recoveryBadgeReportHeader h2 {
+  margin:4px 0;
+}
+
+.recoveryBadgeHeader p,
+.recoveryBadgeReportHeader p {
+  margin:0;
+  color:var(--muted);
+}
+
+.recoveryBadgeScore {
+  display:grid;
+  min-width:140px;
+  place-items:center;
+  border-radius:18px;
+  background:#8b3d43;
+  padding:12px;
+  color:#fff;
+}
+
+.recoveryBadgeScore strong {
+  font-size:1.8rem;
+}
+
+.recoveryBadgeScore span {
+  font-size:.7rem;
+}
+
+.recoveryBadgeGrid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+  margin:14px 0;
+}
+
+.recoveryBadgeGrid article {
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr) auto;
+  gap:10px;
+  border-left:4px solid #c5b0b2;
+  border-radius:0 12px 12px 0;
+  background:#fff;
+  padding:10px;
+}
+
+.recoveryBadgeGrid article.is-unlocked {
+  border-left-color:#b9484d;
+  background:#fff7f7;
+}
+
+.recoveryBadgeGrid article > span {
+  font-size:1.4rem;
+}
+
+.recoveryBadgeGrid article > div {
+  display:grid;
+  gap:4px;
+}
+
+.recoveryBadgeGrid small,
+.recoveryBadgeGrid em {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.recoveryBadgeGrid em {
+  font-style:normal;
+  font-weight:700;
+}
+
+.recoveryBadgeGrid i {
+  overflow:hidden;
+  height:7px;
+  border-radius:999px;
+  background:#f0e1e2;
+}
+
+.recoveryBadgeGrid i b {
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,#d98d91,#b9484d);
+}
+
+.recoveryBadgeGrid u {
+  color:#9b3f44;
+  font-size:.72rem;
+  font-weight:850;
+  text-decoration:none;
+}
+
+.recoveryBadgeNearest,
+.recoveryBadgeMethod {
+  border:1px solid #eadcdf;
+  border-radius:13px;
+  background:#fffafb;
+  padding:10px 12px;
+}
+
+.recoveryBadgeNearest summary,
+.recoveryBadgeMethod summary {
+  cursor:pointer;
+  font-weight:850;
+}
+
+.recoveryBadgeNearest > div {
+  display:grid;
+  gap:8px;
+  margin-top:10px;
+}
+
+.recoveryBadgeNearest article {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:4px 12px;
+  border-radius:10px;
+  background:#fff;
+  padding:9px;
+}
+
+.recoveryBadgeNearest span {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.recoveryBadgeNearest b {
+  grid-row:1 / span 2;
+  grid-column:2;
+  align-self:center;
+  color:#9b3f44;
+}
+
+.recoveryBadgeReportList {
+  display:grid;
+  gap:8px;
+  margin:14px 0;
+}
+
+.recoveryBadgeReportList article {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:7px 12px;
+  border:1px solid #eadcdf;
+  border-radius:12px;
+  background:#fff;
+  padding:10px;
+}
+
+.recoveryBadgeReportList article > div {
+  display:grid;
+  gap:3px;
+}
+
+.recoveryBadgeReportList span {
+  color:var(--muted);
+  font-size:.72rem;
+}
+
+.recoveryBadgeReportList i {
+  grid-column:1 / -1;
+  overflow:hidden;
+  height:8px;
+  border-radius:999px;
+  background:#f0e1e2;
+}
+
+.recoveryBadgeReportList i u {
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,#da8c91,#b9484d);
+  text-decoration:none;
+}
+
+@media (max-width:720px) {
+  .recoveryBadgeHeader,
+  .recoveryBadgeReportHeader {
+    align-items:stretch;
+    flex-direction:column;
+  }
+
+  .recoveryBadgeScore {
+    width:100%;
+  }
+
+  .recoveryBadgeGrid {
+    grid-template-columns:1fr;
+  }
+}
+
+@media (max-width:430px) {
+  .recoveryBadgeGrid article {
+    grid-template-columns:auto 1fr;
+  }
+
+  .recoveryBadgeGrid u {
+    grid-column:1 / -1;
+  }
+}
