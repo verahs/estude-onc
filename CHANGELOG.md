@@ -1,5 +1,21 @@
 # Changelog
 
+## [8.3.0] — 2026-08-07 — Acesso e Perfis
+
+### Reestruturação
+- Nova entrada por perfis locais, sem e-mail ou senha.
+- Perfis existentes são migrados a partir dos estudantes já cadastrados.
+- IDs dos estudantes são preservados para manter progresso, XP, medalhas, histórico e diagnósticos.
+- Perfil atual pode ser trocado pelo cabeçalho.
+- Novo perfil é criado sem interferir nos anteriores.
+- Aviso explícito de armazenamento local no dispositivo.
+- Confirmação ao alternar entre estudantes com histórico distinto.
+- Interface responsiva e menos técnica para alunos.
+
+### Compatibilidade
+- `ONC.Users.login`, `visitor`, `logout` e `current` foram preservados.
+- `ONC.Classroom.currentId` e os IDs existentes não são recriados durante a migração.
+
 ## \[8.2.0] — 2026-08-06 — Sistema Inteligente de Atualizações
 
 ### Adicionado

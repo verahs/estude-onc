@@ -1,0 +1,129 @@
+/* Sprint 8.3 — Acesso e Perfis */
+.loginOverlay {
+  background:
+    radial-gradient(circle at 18% 12%,rgba(116,170,230,.30),transparent 28%),
+    radial-gradient(circle at 86% 84%,rgba(78,126,188,.24),transparent 30%),
+    linear-gradient(145deg,#10233f,#285b91 62%,#477fb5);
+}
+
+.loginCard.accessCard {
+  width:min(720px,100%);
+  padding:0;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.32);
+  box-shadow:0 30px 90px rgba(5,20,38,.35);
+}
+
+.accessHero {
+  padding:28px 30px 20px;
+  background:linear-gradient(135deg,#f9fbff,#eef5fd);
+  border-bottom:1px solid var(--line);
+}
+
+.accessBrand {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:18px;
+}
+
+.accessBrandMark {
+  display:grid;
+  width:46px;height:46px;
+  place-items:center;
+  border-radius:14px;
+  background:#2f6fb3;
+  color:#fff;
+  font-weight:900;
+  box-shadow:0 8px 20px rgba(47,111,179,.22);
+}
+
+.accessBrand strong {display:block;color:#18345b;font-size:1.02rem}
+.accessBrand small {display:block;color:var(--muted);margin-top:2px}
+
+.accessHero h1 {margin:0;color:#152946;font-size:clamp(1.65rem,4vw,2.25rem)}
+.accessHero > p {margin:7px 0 0;color:#66758a}
+
+.accessBody {padding:22px 30px 28px;background:#fff}
+.accessProfilesRoot {display:grid;gap:9px;margin:12px 0 16px}
+
+.accessProfileCard {
+  display:grid;
+  grid-template-columns:48px 1fr 24px;
+  align-items:center;
+  gap:12px;
+  width:100%;
+  border:1px solid #dce5ef;
+  border-radius:15px;
+  background:#fff;
+  padding:11px 13px;
+  text-align:left;
+  cursor:pointer;
+  transition:.18s ease;
+}
+
+.accessProfileCard:hover {
+  transform:translateY(-1px);
+  border-color:#8aabd1;
+  background:#f8fbff;
+  box-shadow:0 8px 22px rgba(31,65,104,.08);
+}
+
+.accessProfileCard.is-last {border-color:#a8c2df;background:#f5f9fe}
+.accessProfileAvatar,.userChipAvatar {
+  display:grid;place-items:center;
+  border-radius:50%;
+  font-weight:900;
+}
+.accessProfileAvatar {width:46px;height:46px;color:#173456}
+.avatar-0{background:#dcecff}.avatar-1{background:#e8e1fa}.avatar-2{background:#dff1e6}
+.avatar-3{background:#f8e8d6}.avatar-4{background:#f2e1e8}.avatar-5{background:#e1edf1}
+.accessProfileIdentity {display:grid;gap:2px}
+.accessProfileIdentity strong {color:#1c304c;font-size:1rem}
+.accessProfileIdentity small {color:#748196}
+.accessProfileArrow {color:#7692b2;font-size:1.6rem}
+.accessLocalNotice {
+  border-radius:12px;
+  background:#f3f7fb;
+  color:#5f6f83;
+  padding:10px 12px;
+  font-size:.78rem;
+  line-height:1.45;
+}
+.accessLocalNotice strong {color:#344d6d}
+
+.accessActions {
+  display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:14px
+}
+.accessActions .btn {min-height:40px}
+.accessPrivacy {
+  margin:15px 0 0;color:#8290a2;font-size:.72rem;text-align:center
+}
+
+.accessCreateHeader {display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.accessCreateHeader button {
+  border:0;background:#eef4fb;border-radius:9px;width:36px;height:36px;cursor:pointer
+}
+.accessCreateHeader h2 {margin:0;font-size:1.25rem}
+.accessCreateGrid {display:grid;grid-template-columns:1fr 180px;gap:10px}
+.accessEmptyState {display:grid;place-items:center;text-align:center;padding:18px}
+.accessEmptyState > span {font-size:2rem}
+.accessEmptyState p {margin:4px 0;color:var(--muted)}
+
+.userChip {
+  display:flex;align-items:center;gap:7px;cursor:pointer;
+  border:1px solid transparent;
+}
+.userChip:hover {border-color:#b7cbe2}
+.userChipAvatar {
+  width:26px;height:26px;background:#dbeaf9;color:#214c7c;font-size:.68rem
+}
+
+@media(max-width:620px){
+  .loginOverlay {padding:10px}
+  .loginCard.accessCard {border-radius:20px}
+  .accessHero,.accessBody {padding-left:18px;padding-right:18px}
+  .accessCreateGrid {grid-template-columns:1fr}
+  .accessActions {align-items:stretch;flex-direction:column}
+  .accessActions .btn {width:100%}
+}

@@ -1,8 +1,21 @@
 {
-  "version": "8.2.0",
-  "publishedAt": "2026-08-06T19:42:00-03:00",
-  "title": "Sistema Inteligente de Atualizações",
+  "version": "8.3.0",
+  "publishedAt": "2026-08-07T09:00:00-03:00",
+  "title": "Acesso e Perfis",
   "releases": [
+    {
+      "version": "8.3.0",
+      "date": "07/08/2026",
+      "title": "Acesso e Perfis",
+      "changes": [
+        "Nova tela de entrada por perfis locais.",
+        "Migração automática dos estudantes existentes sem zerar o progresso.",
+        "Identificação discreta do perfil ativo e troca pelo cabeçalho.",
+        "Criação de novos perfis com dados separados.",
+        "Aviso claro de que os estudos ficam salvos no dispositivo.",
+        "Proteção contra troca acidental entre estudantes."
+      ]
+    },
     {
       "version": "8.2.0",
       "date": "06/08/2026",
@@ -20,13 +33,20 @@
       "version": "8.1.0",
       "date": "05/08/2026",
       "title": "Planejador da Prova",
-      "changes": ["Data da prova editável.", "Contagem regressiva e carga sugerida de estudos.", "Planejamento incluído no módulo Sistema."]
+      "changes": [
+        "Data da prova editável.",
+        "Contagem regressiva e carga sugerida de estudos.",
+        "Planejamento incluído no módulo Sistema."
+      ]
     },
     {
       "version": "8.0.0",
       "date": "05/08/2026",
       "title": "UX Rebuild",
-      "changes": ["Central de Inteligência modular.", "Novo dashboard, busca, favoritos e navegação por módulos."]
+      "changes": [
+        "Central de Inteligência modular.",
+        "Novo dashboard, busca, favoritos e navegação por módulos."
+      ]
     }
   ]
 }

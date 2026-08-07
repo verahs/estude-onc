@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     ["DataMigration", "init"],
     ["Users", "init"],
     ["Classroom", "init"],
+    ["AccessProfiles", "init"],
     ["Notifications", "init"],
     ["Preferences", "init"],
     ["DataPortability", "init"],
